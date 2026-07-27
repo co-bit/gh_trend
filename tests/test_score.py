@@ -1,0 +1,90 @@
+from common import scoring
+
+
+def test_compute_percentile_middle_value():
+    assert scoring.compute_percentile(5, [1, 3, 5, 7, 9]) == 2 / 5
+
+
+def test_compute_percentile_lowest_value():
+    assert scoring.compute_percentile(1, [1, 3, 5]) == 0.0
+
+
+def test_compute_percentile_single_population():
+    assert scoring.compute_percentile(10, [10]) == 0.0
+
+
+def test_compute_percentile_all_equal():
+    assert scoring.compute_percentile(5, [5, 5, 5]) == 0.0
+
+
+def test_compute_percentile_empty_population():
+    assert scoring.compute_percentile(5, []) == 0.0
+
+
+def test_compute_star_velocity_with_full_week():
+    snapshots = [
+        {"date": "2026-07-20", "stars": 100},
+        {"date": "2026-07-27", "stars": 150},
+    ]
+    assert scoring.compute_star_velocity(snapshots) == 50
+
+
+def test_compute_star_velocity_insufficient_history():
+    snapshots = [{"date": "2026-07-27", "stars": 150}]
+    assert scoring.compute_star_velocity(snapshots) is None
+
+
+def test_compute_star_velocity_ignores_null_entries():
+    snapshots = [
+        {"date": "2026-07-20", "stars": None},
+        {"date": "2026-07-21", "stars": 90},
+        {"date": "2026-07-27", "stars": 150},
+    ]
+    assert scoring.compute_star_velocity(snapshots) == 60
+
+
+def test_compute_hn_velocity_sums_last_seven_days():
+    snapshots = [
+        {"date": "2026-07-21", "hn_mentions": 1},
+        {"date": "2026-07-22", "hn_mentions": 2},
+        {"date": "2026-07-27", "hn_mentions": 3},
+    ]
+    assert scoring.compute_hn_velocity(snapshots) == 6
+
+
+def test_compute_hn_velocity_skips_null_entries():
+    snapshots = [
+        {"date": "2026-07-26", "hn_mentions": None},
+        {"date": "2026-07-27", "hn_mentions": 4},
+    ]
+    assert scoring.compute_hn_velocity(snapshots) == 4
+
+
+def test_compute_hn_velocity_no_data_returns_none():
+    snapshots = [{"date": "2026-07-27", "hn_mentions": None}]
+    assert scoring.compute_hn_velocity(snapshots) is None
+
+
+def test_compute_dependents_velocity():
+    snapshots = [
+        {"date": "2026-07-20", "dependents": 10},
+        {"date": "2026-07-27", "dependents": 25},
+    ]
+    assert scoring.compute_dependents_velocity(snapshots) == 15
+
+
+def test_compute_composite_all_signals_present():
+    percentiles = {"star": 0.9, "hn": 0.6, "dependents": 0.3}
+    result = scoring.compute_composite(percentiles, scoring.WEIGHTS)
+    assert round(result, 4) == round((0.9 + 0.6 + 0.3) / 3, 4)
+
+
+def test_compute_composite_missing_signal_excluded():
+    percentiles = {"star": 0.9, "hn": None, "dependents": 0.3}
+    result = scoring.compute_composite(percentiles, scoring.WEIGHTS)
+    assert round(result, 4) == round((0.9 + 0.3) / 2, 4)
+
+
+def test_compute_composite_all_missing_returns_none():
+    percentiles = {"star": None, "hn": None, "dependents": None}
+    assert scoring.compute_composite(percentiles, scoring.WEIGHTS) is None
