@@ -549,6 +549,16 @@ def test_parse_dependents_count_supports_legacy_used_by_label():
 def test_parse_dependents_count_missing_returns_none():
     html = "<html><body>No dependents info here</body></html>"
     assert dependents.parse_dependents_count(html) is None
+
+
+def test_parse_dependents_count_ignores_bare_comma_before_repositories_word():
+    html = (
+        "<html><body>"
+        "<p>Search code, repositories, users, issues, pull requests...</p>"
+        '<a href="/x/y/network/dependents">1,234 Repositories</a>'
+        "</body></html>"
+    )
+    assert dependents.parse_dependents_count(html) == 1234
 ```
 
 - [ ] **Step 3: テストが失敗することを確認**
@@ -568,7 +578,7 @@ from bs4 import BeautifulSoup
 
 logger = logging.getLogger(__name__)
 
-_NUMBER_RE = re.compile(r"([\d.,]+)\s*(k)?\s*(?:Repositories|Used by)", re.IGNORECASE)
+_NUMBER_RE = re.compile(r"(\d[\d,.]*)\s*(k)?\s*(?:Repositories|Used by)", re.IGNORECASE)
 
 
 def parse_dependents_count(html: str) -> int | None:
@@ -617,7 +627,7 @@ def get_dependents_count(owner: str, repo: str, max_retries: int = 3) -> int | N
 - [ ] **Step 5: テストが通ることを確認**
 
 Run: `pytest tests/test_collect_parser.py -v`
-Expected: 4 passed
+Expected: 5 passed
 
 - [ ] **Step 6: コミット**
 
