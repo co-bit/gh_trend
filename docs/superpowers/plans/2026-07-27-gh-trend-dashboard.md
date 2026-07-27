@@ -500,15 +500,21 @@ EOF
 
 - [ ] **Step 1: フィクスチャHTMLを作成**
 
-`tests/fixtures/dependents_sample.html`:
+`tests/fixtures/dependents_sample.html`(GitHubの現在のUI構造に合わせたもの。"Repositories"タブと"Packages"タブが並ぶため、最初の"Repositories"の数値だけを正しく拾えるかも検証する):
 ```html
 <html>
 <body>
-<div class="table-list-header-toggle">
-  <a href="/octocat/example/network/dependents" data-ga-click="Repository, dependents">
-    <span class="text-bold">1,234</span>
-    Used by
-  </a>
+<div class="Box-header clearfix">
+  <div class="table-list-header-toggle states flex-auto pl-0">
+    <a class="btn-link selected" href="/octocat/example/network/dependents?dependent_type=REPOSITORY">
+      1,234
+      Repositories
+    </a>
+    <a class="btn-link" href="/octocat/example/network/dependents?dependent_type=PACKAGE">
+      56
+      Packages
+    </a>
+  </div>
 </div>
 </body>
 </html>
@@ -525,14 +531,19 @@ from common import dependents
 FIXTURES = Path(__file__).resolve().parent / "fixtures"
 
 
-def test_parse_dependents_count_with_comma_and_used_by():
+def test_parse_dependents_count_with_comma_and_repositories_label():
     html = (FIXTURES / "dependents_sample.html").read_text(encoding="utf-8")
     assert dependents.parse_dependents_count(html) == 1234
 
 
 def test_parse_dependents_count_with_k_suffix():
-    html = '<a href="/x/y/network/dependents">2.5k Used by</a>'
+    html = '<a href="/x/y/network/dependents">2.5k Repositories</a>'
     assert dependents.parse_dependents_count(html) == 2500
+
+
+def test_parse_dependents_count_supports_legacy_used_by_label():
+    html = '<a href="/x/y/network/dependents">3,000 Used by</a>'
+    assert dependents.parse_dependents_count(html) == 3000
 
 
 def test_parse_dependents_count_missing_returns_none():
@@ -557,7 +568,7 @@ from bs4 import BeautifulSoup
 
 logger = logging.getLogger(__name__)
 
-_NUMBER_RE = re.compile(r"([\d.,]+)\s*(k)?\s*Used by", re.IGNORECASE)
+_NUMBER_RE = re.compile(r"([\d.,]+)\s*(k)?\s*(?:Repositories|Used by)", re.IGNORECASE)
 
 
 def parse_dependents_count(html: str) -> int | None:
@@ -606,7 +617,7 @@ def get_dependents_count(owner: str, repo: str, max_retries: int = 3) -> int | N
 - [ ] **Step 5: テストが通ることを確認**
 
 Run: `pytest tests/test_collect_parser.py -v`
-Expected: 3 passed
+Expected: 4 passed
 
 - [ ] **Step 6: コミット**
 
