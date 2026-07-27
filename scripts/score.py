@@ -15,6 +15,7 @@ SIGNALS = ("star", "hn", "dependents")
 
 def main() -> None:
     watchlist = storage.load_watchlist(WATCHLIST_PATH)
+    today = datetime.now(timezone.utc).date().isoformat()
 
     velocities: dict[tuple[str, str], dict[str, int | None]] = {}
     latest_snapshot: dict[tuple[str, str], dict] = {}
@@ -26,8 +27,14 @@ def main() -> None:
         if not snapshots:
             continue
 
+        latest = sorted(snapshots, key=lambda s: s["date"])[-1]
+        if latest["date"] != today:
+            # 当日分のスナップショットが無いリポジトリは母集団・出力から除外する
+            # (collect.pyが正常なら通常発生しないが、古いデータが紛れ込むのを防ぐ)
+            continue
+
         key = (owner, repo)
-        latest_snapshot[key] = sorted(snapshots, key=lambda s: s["date"])[-1]
+        latest_snapshot[key] = latest
         velocities[key] = {
             "star": scoring.compute_star_velocity(snapshots),
             "hn": scoring.compute_hn_velocity(snapshots),
