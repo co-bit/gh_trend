@@ -38,8 +38,12 @@ def compute_hn_velocity(snapshots: list[dict], window_days: int = 7) -> int | No
     dated = [s for s in snapshots if s.get("hn_mentions") is not None]
     if not dated:
         return None
-    dated_sorted = sorted(dated, key=lambda s: s["date"])[-window_days:]
-    return sum(s["hn_mentions"] for s in dated_sorted)
+
+    dated_sorted = sorted(dated, key=lambda s: s["date"])
+    latest_date = dated_sorted[-1]["date"]
+    cutoff = (date.fromisoformat(latest_date) - timedelta(days=window_days)).isoformat()
+    windowed = [s for s in dated_sorted if s["date"] >= cutoff]
+    return sum(s["hn_mentions"] for s in windowed)
 
 
 def compute_composite(percentiles: dict[str, float | None], weights: dict[str, float]) -> float | None:

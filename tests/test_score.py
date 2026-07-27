@@ -65,6 +65,16 @@ def test_compute_hn_velocity_no_data_returns_none():
     assert scoring.compute_hn_velocity(snapshots) is None
 
 
+def test_compute_hn_velocity_ignores_entries_outside_calendar_window():
+    snapshots = [
+        {"date": "2026-01-01", "hn_mentions": 100},
+        {"date": "2026-07-25", "hn_mentions": 1},
+        {"date": "2026-07-26", "hn_mentions": 2},
+        {"date": "2026-07-27", "hn_mentions": 3},
+    ]
+    assert scoring.compute_hn_velocity(snapshots) == 6
+
+
 def test_compute_dependents_velocity():
     snapshots = [
         {"date": "2026-07-20", "dependents": 10},
