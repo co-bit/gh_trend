@@ -363,6 +363,16 @@ def test_compute_hn_velocity_no_data_returns_none():
     assert scoring.compute_hn_velocity(snapshots) is None
 
 
+def test_compute_hn_velocity_ignores_entries_outside_calendar_window():
+    snapshots = [
+        {"date": "2026-01-01", "hn_mentions": 100},
+        {"date": "2026-07-25", "hn_mentions": 1},
+        {"date": "2026-07-26", "hn_mentions": 2},
+        {"date": "2026-07-27", "hn_mentions": 3},
+    ]
+    assert scoring.compute_hn_velocity(snapshots) == 6
+
+
 def test_compute_dependents_velocity():
     snapshots = [
         {"date": "2026-07-20", "dependents": 10},
@@ -436,8 +446,12 @@ def compute_hn_velocity(snapshots: list[dict], window_days: int = 7) -> int | No
     dated = [s for s in snapshots if s.get("hn_mentions") is not None]
     if not dated:
         return None
-    dated_sorted = sorted(dated, key=lambda s: s["date"])[-window_days:]
-    return sum(s["hn_mentions"] for s in dated_sorted)
+
+    dated_sorted = sorted(dated, key=lambda s: s["date"])
+    latest_date = dated_sorted[-1]["date"]
+    cutoff = (date.fromisoformat(latest_date) - timedelta(days=window_days)).isoformat()
+    windowed = [s for s in dated_sorted if s["date"] >= cutoff]
+    return sum(s["hn_mentions"] for s in windowed)
 
 
 def compute_composite(percentiles: dict[str, float | None], weights: dict[str, float]) -> float | None:
@@ -452,7 +466,7 @@ def compute_composite(percentiles: dict[str, float | None], weights: dict[str, f
 - [ ] **Step 4: テストが通ることを確認**
 
 Run: `pytest tests/test_score.py -v`
-Expected: 14 passed
+Expected: 16 passed
 
 - [ ] **Step 5: コミット**
 
