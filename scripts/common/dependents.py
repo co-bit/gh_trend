@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 
 logger = logging.getLogger(__name__)
 
-_NUMBER_RE = re.compile(r"([\d.,]+)\s*(k)?\s*(?:Repositories|Used by)", re.IGNORECASE)
+_NUMBER_RE = re.compile(r"(\d[\d,.]*)\s*(k)?\s*(?:Repositories|Used by)", re.IGNORECASE)
 
 
 def parse_dependents_count(html: str) -> int | None:

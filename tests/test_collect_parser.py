@@ -23,3 +23,13 @@ def test_parse_dependents_count_supports_legacy_used_by_label():
 def test_parse_dependents_count_missing_returns_none():
     html = "<html><body>No dependents info here</body></html>"
     assert dependents.parse_dependents_count(html) is None
+
+
+def test_parse_dependents_count_ignores_bare_comma_before_repositories_word():
+    html = (
+        "<html><body>"
+        "<p>Search code, repositories, users, issues, pull requests...</p>"
+        '<a href="/x/y/network/dependents">1,234 Repositories</a>'
+        "</body></html>"
+    )
+    assert dependents.parse_dependents_count(html) == 1234
