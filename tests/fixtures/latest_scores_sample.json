@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-07-27T00:00:00+00:00",
+  "repos": [
+    {
+      "owner": "foo",
+      "repo": "bar",
+      "stars": 500,
+      "star_velocity": 80,
+      "star_percentile": 0.9,
+      "hn_mentions_7d": 5,
+      "hn_percentile": 0.7,
+      "dependents": 20,
+      "dependents_velocity": 5,
+      "dependents_percentile": 0.6,
+      "composite": 0.7333333333333333
+    },
+    {
+      "owner": "foo",
+      "repo": "baz",
+      "stars": 100,
+      "star_velocity": 10,
+      "star_percentile": 0.3,
+      "hn_mentions_7d": null,
+      "hn_percentile": null,
+      "dependents": 2,
+      "dependents_velocity": 1,
+      "dependents_percentile": 0.2,
+      "composite": 0.25
+    }
+  ]
+}
