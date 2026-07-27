@@ -15,14 +15,18 @@ GitHub公式のtrendingページ(https://github.com/trending)は依存せず、A
 2. **話題性(外部言及)**: Hacker Newsでの直近7日間の言及件数
 3. **依存関係からの採用度**: GitHubの `/network/dependents` ページに表示される依存リポジトリ数の直近7日間の増加数
 
-対象スコープは **MCP(Model Context Protocol)と Claude Skills に厳密に絞る**。GitHub Search APIでの新規発見時のキーワード/トピック例: `topic:mcp-server`, `topic:model-context-protocol`, `topic:claude-skill`, `topic:claude-code` など、ユーザーの関心に直結するもののみ。
+対象スコープは **MCP(Model Context Protocol)と、特定ベンダーに限らない「AIエージェント向けスキル/ツール」全般に絞る**。「スキル」はClaude Skillsに限定せず、OpenAI GPTs、LangChain tools、AutoGPTプラグインなど、エージェントに追加機能を与えるパッケージ全般を対象とする。GitHub Search APIでの新規発見時のキーワード/トピック例:
+- MCP: `topic:mcp-server`, `topic:model-context-protocol`
+- 汎用スキル/ツール: `topic:agent-skills`, `topic:llm-tools`, `topic:ai-agent-toolkit`, `topic:claude-skill`, `topic:claude-code`
+
+ユーザーの関心に直結するもののみに絞り、汎用的すぎる `topic:ai`, `topic:llm` のような広範キーワードは含めない(ノイズが増えすぎるため)。
 
 ## アーキテクチャ
 
 ```
 GitHub Actions (daily cron, JST 9:00)
   │
-  ├─ 1. discover.py  ─ GitHub Search API で MCP/Claude Skills 関連の新規リポジトリを発見
+  ├─ 1. discover.py  ─ GitHub Search API で MCP/AIエージェントスキル関連の新規リポジトリを発見
   │                     → data/watchlist.json に追加(既存分は保持、上限なし)
   │
   ├─ 2. collect.py   ─ watchlist の全リポジトリについて当日分のシグナルを収集
