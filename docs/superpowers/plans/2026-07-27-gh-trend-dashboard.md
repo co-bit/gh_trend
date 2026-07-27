@@ -548,11 +548,14 @@ Expected: `ModuleNotFoundError: No module named 'common'`(まだ`dependents.py`�
 - [ ] **Step 4: `scripts/common/dependents.py` を実装**
 
 ```python
+import logging
 import re
 import time
 
 import requests
 from bs4 import BeautifulSoup
+
+logger = logging.getLogger(__name__)
 
 _NUMBER_RE = re.compile(r"([\d.,]+)\s*(k)?\s*Used by", re.IGNORECASE)
 
@@ -583,12 +586,18 @@ def get_dependents_count(owner: str, repo: str, max_retries: int = 3) -> int | N
     for attempt in range(max_retries):
         try:
             resp = requests.get(url, headers=headers, timeout=10)
-        except requests.RequestException:
+        except requests.RequestException as exc:
+            logger.warning("dependents fetch failed for %s/%s: %s", owner, repo, exc)
             time.sleep(2 ** attempt)
             continue
 
         if resp.status_code == 200:
-            return parse_dependents_count(resp.text)
+            count = parse_dependents_count(resp.text)
+            if count is None:
+                logger.warning("dependents parse failed for %s/%s", owner, repo)
+            return count
+
+        logger.warning("dependents fetch got status %s for %s/%s", resp.status_code, owner, repo)
         time.sleep(2 ** attempt)
 
     return None
