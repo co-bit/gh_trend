@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-07-27T12:21:56.249958+00:00",
+  "repos": [
+    {
+      "owner": "n8n-io",
+      "repo": "n8n",
+      "stars": 198189,
+      "star_velocity": null,
+      "star_percentile": null,
+      "hn_mentions_7d": 0,
+      "hn_percentile": 0.0,
+      "dependents": null,
+      "dependents_velocity": null,
+      "dependents_percentile": null,
+      "composite": 0.0
+    },
+    {
+      "owner": "google-gemini",
+      "repo": "gemini-cli",
+      "stars": 106204,
+      "star_velocity": null,
+      "star_percentile": null,
+      "hn_mentions_7d": 0,
+      "hn_percentile": 0.0,
+      "dependents": null,
+      "dependents_velocity": null,
+      "dependents_percentile": null,
+      "composite": 0.0
+    },
+    {
+      "owner": "koala73",
+      "repo": "worldmonitor",
+      "stars": 75117,
+      "star_velocity": null,
+      "star_percentile": null,
+      "hn_mentions_7d": 0,
+      "hn_percentile": 0.0,
+      "dependents": null,
+      "dependents_velocity": null,
+      "dependents_percentile": null,
+      "composite": 0.0
+    }
+  ]
+}
