@@ -26,6 +26,26 @@ def _headers(token: str | None) -> dict:
     return headers
 
 
+def _rate_limit_wait_seconds(resp, attempt: int) -> float:
+    retry_after = resp.headers.get("Retry-After")
+    if retry_after is not None:
+        try:
+            return min(float(retry_after), 65)
+        except ValueError:
+            pass
+
+    reset = resp.headers.get("x-ratelimit-reset")
+    if reset is not None:
+        try:
+            wait = int(reset) - time.time()
+            if wait > 0:
+                return min(wait, 65)
+        except ValueError:
+            pass
+
+    return 2 ** attempt
+
+
 def _request_with_retry(url: str, headers: dict, params: dict | None = None, max_retries: int = 3):
     for attempt in range(max_retries):
         try:
@@ -37,7 +57,7 @@ def _request_with_retry(url: str, headers: dict, params: dict | None = None, max
         if resp.status_code == 200:
             return resp
         if resp.status_code in (403, 429):
-            time.sleep(2 ** attempt)
+            time.sleep(_rate_limit_wait_seconds(resp, attempt))
             continue
         return None
 
@@ -57,6 +77,12 @@ def get_repo_stars(owner: str, repo: str, token: str | None = None) -> int | Non
 def search_repos(query: str, token: str | None = None, per_page: int = 100) -> list[dict]:
     results = []
     for page in range(1, MAX_SEARCH_PAGES + 1):
+        if page > 1:
+            # GitHub Search API allows ~30 authenticated requests/min; a small
+            # inter-page delay keeps a single keyword's pagination under that
+            # limit instead of relying solely on reactive 403/429 backoff.
+            time.sleep(2)
+
         resp = _request_with_retry(
             f"{API_BASE}/search/repositories",
             _headers(token),
