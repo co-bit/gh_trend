@@ -16,6 +16,9 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+      # actions/checkout@v4のデフォルト persist-credentials: true が
+      # 「Commit and push updates」ステップのgit pushに必要(明示的にfalseに
+      # 変更しないこと)。
       - name: Checkout
         uses: actions/checkout@v4
 

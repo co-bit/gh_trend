@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import html
 import json
 from pathlib import Path
 
@@ -20,9 +21,11 @@ def _fmt_pct(value) -> str:
 def _row(repo: dict) -> str:
     full_name = f"{repo['owner']}/{repo['repo']}"
     url = f"https://github.com/{full_name}"
+    escaped_name = html.escape(full_name)
+    escaped_url = html.escape(url)
     return (
         "<tr>"
-        f'<td><a href="{url}">{full_name}</a></td>'
+        f'<td><a href="{escaped_url}">{escaped_name}</a></td>'
         f"<td>{_fmt(repo['stars'])}</td>"
         f"<td>{_fmt(repo['star_velocity'])}</td>"
         f"<td>{_fmt(repo['hn_mentions_7d'])}</td>"

@@ -18,7 +18,8 @@ def count_daily_mentions(
         reference = datetime.now(timezone.utc)
 
     params = {
-        "query": repo_full_name,
+        "query": f'"{repo_full_name}"',
+        "advancedSyntax": "true",
         "numericFilters": f"created_at_i>{since_timestamp(reference)}",
     }
 
@@ -30,7 +31,10 @@ def count_daily_mentions(
             continue
 
         if resp.status_code == 200:
-            return len(resp.json().get("hits", []))
+            try:
+                return resp.json().get("nbHits", 0)
+            except ValueError:
+                return None
         time.sleep(2 ** attempt)
 
     return None

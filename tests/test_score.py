@@ -40,7 +40,19 @@ def test_compute_star_velocity_ignores_null_entries():
         {"date": "2026-07-21", "stars": 90},
         {"date": "2026-07-27", "stars": 150},
     ]
-    assert scoring.compute_star_velocity(snapshots) == 60
+    # baseline is 2026-07-21 (6 days before latest), raw delta 60 over 6 days
+    # -> normalized to a 7-day-equivalent rate: (60 / 6) * 7 = 70
+    assert scoring.compute_star_velocity(snapshots) == 70
+
+
+def test_compute_star_velocity_normalizes_short_window_to_seven_days():
+    snapshots = [
+        {"date": "2026-07-26", "stars": 100},
+        {"date": "2026-07-27", "stars": 110},
+    ]
+    # 10 stars over 1 day -> normalized to a 7-day-equivalent rate of 70,
+    # so a 1-day-old repo is comparable to a repo with a full 7-day history
+    assert scoring.compute_star_velocity(snapshots) == 70
 
 
 def test_compute_hn_velocity_sums_last_seven_days():

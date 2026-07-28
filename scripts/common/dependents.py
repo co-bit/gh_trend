@@ -42,7 +42,11 @@ def get_dependents_count(owner: str, repo: str, max_retries: int = 3) -> int | N
             continue
 
         if resp.status_code == 200:
-            count = parse_dependents_count(resp.text)
+            try:
+                count = parse_dependents_count(resp.text)
+            except Exception:
+                logger.warning("dependents parse raised an exception for %s/%s", owner, repo)
+                return None
             if count is None:
                 logger.warning("dependents parse failed for %s/%s", owner, repo)
             return count

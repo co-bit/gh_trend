@@ -31,3 +31,11 @@ def test_render_html_shows_generated_at():
 def test_render_html_missing_signal_shown_as_dash():
     html = render.render_html(_sample_data())
     assert ">-<" in html
+
+
+def test_render_html_escapes_repo_names():
+    data = _sample_data()
+    data["repos"][0]["owner"] = "<script>alert(1)</script>"
+    html = render.render_html(data)
+    assert "<script>alert(1)</script>" not in html
+    assert "&lt;script&gt;" in html

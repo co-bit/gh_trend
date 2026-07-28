@@ -15,10 +15,9 @@ SIGNALS = ("star", "hn", "dependents")
 
 def main() -> None:
     watchlist = storage.load_watchlist(WATCHLIST_PATH)
-    today = datetime.now(timezone.utc).date().isoformat()
 
-    velocities: dict[tuple[str, str], dict[str, int | None]] = {}
-    latest_snapshot: dict[tuple[str, str], dict] = {}
+    all_snapshots: dict[tuple[str, str], list[dict]] = {}
+    latest_dates: list[str] = []
 
     for entry in watchlist:
         owner, repo = entry["owner"], entry["repo"]
@@ -26,14 +25,29 @@ def main() -> None:
         snapshots = storage.load_snapshots(path)
         if not snapshots:
             continue
+        all_snapshots[(owner, repo)] = snapshots
+        latest_dates.append(sorted(snapshots, key=lambda s: s["date"])[-1]["date"])
 
+    if not latest_dates:
+        if watchlist:
+            raise SystemExit("no snapshots found for any watchlist repo; refusing to publish an empty dashboard")
+        print("scored 0 repos (empty watchlist)")
+        return
+
+    # "today" はwall clockではなく、実際に収集された最新スナップショットの日付から
+    # 導出する。collect.pyとscore.pyが別々にwall clockのtodayを計算すると、UTC
+    # 深夜をまたぐ実行で日付がずれ、母集団が0件になり得るため。
+    today = max(latest_dates)
+
+    velocities: dict[tuple[str, str], dict[str, int | None]] = {}
+    latest_snapshot: dict[tuple[str, str], dict] = {}
+
+    for key, snapshots in all_snapshots.items():
         latest = sorted(snapshots, key=lambda s: s["date"])[-1]
         if latest["date"] != today:
             # 当日分のスナップショットが無いリポジトリは母集団・出力から除外する
-            # (collect.pyが正常なら通常発生しないが、古いデータが紛れ込むのを防ぐ)
             continue
 
-        key = (owner, repo)
         latest_snapshot[key] = latest
         velocities[key] = {
             "star": scoring.compute_star_velocity(snapshots),
@@ -75,6 +89,9 @@ def main() -> None:
                 "composite": composite,
             }
         )
+
+    if watchlist and not repos_out:
+        raise SystemExit("no same-day snapshots after filtering; refusing to publish an empty dashboard")
 
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),

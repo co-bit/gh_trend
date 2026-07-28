@@ -23,7 +23,13 @@ def _velocity_by_delta(snapshots: list[dict], field: str, window_days: int = 7) 
 
     if baseline is latest:
         return None
-    return latest[field] - baseline[field]
+
+    days_between = (date.fromisoformat(latest["date"]) - date.fromisoformat(baseline["date"])).days
+    if days_between <= 0:
+        return None
+
+    raw_delta = latest[field] - baseline[field]
+    return round((raw_delta / days_between) * window_days)
 
 
 def compute_star_velocity(snapshots: list[dict]) -> int | None:

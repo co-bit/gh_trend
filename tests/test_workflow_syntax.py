@@ -35,9 +35,17 @@ def test_workflow_has_concurrency_group_to_prevent_overlapping_pushes():
     assert data["concurrency"]["group"] == "daily-trend-update"
 
 
-def test_workflow_runs_all_four_pipeline_scripts():
+def test_workflow_runs_all_four_pipeline_scripts_in_order_as_separate_steps():
     data = _load()
     steps = data["jobs"]["update"]["steps"]
-    run_commands = " ".join(step.get("run", "") for step in steps)
-    for script in ("discover.py", "collect.py", "score.py", "render.py"):
-        assert script in run_commands
+    scripts = ("discover.py", "collect.py", "score.py", "render.py")
+    run_texts = [step.get("run", "") for step in steps]
+
+    indices = []
+    for script in scripts:
+        matches = [i for i, text in enumerate(run_texts) if script in text]
+        assert len(matches) == 1, f"{script} should appear in exactly one step's run: text"
+        indices.append(matches[0])
+
+    assert len(set(indices)) == 4, "each pipeline script must run in its own separate step"
+    assert indices == sorted(indices), "pipeline scripts must run in discover -> collect -> score -> render order"

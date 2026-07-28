@@ -3,6 +3,7 @@ import time
 import requests
 
 API_BASE = "https://api.github.com"
+MAX_SEARCH_PAGES = 10  # GitHub Search APIは最大1000件(100件×10ページ)まで
 
 
 def extract_owner_repo_from_search_item(item: dict) -> tuple[str, str] | None:
@@ -47,21 +48,34 @@ def get_repo_stars(owner: str, repo: str, token: str | None = None) -> int | Non
     resp = _request_with_retry(f"{API_BASE}/repos/{owner}/{repo}", _headers(token))
     if resp is None:
         return None
-    return resp.json().get("stargazers_count")
+    try:
+        return resp.json().get("stargazers_count")
+    except ValueError:
+        return None
 
 
 def search_repos(query: str, token: str | None = None, per_page: int = 100) -> list[dict]:
-    resp = _request_with_retry(
-        f"{API_BASE}/search/repositories",
-        _headers(token),
-        params={"q": query, "per_page": per_page},
-    )
-    if resp is None:
-        return []
-
     results = []
-    for item in resp.json().get("items", []):
-        parsed = extract_owner_repo_from_search_item(item)
-        if parsed is not None:
-            results.append({"owner": parsed[0], "repo": parsed[1]})
+    for page in range(1, MAX_SEARCH_PAGES + 1):
+        resp = _request_with_retry(
+            f"{API_BASE}/search/repositories",
+            _headers(token),
+            params={"q": query, "per_page": per_page, "page": page},
+        )
+        if resp is None:
+            break
+
+        try:
+            items = resp.json().get("items", [])
+        except ValueError:
+            break
+
+        for item in items:
+            parsed = extract_owner_repo_from_search_item(item)
+            if parsed is not None:
+                results.append({"owner": parsed[0], "repo": parsed[1]})
+
+        if len(items) < per_page:
+            break
+
     return results
