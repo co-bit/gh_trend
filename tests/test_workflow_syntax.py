@@ -30,6 +30,11 @@ def test_workflow_grants_contents_write_permission():
     assert data["permissions"]["contents"] == "write"
 
 
+def test_workflow_has_concurrency_group_to_prevent_overlapping_pushes():
+    data = _load()
+    assert data["concurrency"]["group"] == "daily-trend-update"
+
+
 def test_workflow_runs_all_four_pipeline_scripts():
     data = _load()
     steps = data["jobs"]["update"]["steps"]
