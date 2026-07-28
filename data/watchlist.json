@@ -3280,5 +3280,17 @@
     "repo": "omnigent",
     "first_seen": "2026-07-27",
     "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "cjo4m06",
+    "repo": "mcp-shrimp-task-manager",
+    "first_seen": "2026-07-28",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "praetorian-inc",
+    "repo": "julius",
+    "first_seen": "2026-07-28",
+    "source": "search:topic:llm-tools"
   }
 ]
