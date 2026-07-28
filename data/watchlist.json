@@ -32056,5 +32056,113 @@
     "repo": "claude-auto-retry",
     "first_seen": "2026-07-28",
     "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "mishamyrt",
+    "repo": "perplexity-web-api-mcp",
+    "first_seen": "2026-07-28",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Open-Document-Alliance",
+    "repo": "PDF-Tools",
+    "first_seen": "2026-07-28",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Vortx-AI",
+    "repo": "emem",
+    "first_seen": "2026-07-28",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "JeremyDev87",
+    "repo": "codingbuddy",
+    "first_seen": "2026-07-28",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "0xwilliamortiz",
+    "repo": "ponytail-improved",
+    "first_seen": "2026-07-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "UiPath",
+    "repo": "coder_eval",
+    "first_seen": "2026-07-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "dhvcc",
+    "repo": "rss-parser",
+    "first_seen": "2026-07-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "AtlasCloudAI",
+    "repo": "awesome-seedance-2.5-prompts-skills",
+    "first_seen": "2026-07-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "stjbrown",
+    "repo": "agent-knowledge",
+    "first_seen": "2026-07-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "TwoWells",
+    "repo": "Catenary",
+    "first_seen": "2026-07-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "rayhankhilji",
+    "repo": "jellybean",
+    "first_seen": "2026-07-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "redwoodmeridian",
+    "repo": "ep-legal-mcps",
+    "first_seen": "2026-07-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "cavi-ai",
+    "repo": "companion-for-claude",
+    "first_seen": "2026-07-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Gingiris",
+    "repo": "gingiris-aso-growth",
+    "first_seen": "2026-07-28",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "afloy011-spec",
+    "repo": "seedance-shotlist-director-en",
+    "first_seen": "2026-07-28",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "lipefur",
+    "repo": "sprint-orchestrator",
+    "first_seen": "2026-07-28",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Untrivial-ai",
+    "repo": "agent-orchestrator",
+    "first_seen": "2026-07-28",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "QoderAI",
+    "repo": "better-harness",
+    "first_seen": "2026-07-28",
+    "source": "search:topic:claude-code"
   }
 ]
