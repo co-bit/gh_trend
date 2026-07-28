@@ -1457,6 +1457,11 @@ def test_workflow_grants_contents_write_permission():
     assert data["permissions"]["contents"] == "write"
 
 
+def test_workflow_has_concurrency_group_to_prevent_overlapping_pushes():
+    data = _load()
+    assert data["concurrency"]["group"] == "daily-trend-update"
+
+
 def test_workflow_runs_all_four_pipeline_scripts():
     data = _load()
     steps = data["jobs"]["update"]["steps"]
@@ -1482,6 +1487,10 @@ on:
 
 permissions:
   contents: write
+
+concurrency:
+  group: daily-trend-update
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -1520,13 +1529,16 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/ docs/
           git diff --staged --quiet || git commit -m "chore: 日次トレンド更新 $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
           git push
 ```
+
+`concurrency`グループにより同一ワークフローの重複実行を防ぎ、`git pull --rebase`により、push直前にリモートのmainが進んでいた場合(手動pushやリトライとの競合)でも自分のコミットをリベースしてから再度pushできるようにする(README.mdへの直接pushとワークフロー実行が競合し、`! [rejected] main -> main (fetch first)`でジョブが失敗した実例を踏まえた耐性強化)。
 
 - [ ] **Step 4: テストが通ることを確認**
 
 Run: `pytest tests/test_workflow_syntax.py -v`
-Expected: 5 passed
+Expected: 6 passed
 
 - [ ] **Step 5: コミット**
 
