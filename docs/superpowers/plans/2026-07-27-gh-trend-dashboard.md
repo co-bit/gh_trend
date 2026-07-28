@@ -338,7 +338,19 @@ def test_compute_star_velocity_ignores_null_entries():
         {"date": "2026-07-21", "stars": 90},
         {"date": "2026-07-27", "stars": 150},
     ]
-    assert scoring.compute_star_velocity(snapshots) == 60
+    # baseline is 2026-07-21 (6 days before latest), raw delta 60 over 6 days
+    # -> normalized to a 7-day-equivalent rate: (60 / 6) * 7 = 70
+    assert scoring.compute_star_velocity(snapshots) == 70
+
+
+def test_compute_star_velocity_normalizes_short_window_to_seven_days():
+    snapshots = [
+        {"date": "2026-07-26", "stars": 100},
+        {"date": "2026-07-27", "stars": 110},
+    ]
+    # 10 stars over 1 day -> normalized to a 7-day-equivalent rate of 70,
+    # so a 1-day-old repo is comparable to a repo with a full 7-day history
+    assert scoring.compute_star_velocity(snapshots) == 70
 
 
 def test_compute_hn_velocity_sums_last_seven_days():
@@ -431,7 +443,13 @@ def _velocity_by_delta(snapshots: list[dict], field: str, window_days: int = 7) 
 
     if baseline is latest:
         return None
-    return latest[field] - baseline[field]
+
+    days_between = (date.fromisoformat(latest["date"]) - date.fromisoformat(baseline["date"])).days
+    if days_between <= 0:
+        return None
+
+    raw_delta = latest[field] - baseline[field]
+    return round((raw_delta / days_between) * window_days)
 
 
 def compute_star_velocity(snapshots: list[dict]) -> int | None:
@@ -466,7 +484,7 @@ def compute_composite(percentiles: dict[str, float | None], weights: dict[str, f
 - [ ] **Step 4: テストが通ることを確認**
 
 Run: `pytest tests/test_score.py -v`
-Expected: 16 passed
+Expected: 17 passed
 
 - [ ] **Step 5: コミット**
 
@@ -613,7 +631,11 @@ def get_dependents_count(owner: str, repo: str, max_retries: int = 3) -> int | N
             continue
 
         if resp.status_code == 200:
-            count = parse_dependents_count(resp.text)
+            try:
+                count = parse_dependents_count(resp.text)
+            except Exception:
+                logger.warning("dependents parse raised an exception for %s/%s", owner, repo)
+                return None
             if count is None:
                 logger.warning("dependents parse failed for %s/%s", owner, repo)
             return count
@@ -690,6 +712,7 @@ import time
 import requests
 
 API_BASE = "https://api.github.com"
+MAX_SEARCH_PAGES = 10  # GitHub Search APIは最大1000件(100件×10ページ)まで
 
 
 def extract_owner_repo_from_search_item(item: dict) -> tuple[str, str] | None:
@@ -734,23 +757,36 @@ def get_repo_stars(owner: str, repo: str, token: str | None = None) -> int | Non
     resp = _request_with_retry(f"{API_BASE}/repos/{owner}/{repo}", _headers(token))
     if resp is None:
         return None
-    return resp.json().get("stargazers_count")
+    try:
+        return resp.json().get("stargazers_count")
+    except ValueError:
+        return None
 
 
 def search_repos(query: str, token: str | None = None, per_page: int = 100) -> list[dict]:
-    resp = _request_with_retry(
-        f"{API_BASE}/search/repositories",
-        _headers(token),
-        params={"q": query, "per_page": per_page},
-    )
-    if resp is None:
-        return []
-
     results = []
-    for item in resp.json().get("items", []):
-        parsed = extract_owner_repo_from_search_item(item)
-        if parsed is not None:
-            results.append({"owner": parsed[0], "repo": parsed[1]})
+    for page in range(1, MAX_SEARCH_PAGES + 1):
+        resp = _request_with_retry(
+            f"{API_BASE}/search/repositories",
+            _headers(token),
+            params={"q": query, "per_page": per_page, "page": page},
+        )
+        if resp is None:
+            break
+
+        try:
+            items = resp.json().get("items", [])
+        except ValueError:
+            break
+
+        for item in items:
+            parsed = extract_owner_repo_from_search_item(item)
+            if parsed is not None:
+                results.append({"owner": parsed[0], "repo": parsed[1]})
+
+        if len(items) < per_page:
+            break
+
     return results
 ```
 
@@ -805,6 +841,27 @@ def test_since_timestamp_custom_window():
     reference = datetime(2026, 7, 27, 0, 0, tzinfo=timezone.utc)
     expected = int(datetime(2026, 7, 20, 0, 0, tzinfo=timezone.utc).timestamp())
     assert hn_api.since_timestamp(reference, days_back=7) == expected
+
+
+def test_count_daily_mentions_uses_exact_phrase_query(monkeypatch):
+    captured = {}
+
+    class FakeResponse:
+        status_code = 200
+
+        def json(self):
+            return {"nbHits": 3}
+
+    def fake_get(url, params=None, timeout=None):
+        captured["params"] = params
+        return FakeResponse()
+
+    monkeypatch.setattr(hn_api.requests, "get", fake_get)
+    result = hn_api.count_daily_mentions("foo/bar")
+
+    assert result == 3
+    assert captured["params"]["query"] == '"foo/bar"'
+    assert captured["params"]["advancedSyntax"] == "true"
 ```
 
 - [ ] **Step 2: テストが失敗することを確認**
@@ -835,7 +892,8 @@ def count_daily_mentions(
         reference = datetime.now(timezone.utc)
 
     params = {
-        "query": repo_full_name,
+        "query": f'"{repo_full_name}"',
+        "advancedSyntax": "true",
         "numericFilters": f"created_at_i>{since_timestamp(reference)}",
     }
 
@@ -847,16 +905,21 @@ def count_daily_mentions(
             continue
 
         if resp.status_code == 200:
-            return len(resp.json().get("hits", []))
+            try:
+                return resp.json().get("nbHits", 0)
+            except ValueError:
+                return None
         time.sleep(2 ** attempt)
 
     return None
 ```
 
+`query`をダブルクォートで囲むことでAlgoliaの完全一致(フレーズ)検索を強制し、`owner`や`repo`の単語だけの緩いマッチによる無関係な記事の誤検出を防ぐ(`advancedSyntax: "true"`が必要)。また`len(hits)`は`hitsPerPage`(デフォルト20件)で頭打ちになり実件数を過小評価するため、Algoliaが返す実件数`nbHits`を使う。
+
 - [ ] **Step 4: テストが通ることを確認**
 
 Run: `pytest tests/test_hn_api.py -v`
-Expected: 2 passed
+Expected: 3 passed
 
 - [ ] **Step 5: コミット**
 
@@ -983,6 +1046,14 @@ DATA_DIR = ROOT / "data"
 WATCHLIST_PATH = DATA_DIR / "watchlist.json"
 
 
+def _safe_call(func, *args, **kwargs):
+    try:
+        return func(*args, **kwargs)
+    except Exception as exc:
+        print(f"signal collection failed: {func.__name__}{args}: {exc}")
+        return None
+
+
 def main() -> None:
     token = os.environ.get("GITHUB_TOKEN")
     watchlist = storage.load_watchlist(WATCHLIST_PATH)
@@ -990,20 +1061,25 @@ def main() -> None:
 
     for entry in watchlist:
         owner, repo = entry["owner"], entry["repo"]
-        snapshot = {
-            "date": today,
-            "stars": github_api.get_repo_stars(owner, repo, token=token),
-            "hn_mentions": hn_api.count_daily_mentions(f"{owner}/{repo}"),
-            "dependents": dependents.get_dependents_count(owner, repo),
-        }
-        path = storage.repo_snapshot_path(DATA_DIR, owner, repo)
-        storage.append_snapshot(path, snapshot)
-        print(f"{owner}/{repo}: {snapshot}")
+        try:
+            snapshot = {
+                "date": today,
+                "stars": _safe_call(github_api.get_repo_stars, owner, repo, token=token),
+                "hn_mentions": _safe_call(hn_api.count_daily_mentions, f"{owner}/{repo}"),
+                "dependents": _safe_call(dependents.get_dependents_count, owner, repo),
+            }
+            path = storage.repo_snapshot_path(DATA_DIR, owner, repo)
+            storage.append_snapshot(path, snapshot)
+            print(f"{owner}/{repo}: {snapshot}")
+        except Exception as exc:
+            print(f"{owner}/{repo}: skipped due to unexpected error: {exc}")
 
 
 if __name__ == "__main__":
     main()
 ```
+
+`_safe_call`は各シグナル取得を個別に例外から保護する(1つのAPI呼び出しが想定外に例外を送出しても、残り2つのシグナルは取得を試みる)。外側の`try`/`except`はスナップショットの保存自体が失敗した場合など、1リポジトリ単位の予期しない失敗がループ全体を止めないようにする(設計書の「1リポジトリの失敗で全体を止めない」という最優先方針を、実際にネットワークI/Oが例外を送出するケースまで含めて徹底する)。
 
 - [ ] **Step 2: 手動実行して動作確認**
 
@@ -1083,10 +1159,9 @@ SIGNALS = ("star", "hn", "dependents")
 
 def main() -> None:
     watchlist = storage.load_watchlist(WATCHLIST_PATH)
-    today = datetime.now(timezone.utc).date().isoformat()
 
-    velocities: dict[tuple[str, str], dict[str, int | None]] = {}
-    latest_snapshot: dict[tuple[str, str], dict] = {}
+    all_snapshots: dict[tuple[str, str], list[dict]] = {}
+    latest_dates: list[str] = []
 
     for entry in watchlist:
         owner, repo = entry["owner"], entry["repo"]
@@ -1094,14 +1169,29 @@ def main() -> None:
         snapshots = storage.load_snapshots(path)
         if not snapshots:
             continue
+        all_snapshots[(owner, repo)] = snapshots
+        latest_dates.append(sorted(snapshots, key=lambda s: s["date"])[-1]["date"])
 
+    if not latest_dates:
+        if watchlist:
+            raise SystemExit("no snapshots found for any watchlist repo; refusing to publish an empty dashboard")
+        print("scored 0 repos (empty watchlist)")
+        return
+
+    # "today" はwall clockではなく、実際に収集された最新スナップショットの日付から
+    # 導出する。collect.pyとscore.pyが別々にwall clockのtodayを計算すると、UTC
+    # 深夜をまたぐ実行で日付がずれ、母集団が0件になり得るため。
+    today = max(latest_dates)
+
+    velocities: dict[tuple[str, str], dict[str, int | None]] = {}
+    latest_snapshot: dict[tuple[str, str], dict] = {}
+
+    for key, snapshots in all_snapshots.items():
         latest = sorted(snapshots, key=lambda s: s["date"])[-1]
         if latest["date"] != today:
             # 当日分のスナップショットが無いリポジトリは母集団・出力から除外する
-            # (collect.pyが正常なら通常発生しないが、古いデータが紛れ込むのを防ぐ)
             continue
 
-        key = (owner, repo)
         latest_snapshot[key] = latest
         velocities[key] = {
             "star": scoring.compute_star_velocity(snapshots),
@@ -1143,6 +1233,9 @@ def main() -> None:
                 "composite": composite,
             }
         )
+
+    if watchlist and not repos_out:
+        raise SystemExit("no same-day snapshots after filtering; refusing to publish an empty dashboard")
 
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
@@ -1267,6 +1360,14 @@ def test_render_html_shows_generated_at():
 def test_render_html_missing_signal_shown_as_dash():
     html = render.render_html(_sample_data())
     assert ">-<" in html
+
+
+def test_render_html_escapes_repo_names():
+    data = _sample_data()
+    data["repos"][0]["owner"] = "<script>alert(1)</script>"
+    html = render.render_html(data)
+    assert "<script>alert(1)</script>" not in html
+    assert "&lt;script&gt;" in html
 ```
 
 - [ ] **Step 3: テストが失敗することを確認**
@@ -1278,6 +1379,7 @@ Expected: `ModuleNotFoundError: No module named 'render'`(まだ`scripts/render.
 
 ```python
 #!/usr/bin/env python3
+import html
 import json
 from pathlib import Path
 
@@ -1299,9 +1401,11 @@ def _fmt_pct(value) -> str:
 def _row(repo: dict) -> str:
     full_name = f"{repo['owner']}/{repo['repo']}"
     url = f"https://github.com/{full_name}"
+    escaped_name = html.escape(full_name)
+    escaped_url = html.escape(url)
     return (
         "<tr>"
-        f'<td><a href="{url}">{full_name}</a></td>'
+        f'<td><a href="{escaped_url}">{escaped_name}</a></td>'
         f"<td>{_fmt(repo['stars'])}</td>"
         f"<td>{_fmt(repo['star_velocity'])}</td>"
         f"<td>{_fmt(repo['hn_mentions_7d'])}</td>"
@@ -1385,7 +1489,7 @@ if __name__ == "__main__":
 - [ ] **Step 5: テストが通ることを確認**
 
 Run: `pytest tests/test_render.py -v`
-Expected: 4 passed
+Expected: 5 passed
 
 - [ ] **Step 6: 手動実行して動作確認**
 
@@ -1462,12 +1566,20 @@ def test_workflow_has_concurrency_group_to_prevent_overlapping_pushes():
     assert data["concurrency"]["group"] == "daily-trend-update"
 
 
-def test_workflow_runs_all_four_pipeline_scripts():
+def test_workflow_runs_all_four_pipeline_scripts_in_order_as_separate_steps():
     data = _load()
     steps = data["jobs"]["update"]["steps"]
-    run_commands = " ".join(step.get("run", "") for step in steps)
-    for script in ("discover.py", "collect.py", "score.py", "render.py"):
-        assert script in run_commands
+    scripts = ("discover.py", "collect.py", "score.py", "render.py")
+    run_texts = [step.get("run", "") for step in steps]
+
+    indices = []
+    for script in scripts:
+        matches = [i for i, text in enumerate(run_texts) if script in text]
+        assert len(matches) == 1, f"{script} should appear in exactly one step's run: text"
+        indices.append(matches[0])
+
+    assert len(set(indices)) == 4, "each pipeline script must run in its own separate step"
+    assert indices == sorted(indices), "pipeline scripts must run in discover -> collect -> score -> render order"
 ```
 
 - [ ] **Step 2: テストが失敗することを確認**
@@ -1496,6 +1608,9 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+      # actions/checkout@v4のデフォルト persist-credentials: true が
+      # 「Commit and push updates」ステップのgit pushに必要(明示的にfalseに
+      # 変更しないこと)。
       - name: Checkout
         uses: actions/checkout@v4
 
