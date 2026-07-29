@@ -32164,5 +32164,41 @@
     "repo": "better-harness",
     "first_seen": "2026-07-28",
     "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "jztan",
+    "repo": "pdf-mcp",
+    "first_seen": "2026-07-29",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "lennney",
+    "repo": "agent-search-mcp",
+    "first_seen": "2026-07-29",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "hututu-ai",
+    "repo": "follow-builders-daily",
+    "first_seen": "2026-07-29",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "MangroveTechnologies",
+    "repo": "wiki-to-graph",
+    "first_seen": "2026-07-29",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "robertnowell",
+    "repo": "marketing-pipeline",
+    "first_seen": "2026-07-29",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "7onez",
+    "repo": "cti-expert",
+    "first_seen": "2026-07-29",
+    "source": "search:topic:claude-code"
   }
 ]
