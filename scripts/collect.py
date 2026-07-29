@@ -9,7 +9,7 @@ from common import dependents, github_api, hn_api, storage
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 WATCHLIST_PATH = DATA_DIR / "watchlist.json"
-MAX_WORKERS = 10  # I/O-bound network calls; keeps GitHub/HN/dependents load moderate
+MAX_WORKERS = 30  # I/O-bound network calls; 10 was measured too low for ~5,300 tracked repos (60min run, 0 rate-limit errors)
 
 
 def _safe_call(func, *args, **kwargs):
