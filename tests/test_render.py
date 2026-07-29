@@ -39,3 +39,26 @@ def test_render_html_escapes_repo_names():
     html = render.render_html(data)
     assert "<script>alert(1)</script>" not in html
     assert "&lt;script&gt;" in html
+
+
+def test_render_html_overall_ranking_truncates_to_top_n():
+    repos = [
+        {
+            "owner": "org",
+            "repo": f"repo{i}",
+            "stars": 100,
+            "star_velocity": i,
+            "star_percentile": i / 30,
+            "hn_mentions_7d": i,
+            "hn_percentile": i / 30,
+            "dependents": 0,
+            "dependents_velocity": i,
+            "dependents_percentile": i / 30,
+            "composite": i / 30,
+        }
+        for i in range(30)
+    ]
+    data = {"generated_at": "2026-07-27T00:00:00+00:00", "repos": repos}
+    html = render.render_html(data)
+    assert "org/repo29" in html  # rank 1 (highest composite) is included
+    assert "org/repo9" not in html  # rank 21+ is truncated

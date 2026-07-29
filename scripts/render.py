@@ -311,6 +311,9 @@ def _format_timestamp(generated_at: str) -> str:
     return generated_at[:16].replace("T", " ") + " UTC"
 
 
+TOP_N = 20  # 各ランキング表に表示する件数(スコアが低いものは除外)
+
+
 def render_html(data: dict) -> str:
     repos = data["repos"]
     generated_at = data["generated_at"]
@@ -319,22 +322,22 @@ def render_html(data: dict) -> str:
         (r for r in repos if r["composite"] is not None),
         key=lambda r: r["composite"],
         reverse=True,
-    )
+    )[:TOP_N]
     by_star = sorted(
         (r for r in repos if r["star_velocity"] is not None),
         key=lambda r: r["star_velocity"],
         reverse=True,
-    )
+    )[:TOP_N]
     by_hn = sorted(
         (r for r in repos if r["hn_mentions_7d"] is not None),
         key=lambda r: r["hn_mentions_7d"],
         reverse=True,
-    )
+    )[:TOP_N]
     by_dependents = sorted(
         (r for r in repos if r["dependents_velocity"] is not None),
         key=lambda r: r["dependents_velocity"],
         reverse=True,
-    )
+    )[:TOP_N]
 
     tables = "\n".join(
         [
