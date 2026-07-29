@@ -3,3 +3,8 @@ __pycache__/
 *.pyc
 .pytest_cache/
 .venv/
+
+# Local agent tooling (not part of the dashboard project)
+.claude/
+CLAUDE.md
+graphify-out/
