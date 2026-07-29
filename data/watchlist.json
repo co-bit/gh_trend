@@ -32200,5 +32200,41 @@
     "repo": "cti-expert",
     "first_seen": "2026-07-29",
     "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "howardpen9",
+    "repo": "tmux-bridge-mcp",
+    "first_seen": "2026-07-29",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "dcc-mcp",
+    "repo": "dcc-mcp-maya",
+    "first_seen": "2026-07-29",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "atharvwasthere",
+    "repo": "Inferscope",
+    "first_seen": "2026-07-29",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "trudenboy",
+    "repo": "ma-provider-mcp",
+    "first_seen": "2026-07-29",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "NanmiCoder",
+    "repo": "cc-haha",
+    "first_seen": "2026-07-29",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "rlaope",
+    "repo": "oh-my-hermes",
+    "first_seen": "2026-07-29",
+    "source": "search:topic:claude-code"
   }
 ]
