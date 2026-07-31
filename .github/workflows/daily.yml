@@ -43,6 +43,15 @@ jobs:
       - name: Compute scores
         run: python scripts/score.py
 
+      # 上位20件に新しく入ったリポジトリの日本語概要のみを生成する。
+      # GEMINI_API_KEYが未設定なら何もせず正常終了するため、鍵の登録前でも
+      # パイプラインは止まらない。
+      - name: Generate Japanese descriptions
+        run: python scripts/describe.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
       - name: Render dashboard
         run: python scripts/render.py
 

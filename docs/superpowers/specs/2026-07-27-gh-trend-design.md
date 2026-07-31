@@ -43,10 +43,16 @@ GitHub Actions (daily cron, JST 9:00)
   │                     当日追跡中の全リポジトリ内でのパーセンタイル順位に変換、
   │                     均等重み(1/3ずつ)で合成 → data/latest_scores.json
   │
-  ├─ 4. render.py    ─ latest_scores.json から docs/index.html を生成
-  │                     (総合ランキング1本 + シグナル別ランキング3本を並列表示)
+  ├─ 4. describe.py  ─ 上位20件のうち概要が未登録のリポジトリのみを対象に、
+  │                     GitHubのdescriptionをGemini APIで日本語1行に要約
+  │                     → data/descriptions.json に追記(既存分は再生成しない)
+  │                     GEMINI_API_KEY未設定時は何もせず正常終了する
   │
-  └─ 5. git commit & push (data/ と docs/ の変更)
+  ├─ 5. render.py    ─ latest_scores.json から docs/index.html を生成
+  │                     (総合ランキング1本 + シグナル別ランキング3本を並列表示)
+  │                     descriptions.json があれば概要列にマージする
+  │
+  └─ 6. git commit & push (data/ と docs/ の変更)
          │
          └─ GitHub Pages が docs/ を配信(mainブランチのdocs/フォルダをソースにする)
 ```
@@ -119,7 +125,9 @@ WEIGHTS = {"star": 1/3, "hn": 1/3, "dependents": 1/3}
 - 追跡中のリポジトリ数・更新日時のKPI stat-tile
 - 総合トレンドスコアによるランキング(1本)
 - シグナル別ランキング(スター急上昇 / HN話題 / Dependents急増)の3セクションを並列表示
-- 各リポジトリ行: リポジトリ名・リンク・各シグナルの生値と変化量・合成スコア
+- 各リポジトリ行: リポジトリ名・リンク・日本語概要・各シグナルの生値と変化量・合成スコア
+- 各ランキングは上位20件のみ表示する(データ自体は全件収集・保持する)
+- 日本語概要は `data/descriptions.json`(describe.pyが生成)からマージし、未登録のリポジトリは「-」を表示する
 
 **デザインシステム**: CSSカスタムプロパティでライト/ダーク(`prefers-color-scheme`)両対応。フォントは丸ゴシック(Google Fonts「M PLUS Rounded 1c」、和文欧文とも対応、システムフォントへのフォールバック付き)。各テーブルのソートキー列(総合スコア/各シグナルの変化量)には、パーセンタイル値に応じた青系の背景ウォッシュ(4段階)でスキャンしやすくする。リポジトリ名は省略記号で切り詰め、ホバーで全体を表示。テーブルは横スクロール可能なコンテナに収め、狭い画面でも崩れない。
 
@@ -151,7 +159,9 @@ WEIGHTS = {"star": 1/3, "hn": 1/3, "dependents": 1/3}
 - GitHub Actions の cron スケジュール(毎日 JST 9:00 = UTC 0:00)
 - 実装言語: Python
 - GitHub Pages: mainブランチの `docs/` フォルダをソースとして配信
-- 認証: Actions標準の `GITHUB_TOKEN` を使用(Search API・REST APIともに追加のシークレット登録は不要)
+- 認証:
+  - GitHub API(Search・REST): Actions標準の `GITHUB_TOKEN` を使用(追加登録不要)
+  - Gemini API: `GEMINI_API_KEY` をGitHub Secretsに登録する。日本語概要の自動生成にのみ使用し、未設定でもパイプラインは正常に動作する(概要が「-」表示になるだけ)。当初は「追加のシークレット登録は行わない」方針だったが、日本語概要の自動化にあたり見直した。GitHub純正の無料推論API(GitHub Models)は2026年7月30日に廃止されたため、無料枠とクレジットカード不要という条件を満たすGeminiを採用した
 
 ## 既知の制約・将来の検討事項
 

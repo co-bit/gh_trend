@@ -74,6 +74,16 @@ def get_repo_stars(owner: str, repo: str, token: str | None = None) -> int | Non
         return None
 
 
+def get_repo_description(owner: str, repo: str, token: str | None = None) -> str | None:
+    resp = _request_with_retry(f"{API_BASE}/repos/{owner}/{repo}", _headers(token))
+    if resp is None:
+        return None
+    try:
+        return resp.json().get("description")
+    except ValueError:
+        return None
+
+
 def search_repos(query: str, token: str | None = None, per_page: int = 100) -> list[dict]:
     results = []
     for page in range(1, MAX_SEARCH_PAGES + 1):

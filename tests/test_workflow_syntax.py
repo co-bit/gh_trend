@@ -35,10 +35,10 @@ def test_workflow_has_concurrency_group_to_prevent_overlapping_pushes():
     assert data["concurrency"]["group"] == "daily-trend-update"
 
 
-def test_workflow_runs_all_four_pipeline_scripts_in_order_as_separate_steps():
+def test_workflow_runs_all_pipeline_scripts_in_order_as_separate_steps():
     data = _load()
     steps = data["jobs"]["update"]["steps"]
-    scripts = ("discover.py", "collect.py", "score.py", "render.py")
+    scripts = ("discover.py", "collect.py", "score.py", "describe.py", "render.py")
     run_texts = [step.get("run", "") for step in steps]
 
     indices = []
@@ -47,5 +47,15 @@ def test_workflow_runs_all_four_pipeline_scripts_in_order_as_separate_steps():
         assert len(matches) == 1, f"{script} should appear in exactly one step's run: text"
         indices.append(matches[0])
 
-    assert len(set(indices)) == 4, "each pipeline script must run in its own separate step"
-    assert indices == sorted(indices), "pipeline scripts must run in discover -> collect -> score -> render order"
+    assert len(set(indices)) == len(scripts), "each pipeline script must run in its own separate step"
+    assert indices == sorted(indices), (
+        "pipeline scripts must run in discover -> collect -> score -> describe -> render order"
+    )
+
+
+def test_describe_step_receives_gemini_api_key():
+    data = _load()
+    steps = data["jobs"]["update"]["steps"]
+    describe_steps = [s for s in steps if "describe.py" in s.get("run", "")]
+    assert len(describe_steps) == 1
+    assert "GEMINI_API_KEY" in describe_steps[0].get("env", {})
