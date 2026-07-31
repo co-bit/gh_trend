@@ -165,6 +165,7 @@ th {
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.02em;
+  text-align: left;
 }
 
 td {
