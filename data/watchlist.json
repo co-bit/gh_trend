@@ -32482,5 +32482,191 @@
     "repo": "tty7",
     "first_seen": "2026-07-30",
     "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "seekrays",
+    "repo": "mcp-monitor",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Vigil-SOC",
+    "repo": "vigil",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "DeepL",
+    "repo": "deepl-mcp-server",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "mhenry3164",
+    "repo": "twenty-crm-mcp-server",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "sysevol-ai",
+    "repo": "CodeNib",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "bybit-exchange",
+    "repo": "kaas",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "brycewang-stanford",
+    "repo": "stata-code",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "levi-qiao",
+    "repo": "octopus-skill",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "oliver-zehentleitner",
+    "repo": "keep-the-why",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Ryan-yang125",
+    "repo": "motion-lexicon",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "U-C4N",
+    "repo": "U-Pool",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "sanjayrohith",
+    "repo": "Dejavu",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "TakoData",
+    "repo": "tako-mcp",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "yuuyo-arobet",
+    "repo": "AspenHYSYS-MCP-Server",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "VKirill",
+    "repo": "multi-postgres-mcp-server",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "aziron-ai",
+    "repo": "atlas",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "soheilfallah",
+    "repo": "jobxhunter",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Anic888",
+    "repo": "russian-text-quality",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "manhquydev",
+    "repo": "flow-skill",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "trevhud",
+    "repo": "rote",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "nagameTW",
+    "repo": "humanizer-zh-tw",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "shand001",
+    "repo": "geometry-dsl",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "david-is-back",
+    "repo": "substack-migration-skill",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "SandroHub013",
+    "repo": "rsi-loop",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "davidbenal",
+    "repo": "ktirio-ai-skill",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "ilia-inovaflow",
+    "repo": "s4hana-create-record-skills",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "neurogen-dev",
+    "repo": "NeuroAPI",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "agiwhitelist",
+    "repo": "auteur",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "taekchef",
+    "repo": "claude-code-zh-cn",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "1ay1",
+    "repo": "agentty",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "JimLiu",
+    "repo": "baocut",
+    "first_seen": "2026-07-31",
+    "source": "search:topic:claude-code"
   }
 ]
