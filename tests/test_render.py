@@ -62,3 +62,17 @@ def test_render_html_overall_ranking_truncates_to_top_n():
     html = render.render_html(data)
     assert "org/repo29" in html  # rank 1 (highest composite) is included
     assert "org/repo9" not in html  # rank 21+ is truncated
+
+
+def test_render_html_shows_description_when_present():
+    data = _sample_data()
+    data["repos"][0]["description"] = "テスト用の概要文"
+    html = render.render_html(data)
+    assert "テスト用の概要文" in html
+
+
+def test_render_html_missing_description_shown_as_dash():
+    data = _sample_data()
+    assert "description" not in data["repos"][0]
+    html = render.render_html(data)
+    assert '<td class="description num-muted">-</td>' in html

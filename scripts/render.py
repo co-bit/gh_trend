@@ -7,6 +7,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 DOCS_DIR = ROOT / "docs"
 LATEST_SCORES_PATH = DATA_DIR / "latest_scores.json"
+DESCRIPTIONS_PATH = DATA_DIR / "descriptions.json"
 OUTPUT_PATH = DOCS_DIR / "index.html"
 
 STYLE = """
@@ -140,7 +141,7 @@ th:first-child, td:first-child {
 }
 
 td.repo-name {
-  max-width: 260px;
+  max-width: 220px;
 }
 
 td.repo-name a {
@@ -148,6 +149,14 @@ td.repo-name a {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+td.description {
+  text-align: left;
+  white-space: normal;
+  max-width: 320px;
+  color: var(--ink-secondary);
+  font-size: 0.8125rem;
 }
 
 th {
@@ -250,6 +259,12 @@ def _cell(value, *, kind: str = "plain", tint: str = "") -> str:
     return f"<td{class_attr}>{text}</td>"
 
 
+def _description_cell(description) -> str:
+    if not description:
+        return '<td class="description num-muted">-</td>'
+    return f'<td class="description">{html.escape(description)}</td>'
+
+
 def _row(repo: dict, highlight: str) -> str:
     full_name = f"{repo['owner']}/{repo['repo']}"
     url = f"https://github.com/{full_name}"
@@ -265,6 +280,7 @@ def _row(repo: dict, highlight: str) -> str:
 
     cells = [
         f'<td class="repo-name"><a href="{escaped_url}" title="{escaped_name}">{escaped_name}</a></td>',
+        _description_cell(repo.get("description")),
         _cell(repo["stars"]),
         _cell(
             repo["star_velocity"],
@@ -297,7 +313,7 @@ def _table(title: str, repos: list[dict], highlight: str) -> str:
         f"<h2>{html.escape(title)}</h2>\n"
         '<div class="table-scroll">\n'
         "<table>\n"
-        "<thead><tr><th>Repo</th><th>Stars</th><th>Star増加(7d)</th>"
+        "<thead><tr><th>Repo</th><th>概要</th><th>Stars</th><th>Star増加(7d)</th>"
         "<th>HN言及(7d)</th><th>Dependents</th><th>Dependents増加(7d)</th>"
         "<th>総合スコア</th></tr></thead>\n"
         f"<tbody>\n{rows}\n</tbody>\n"
@@ -386,6 +402,13 @@ def render_html(data: dict) -> str:
 
 def main() -> None:
     data = json.loads(LATEST_SCORES_PATH.read_text(encoding="utf-8"))
+
+    if DESCRIPTIONS_PATH.exists():
+        descriptions = json.loads(DESCRIPTIONS_PATH.read_text(encoding="utf-8"))
+        for repo in data["repos"]:
+            key = f"{repo['owner']}/{repo['repo']}"
+            repo["description"] = descriptions.get(key)
+
     html_output = render_html(data)
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(html_output, encoding="utf-8")
