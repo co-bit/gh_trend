@@ -1,13 +1,24 @@
 from datetime import date, timedelta
 
-WEIGHTS = {"star": 1 / 3, "hn": 1 / 3, "dependents": 1 / 3}
+# スター増加を主シグナルとし、HN言及とDependents増加は補助的な重みにする。
+# 後者2つは母集団の99%がゼロ(=非ゼロが極めて稀)で情報量が乏しく、均等重みだと
+# 「1件でも獲得したか」という抽選結果が順位を支配してしまうため。
+WEIGHTS = {"star": 0.6, "hn": 0.2, "dependents": 0.2}
 
 
 def compute_percentile(value: float, population: list[float]) -> float:
+    """母集団内でのパーセンタイル順位を中間順位(midrank)で返す。
+
+    同値のリポジトリには、その同値グループが占める順位範囲の中央値を与える。
+    単純な「自分より小さい値の数 / 母集団」だと、母集団の99%がゼロであるような
+    スパースなシグナルで、ゼロ(=まったく普通の状態)のリポジトリ全員が
+    「全体最下位」と評価されてしまうため。
+    """
     if not population:
         return 0.0
     less = sum(1 for x in population if x < value)
-    return less / len(population)
+    equal = sum(1 for x in population if x == value)
+    return (less + equal / 2) / len(population)
 
 
 def _velocity_by_delta(snapshots: list[dict], field: str, window_days: int = 7) -> int | None:
