@@ -14,21 +14,21 @@ SIGNALS = ("star", "hn", "dependents")
 
 
 def main() -> None:
-    watchlist = storage.load_watchlist(WATCHLIST_PATH)
+    watchlist = storage.load_json(WATCHLIST_PATH)
 
     all_snapshots: dict[tuple[str, str], list[dict]] = {}
-    latest_dates: list[str] = []
+    newest: dict[tuple[str, str], dict] = {}
 
     for entry in watchlist:
         owner, repo = entry["owner"], entry["repo"]
         path = storage.repo_snapshot_path(DATA_DIR, owner, repo)
-        snapshots = storage.load_snapshots(path)
+        snapshots = storage.load_json(path)
         if not snapshots:
             continue
         all_snapshots[(owner, repo)] = snapshots
-        latest_dates.append(sorted(snapshots, key=lambda s: s["date"])[-1]["date"])
+        newest[(owner, repo)] = max(snapshots, key=lambda s: s["date"])
 
-    if not latest_dates:
+    if not newest:
         if watchlist:
             raise SystemExit("no snapshots found for any watchlist repo; refusing to publish an empty dashboard")
         print("scored 0 repos (empty watchlist)")
@@ -37,13 +37,13 @@ def main() -> None:
     # "today" はwall clockではなく、実際に収集された最新スナップショットの日付から
     # 導出する。collect.pyとscore.pyが別々にwall clockのtodayを計算すると、UTC
     # 深夜をまたぐ実行で日付がずれ、母集団が0件になり得るため。
-    today = max(latest_dates)
+    today = max(s["date"] for s in newest.values())
 
     velocities: dict[tuple[str, str], dict[str, int | None]] = {}
     latest_snapshot: dict[tuple[str, str], dict] = {}
 
     for key, snapshots in all_snapshots.items():
-        latest = sorted(snapshots, key=lambda s: s["date"])[-1]
+        latest = newest[key]
         if latest["date"] != today:
             # 当日分のスナップショットが無いリポジトリは母集団・出力から除外する
             continue
@@ -94,15 +94,16 @@ def main() -> None:
             {**percentiles, "star": momentum_percentile}, scoring.WEIGHTS
         )
         latest = latest_snapshot[(owner, repo)]
+        stars = latest.get("stars")
 
         repos_out.append(
             {
                 "owner": owner,
                 "repo": repo,
-                "stars": latest.get("stars"),
+                "stars": stars,
                 "star_velocity": v["star"],
                 "star_percentile": percentiles["star"],
-                "star_growth_rate": scoring.compute_growth_rate(v["star"], latest.get("stars")),
+                "star_growth_rate": v["star"] / stars * 100 if v["star"] is not None and stars else None,
                 "star_momentum_percentile": momentum_percentile,
                 "hn_mentions_7d": v["hn"],
                 "hn_percentile": percentiles["hn"],

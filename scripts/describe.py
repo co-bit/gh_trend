@@ -109,17 +109,15 @@ def main() -> None:
 
     if not missing:
         return
-
     if not api_key:
-        print("GEMINI_API_KEY is not set; skipping description generation")
-        print("missing: " + ", ".join(missing))
+        print("GEMINI_API_KEY is not set; skipping. missing: " + ", ".join(missing))
         return
 
     added = 0
     for full_name in missing:
         owner, repo = full_name.split("/", 1)
         try:
-            source = github_api.get_repo_description(owner, repo, token=github_token)
+            source = github_api.get_repo_field(owner, repo, "description", token=github_token)
         except Exception as exc:
             print(f"  failed to fetch GitHub description for {full_name}: {exc}")
             continue

@@ -264,11 +264,6 @@ td.description {
 .num-muted { color: var(--ink-faint); }
 .num-good { color: var(--good); }
 
-.tint-1 { background: color-mix(in srgb, var(--accent) 7%, transparent); }
-.tint-2 { background: color-mix(in srgb, var(--accent) 14%, transparent); }
-.tint-3 { background: color-mix(in srgb, var(--accent) 23%, transparent); }
-.tint-4 { background: color-mix(in srgb, var(--accent) 34%, transparent); }
-
 /* ── シグネチャ: 合成スコアの内訳バー ───────────── */
 td.score {
   display: flex;
@@ -367,31 +362,12 @@ def _fmt_pct(value) -> str:
 
 
 def _fmt_rate(value) -> str:
-    """相対成長率(すでに%単位)。小さすぎる値は0%に潰さず<0.1%と表示する。"""
-    if value is None:
-        return "-"
-    if 0 < value < 0.1:
-        return "<0.1%"
-    return f"{value:.1f}%"
+    return "-" if value is None else f"{value:.1f}%"
 
 
-def _tint_class(percentile) -> str:
-    if percentile is None:
-        return ""
-    if percentile >= 0.8:
-        return "tint-4"
-    if percentile >= 0.6:
-        return "tint-3"
-    if percentile >= 0.4:
-        return "tint-2"
-    if percentile >= 0.2:
-        return "tint-1"
-    return ""
-
-
-def _cell(value, *, kind: str = "plain", tint: str = "") -> str:
+def _cell(value, *, kind: str = "plain") -> str:
     """並べ替え用の生値を data-v に持たせたデータセルを返す。"""
-    classes = [tint] if tint else []
+    classes = []
 
     if kind == "pct":
         text = _fmt_pct(value)
@@ -461,51 +437,22 @@ def _score_cell(repo: dict) -> str:
     )
 
 
-def _row(repo: dict, highlight: str, *, show_breakdown: bool) -> str:
+def _row(repo: dict, *, show_breakdown: bool) -> str:
     full_name = f"{repo['owner']}/{repo['repo']}"
-    url = f"https://github.com/{full_name}"
     escaped_name = html.escape(full_name)
-    escaped_url = html.escape(url)
-
-    tints = {
-        "composite": _tint_class(repo["composite"]),
-        "star": _tint_class(repo["star_percentile"]),
-        "hn": _tint_class(repo["hn_percentile"]),
-        "dependents": _tint_class(repo["dependents_percentile"]),
-    }
-
-    score_cell = (
-        _score_cell(repo)
-        if show_breakdown
-        else _cell(
-            repo["composite"],
-            kind="pct",
-            tint=tints["composite"] if highlight == "composite" else "",
-        )
-    )
+    escaped_url = html.escape(f"https://github.com/{full_name}")
 
     cells = [
         f'<td class="repo-name" data-v="{escaped_name}">'
         f'<a href="{escaped_url}" title="{escaped_name}">{escaped_name}</a></td>',
         _description_cell(repo.get("description")),
         _cell(repo["stars"]),
-        _cell(
-            repo["star_velocity"],
-            kind="velocity",
-            tint=tints["star"] if highlight == "star" else "",
-        ),
+        _cell(repo["star_velocity"], kind="velocity"),
         _cell(repo.get("star_growth_rate"), kind="rate"),
-        _cell(
-            repo["hn_mentions_7d"],
-            tint=tints["hn"] if highlight == "hn" else "",
-        ),
+        _cell(repo["hn_mentions_7d"]),
         _cell(repo["dependents"]),
-        _cell(
-            repo["dependents_velocity"],
-            kind="velocity",
-            tint=tints["dependents"] if highlight == "dependents" else "",
-        ),
-        score_cell,
+        _cell(repo["dependents_velocity"], kind="velocity"),
+        _score_cell(repo) if show_breakdown else _cell(repo["composite"], kind="pct"),
     ]
     return "<tr>" + "".join(cells) + "</tr>"
 
@@ -531,8 +478,8 @@ def _legend() -> str:
     return f'<ul class="legend">{items}</ul>'
 
 
-def _table(title: str, note: str, repos: list[dict], highlight: str, *, show_breakdown: bool) -> str:
-    rows = "\n".join(_row(r, highlight, show_breakdown=show_breakdown) for r in repos)
+def _table(title: str, note: str, repos: list[dict], *, show_breakdown: bool) -> str:
+    rows = "\n".join(_row(r, show_breakdown=show_breakdown) for r in repos)
     head_extra = _legend() if show_breakdown else f'<p class="section-note">{html.escape(note)}</p>'
     return (
         '<section class="table-section">\n'
@@ -571,7 +518,6 @@ def render_html(data: dict) -> str:
             title,
             SECTION_NOTES.get(highlight, ""),
             ranked,
-            highlight,
             show_breakdown=(highlight == "composite"),
         )
         for title, ranked, highlight in ranking.ranked_tables(repos)

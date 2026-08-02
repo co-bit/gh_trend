@@ -3,7 +3,8 @@ from datetime import date, timedelta
 from pathlib import Path
 
 
-def load_watchlist(path: Path) -> list[dict]:
+def load_json(path: Path) -> list[dict]:
+    """watchlist・スナップショット共通のローダ。ファイルが無ければ空リスト。"""
     if not path.exists():
         return []
     return json.loads(path.read_text(encoding="utf-8"))
@@ -25,14 +26,8 @@ def repo_snapshot_path(data_dir: Path, owner: str, repo: str) -> Path:
     return data_dir / "repos" / f"{owner}__{repo}.json"
 
 
-def load_snapshots(path: Path) -> list[dict]:
-    if not path.exists():
-        return []
-    return json.loads(path.read_text(encoding="utf-8"))
-
-
 def append_snapshot(path: Path, snapshot: dict, retention_days: int = 90) -> None:
-    snapshots = load_snapshots(path)
+    snapshots = load_json(path)
     snapshots = [s for s in snapshots if s["date"] != snapshot["date"]]
     snapshots.append(snapshot)
 

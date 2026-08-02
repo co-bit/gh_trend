@@ -80,13 +80,6 @@ def compute_star_momentum(velocity: int | None, stars: int | None) -> float | No
     return velocity / math.sqrt(max(stars, 1))
 
 
-def compute_growth_rate(velocity: int | None, stars: int | None) -> float | None:
-    """表示用の相対成長率(%)。合成スコアには使わない。"""
-    if velocity is None or not stars:
-        return None
-    return velocity / stars * 100
-
-
 def compute_composite(percentiles: dict[str, float | None], weights: dict[str, float]) -> float | None:
     available = {k: v for k, v in percentiles.items() if v is not None}
     if not available:

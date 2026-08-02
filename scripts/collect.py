@@ -25,7 +25,7 @@ def _collect_one(entry: dict, token: str | None, today: str) -> None:
     try:
         snapshot = {
             "date": today,
-            "stars": _safe_call(github_api.get_repo_stars, owner, repo, token=token),
+            "stars": _safe_call(github_api.get_repo_field, owner, repo, "stargazers_count", token=token),
             "hn_mentions": _safe_call(hn_api.count_daily_mentions, f"{owner}/{repo}"),
             "dependents": _safe_call(dependents.get_dependents_count, owner, repo),
         }
@@ -38,7 +38,7 @@ def _collect_one(entry: dict, token: str | None, today: str) -> None:
 
 def main() -> None:
     token = os.environ.get("GITHUB_TOKEN")
-    watchlist = storage.load_watchlist(WATCHLIST_PATH)
+    watchlist = storage.load_json(WATCHLIST_PATH)
     today = datetime.now(timezone.utc).date().isoformat()
 
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:

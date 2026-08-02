@@ -64,22 +64,13 @@ def _request_with_retry(url: str, headers: dict, params: dict | None = None, max
     return None
 
 
-def get_repo_stars(owner: str, repo: str, token: str | None = None) -> int | None:
+def get_repo_field(owner: str, repo: str, field: str, token: str | None = None):
+    """リポジトリのメタデータから1フィールドを取り出す(取得失敗時は None)。"""
     resp = _request_with_retry(f"{API_BASE}/repos/{owner}/{repo}", _headers(token))
     if resp is None:
         return None
     try:
-        return resp.json().get("stargazers_count")
-    except ValueError:
-        return None
-
-
-def get_repo_description(owner: str, repo: str, token: str | None = None) -> str | None:
-    resp = _request_with_retry(f"{API_BASE}/repos/{owner}/{repo}", _headers(token))
-    if resp is None:
-        return None
-    try:
-        return resp.json().get("description")
+        return resp.json().get(field)
     except ValueError:
         return None
 
