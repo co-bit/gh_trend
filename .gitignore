@@ -6,5 +6,7 @@ __pycache__/
 
 # Local agent tooling (not part of the dashboard project)
 .claude/
+.agents/
+skills-lock.json
 CLAUDE.md
 graphify-out/

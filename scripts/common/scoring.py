@@ -1,3 +1,4 @@
+import math
 from datetime import date, timedelta
 
 # スター増加を主シグナルとし、HN言及とDependents増加は補助的な重みにする。
@@ -61,6 +62,29 @@ def compute_hn_velocity(snapshots: list[dict], window_days: int = 7) -> int | No
     cutoff = (date.fromisoformat(latest_date) - timedelta(days=window_days)).isoformat()
     windowed = [s for s in dated_sorted if s["date"] >= cutoff]
     return sum(s["hn_mentions"] for s in windowed)
+
+
+def compute_star_momentum(velocity: int | None, stars: int | None) -> float | None:
+    """絶対増加数と相対成長率の幾何平均を返す(合成スコア用)。
+
+    `velocity / sqrt(stars)` は `sqrt(velocity × (velocity / stars))` と等しく、
+    「絶対的な動きの大きさ」と「相対的な勢い」の幾何平均になる。
+
+    絶対増加数のみだと大規模リポジトリが構造的に有利になり(198,894スターの
+    リポジトリの週+987は平常運転でニュース性がない)、相対成長率のみだと
+    小規模リポジトリのノイズが支配する(5スターが4増えて80%成長)。
+    幾何平均は両者の中間を取り、恣意的なパラメータを持たない。
+    """
+    if velocity is None or stars is None:
+        return None
+    return velocity / math.sqrt(max(stars, 1))
+
+
+def compute_growth_rate(velocity: int | None, stars: int | None) -> float | None:
+    """表示用の相対成長率(%)。合成スコアには使わない。"""
+    if velocity is None or not stars:
+        return None
+    return velocity / stars * 100
 
 
 def compute_composite(percentiles: dict[str, float | None], weights: dict[str, float]) -> float | None:

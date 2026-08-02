@@ -3,7 +3,7 @@ import html
 import json
 from pathlib import Path
 
-from common import ranking
+from common import ranking, scoring
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
@@ -12,39 +12,51 @@ LATEST_SCORES_PATH = DATA_DIR / "latest_scores.json"
 DESCRIPTIONS_PATH = DATA_DIR / "descriptions.json"
 OUTPUT_PATH = DOCS_DIR / "index.html"
 
+# 合成スコアの内訳バーで使う3色。dataviz検証済みのカテゴリカル1〜3枠で、
+# ライト/ダーク双方で全ペアの色覚多様性コントラストを満たす組み合わせ。
+SIGNAL_LABELS = (
+    ("star", "スターの勢い"),
+    ("hn", "HN言及"),
+    ("dependents", "Dependents"),
+)
+
 STYLE = """
 :root {
   color-scheme: light;
-  --page: #f9f9f7;
-  --surface: #fcfcfb;
-  --ink-primary: #0b0b0b;
-  --ink-secondary: #52514e;
-  --ink-muted: #898781;
-  --gridline: #e1e0d9;
-  --border: rgba(11, 11, 11, 0.10);
+  --paper: #f4f6f9;
+  --panel: #ffffff;
+  --ink: #10151c;
+  --ink-dim: #5a6472;
+  --ink-faint: #8f99a8;
+  --rule: #dfe4ec;
+  --rule-strong: #c6cedb;
+  --accent: #2a78d6;
+  --sig-star: #2a78d6;
+  --sig-hn: #eb6834;
+  --sig-dep: #1baf7a;
+  --track: #e7ebf2;
   --good: #006300;
-  --blue: #2a78d6;
-  --tint-1: rgba(42, 120, 214, 0.08);
-  --tint-2: rgba(42, 120, 214, 0.16);
-  --tint-3: rgba(42, 120, 214, 0.26);
-  --tint-4: rgba(42, 120, 214, 0.38);
+  --row-hover: #eef2f8;
+  --head-active: #e4ecf8;
 }
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
-    --page: #0d0d0d;
-    --surface: #1a1a19;
-    --ink-primary: #ffffff;
-    --ink-secondary: #c3c2b7;
-    --ink-muted: #898781;
-    --gridline: #2c2c2a;
-    --border: rgba(255, 255, 255, 0.10);
+    --paper: #0b0f14;
+    --panel: #141a22;
+    --ink: #eef2f7;
+    --ink-dim: #98a3b3;
+    --ink-faint: #6c7788;
+    --rule: #232c37;
+    --rule-strong: #38434f;
+    --accent: #3987e5;
+    --sig-star: #3987e5;
+    --sig-hn: #d95926;
+    --sig-dep: #199e70;
+    --track: #1e2731;
     --good: #0ca30c;
-    --blue: #3987e5;
-    --tint-1: rgba(57, 135, 229, 0.10);
-    --tint-2: rgba(57, 135, 229, 0.18);
-    --tint-3: rgba(57, 135, 229, 0.28);
-    --tint-4: rgba(57, 135, 229, 0.40);
+    --row-hover: #1b232c;
+    --head-active: #1c2836;
   }
 }
 
@@ -52,175 +64,315 @@ STYLE = """
 
 body {
   margin: 0;
-  background: var(--page);
-  color: var(--ink-primary);
+  background: var(--paper);
+  color: var(--ink);
   font-family: "M PLUS Rounded 1c", ui-rounded, "Hiragino Maru Gothic ProN", "Yu Gothic", sans-serif;
-  line-height: 1.5;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
 }
 
 .page {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 2rem clamp(0.75rem, 3vw, 2rem) 4rem;
+  padding: 2.5rem clamp(0.75rem, 3vw, 2rem) 4rem;
 }
 
-.page-header h1 {
-  font-size: 1.5rem;
-  margin: 0 0 0.375rem;
+/* ── マストヘッド ───────────────────────────── */
+.masthead {
+  border-bottom: 2px solid var(--ink);
+  padding-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
-.subtitle {
-  color: var(--ink-secondary);
+.masthead h1 {
+  font-size: clamp(1.5rem, 3.2vw, 2rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.5rem;
+}
+
+.thesis {
   margin: 0;
+  max-width: 46rem;
+  color: var(--ink-dim);
   font-size: 0.9375rem;
 }
 
-.kpi-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin: 1.5rem 0 2rem;
-}
-
-.stat-tile {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 0.875rem 1.125rem;
-  min-width: 10rem;
-}
-
-.stat-label {
-  color: var(--ink-secondary);
+.status {
+  margin: 0.75rem 0 0;
   font-size: 0.8125rem;
-  margin-bottom: 0.25rem;
-}
-
-.stat-value {
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
-.stat-value--small {
-  font-size: 1.0625rem;
-  font-weight: 500;
+  color: var(--ink-faint);
   font-variant-numeric: tabular-nums;
 }
 
-.table-section {
-  margin: 2.5rem 0;
+.status b {
+  color: var(--ink-dim);
+  font-weight: 600;
 }
 
-.table-section h2 {
-  font-size: 1.125rem;
-  margin: 0 0 0.75rem;
+/* ── セクション ───────────────────────────── */
+.table-section { margin: 2.75rem 0 0; }
+
+.section-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1rem;
+  margin-bottom: 0.625rem;
 }
 
+.section-head h2 {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.section-note {
+  font-size: 0.8125rem;
+  color: var(--ink-faint);
+  margin: 0;
+}
+
+/* 内訳バーの凡例 */
+.legend {
+  display: flex;
+  gap: 0.875rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.75rem;
+  color: var(--ink-dim);
+}
+
+.legend li { display: flex; align-items: center; gap: 0.3125rem; }
+
+.legend i {
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 2px;
+  flex: none;
+}
+
+.key-star { background: var(--sig-star); }
+.key-hn { background: var(--sig-hn); }
+.key-dependents { background: var(--sig-dep); }
+
+/* ── テーブル ───────────────────────────── */
 .table-scroll {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: var(--panel);
 }
 
 table {
   border-collapse: collapse;
   width: 100%;
   font-size: 0.875rem;
-  min-width: 480px;
+  min-width: 860px;
 }
 
 th, td {
   padding: 0.5rem 0.625rem;
   text-align: right;
-  border-bottom: 1px solid var(--gridline);
+  border-bottom: 1px solid var(--rule);
   white-space: nowrap;
 }
 
-th:first-child, td:first-child {
+th:first-child, td:first-child { text-align: left; }
+
+thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--panel);
+  border-bottom: 1px solid var(--rule-strong);
+  color: var(--ink-dim);
+  font-weight: 500;
+  font-size: 0.6875rem;
+  letter-spacing: 0.04em;
   text-align: left;
+  padding: 0;
 }
 
-td.repo-name {
-  max-width: 220px;
+thead th[aria-sort="ascending"],
+thead th[aria-sort="descending"] { background: var(--head-active); }
+
+/* 並べ替えボタン: th全体をヒット領域にする */
+.sort {
+  all: unset;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  width: 100%;
+  padding: 0.5rem 0.625rem;
+  cursor: pointer;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
 }
 
+th:not(:first-child) .sort { justify-content: flex-end; }
+.sort:hover { color: var(--ink); }
+.sort:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+  border-radius: 4px;
+}
+
+.sort::after {
+  content: "";
+  width: 0.5rem;
+  color: var(--ink-faint);
+  font-size: 0.625rem;
+  line-height: 1;
+}
+th[aria-sort="descending"] .sort::after { content: "▾"; color: var(--accent); }
+th[aria-sort="ascending"] .sort::after { content: "▴"; color: var(--accent); }
+
+.th-static { display: block; padding: 0.5rem 0.625rem; }
+
+tbody td { font-variant-numeric: tabular-nums; }
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:hover { background: var(--row-hover); }
+
+td.repo-name { max-width: 15rem; }
 td.repo-name a {
   display: block;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 500;
+  font-variant-numeric: normal;
 }
+td.repo-name a:hover { color: var(--accent); text-decoration: underline; }
 
 td.description {
   text-align: left;
   white-space: normal;
-  max-width: 320px;
-  color: var(--ink-secondary);
+  max-width: 22rem;
+  color: var(--ink-dim);
   font-size: 0.8125rem;
-}
-
-th {
-  color: var(--ink-secondary);
-  font-weight: 500;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
-  text-align: left;
-}
-
-td {
-  font-variant-numeric: tabular-nums;
-}
-
-tbody tr:last-child td {
-  border-bottom: none;
-}
-
-tbody tr:hover {
-  background: var(--gridline);
-}
-
-td a {
-  color: var(--blue);
-  text-decoration: none;
+  line-height: 1.45;
   font-variant-numeric: normal;
 }
 
-td a:hover {
-  text-decoration: underline;
+.num-muted { color: var(--ink-faint); }
+.num-good { color: var(--good); }
+
+.tint-1 { background: color-mix(in srgb, var(--accent) 7%, transparent); }
+.tint-2 { background: color-mix(in srgb, var(--accent) 14%, transparent); }
+.tint-3 { background: color-mix(in srgb, var(--accent) 23%, transparent); }
+.tint-4 { background: color-mix(in srgb, var(--accent) 34%, transparent); }
+
+/* ── シグネチャ: 合成スコアの内訳バー ───────────── */
+td.score {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
 }
 
-.num-muted {
-  color: var(--ink-muted);
+.score-bar {
+  display: flex;
+  gap: 2px;
+  width: 5rem;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--track);
+  overflow: hidden;
+  flex: none;
 }
 
-.num-good {
-  color: var(--good);
-}
+.score-bar i { display: block; height: 100%; }
+.seg-star { background: var(--sig-star); }
+.seg-hn { background: var(--sig-hn); }
+.seg-dependents { background: var(--sig-dep); }
 
-.tint-1 { background: var(--tint-1); }
-.tint-2 { background: var(--tint-2); }
-.tint-3 { background: var(--tint-3); }
-.tint-4 { background: var(--tint-4); }
+.score-num { min-width: 2.25rem; font-weight: 500; }
 
+/* ── フッター ───────────────────────────── */
 .page-footer {
-  margin-top: 3rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--gridline);
-  color: var(--ink-muted);
+  margin-top: 3.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+  color: var(--ink-faint);
   font-size: 0.8125rem;
+  max-width: 52rem;
+}
+
+.page-footer p { margin: 0 0 0.5rem; }
+.page-footer a { color: var(--accent); }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
 }
 """
 
+SORT_SCRIPT = """
+for (const table of document.querySelectorAll('table[data-sortable]')) {
+  const tbody = table.tBodies[0];
+  const heads = [...table.querySelectorAll('thead th[data-sortable]')];
 
-def _fmt(value) -> str:
-    return "-" if value is None else str(value)
+  for (const th of heads) {
+    th.querySelector('.sort').addEventListener('click', () => {
+      const index = [...th.parentNode.children].indexOf(th);
+      const dir = th.getAttribute('aria-sort') === 'descending' ? 'ascending' : 'descending';
+      for (const other of heads) other.setAttribute('aria-sort', 'none');
+      th.setAttribute('aria-sort', dir);
+
+      const sign = dir === 'ascending' ? 1 : -1;
+      const rows = [...tbody.rows];
+      rows.sort((a, b) => {
+        const av = a.cells[index].dataset.v ?? '';
+        const bv = b.cells[index].dataset.v ?? '';
+        // 欠損値は並び順によらず常に末尾へ送る
+        if (av === '' && bv === '') return 0;
+        if (av === '') return 1;
+        if (bv === '') return -1;
+        const an = parseFloat(av), bn = parseFloat(bv);
+        if (Number.isNaN(an) || Number.isNaN(bn)) return sign * av.localeCompare(bv, 'ja');
+        return sign * (an - bn);
+      });
+      for (const row of rows) tbody.appendChild(row);
+    });
+  }
+}
+"""
+
+# (見出し, ソート種別) — 種別 "text" は文字列比較、"num" は数値比較、None は並べ替え不可
+COLUMNS = (
+    ("Repo", "text"),
+    ("概要", None),
+    ("Stars", "num"),
+    ("Star増加(7d)", "num"),
+    ("成長率(7d)", "num"),
+    ("HN言及(7d)", "num"),
+    ("Dependents", "num"),
+    ("Dependents増加(7d)", "num"),
+    ("総合スコア", "num"),
+)
+
+
+def _fmt_int(value) -> str:
+    return "-" if value is None else f"{value:,}"
 
 
 def _fmt_pct(value) -> str:
     return "-" if value is None else f"{value * 100:.0f}%"
+
+
+def _fmt_rate(value) -> str:
+    """相対成長率(すでに%単位)。小さすぎる値は0%に潰さず<0.1%と表示する。"""
+    if value is None:
+        return "-"
+    if 0 < value < 0.1:
+        return "<0.1%"
+    return f"{value:.1f}%"
 
 
 def _tint_class(percentile) -> str:
@@ -238,28 +390,32 @@ def _tint_class(percentile) -> str:
 
 
 def _cell(value, *, kind: str = "plain", tint: str = "") -> str:
+    """並べ替え用の生値を data-v に持たせたデータセルを返す。"""
     classes = [tint] if tint else []
 
     if kind == "pct":
         text = _fmt_pct(value)
-        if value is None:
-            classes.append("num-muted")
+    elif kind == "rate":
+        text = _fmt_rate(value)
+        if value is not None and value > 0:
+            classes.append("num-good")
     elif kind == "velocity":
         if value is None:
-            classes.append("num-muted")
             text = "-"
         elif value > 0:
             classes.append("num-good")
-            text = f"+{value}"
+            text = f"+{value:,}"
         else:
-            text = str(value)
+            text = f"{value:,}"
     else:
-        text = _fmt(value)
-        if value is None:
-            classes.append("num-muted")
+        text = _fmt_int(value)
+
+    if value is None:
+        classes.append("num-muted")
 
     class_attr = f' class="{" ".join(classes)}"' if classes else ""
-    return f"<td{class_attr}>{text}</td>"
+    sort_value = "" if value is None else repr(float(value))
+    return f'<td{class_attr} data-v="{sort_value}">{text}</td>'
 
 
 def _description_cell(description) -> str:
@@ -268,7 +424,44 @@ def _description_cell(description) -> str:
     return f'<td class="description">{html.escape(description)}</td>'
 
 
-def _row(repo: dict, highlight: str) -> str:
+def _score_segments(repo: dict) -> list[tuple[str, float]]:
+    """合成スコアの内訳(シグナルごとの寄与)を返す。合計は composite に一致する。
+
+    寄与 = 重み × パーセンタイル / 算出できたシグナルの重み合計。
+    欠損シグナルは分母から外れるので、バーのセグメント数が減るだけになる。
+    """
+    parts = [
+        ("star", repo.get("star_momentum_percentile")),
+        ("hn", repo.get("hn_percentile")),
+        ("dependents", repo.get("dependents_percentile")),
+    ]
+    available = [(name, pctl) for name, pctl in parts if pctl is not None]
+    if not available:
+        return []
+    total_weight = sum(scoring.WEIGHTS[name] for name, _ in available)
+    return [(name, scoring.WEIGHTS[name] * pctl / total_weight) for name, pctl in available]
+
+
+def _score_cell(repo: dict) -> str:
+    """内訳バー付きの総合スコアセル。バーの全長がスコア、内訳が根拠を示す。"""
+    composite = repo["composite"]
+    if composite is None:
+        return '<td class="score num-muted" data-v="">-</td>'
+
+    segments = "".join(
+        f'<i class="seg-{name}" style="width:{share * 100:.2f}%"></i>'
+        for name, share in _score_segments(repo)
+        if share > 0
+    )
+    return (
+        f'<td class="score" data-v="{composite!r}">'
+        f'<span class="score-bar" aria-hidden="true">{segments}</span>'
+        f'<span class="score-num">{_fmt_pct(composite)}</span>'
+        "</td>"
+    )
+
+
+def _row(repo: dict, highlight: str, *, show_breakdown: bool) -> str:
     full_name = f"{repo['owner']}/{repo['repo']}"
     url = f"https://github.com/{full_name}"
     escaped_name = html.escape(full_name)
@@ -281,8 +474,19 @@ def _row(repo: dict, highlight: str) -> str:
         "dependents": _tint_class(repo["dependents_percentile"]),
     }
 
+    score_cell = (
+        _score_cell(repo)
+        if show_breakdown
+        else _cell(
+            repo["composite"],
+            kind="pct",
+            tint=tints["composite"] if highlight == "composite" else "",
+        )
+    )
+
     cells = [
-        f'<td class="repo-name"><a href="{escaped_url}" title="{escaped_name}">{escaped_name}</a></td>',
+        f'<td class="repo-name" data-v="{escaped_name}">'
+        f'<a href="{escaped_url}" title="{escaped_name}">{escaped_name}</a></td>',
         _description_cell(repo.get("description")),
         _cell(repo["stars"]),
         _cell(
@@ -290,6 +494,7 @@ def _row(repo: dict, highlight: str) -> str:
             kind="velocity",
             tint=tints["star"] if highlight == "star" else "",
         ),
+        _cell(repo.get("star_growth_rate"), kind="rate"),
         _cell(
             repo["hn_mentions_7d"],
             tint=tints["hn"] if highlight == "hn" else "",
@@ -300,25 +505,44 @@ def _row(repo: dict, highlight: str) -> str:
             kind="velocity",
             tint=tints["dependents"] if highlight == "dependents" else "",
         ),
-        _cell(
-            repo["composite"],
-            kind="pct",
-            tint=tints["composite"] if highlight == "composite" else "",
-        ),
+        score_cell,
     ]
     return "<tr>" + "".join(cells) + "</tr>"
 
 
-def _table(title: str, repos: list[dict], highlight: str) -> str:
-    rows = "\n".join(_row(r, highlight) for r in repos)
+def _header_row() -> str:
+    cells = []
+    for label, kind in COLUMNS:
+        escaped = html.escape(label)
+        if kind is None:
+            cells.append(f'<th scope="col"><span class="th-static">{escaped}</span></th>')
+        else:
+            cells.append(
+                f'<th scope="col" data-sortable aria-sort="none">'
+                f'<button type="button" class="sort">{escaped}</button></th>'
+            )
+    return "<tr>" + "".join(cells) + "</tr>"
+
+
+def _legend() -> str:
+    items = "".join(
+        f'<li><i class="key-{name}"></i>{html.escape(label)}</li>' for name, label in SIGNAL_LABELS
+    )
+    return f'<ul class="legend">{items}</ul>'
+
+
+def _table(title: str, note: str, repos: list[dict], highlight: str, *, show_breakdown: bool) -> str:
+    rows = "\n".join(_row(r, highlight, show_breakdown=show_breakdown) for r in repos)
+    head_extra = _legend() if show_breakdown else f'<p class="section-note">{html.escape(note)}</p>'
     return (
         '<section class="table-section">\n'
+        '<div class="section-head">\n'
         f"<h2>{html.escape(title)}</h2>\n"
+        f"{head_extra}\n"
+        "</div>\n"
         '<div class="table-scroll">\n'
-        "<table>\n"
-        "<thead><tr><th>Repo</th><th>概要</th><th>Stars</th><th>Star増加(7d)</th>"
-        "<th>HN言及(7d)</th><th>Dependents</th><th>Dependents増加(7d)</th>"
-        "<th>総合スコア</th></tr></thead>\n"
+        '<table data-sortable>\n'
+        f"<thead>{_header_row()}</thead>\n"
         f"<tbody>\n{rows}\n</tbody>\n"
         "</table>\n"
         "</div>\n"
@@ -330,12 +554,26 @@ def _format_timestamp(generated_at: str) -> str:
     return generated_at[:16].replace("T", " ") + " UTC"
 
 
+SECTION_NOTES = {
+    "composite": "",
+    "star": "この1週間で最も多くスターを集めた順",
+    "hn": "この1週間でHacker Newsに登場した回数順",
+    "dependents": "この1週間で依存元リポジトリが最も増えた順",
+}
+
+
 def render_html(data: dict) -> str:
     repos = data["repos"]
     generated_at = data["generated_at"]
 
     tables = "\n".join(
-        _table(title, ranked, highlight)
+        _table(
+            title,
+            SECTION_NOTES.get(highlight, ""),
+            ranked,
+            highlight,
+            show_breakdown=(highlight == "composite"),
+        )
         for title, ranked, highlight in ranking.ranked_tables(repos)
     )
 
@@ -352,25 +590,18 @@ def render_html(data: dict) -> str:
 </head>
 <body>
 <div class="page">
-<header class="page-header">
+<header class="masthead">
 <h1>GitHub AI/MCPトレンド</h1>
-<p class="subtitle">GitHub公式のtrendingページに依存しない、独自定義によるMCP・AIエージェントスキルのトレンド観測。毎日自動更新。</p>
+<p class="thesis">スター総数の多さではなく、この1週間でどれだけ動いたかで並べています。19万スターのリポジトリが週に1,000増えるのは平常運転で、300スターのリポジトリが240増えるほうが事件です。</p>
+<p class="status"><b>{len(repos):,}</b> リポジトリを追跡中 · {_format_timestamp(generated_at)} 更新</p>
 </header>
-<section class="kpi-row">
-<div class="stat-tile">
-<div class="stat-label">追跡中のリポジトリ</div>
-<div class="stat-value">{len(repos)}</div>
-</div>
-<div class="stat-tile">
-<div class="stat-label">更新日時</div>
-<div class="stat-value stat-value--small">{_format_timestamp(generated_at)}</div>
-</div>
-</section>
 {tables}
 <footer class="page-footer">
-<p>スター増加速度・Hacker News言及・GitHub Dependents増加の3シグナルから算出した独自のトレンドスコア。</p>
+<p>総合スコアは、スターの勢い(増加数と成長率の幾何平均)・Hacker Newsでの言及数・Dependentsの増加数を、それぞれ全追跡リポジトリ内での順位に変換し、6:2:2で重み付けした値です。スコア列のバーはその内訳を示しています。</p>
+<p>列名をクリックすると、その列で表示中の20件を並べ替えられます。</p>
 </footer>
 </div>
+<script>{SORT_SCRIPT}</script>
 </body>
 </html>"""
 

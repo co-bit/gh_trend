@@ -136,3 +136,41 @@ def test_star_weight_dominates_the_sparse_signals_combined():
 def test_compute_composite_all_missing_returns_none():
     percentiles = {"star": None, "hn": None, "dependents": None}
     assert scoring.compute_composite(percentiles, scoring.WEIGHTS) is None
+
+
+def test_compute_star_momentum_is_geometric_mean_of_absolute_and_relative():
+    # 100スターのリポジトリが50増えた場合: sqrt(50 × 0.5) = 5.0
+    assert scoring.compute_star_momentum(50, 100) == 5.0
+
+
+def test_compute_star_momentum_damps_large_repo_baseline_growth():
+    # 大規模の平常運転(198,894スターで週+987)より、
+    # 小規模の爆発的成長(171スターで週+114)が上に来ること
+    big = scoring.compute_star_momentum(987, 198894)
+    small = scoring.compute_star_momentum(114, 171)
+    assert small > big
+
+
+def test_compute_star_momentum_damps_tiny_repo_noise():
+    # 5スターが4増えて80%成長でも、中規模の実質的な成長より下に来ること
+    tiny = scoring.compute_star_momentum(4, 5)
+    mid = scoring.compute_star_momentum(688, 865)
+    assert mid > tiny
+
+
+def test_compute_star_momentum_handles_zero_stars_without_dividing_by_zero():
+    assert scoring.compute_star_momentum(0, 0) == 0.0
+
+
+def test_compute_star_momentum_returns_none_on_missing_input():
+    assert scoring.compute_star_momentum(None, 100) is None
+    assert scoring.compute_star_momentum(50, None) is None
+
+
+def test_compute_growth_rate_returns_percentage():
+    assert scoring.compute_growth_rate(50, 200) == 25.0
+
+
+def test_compute_growth_rate_returns_none_on_missing_or_zero_base():
+    assert scoring.compute_growth_rate(None, 100) is None
+    assert scoring.compute_growth_rate(50, 0) is None

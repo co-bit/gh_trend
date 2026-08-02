@@ -10,36 +10,40 @@
 <style>
 :root {
   color-scheme: light;
-  --page: #f9f9f7;
-  --surface: #fcfcfb;
-  --ink-primary: #0b0b0b;
-  --ink-secondary: #52514e;
-  --ink-muted: #898781;
-  --gridline: #e1e0d9;
-  --border: rgba(11, 11, 11, 0.10);
+  --paper: #f4f6f9;
+  --panel: #ffffff;
+  --ink: #10151c;
+  --ink-dim: #5a6472;
+  --ink-faint: #8f99a8;
+  --rule: #dfe4ec;
+  --rule-strong: #c6cedb;
+  --accent: #2a78d6;
+  --sig-star: #2a78d6;
+  --sig-hn: #eb6834;
+  --sig-dep: #1baf7a;
+  --track: #e7ebf2;
   --good: #006300;
-  --blue: #2a78d6;
-  --tint-1: rgba(42, 120, 214, 0.08);
-  --tint-2: rgba(42, 120, 214, 0.16);
-  --tint-3: rgba(42, 120, 214, 0.26);
-  --tint-4: rgba(42, 120, 214, 0.38);
+  --row-hover: #eef2f8;
+  --head-active: #e4ecf8;
 }
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
-    --page: #0d0d0d;
-    --surface: #1a1a19;
-    --ink-primary: #ffffff;
-    --ink-secondary: #c3c2b7;
-    --ink-muted: #898781;
-    --gridline: #2c2c2a;
-    --border: rgba(255, 255, 255, 0.10);
+    --paper: #0b0f14;
+    --panel: #141a22;
+    --ink: #eef2f7;
+    --ink-dim: #98a3b3;
+    --ink-faint: #6c7788;
+    --rule: #232c37;
+    --rule-strong: #38434f;
+    --accent: #3987e5;
+    --sig-star: #3987e5;
+    --sig-hn: #d95926;
+    --sig-dep: #199e70;
+    --track: #1e2731;
     --good: #0ca30c;
-    --blue: #3987e5;
-    --tint-1: rgba(57, 135, 229, 0.10);
-    --tint-2: rgba(57, 135, 229, 0.18);
-    --tint-3: rgba(57, 135, 229, 0.28);
-    --tint-4: rgba(57, 135, 229, 0.40);
+    --row-hover: #1b232c;
+    --head-active: #1c2836;
   }
 }
 
@@ -47,307 +51,428 @@
 
 body {
   margin: 0;
-  background: var(--page);
-  color: var(--ink-primary);
+  background: var(--paper);
+  color: var(--ink);
   font-family: "M PLUS Rounded 1c", ui-rounded, "Hiragino Maru Gothic ProN", "Yu Gothic", sans-serif;
-  line-height: 1.5;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
 }
 
 .page {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 2rem clamp(0.75rem, 3vw, 2rem) 4rem;
+  padding: 2.5rem clamp(0.75rem, 3vw, 2rem) 4rem;
 }
 
-.page-header h1 {
-  font-size: 1.5rem;
-  margin: 0 0 0.375rem;
+/* ── マストヘッド ───────────────────────────── */
+.masthead {
+  border-bottom: 2px solid var(--ink);
+  padding-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
-.subtitle {
-  color: var(--ink-secondary);
+.masthead h1 {
+  font-size: clamp(1.5rem, 3.2vw, 2rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin: 0 0 0.5rem;
+}
+
+.thesis {
   margin: 0;
+  max-width: 46rem;
+  color: var(--ink-dim);
   font-size: 0.9375rem;
 }
 
-.kpi-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin: 1.5rem 0 2rem;
-}
-
-.stat-tile {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 0.875rem 1.125rem;
-  min-width: 10rem;
-}
-
-.stat-label {
-  color: var(--ink-secondary);
+.status {
+  margin: 0.75rem 0 0;
   font-size: 0.8125rem;
-  margin-bottom: 0.25rem;
-}
-
-.stat-value {
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
-.stat-value--small {
-  font-size: 1.0625rem;
-  font-weight: 500;
+  color: var(--ink-faint);
   font-variant-numeric: tabular-nums;
 }
 
-.table-section {
-  margin: 2.5rem 0;
+.status b {
+  color: var(--ink-dim);
+  font-weight: 600;
 }
 
-.table-section h2 {
-  font-size: 1.125rem;
-  margin: 0 0 0.75rem;
+/* ── セクション ───────────────────────────── */
+.table-section { margin: 2.75rem 0 0; }
+
+.section-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1rem;
+  margin-bottom: 0.625rem;
 }
 
+.section-head h2 {
+  font-size: 1.0625rem;
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.section-note {
+  font-size: 0.8125rem;
+  color: var(--ink-faint);
+  margin: 0;
+}
+
+/* 内訳バーの凡例 */
+.legend {
+  display: flex;
+  gap: 0.875rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.75rem;
+  color: var(--ink-dim);
+}
+
+.legend li { display: flex; align-items: center; gap: 0.3125rem; }
+
+.legend i {
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 2px;
+  flex: none;
+}
+
+.key-star { background: var(--sig-star); }
+.key-hn { background: var(--sig-hn); }
+.key-dependents { background: var(--sig-dep); }
+
+/* ── テーブル ───────────────────────────── */
 .table-scroll {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: var(--panel);
 }
 
 table {
   border-collapse: collapse;
   width: 100%;
   font-size: 0.875rem;
-  min-width: 480px;
+  min-width: 860px;
 }
 
 th, td {
   padding: 0.5rem 0.625rem;
   text-align: right;
-  border-bottom: 1px solid var(--gridline);
+  border-bottom: 1px solid var(--rule);
   white-space: nowrap;
 }
 
-th:first-child, td:first-child {
+th:first-child, td:first-child { text-align: left; }
+
+thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--panel);
+  border-bottom: 1px solid var(--rule-strong);
+  color: var(--ink-dim);
+  font-weight: 500;
+  font-size: 0.6875rem;
+  letter-spacing: 0.04em;
   text-align: left;
+  padding: 0;
 }
 
-td.repo-name {
-  max-width: 220px;
+thead th[aria-sort="ascending"],
+thead th[aria-sort="descending"] { background: var(--head-active); }
+
+/* 並べ替えボタン: th全体をヒット領域にする */
+.sort {
+  all: unset;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  width: 100%;
+  padding: 0.5rem 0.625rem;
+  cursor: pointer;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
 }
 
+th:not(:first-child) .sort { justify-content: flex-end; }
+.sort:hover { color: var(--ink); }
+.sort:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+  border-radius: 4px;
+}
+
+.sort::after {
+  content: "";
+  width: 0.5rem;
+  color: var(--ink-faint);
+  font-size: 0.625rem;
+  line-height: 1;
+}
+th[aria-sort="descending"] .sort::after { content: "▾"; color: var(--accent); }
+th[aria-sort="ascending"] .sort::after { content: "▴"; color: var(--accent); }
+
+.th-static { display: block; padding: 0.5rem 0.625rem; }
+
+tbody td { font-variant-numeric: tabular-nums; }
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:hover { background: var(--row-hover); }
+
+td.repo-name { max-width: 15rem; }
 td.repo-name a {
   display: block;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 500;
+  font-variant-numeric: normal;
 }
+td.repo-name a:hover { color: var(--accent); text-decoration: underline; }
 
 td.description {
   text-align: left;
   white-space: normal;
-  max-width: 320px;
-  color: var(--ink-secondary);
+  max-width: 22rem;
+  color: var(--ink-dim);
   font-size: 0.8125rem;
-}
-
-th {
-  color: var(--ink-secondary);
-  font-weight: 500;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.02em;
-  text-align: left;
-}
-
-td {
-  font-variant-numeric: tabular-nums;
-}
-
-tbody tr:last-child td {
-  border-bottom: none;
-}
-
-tbody tr:hover {
-  background: var(--gridline);
-}
-
-td a {
-  color: var(--blue);
-  text-decoration: none;
+  line-height: 1.45;
   font-variant-numeric: normal;
 }
 
-td a:hover {
-  text-decoration: underline;
+.num-muted { color: var(--ink-faint); }
+.num-good { color: var(--good); }
+
+.tint-1 { background: color-mix(in srgb, var(--accent) 7%, transparent); }
+.tint-2 { background: color-mix(in srgb, var(--accent) 14%, transparent); }
+.tint-3 { background: color-mix(in srgb, var(--accent) 23%, transparent); }
+.tint-4 { background: color-mix(in srgb, var(--accent) 34%, transparent); }
+
+/* ── シグネチャ: 合成スコアの内訳バー ───────────── */
+td.score {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
 }
 
-.num-muted {
-  color: var(--ink-muted);
+.score-bar {
+  display: flex;
+  gap: 2px;
+  width: 5rem;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--track);
+  overflow: hidden;
+  flex: none;
 }
 
-.num-good {
-  color: var(--good);
-}
+.score-bar i { display: block; height: 100%; }
+.seg-star { background: var(--sig-star); }
+.seg-hn { background: var(--sig-hn); }
+.seg-dependents { background: var(--sig-dep); }
 
-.tint-1 { background: var(--tint-1); }
-.tint-2 { background: var(--tint-2); }
-.tint-3 { background: var(--tint-3); }
-.tint-4 { background: var(--tint-4); }
+.score-num { min-width: 2.25rem; font-weight: 500; }
 
+/* ── フッター ───────────────────────────── */
 .page-footer {
-  margin-top: 3rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--gridline);
-  color: var(--ink-muted);
+  margin-top: 3.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+  color: var(--ink-faint);
   font-size: 0.8125rem;
+  max-width: 52rem;
+}
+
+.page-footer p { margin: 0 0 0.5rem; }
+.page-footer a { color: var(--accent); }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
 }
 </style>
 </head>
 <body>
 <div class="page">
-<header class="page-header">
+<header class="masthead">
 <h1>GitHub AI/MCPトレンド</h1>
-<p class="subtitle">GitHub公式のtrendingページに依存しない、独自定義によるMCP・AIエージェントスキルのトレンド観測。毎日自動更新。</p>
+<p class="thesis">スター総数の多さではなく、この1週間でどれだけ動いたかで並べています。19万スターのリポジトリが週に1,000増えるのは平常運転で、300スターのリポジトリが240増えるほうが事件です。</p>
+<p class="status"><b>5,472</b> リポジトリを追跡中 · 2026-08-01 12:41 UTC 更新</p>
 </header>
-<section class="kpi-row">
-<div class="stat-tile">
-<div class="stat-label">追跡中のリポジトリ</div>
-<div class="stat-value">5472</div>
-</div>
-<div class="stat-tile">
-<div class="stat-label">更新日時</div>
-<div class="stat-value stat-value--small">2026-08-01 12:28 UTC</div>
-</div>
-</section>
 <section class="table-section">
+<div class="section-head">
 <h2>総合トレンドランキング</h2>
+<ul class="legend"><li><i class="key-star"></i>スターの勢い</li><li><i class="key-hn"></i>HN言及</li><li><i class="key-dependents"></i>Dependents</li></ul>
+</div>
 <div class="table-scroll">
-<table>
-<thead><tr><th>Repo</th><th>概要</th><th>Stars</th><th>Star増加(7d)</th><th>HN言及(7d)</th><th>Dependents</th><th>Dependents増加(7d)</th><th>総合スコア</th></tr></thead>
+<table data-sortable>
+<thead><tr><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">Repo</button></th><th scope="col"><span class="th-static">概要</span></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">Stars</button></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">Star増加(7d)</button></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">成長率(7d)</button></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">HN言及(7d)</button></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">Dependents</button></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">Dependents増加(7d)</button></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">総合スコア</button></th></tr></thead>
 <tbody>
-<tr><td class="repo-name"><a href="https://github.com/DietrichGebert/ponytail" title="DietrichGebert/ponytail">DietrichGebert/ponytail</a></td><td class="description">AIエージェントを「面倒くさがりなシニア開発者」のように振る舞わせるツール</td><td>93089</td><td class="num-good">+3806</td><td>1</td><td>7</td><td class="num-good">+2</td><td class="tint-4">100%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/manaflow-ai/cmux" title="manaflow-ai/cmux">manaflow-ai/cmux</a></td><td class="description">AIコーディングエージェント向け、縦タブ対応のmacOSターミナル</td><td>25448</td><td class="num-good">+306</td><td>1</td><td>7</td><td class="num-good">+2</td><td class="tint-4">99%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/stablyai/orca" title="stablyai/orca">stablyai/orca</a></td><td class="description">複数のAIコーディングエージェントを並列運用する開発環境(ADE)</td><td>34681</td><td class="num-good">+5182</td><td>2</td><td>0</td><td>0</td><td class="tint-4">90%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/Graphify-Labs/graphify" title="Graphify-Labs/graphify">Graphify-Labs/graphify</a></td><td class="description">コードベースやドキュメントを検索可能な知識グラフに変換するスキル</td><td>99787</td><td class="num-good">+3605</td><td>1</td><td>0</td><td>0</td><td class="tint-4">90%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/alibaba/open-code-review" title="alibaba/open-code-review">alibaba/open-code-review</a></td><td class="description">Alibaba発、ルールベース+LLMエージェントを組み合わせたコードレビューツール</td><td>17052</td><td class="num-good">+2786</td><td>2</td><td>64</td><td>0</td><td class="tint-4">90%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/tirth8205/code-review-graph" title="tirth8205/code-review-graph">tirth8205/code-review-graph</a></td><td class="description">MCP/CLI向けのローカル完結型コードインテリジェンスグラフ</td><td>27902</td><td class="num-good">+1096</td><td>0</td><td>16</td><td class="num-good">+4</td><td class="tint-4">90%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/n8n-io/n8n" title="n8n-io/n8n">n8n-io/n8n</a></td><td class="description">AI機能を内蔵したノーコード/ローコードのワークフロー自動化基盤</td><td>198894</td><td class="num-good">+987</td><td>0</td><td>950</td><td class="num-good">+5</td><td class="tint-4">90%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/ChromeDevTools/chrome-devtools-mcp" title="ChromeDevTools/chrome-devtools-mcp">ChromeDevTools/chrome-devtools-mcp</a></td><td class="description">AIエージェントがChrome DevToolsを通してブラウザ操作やデバッグを行うためのMCPサーバー</td><td>48287</td><td class="num-good">+943</td><td>0</td><td>311</td><td class="num-good">+23</td><td class="tint-4">90%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/asgeirtj/system_prompts_leaks" title="asgeirtj/system_prompts_leaks">asgeirtj/system_prompts_leaks</a></td><td class="description">ClaudeやChatGPT、Geminiなど各種AIモデルのシステムプロンプトを抽出し定期更新するリポジトリ。</td><td>61706</td><td class="num-good">+959</td><td>2</td><td>0</td><td>0</td><td class="tint-4">90%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/oraios/serena" title="oraios/serena">oraios/serena</a></td><td class="description">セマンティックなコード検索・編集機能を持つ強力なMCPツールキット</td><td>27295</td><td class="num-good">+338</td><td>1</td><td>0</td><td>0</td><td class="tint-4">89%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/browser-act/skills" title="browser-act/skills">browser-act/skills</a></td><td class="description">AIエージェント向けブラウザ自動操作CLI(アンチボット対策・並列実行対応)</td><td>5047</td><td class="num-good">+266</td><td>2</td><td>0</td><td>0</td><td class="tint-4">89%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/microsoft/flint-chart" title="microsoft/flint-chart">microsoft/flint-chart</a></td><td class="description">Flintは、AIエージェントが人間が編集可能な仕様からチャートを生成するための可視化言語。</td><td>2543</td><td class="num-good">+242</td><td>0</td><td>5</td><td class="num-good">+2</td><td class="tint-4">89%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/awdr74100/figwright" title="awdr74100/figwright">awdr74100/figwright</a></td><td class="description">Figmaデザインとコードの相互変換に対応しClaude Code等で動作する双方向MCPサーバー</td><td>314</td><td class="num-good">+240</td><td>0</td><td>1</td><td class="num-good">+2</td><td class="tint-4">89%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/topoteretes/cognee" title="topoteretes/cognee">topoteretes/cognee</a></td><td class="description">AIエージェントに永続的な長期記憶を与えるオープンソース記憶基盤</td><td>29639</td><td class="num-good">+219</td><td>0</td><td>138</td><td class="num-good">+2</td><td class="tint-4">89%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/PrefectHQ/fastmcp" title="PrefectHQ/fastmcp">PrefectHQ/fastmcp</a></td><td class="description">Pythonで手早くMCPサーバー・クライアントを構築できるフレームワーク</td><td>27002</td><td class="num-good">+158</td><td>0</td><td>11596</td><td class="num-good">+150</td><td class="tint-4">89%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/xyTom/coding-tools-mcp" title="xyTom/coding-tools-mcp">xyTom/coding-tools-mcp</a></td><td class="description">任意のAIエージェントにコーディング能力を付与するMCPサーバー</td><td>604</td><td class="num-good">+159</td><td>2</td><td>0</td><td>0</td><td class="tint-4">88%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/googleworkspace/cli" title="googleworkspace/cli">googleworkspace/cli</a></td><td class="description">Google Discovery Serviceで動的生成される、Drive等対応のAI agent機能付きCLIツール</td><td>30119</td><td class="num-good">+133</td><td>0</td><td>7</td><td class="num-good">+2</td><td class="tint-4">88%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/realiti4/claude-swap" title="realiti4/claude-swap">realiti4/claude-swap</a></td><td class="description">Claude Codeの複数アカウント切り替え、レート制限の自動切替、並列セッションや利用状況表示を行うツール。</td><td>1461</td><td class="num-good">+126</td><td>1</td><td>0</td><td>0</td><td class="tint-4">88%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/bevibing/socrates-skill" title="bevibing/socrates-skill">bevibing/socrates-skill</a></td><td class="description">問答法でユーザー自身に答えを発見させるClaude Codeスキル</td><td>171</td><td class="num-good">+114</td><td>1</td><td>0</td><td>0</td><td class="tint-4">88%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/gastownhall/beads" title="gastownhall/beads">gastownhall/beads</a></td><td class="description num-muted">-</td><td>25783</td><td class="num-good">+114</td><td>0</td><td>8</td><td class="num-good">+2</td><td class="tint-4">88%</td></tr>
+<tr><td class="repo-name" data-v="DietrichGebert/ponytail"><a href="https://github.com/DietrichGebert/ponytail" title="DietrichGebert/ponytail">DietrichGebert/ponytail</a></td><td class="description">AIエージェントを「面倒くさがりなシニア開発者」のように振る舞わせるツール</td><td data-v="93089.0">93,089</td><td class="num-good" data-v="3806.0">+3,806</td><td class="num-good" data-v="4.088560409930282">4.1%</td><td data-v="1.0">1</td><td data-v="7.0">7</td><td class="num-good" data-v="2.0">+2</td><td class="score" data-v="0.9959126155770489"><span class="score-bar" aria-hidden="true"><i class="seg-star" style="width:59.75%"></i><i class="seg-hn" style="width:19.93%"></i><i class="seg-dependents" style="width:19.91%"></i></span><span class="score-num">100%</span></td></tr>
+<tr><td class="repo-name" data-v="manaflow-ai/cmux"><a href="https://github.com/manaflow-ai/cmux" title="manaflow-ai/cmux">manaflow-ai/cmux</a></td><td class="description">AIコーディングエージェント向け、縦タブ対応のmacOSターミナル</td><td data-v="25448.0">25,448</td><td class="num-good" data-v="306.0">+306</td><td class="num-good" data-v="1.2024520591009118">1.2%</td><td data-v="1.0">1</td><td data-v="7.0">7</td><td class="num-good" data-v="2.0">+2</td><td class="score" data-v="0.9754430189485119"><span class="score-bar" aria-hidden="true"><i class="seg-star" style="width:57.71%"></i><i class="seg-hn" style="width:19.93%"></i><i class="seg-dependents" style="width:19.91%"></i></span><span class="score-num">98%</span></td></tr>
+<tr><td class="repo-name" data-v="stablyai/orca"><a href="https://github.com/stablyai/orca" title="stablyai/orca">stablyai/orca</a></td><td class="description">複数のAIコーディングエージェントを並列運用する開発環境(ADE)</td><td data-v="34681.0">34,681</td><td class="num-good" data-v="5182.0">+5,182</td><td class="num-good" data-v="14.941899022519536">14.9%</td><td data-v="2.0">2</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td class="score" data-v="0.8987770291390689"><span class="score-bar" aria-hidden="true"><i class="seg-star" style="width:59.97%"></i><i class="seg-hn" style="width:19.98%"></i><i class="seg-dependents" style="width:9.93%"></i></span><span class="score-num">90%</span></td></tr>
+<tr><td class="repo-name" data-v="alibaba/open-code-review"><a href="https://github.com/alibaba/open-code-review" title="alibaba/open-code-review">alibaba/open-code-review</a></td><td class="description">Alibaba発、ルールベース+LLMエージェントを組み合わせたコードレビューツール</td><td data-v="17052.0">17,052</td><td class="num-good" data-v="2786.0">+2,786</td><td class="num-good" data-v="16.338259441707716">16.3%</td><td data-v="2.0">2</td><td data-v="64.0">64</td><td data-v="0.0">0</td><td class="score" data-v="0.8982953915713386"><span class="score-bar" aria-hidden="true"><i class="seg-star" style="width:59.92%"></i><i class="seg-hn" style="width:19.98%"></i><i class="seg-dependents" style="width:9.93%"></i></span><span class="score-num">90%</span></td></tr>
+<tr><td class="repo-name" data-v="awdr74100/figwright"><a href="https://github.com/awdr74100/figwright" title="awdr74100/figwright">awdr74100/figwright</a></td><td class="description">Figmaデザインとコードの相互変換に対応しClaude Code等で動作する双方向MCPサーバー</td><td data-v="314.0">314</td><td class="num-good" data-v="240.0">+240</td><td class="num-good" data-v="76.43312101910828">76.4%</td><td data-v="0.0">0</td><td data-v="1.0">1</td><td class="num-good" data-v="2.0">+2</td><td class="score" data-v="0.8969382632617211"><span class="score-bar" aria-hidden="true"><i class="seg-star" style="width:59.84%"></i><i class="seg-hn" style="width:9.95%"></i><i class="seg-dependents" style="width:19.91%"></i></span><span class="score-num">90%</span></td></tr>
+<tr><td class="repo-name" data-v="Graphify-Labs/graphify"><a href="https://github.com/Graphify-Labs/graphify" title="Graphify-Labs/graphify">Graphify-Labs/graphify</a></td><td class="description">コードベースやドキュメントを検索可能な知識グラフに変換するスキル</td><td data-v="99787.0">99,787</td><td class="num-good" data-v="3605.0">+3,605</td><td class="num-good" data-v="3.612695040436129">3.6%</td><td data-v="1.0">1</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td class="score" data-v="0.8955323800776448"><span class="score-bar" aria-hidden="true"><i class="seg-star" style="width:59.69%"></i><i class="seg-hn" style="width:19.93%"></i><i class="seg-dependents" style="width:9.93%"></i></span><span class="score-num">90%</span></td></tr>
+<tr><td class="repo-name" data-v="bevibing/socrates-skill"><a href="https://github.com/bevibing/socrates-skill" title="bevibing/socrates-skill">bevibing/socrates-skill</a></td><td class="description">問答法でユーザー自身に答えを発見させるClaude Codeスキル</td><td data-v="171.0">171</td><td class="num-good" data-v="114.0">+114</td><td class="num-good" data-v="66.66666666666666">66.7%</td><td data-v="1.0">1</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td class="score" data-v="0.8946895143341168"><span class="score-bar" aria-hidden="true"><i class="seg-star" style="width:59.61%"></i><i class="seg-hn" style="width:19.93%"></i><i class="seg-dependents" style="width:9.93%"></i></span><span class="score-num">89%</span></td></tr>
+<tr><td class="repo-name" data-v="tirth8205/code-review-graph"><a href="https://github.com/tirth8205/code-review-graph" title="tirth8205/code-review-graph">tirth8205/code-review-graph</a></td><td class="description">MCP/CLI向けのローカル完結型コードインテリジェンスグラフ</td><td data-v="27902.0">27,902</td><td class="num-good" data-v="1096.0">+1,096</td><td class="num-good" data-v="3.9280338327001645">3.9%</td><td data-v="0.0">0</td><td data-v="16.0">16</td><td class="num-good" data-v="4.0">+4</td><td class="score" data-v="0.8945195256907635"><span class="score-bar" aria-hidden="true"><i class="seg-star" style="width:59.54%"></i><i class="seg-hn" style="width:9.95%"></i><i class="seg-dependents" style="width:19.96%"></i></span><span class="score-num">89%</span></td></tr>
+<tr><td class="repo-name" data-v="xyTom/coding-tools-mcp"><a href="https://github.com/xyTom/coding-tools-mcp" title="xyTom/coding-tools-mcp">xyTom/coding-tools-mcp</a></td><td class="description">任意のAIエージェントにコーディング能力を付与するMCPサーバー</td><td data-v="604.0">604</td><td class="num-good" data-v="159.0">+159</td><td class="num-good" data-v="26.32450331125828">26.3%</td><td data-v="2.0">2</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td class="score" data-v="0.8943218816375638"><span class="score-bar" aria-hidden="true"><i class="seg-star" style="width:59.52%"></i><i class="seg-hn" style="width:19.98%"></i><i class="seg-dependents" style="width:9.93%"></i></span><span class="score-num">89%</span></td></tr>
+<tr><td class="repo-name" data-v="microsoft/flint-chart"><a href="https://github.com/microsoft/flint-chart" title="microsoft/flint-chart">microsoft/flint-chart</a></td><td class="description">Flintは、AIエージェントが人間が編集可能な仕様からチャートを生成するための可視化言語。</td><td data-v="2543.0">2,543</td><td class="num-good" data-v="242.0">+242</td><td class="num-good" data-v="9.51631930790405">9.5%</td><td data-v="0.0">0</td><td data-v="5.0">5</td><td class="num-good" data-v="2.0">+2</td><td class="score" data-v="0.8918810688005532"><span class="score-bar" aria-hidden="true"><i class="seg-star" style="width:59.33%"></i><i class="seg-hn" style="width:9.95%"></i><i class="seg-dependents" style="width:19.91%"></i></span><span class="score-num">89%</span></td></tr>
+<tr><td class="repo-name" data-v="ChromeDevTools/chrome-devtools-mcp"><a href="https://github.com/ChromeDevTools/chrome-devtools-mcp" title="ChromeDevTools/chrome-devtools-mcp">ChromeDevTools/chrome-devtools-mcp</a></td><td class="description">AIエージェントがChrome DevToolsを通してブラウザ操作やデバッグを行うためのMCPサーバー</td><td data-v="48287.0">48,287</td><td class="num-good" data-v="943.0">+943</td><td class="num-good" data-v="1.9529065794106075">2.0%</td><td data-v="0.0">0</td><td data-v="311.0">311</td><td class="num-good" data-v="23.0">+23</td><td class="score" data-v="0.8917680709294179"><span class="score-bar" aria-hidden="true"><i class="seg-star" style="width:59.24%"></i><i class="seg-hn" style="width:9.95%"></i><i class="seg-dependents" style="width:19.99%"></i></span><span class="score-num">89%</span></td></tr>
+<tr><td class="repo-name" data-v="clay-good/OpenLore"><a href="https://github.com/clay-good/OpenLore" title="clay-good/OpenLore">clay-good/OpenLore</a></td><td class="description">LLMを介さない決定論的なローカル記憶・ガードレール機構</td><td data-v="249.0">249</td><td class="num-good" data-v="70.0">+70</td><td class="num-good" data-v="28.11244979919679">28.1%</td><td data-v="1.0">1</td><td data-v="2.0">2</td><td data-v="0.0">0</td><td class="score" data-v="0.8913180513600049"><span class="score-bar" aria-hidden="true"><i class="seg-star" style="width:59.27%"></i><i class="seg-hn" style="width:19.93%"></i><i class="seg-dependents" style="width:9.93%"></i></span><span class="score-num">89%</span></td></tr>
+<tr><td class="repo-name" data-v="asgeirtj/system_prompts_leaks"><a href="https://github.com/asgeirtj/system_prompts_leaks" title="asgeirtj/system_prompts_leaks">asgeirtj/system_prompts_leaks</a></td><td class="description">ClaudeやChatGPT、Geminiなど各種AIモデルのシステムプロンプトを抽出し定期更新するリポジトリ。</td><td data-v="61706.0">61,706</td><td class="num-good" data-v="959.0">+959</td><td class="num-good" data-v="1.5541438433863806">1.6%</td><td data-v="2.0">2</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td class="score" data-v="0.8899871435279912"><span class="score-bar" aria-hidden="true"><i class="seg-star" style="width:59.09%"></i><i class="seg-hn" style="width:19.98%"></i><i class="seg-dependents" style="width:9.93%"></i></span><span class="score-num">89%</span></td></tr>
+<tr><td class="repo-name" data-v="rengwu/wayfinder-maps"><a href="https://github.com/rengwu/wayfinder-maps" title="rengwu/wayfinder-maps">rengwu/wayfinder-maps</a></td><td class="description">惑星規模の可視化ツール(/wayfinder maps用)</td><td data-v="80.0">80</td><td class="num-good" data-v="35.0">+35</td><td class="num-good" data-v="43.75">43.8%</td><td data-v="1.0">1</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td class="score" data-v="0.889873138656814"><span class="score-bar" aria-hidden="true"><i class="seg-star" style="width:59.13%"></i><i class="seg-hn" style="width:19.93%"></i><i class="seg-dependents" style="width:9.93%"></i></span><span class="score-num">89%</span></td></tr>
+<tr><td class="repo-name" data-v="browser-act/skills"><a href="https://github.com/browser-act/skills" title="browser-act/skills">browser-act/skills</a></td><td class="description">AIエージェント向けブラウザ自動操作CLI(アンチボット対策・並列実行対応)</td><td data-v="5047.0">5,047</td><td class="num-good" data-v="266.0">+266</td><td class="num-good" data-v="5.270457697642163">5.3%</td><td data-v="2.0">2</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td class="score" data-v="0.8897463247441261"><span class="score-bar" aria-hidden="true"><i class="seg-star" style="width:59.07%"></i><i class="seg-hn" style="width:19.98%"></i><i class="seg-dependents" style="width:9.93%"></i></span><span class="score-num">89%</span></td></tr>
+<tr><td class="repo-name" data-v="realiti4/claude-swap"><a href="https://github.com/realiti4/claude-swap" title="realiti4/claude-swap">realiti4/claude-swap</a></td><td class="description">Claude Codeの複数アカウント切り替え、レート制限の自動切替、並列セッションや利用状況表示を行うツール。</td><td data-v="1461.0">1,461</td><td class="num-good" data-v="126.0">+126</td><td class="num-good" data-v="8.624229979466119">8.6%</td><td data-v="1.0">1</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td class="score" data-v="0.8872241320342974"><span class="score-bar" aria-hidden="true"><i class="seg-star" style="width:58.86%"></i><i class="seg-hn" style="width:19.93%"></i><i class="seg-dependents" style="width:9.93%"></i></span><span class="score-num">89%</span></td></tr>
+<tr><td class="repo-name" data-v="code-yeongyu/senpi"><a href="https://github.com/code-yeongyu/senpi" title="code-yeongyu/senpi">code-yeongyu/senpi</a></td><td class="description">pi-monoの拡張優先フォーク(トークン圧縮機能付き)</td><td data-v="323.0">323</td><td class="num-good" data-v="58.0">+58</td><td class="num-good" data-v="17.956656346749224">18.0%</td><td data-v="0.0">0</td><td data-v="2.0">2</td><td class="num-good" data-v="2.0">+2</td><td class="score" data-v="0.8869442837313178"><span class="score-bar" aria-hidden="true"><i class="seg-star" style="width:58.84%"></i><i class="seg-hn" style="width:9.95%"></i><i class="seg-dependents" style="width:19.91%"></i></span><span class="score-num">89%</span></td></tr>
+<tr><td class="repo-name" data-v="Kentucky-ai/opentakeoff"><a href="https://github.com/Kentucky-ai/opentakeoff" title="Kentucky-ai/opentakeoff">Kentucky-ai/opentakeoff</a></td><td class="description">ブラウザ上で動作し、MCP経由でAIが建築PDFから部屋検出や資材数量の算出を行うオープンソースの積算ツール。</td><td data-v="44.0">44</td><td class="num-good" data-v="18.0">+18</td><td class="num-good" data-v="40.909090909090914">40.9%</td><td data-v="1.0">1</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td class="score" data-v="0.8840934878440506"><span class="score-bar" aria-hidden="true"><i class="seg-star" style="width:58.55%"></i><i class="seg-hn" style="width:19.93%"></i><i class="seg-dependents" style="width:9.93%"></i></span><span class="score-num">88%</span></td></tr>
+<tr><td class="repo-name" data-v="n8n-io/n8n"><a href="https://github.com/n8n-io/n8n" title="n8n-io/n8n">n8n-io/n8n</a></td><td class="description">AI機能を内蔵したノーコード/ローコードのワークフロー自動化基盤</td><td data-v="198894.0">198,894</td><td class="num-good" data-v="987.0">+987</td><td class="num-good" data-v="0.4962442305951914">0.5%</td><td data-v="0.0">0</td><td data-v="950.0">950</td><td class="num-good" data-v="5.0">+5</td><td class="score" data-v="0.8800793792854067"><span class="score-bar" aria-hidden="true"><i class="seg-star" style="width:58.08%"></i><i class="seg-hn" style="width:9.95%"></i><i class="seg-dependents" style="width:19.98%"></i></span><span class="score-num">88%</span></td></tr>
+<tr><td class="repo-name" data-v="asciimoo/hister"><a href="https://github.com/asciimoo/hister" title="asciimoo/hister">asciimoo/hister</a></td><td class="description">自分専用の検索エンジンを構築するツール</td><td data-v="1735.0">1,735</td><td class="num-good" data-v="86.0">+86</td><td class="num-good" data-v="4.956772334293948">5.0%</td><td data-v="1.0">1</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td class="score" data-v="0.8774709712877592"><span class="score-bar" aria-hidden="true"><i class="seg-star" style="width:57.89%"></i><i class="seg-hn" style="width:19.93%"></i><i class="seg-dependents" style="width:9.93%"></i></span><span class="score-num">88%</span></td></tr>
 </tbody>
 </table>
 </div>
 </section>
 <section class="table-section">
+<div class="section-head">
 <h2>スター急上昇</h2>
+<p class="section-note">この1週間で最も多くスターを集めた順</p>
+</div>
 <div class="table-scroll">
-<table>
-<thead><tr><th>Repo</th><th>概要</th><th>Stars</th><th>Star増加(7d)</th><th>HN言及(7d)</th><th>Dependents</th><th>Dependents増加(7d)</th><th>総合スコア</th></tr></thead>
+<table data-sortable>
+<thead><tr><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">Repo</button></th><th scope="col"><span class="th-static">概要</span></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">Stars</button></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">Star増加(7d)</button></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">成長率(7d)</button></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">HN言及(7d)</button></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">Dependents</button></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">Dependents増加(7d)</button></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">総合スコア</button></th></tr></thead>
 <tbody>
-<tr><td class="repo-name"><a href="https://github.com/diegosouzapw/OmniRoute" title="diegosouzapw/OmniRoute">diegosouzapw/OmniRoute</a></td><td class="description">290以上のAIプロバイダーに対応する無料APIゲートウェイ</td><td>36204</td><td class="tint-4 num-good">+5462</td><td>0</td><td>3</td><td>0</td><td>80%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/stablyai/orca" title="stablyai/orca">stablyai/orca</a></td><td class="description">複数のAIコーディングエージェントを並列運用する開発環境(ADE)</td><td>34681</td><td class="tint-4 num-good">+5182</td><td>2</td><td>0</td><td>0</td><td>90%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/DietrichGebert/ponytail" title="DietrichGebert/ponytail">DietrichGebert/ponytail</a></td><td class="description">AIエージェントを「面倒くさがりなシニア開発者」のように振る舞わせるツール</td><td>93089</td><td class="tint-4 num-good">+3806</td><td>1</td><td>7</td><td class="num-good">+2</td><td>100%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/Graphify-Labs/graphify" title="Graphify-Labs/graphify">Graphify-Labs/graphify</a></td><td class="description">コードベースやドキュメントを検索可能な知識グラフに変換するスキル</td><td>99787</td><td class="tint-4 num-good">+3605</td><td>1</td><td>0</td><td>0</td><td>90%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/affaan-m/ECC" title="affaan-m/ECC">affaan-m/ECC</a></td><td class="description">Claude Code等向けエージェント性能最適化システム(スキル・記憶・セキュリティ)</td><td>236657</td><td class="tint-4 num-good">+3353</td><td>0</td><td>6</td><td>0</td><td>80%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/koala73/worldmonitor" title="koala73/worldmonitor">koala73/worldmonitor</a></td><td class="description">AIによるニュース集約・地政学モニタリングのリアルタイムダッシュボード</td><td>77477</td><td class="tint-4 num-good">+3304</td><td>0</td><td>0</td><td>0</td><td>80%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/agentscope-ai/QwenPaw" title="agentscope-ai/QwenPaw">agentscope-ai/QwenPaw</a></td><td class="description">自分のマシンやクラウドで動く、複数チャットアプリ対応の個人用AIアシスタント</td><td>31505</td><td class="tint-4 num-good">+3157</td><td>0</td><td>0</td><td>0</td><td>80%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/Panniantong/Agent-Reach" title="Panniantong/Agent-Reach">Panniantong/Agent-Reach</a></td><td class="description">Twitter/Reddit/YouTube等を横断検索できるAIエージェント向けCLI</td><td>63454</td><td class="tint-4 num-good">+3047</td><td>0</td><td>0</td><td>0</td><td>80%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/mvanhorn/last30days-skill" title="mvanhorn/last30days-skill">mvanhorn/last30days-skill</a></td><td class="description">Reddit/X/YouTube/HN等を横断調査し要約するAIエージェントスキル</td><td>56270</td><td class="tint-4 num-good">+3040</td><td>0</td><td>0</td><td>0</td><td>80%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/alibaba/open-code-review" title="alibaba/open-code-review">alibaba/open-code-review</a></td><td class="description">Alibaba発、ルールベース+LLMエージェントを組み合わせたコードレビューツール</td><td>17052</td><td class="tint-4 num-good">+2786</td><td>2</td><td>64</td><td>0</td><td>90%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/NousResearch/hermes-agent" title="NousResearch/hermes-agent">NousResearch/hermes-agent</a></td><td class="description">ユーザーとともに成長するAIエージェント</td><td>223454</td><td class="tint-4 num-good">+2760</td><td>0</td><td>0</td><td>0</td><td>80%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/citrolabs/ego-lite" title="citrolabs/ego-lite">citrolabs/ego-lite</a></td><td class="description">ログイン状態を共有できる、AIエージェント向け高速ブラウザ</td><td>7046</td><td class="tint-4 num-good">+2366</td><td>0</td><td>0</td><td>0</td><td>80%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/img2threejs/img2threejs" title="img2threejs/img2threejs">img2threejs/img2threejs</a></td><td class="description">参考画像からThree.js製3Dモデルを自動生成するツール</td><td>8797</td><td class="tint-4 num-good">+2161</td><td>0</td><td>0</td><td>0</td><td>80%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/Leonxlnx/taste-skill" title="Leonxlnx/taste-skill">Leonxlnx/taste-skill</a></td><td class="description">AIの出力から陳腐さをなくし「センス」を持たせるスキル</td><td>69761</td><td class="tint-4 num-good">+2021</td><td>0</td><td>0</td><td>0</td><td>80%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/ogulcancelik/herdr" title="ogulcancelik/herdr">ogulcancelik/herdr</a></td><td class="description">コーディングAIエージェントを動かすためのランタイム基盤</td><td>23088</td><td class="tint-4 num-good">+1988</td><td>0</td><td>0</td><td>0</td><td>80%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill" title="nextlevelbuilder/ui-ux-pro-max-skill">nextlevelbuilder/ui-ux-pro-max-skill</a></td><td class="description">UI/UXデザインの専門知識を提供するAIスキル</td><td>112202</td><td class="tint-4 num-good">+1881</td><td>0</td><td>0</td><td>0</td><td>80%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/JuliusBrussee/caveman" title="JuliusBrussee/caveman">JuliusBrussee/caveman</a></td><td class="description">「原始人語」で会話しトークン数を65%削減するClaude Codeスキル</td><td>94935</td><td class="tint-4 num-good">+1792</td><td>0</td><td>0</td><td>0</td><td>80%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/iOfficeAI/OfficeCLI" title="iOfficeAI/OfficeCLI">iOfficeAI/OfficeCLI</a></td><td class="description">AIエージェント向けOfficeファイル(Word/Excel/PowerPoint)操作CLI</td><td>23864</td><td class="tint-4 num-good">+1710</td><td>0</td><td>0</td><td>0</td><td>80%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/farion1231/cc-switch" title="farion1231/cc-switch">farion1231/cc-switch</a></td><td class="description">Claude CodeやCodexなどのAIツールに対応するクロスプラットフォーム統合デスクトップアシスタント</td><td>122947</td><td class="tint-4 num-good">+1666</td><td>0</td><td>0</td><td>0</td><td>80%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/MadsLorentzen/ai-job-search" title="MadsLorentzen/ai-job-search">MadsLorentzen/ai-job-search</a></td><td class="description">Claude Code上で動く求職活動自動化フレームワーク(応募書類・面接準備)</td><td>28992</td><td class="tint-4 num-good">+1584</td><td>0</td><td>0</td><td>0</td><td>80%</td></tr>
+<tr><td class="repo-name" data-v="diegosouzapw/OmniRoute"><a href="https://github.com/diegosouzapw/OmniRoute" title="diegosouzapw/OmniRoute">diegosouzapw/OmniRoute</a></td><td class="description">290以上のAIプロバイダーに対応する無料APIゲートウェイ</td><td data-v="36204.0">36,204</td><td class="tint-4 num-good" data-v="5462.0">+5,462</td><td class="num-good" data-v="15.086730747983648">15.1%</td><td data-v="0.0">0</td><td data-v="3.0">3</td><td data-v="0.0">0</td><td data-v="0.7987253968171032">80%</td></tr>
+<tr><td class="repo-name" data-v="stablyai/orca"><a href="https://github.com/stablyai/orca" title="stablyai/orca">stablyai/orca</a></td><td class="description">複数のAIコーディングエージェントを並列運用する開発環境(ADE)</td><td data-v="34681.0">34,681</td><td class="tint-4 num-good" data-v="5182.0">+5,182</td><td class="num-good" data-v="14.941899022519536">14.9%</td><td data-v="2.0">2</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.8987770291390689">90%</td></tr>
+<tr><td class="repo-name" data-v="DietrichGebert/ponytail"><a href="https://github.com/DietrichGebert/ponytail" title="DietrichGebert/ponytail">DietrichGebert/ponytail</a></td><td class="description">AIエージェントを「面倒くさがりなシニア開発者」のように振る舞わせるツール</td><td data-v="93089.0">93,089</td><td class="tint-4 num-good" data-v="3806.0">+3,806</td><td class="num-good" data-v="4.088560409930282">4.1%</td><td data-v="1.0">1</td><td data-v="7.0">7</td><td class="num-good" data-v="2.0">+2</td><td data-v="0.9959126155770489">100%</td></tr>
+<tr><td class="repo-name" data-v="Graphify-Labs/graphify"><a href="https://github.com/Graphify-Labs/graphify" title="Graphify-Labs/graphify">Graphify-Labs/graphify</a></td><td class="description">コードベースやドキュメントを検索可能な知識グラフに変換するスキル</td><td data-v="99787.0">99,787</td><td class="tint-4 num-good" data-v="3605.0">+3,605</td><td class="num-good" data-v="3.612695040436129">3.6%</td><td data-v="1.0">1</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.8955323800776448">90%</td></tr>
+<tr><td class="repo-name" data-v="affaan-m/ECC"><a href="https://github.com/affaan-m/ECC" title="affaan-m/ECC">affaan-m/ECC</a></td><td class="description">Claude Code等向けエージェント性能最適化システム(スキル・記憶・セキュリティ)</td><td data-v="236657.0">236,657</td><td class="tint-4 num-good" data-v="3353.0">+3,353</td><td class="num-good" data-v="1.416818433428971">1.4%</td><td data-v="0.0">0</td><td data-v="6.0">6</td><td data-v="0.0">0</td><td data-v="0.7942702493155982">79%</td></tr>
+<tr><td class="repo-name" data-v="koala73/worldmonitor"><a href="https://github.com/koala73/worldmonitor" title="koala73/worldmonitor">koala73/worldmonitor</a></td><td class="description">AIによるニュース集約・地政学モニタリングのリアルタイムダッシュボード</td><td data-v="77477.0">77,477</td><td class="tint-4 num-good" data-v="3304.0">+3,304</td><td class="num-good" data-v="4.264491397446984">4.3%</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.7958355714107216">80%</td></tr>
+<tr><td class="repo-name" data-v="agentscope-ai/QwenPaw"><a href="https://github.com/agentscope-ai/QwenPaw" title="agentscope-ai/QwenPaw">agentscope-ai/QwenPaw</a></td><td class="description">自分のマシンやクラウドで動く、複数チャットアプリ対応の個人用AIアシスタント</td><td data-v="31505.0">31,505</td><td class="tint-4 num-good" data-v="3157.0">+3,157</td><td class="num-good" data-v="10.020631645770512">10.0%</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.7978825310735752">80%</td></tr>
+<tr><td class="repo-name" data-v="Panniantong/Agent-Reach"><a href="https://github.com/Panniantong/Agent-Reach" title="Panniantong/Agent-Reach">Panniantong/Agent-Reach</a></td><td class="description">Twitter/Reddit/YouTube等を横断検索できるAIエージェント向けCLI</td><td data-v="63454.0">63,454</td><td class="tint-4 num-good" data-v="3047.0">+3,047</td><td class="num-good" data-v="4.8019037412929055">4.8%</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.7960763901945866">80%</td></tr>
+<tr><td class="repo-name" data-v="mvanhorn/last30days-skill"><a href="https://github.com/mvanhorn/last30days-skill" title="mvanhorn/last30days-skill">mvanhorn/last30days-skill</a></td><td class="description">Reddit/X/YouTube/HN等を横断調査し要約するAIエージェントスキル</td><td data-v="56270.0">56,270</td><td class="tint-4 num-good" data-v="3040.0">+3,040</td><td class="num-good" data-v="5.402523547183224">5.4%</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.7966784371542496">80%</td></tr>
+<tr><td class="repo-name" data-v="alibaba/open-code-review"><a href="https://github.com/alibaba/open-code-review" title="alibaba/open-code-review">alibaba/open-code-review</a></td><td class="description">Alibaba発、ルールベース+LLMエージェントを組み合わせたコードレビューツール</td><td data-v="17052.0">17,052</td><td class="tint-4 num-good" data-v="2786.0">+2,786</td><td class="num-good" data-v="16.338259441707716">16.3%</td><td data-v="2.0">2</td><td data-v="64.0">64</td><td data-v="0.0">0</td><td data-v="0.8982953915713386">90%</td></tr>
+<tr><td class="repo-name" data-v="NousResearch/hermes-agent"><a href="https://github.com/NousResearch/hermes-agent" title="NousResearch/hermes-agent">NousResearch/hermes-agent</a></td><td class="description">ユーザーとともに成長するAIエージェント</td><td data-v="223454.0">223,454</td><td class="tint-4 num-good" data-v="2760.0">+2,760</td><td class="num-good" data-v="1.2351535439061285">1.2%</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.7933069741801375">79%</td></tr>
+<tr><td class="repo-name" data-v="citrolabs/ego-lite"><a href="https://github.com/citrolabs/ego-lite" title="citrolabs/ego-lite">citrolabs/ego-lite</a></td><td class="description">ログイン状態を共有できる、AIエージェント向け高速ブラウザ</td><td data-v="7046.0">7,046</td><td class="tint-4 num-good" data-v="2366.0">+2,366</td><td class="num-good" data-v="33.579335793357934">33.6%</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.7986049874251707">80%</td></tr>
+<tr><td class="repo-name" data-v="img2threejs/img2threejs"><a href="https://github.com/img2threejs/img2threejs" title="img2threejs/img2threejs">img2threejs/img2threejs</a></td><td class="description">参考画像からThree.js製3Dモデルを自動生成するツール</td><td data-v="8797.0">8,797</td><td class="tint-4 num-good" data-v="2161.0">+2,161</td><td class="num-good" data-v="24.565192679322497">24.6%</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.7981233498574404">80%</td></tr>
+<tr><td class="repo-name" data-v="Leonxlnx/taste-skill"><a href="https://github.com/Leonxlnx/taste-skill" title="Leonxlnx/taste-skill">Leonxlnx/taste-skill</a></td><td class="description">AIの出力から陳腐さをなくし「センス」を持たせるスキル</td><td data-v="69761.0">69,761</td><td class="tint-4 num-good" data-v="2021.0">+2,021</td><td class="num-good" data-v="2.8970341594873927">2.9%</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.7945110680994633">79%</td></tr>
+<tr><td class="repo-name" data-v="ogulcancelik/herdr"><a href="https://github.com/ogulcancelik/herdr" title="ogulcancelik/herdr">ogulcancelik/herdr</a></td><td class="description">コーディングAIエージェントを動かすためのランタイム基盤</td><td data-v="23088.0">23,088</td><td class="tint-4 num-good" data-v="1988.0">+1,988</td><td class="num-good" data-v="8.610533610533611">8.6%</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.7969192559381147">80%</td></tr>
+<tr><td class="repo-name" data-v="nextlevelbuilder/ui-ux-pro-max-skill"><a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill" title="nextlevelbuilder/ui-ux-pro-max-skill">nextlevelbuilder/ui-ux-pro-max-skill</a></td><td class="description">UI/UXデザインの専門知識を提供するAIスキル</td><td data-v="112202.0">112,202</td><td class="tint-4 num-good" data-v="1881.0">+1,881</td><td class="num-good" data-v="1.6764407051567707">1.7%</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.7927049272204747">79%</td></tr>
+<tr><td class="repo-name" data-v="JuliusBrussee/caveman"><a href="https://github.com/JuliusBrussee/caveman" title="JuliusBrussee/caveman">JuliusBrussee/caveman</a></td><td class="description">「原始人語」で会話しトークン数を65%削減するClaude Codeスキル</td><td data-v="94935.0">94,935</td><td class="tint-4 num-good" data-v="1792.0">+1,792</td><td class="num-good" data-v="1.887607310264918">1.9%</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.793186564788205">79%</td></tr>
+<tr><td class="repo-name" data-v="iOfficeAI/OfficeCLI"><a href="https://github.com/iOfficeAI/OfficeCLI" title="iOfficeAI/OfficeCLI">iOfficeAI/OfficeCLI</a></td><td class="description">AIエージェント向けOfficeファイル(Word/Excel/PowerPoint)操作CLI</td><td data-v="23864.0">23,864</td><td class="tint-4 num-good" data-v="1710.0">+1,710</td><td class="num-good" data-v="7.165605095541401">7.2%</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.7955947526268564">80%</td></tr>
+<tr><td class="repo-name" data-v="farion1231/cc-switch"><a href="https://github.com/farion1231/cc-switch" title="farion1231/cc-switch">farion1231/cc-switch</a></td><td class="description">Claude CodeやCodexなどのAIツールに対応するクロスプラットフォーム統合デスクトップアシスタント</td><td data-v="122947.0">122,947</td><td class="tint-4 num-good" data-v="1666.0">+1,666</td><td class="num-good" data-v="1.355055430388704">1.4%</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.7919824708688793">79%</td></tr>
+<tr><td class="repo-name" data-v="MadsLorentzen/ai-job-search"><a href="https://github.com/MadsLorentzen/ai-job-search" title="MadsLorentzen/ai-job-search">MadsLorentzen/ai-job-search</a></td><td class="description">Claude Code上で動く求職活動自動化フレームワーク(応募書類・面接準備)</td><td data-v="28992.0">28,992</td><td class="tint-4 num-good" data-v="1584.0">+1,584</td><td class="num-good" data-v="5.4635761589403975">5.5%</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.7951131150591262">80%</td></tr>
 </tbody>
 </table>
 </div>
 </section>
 <section class="table-section">
+<div class="section-head">
 <h2>Hacker News話題</h2>
+<p class="section-note">この1週間でHacker Newsに登場した回数順</p>
+</div>
 <div class="table-scroll">
-<table>
-<thead><tr><th>Repo</th><th>概要</th><th>Stars</th><th>Star増加(7d)</th><th>HN言及(7d)</th><th>Dependents</th><th>Dependents増加(7d)</th><th>総合スコア</th></tr></thead>
+<table data-sortable>
+<thead><tr><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">Repo</button></th><th scope="col"><span class="th-static">概要</span></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">Stars</button></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">Star増加(7d)</button></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">成長率(7d)</button></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">HN言及(7d)</button></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">Dependents</button></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">Dependents増加(7d)</button></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">総合スコア</button></th></tr></thead>
 <tbody>
-<tr><td class="repo-name"><a href="https://github.com/SerhiiKorniienko/bullshit-detector" title="SerhiiKorniienko/bullshit-detector">SerhiiKorniienko/bullshit-detector</a></td><td class="description">動画・記事・投稿を主張ごとにファクトチェックするAIスキル</td><td class="num-muted">-</td><td class="num-muted">-</td><td class="tint-4">4</td><td>0</td><td>0</td><td>75%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/alibaba/open-code-review" title="alibaba/open-code-review">alibaba/open-code-review</a></td><td class="description">Alibaba発、ルールベース+LLMエージェントを組み合わせたコードレビューツール</td><td>17052</td><td class="num-good">+2786</td><td class="tint-4">2</td><td>64</td><td>0</td><td>90%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/asgeirtj/system_prompts_leaks" title="asgeirtj/system_prompts_leaks">asgeirtj/system_prompts_leaks</a></td><td class="description">ClaudeやChatGPT、Geminiなど各種AIモデルのシステムプロンプトを抽出し定期更新するリポジトリ。</td><td>61706</td><td class="num-good">+959</td><td class="tint-4">2</td><td>0</td><td>0</td><td>90%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/stablyai/orca" title="stablyai/orca">stablyai/orca</a></td><td class="description">複数のAIコーディングエージェントを並列運用する開発環境(ADE)</td><td>34681</td><td class="num-good">+5182</td><td class="tint-4">2</td><td>0</td><td>0</td><td>90%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/kevinpbuckley/VibeUE" title="kevinpbuckley/VibeUE">kevinpbuckley/VibeUE</a></td><td class="description">Unreal Engine向け「バイブコーディング」ツール</td><td>562</td><td class="num-good">+35</td><td class="tint-4">2</td><td>0</td><td>0</td><td>86%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/xyTom/coding-tools-mcp" title="xyTom/coding-tools-mcp">xyTom/coding-tools-mcp</a></td><td class="description">任意のAIエージェントにコーディング能力を付与するMCPサーバー</td><td>604</td><td class="num-good">+159</td><td class="tint-4">2</td><td>0</td><td>0</td><td>88%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/team-telnyx/ai" title="team-telnyx/ai">team-telnyx/ai</a></td><td class="description">Telnyx公式、AIエージェント開発者向け総合リソース</td><td>200</td><td class="num-good">+18</td><td class="tint-4">2</td><td>0</td><td>0</td><td>84%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/VinvAI/VinvAI" title="VinvAI/VinvAI">VinvAI/VinvAI</a></td><td class="description">強化学習でバグや性能問題を自律的に発見・修正するAIスワーム</td><td>35</td><td class="num-good">+7</td><td class="tint-4">2</td><td>0</td><td>0</td><td>79%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/browser-act/skills" title="browser-act/skills">browser-act/skills</a></td><td class="description">AIエージェント向けブラウザ自動操作CLI(アンチボット対策・並列実行対応)</td><td>5047</td><td class="num-good">+266</td><td class="tint-4">2</td><td>0</td><td>0</td><td>89%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/Vortx-AI/emem" title="Vortx-AI/emem">Vortx-AI/emem</a></td><td class="description">マルチエージェントシステム向けの長期記憶(外部メモリ)基盤</td><td class="num-muted">-</td><td class="num-muted">-</td><td class="tint-4">2</td><td>0</td><td>0</td><td>75%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/oraios/serena" title="oraios/serena">oraios/serena</a></td><td class="description">セマンティックなコード検索・編集機能を持つ強力なMCPツールキット</td><td>27295</td><td class="num-good">+338</td><td class="tint-4">1</td><td>0</td><td>0</td><td>89%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/DietrichGebert/ponytail" title="DietrichGebert/ponytail">DietrichGebert/ponytail</a></td><td class="description">AIエージェントを「面倒くさがりなシニア開発者」のように振る舞わせるツール</td><td>93089</td><td class="num-good">+3806</td><td class="tint-4">1</td><td>7</td><td class="num-good">+2</td><td>100%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/clay-good/OpenLore" title="clay-good/OpenLore">clay-good/OpenLore</a></td><td class="description">LLMを介さない決定論的なローカル記憶・ガードレール機構</td><td>249</td><td class="num-good">+70</td><td class="tint-4">1</td><td>2</td><td>0</td><td>87%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/Graphify-Labs/graphify" title="Graphify-Labs/graphify">Graphify-Labs/graphify</a></td><td class="description">コードベースやドキュメントを検索可能な知識グラフに変換するスキル</td><td>99787</td><td class="num-good">+3605</td><td class="tint-4">1</td><td>0</td><td>0</td><td>90%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/manaflow-ai/cmux" title="manaflow-ai/cmux">manaflow-ai/cmux</a></td><td class="description">AIコーディングエージェント向け、縦タブ対応のmacOSターミナル</td><td>25448</td><td class="num-good">+306</td><td class="tint-4">1</td><td>7</td><td class="num-good">+2</td><td>99%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/asciimoo/hister" title="asciimoo/hister">asciimoo/hister</a></td><td class="description">自分専用の検索エンジンを構築するツール</td><td>1735</td><td class="num-good">+86</td><td class="tint-4">1</td><td>0</td><td>0</td><td>87%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/Higangssh/homebutler" title="Higangssh/homebutler">Higangssh/homebutler</a></td><td class="description">チャットを介してホームラボを管理するための、外部依存関係がない単一バイナリ形式のツール。</td><td>177</td><td class="num-good">+10</td><td class="tint-4">1</td><td>0</td><td>0</td><td>82%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/Kentucky-ai/opentakeoff" title="Kentucky-ai/opentakeoff">Kentucky-ai/opentakeoff</a></td><td class="description">ブラウザ上で動作し、MCP経由でAIが建築PDFから部屋検出や資材数量の算出を行うオープンソースの積算ツール。</td><td>44</td><td class="num-good">+18</td><td class="tint-4">1</td><td>0</td><td>0</td><td>84%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/bevibing/socrates-skill" title="bevibing/socrates-skill">bevibing/socrates-skill</a></td><td class="description">問答法でユーザー自身に答えを発見させるClaude Codeスキル</td><td>171</td><td class="num-good">+114</td><td class="tint-4">1</td><td>0</td><td>0</td><td>88%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/rengwu/wayfinder-maps" title="rengwu/wayfinder-maps">rengwu/wayfinder-maps</a></td><td class="description">惑星規模の可視化ツール(/wayfinder maps用)</td><td>80</td><td class="num-good">+35</td><td class="tint-4">1</td><td>0</td><td>0</td><td>86%</td></tr>
+<tr><td class="repo-name" data-v="SerhiiKorniienko/bullshit-detector"><a href="https://github.com/SerhiiKorniienko/bullshit-detector" title="SerhiiKorniienko/bullshit-detector">SerhiiKorniienko/bullshit-detector</a></td><td class="description">動画・記事・投稿を主張ごとにファクトチェックするAIスキル</td><td class="num-muted" data-v="">-</td><td class="num-muted" data-v="">-</td><td class="num-muted" data-v="">-</td><td class="tint-4" data-v="4.0">4</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.7481520864001113">75%</td></tr>
+<tr><td class="repo-name" data-v="alibaba/open-code-review"><a href="https://github.com/alibaba/open-code-review" title="alibaba/open-code-review">alibaba/open-code-review</a></td><td class="description">Alibaba発、ルールベース+LLMエージェントを組み合わせたコードレビューツール</td><td data-v="17052.0">17,052</td><td class="num-good" data-v="2786.0">+2,786</td><td class="num-good" data-v="16.338259441707716">16.3%</td><td class="tint-4" data-v="2.0">2</td><td data-v="64.0">64</td><td data-v="0.0">0</td><td data-v="0.8982953915713386">90%</td></tr>
+<tr><td class="repo-name" data-v="asgeirtj/system_prompts_leaks"><a href="https://github.com/asgeirtj/system_prompts_leaks" title="asgeirtj/system_prompts_leaks">asgeirtj/system_prompts_leaks</a></td><td class="description">ClaudeやChatGPT、Geminiなど各種AIモデルのシステムプロンプトを抽出し定期更新するリポジトリ。</td><td data-v="61706.0">61,706</td><td class="num-good" data-v="959.0">+959</td><td class="num-good" data-v="1.5541438433863806">1.6%</td><td class="tint-4" data-v="2.0">2</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.8899871435279912">89%</td></tr>
+<tr><td class="repo-name" data-v="stablyai/orca"><a href="https://github.com/stablyai/orca" title="stablyai/orca">stablyai/orca</a></td><td class="description">複数のAIコーディングエージェントを並列運用する開発環境(ADE)</td><td data-v="34681.0">34,681</td><td class="num-good" data-v="5182.0">+5,182</td><td class="num-good" data-v="14.941899022519536">14.9%</td><td class="tint-4" data-v="2.0">2</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.8987770291390689">90%</td></tr>
+<tr><td class="repo-name" data-v="kevinpbuckley/VibeUE"><a href="https://github.com/kevinpbuckley/VibeUE" title="kevinpbuckley/VibeUE">kevinpbuckley/VibeUE</a></td><td class="description">Unreal Engine向け「バイブコーディング」ツール</td><td data-v="562.0">562</td><td class="num-good" data-v="35.0">+35</td><td class="num-good" data-v="6.227758007117438">6.2%</td><td class="tint-4" data-v="2.0">2</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.8687950905478588">87%</td></tr>
+<tr><td class="repo-name" data-v="xyTom/coding-tools-mcp"><a href="https://github.com/xyTom/coding-tools-mcp" title="xyTom/coding-tools-mcp">xyTom/coding-tools-mcp</a></td><td class="description">任意のAIエージェントにコーディング能力を付与するMCPサーバー</td><td data-v="604.0">604</td><td class="num-good" data-v="159.0">+159</td><td class="num-good" data-v="26.32450331125828">26.3%</td><td class="tint-4" data-v="2.0">2</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.8943218816375638">89%</td></tr>
+<tr><td class="repo-name" data-v="team-telnyx/ai"><a href="https://github.com/team-telnyx/ai" title="team-telnyx/ai">team-telnyx/ai</a></td><td class="description">Telnyx公式、AIエージェント開発者向け総合リソース</td><td data-v="200.0">200</td><td class="num-good" data-v="18.0">+18</td><td class="num-good" data-v="9.0">9.0%</td><td class="tint-4" data-v="2.0">2</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.8639185101745896">86%</td></tr>
+<tr><td class="repo-name" data-v="VinvAI/VinvAI"><a href="https://github.com/VinvAI/VinvAI" title="VinvAI/VinvAI">VinvAI/VinvAI</a></td><td class="description">強化学習でバグや性能問題を自律的に発見・修正するAIスワーム</td><td data-v="35.0">35</td><td class="num-good" data-v="7.0">+7</td><td class="num-good" data-v="20.0">20.0%</td><td class="tint-4" data-v="2.0">2</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.8604868425045114">86%</td></tr>
+<tr><td class="repo-name" data-v="browser-act/skills"><a href="https://github.com/browser-act/skills" title="browser-act/skills">browser-act/skills</a></td><td class="description">AIエージェント向けブラウザ自動操作CLI(アンチボット対策・並列実行対応)</td><td data-v="5047.0">5,047</td><td class="num-good" data-v="266.0">+266</td><td class="num-good" data-v="5.270457697642163">5.3%</td><td class="tint-4" data-v="2.0">2</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.8897463247441261">89%</td></tr>
+<tr><td class="repo-name" data-v="Vortx-AI/emem"><a href="https://github.com/Vortx-AI/emem" title="Vortx-AI/emem">Vortx-AI/emem</a></td><td class="description">マルチエージェントシステム向けの長期記憶(外部メモリ)基盤</td><td class="num-muted" data-v="">-</td><td class="num-muted" data-v="">-</td><td class="num-muted" data-v="">-</td><td class="tint-4" data-v="2.0">2</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.7476951315472508">75%</td></tr>
+<tr><td class="repo-name" data-v="oraios/serena"><a href="https://github.com/oraios/serena" title="oraios/serena">oraios/serena</a></td><td class="description">セマンティックなコード検索・編集機能を持つ強力なMCPツールキット</td><td data-v="27295.0">27,295</td><td class="num-good" data-v="338.0">+338</td><td class="num-good" data-v="1.238322037003114">1.2%</td><td class="tint-4" data-v="1.0">1</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.876989333720029">88%</td></tr>
+<tr><td class="repo-name" data-v="DietrichGebert/ponytail"><a href="https://github.com/DietrichGebert/ponytail" title="DietrichGebert/ponytail">DietrichGebert/ponytail</a></td><td class="description">AIエージェントを「面倒くさがりなシニア開発者」のように振る舞わせるツール</td><td data-v="93089.0">93,089</td><td class="num-good" data-v="3806.0">+3,806</td><td class="num-good" data-v="4.088560409930282">4.1%</td><td class="tint-4" data-v="1.0">1</td><td data-v="7.0">7</td><td class="num-good" data-v="2.0">+2</td><td data-v="0.9959126155770489">100%</td></tr>
+<tr><td class="repo-name" data-v="clay-good/OpenLore"><a href="https://github.com/clay-good/OpenLore" title="clay-good/OpenLore">clay-good/OpenLore</a></td><td class="description">LLMを介さない決定論的なローカル記憶・ガードレール機構</td><td data-v="249.0">249</td><td class="num-good" data-v="70.0">+70</td><td class="num-good" data-v="28.11244979919679">28.1%</td><td class="tint-4" data-v="1.0">1</td><td data-v="2.0">2</td><td data-v="0.0">0</td><td data-v="0.8913180513600049">89%</td></tr>
+<tr><td class="repo-name" data-v="Graphify-Labs/graphify"><a href="https://github.com/Graphify-Labs/graphify" title="Graphify-Labs/graphify">Graphify-Labs/graphify</a></td><td class="description">コードベースやドキュメントを検索可能な知識グラフに変換するスキル</td><td data-v="99787.0">99,787</td><td class="num-good" data-v="3605.0">+3,605</td><td class="num-good" data-v="3.612695040436129">3.6%</td><td class="tint-4" data-v="1.0">1</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.8955323800776448">90%</td></tr>
+<tr><td class="repo-name" data-v="manaflow-ai/cmux"><a href="https://github.com/manaflow-ai/cmux" title="manaflow-ai/cmux">manaflow-ai/cmux</a></td><td class="description">AIコーディングエージェント向け、縦タブ対応のmacOSターミナル</td><td data-v="25448.0">25,448</td><td class="num-good" data-v="306.0">+306</td><td class="num-good" data-v="1.2024520591009118">1.2%</td><td class="tint-4" data-v="1.0">1</td><td data-v="7.0">7</td><td class="num-good" data-v="2.0">+2</td><td data-v="0.9754430189485119">98%</td></tr>
+<tr><td class="repo-name" data-v="asciimoo/hister"><a href="https://github.com/asciimoo/hister" title="asciimoo/hister">asciimoo/hister</a></td><td class="description">自分専用の検索エンジンを構築するツール</td><td data-v="1735.0">1,735</td><td class="num-good" data-v="86.0">+86</td><td class="num-good" data-v="4.956772334293948">5.0%</td><td class="tint-4" data-v="1.0">1</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.8774709712877592">88%</td></tr>
+<tr><td class="repo-name" data-v="Higangssh/homebutler"><a href="https://github.com/Higangssh/homebutler" title="Higangssh/homebutler">Higangssh/homebutler</a></td><td class="description">チャットを介してホームラボを管理するための、外部依存関係がない単一バイナリ形式のツール。</td><td data-v="177.0">177</td><td class="num-good" data-v="10.0">+10</td><td class="num-good" data-v="5.649717514124294">5.6%</td><td class="tint-4" data-v="1.0">1</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.829548033298596">83%</td></tr>
+<tr><td class="repo-name" data-v="Kentucky-ai/opentakeoff"><a href="https://github.com/Kentucky-ai/opentakeoff" title="Kentucky-ai/opentakeoff">Kentucky-ai/opentakeoff</a></td><td class="description">ブラウザ上で動作し、MCP経由でAIが建築PDFから部屋検出や資材数量の算出を行うオープンソースの積算ツール。</td><td data-v="44.0">44</td><td class="num-good" data-v="18.0">+18</td><td class="num-good" data-v="40.909090909090914">40.9%</td><td class="tint-4" data-v="1.0">1</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.8840934878440506">88%</td></tr>
+<tr><td class="repo-name" data-v="bevibing/socrates-skill"><a href="https://github.com/bevibing/socrates-skill" title="bevibing/socrates-skill">bevibing/socrates-skill</a></td><td class="description">問答法でユーザー自身に答えを発見させるClaude Codeスキル</td><td data-v="171.0">171</td><td class="num-good" data-v="114.0">+114</td><td class="num-good" data-v="66.66666666666666">66.7%</td><td class="tint-4" data-v="1.0">1</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.8946895143341168">89%</td></tr>
+<tr><td class="repo-name" data-v="rengwu/wayfinder-maps"><a href="https://github.com/rengwu/wayfinder-maps" title="rengwu/wayfinder-maps">rengwu/wayfinder-maps</a></td><td class="description">惑星規模の可視化ツール(/wayfinder maps用)</td><td data-v="80.0">80</td><td class="num-good" data-v="35.0">+35</td><td class="num-good" data-v="43.75">43.8%</td><td class="tint-4" data-v="1.0">1</td><td data-v="0.0">0</td><td data-v="0.0">0</td><td data-v="0.889873138656814">89%</td></tr>
 </tbody>
 </table>
 </div>
 </section>
 <section class="table-section">
+<div class="section-head">
 <h2>Dependents急増</h2>
+<p class="section-note">この1週間で依存元リポジトリが最も増えた順</p>
+</div>
 <div class="table-scroll">
-<table>
-<thead><tr><th>Repo</th><th>概要</th><th>Stars</th><th>Star増加(7d)</th><th>HN言及(7d)</th><th>Dependents</th><th>Dependents増加(7d)</th><th>総合スコア</th></tr></thead>
+<table data-sortable>
+<thead><tr><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">Repo</button></th><th scope="col"><span class="th-static">概要</span></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">Stars</button></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">Star増加(7d)</button></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">成長率(7d)</button></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">HN言及(7d)</button></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">Dependents</button></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">Dependents増加(7d)</button></th><th scope="col" data-sortable aria-sort="none"><button type="button" class="sort">総合スコア</button></th></tr></thead>
 <tbody>
-<tr><td class="repo-name"><a href="https://github.com/PrefectHQ/fastmcp" title="PrefectHQ/fastmcp">PrefectHQ/fastmcp</a></td><td class="description">Pythonで手早くMCPサーバー・クライアントを構築できるフレームワーク</td><td>27002</td><td class="num-good">+158</td><td>0</td><td>11596</td><td class="tint-4 num-good">+150</td><td>89%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/deedy5/ddgs" title="deedy5/ddgs">deedy5/ddgs</a></td><td class="description">複数のWeb検索サービスを横断集約するメタ検索ライブラリ</td><td>2858</td><td class="num-good">+23</td><td>0</td><td>1943</td><td class="tint-4 num-good">+42</td><td>85%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/ChromeDevTools/chrome-devtools-mcp" title="ChromeDevTools/chrome-devtools-mcp">ChromeDevTools/chrome-devtools-mcp</a></td><td class="description">AIエージェントがChrome DevToolsを通してブラウザ操作やデバッグを行うためのMCPサーバー</td><td>48287</td><td class="num-good">+943</td><td>0</td><td>311</td><td class="tint-4 num-good">+23</td><td>90%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/triggerdotdev/trigger.dev" title="triggerdotdev/trigger.dev">triggerdotdev/trigger.dev</a></td><td class="description">フルマネージドなAIエージェント・ワークフローの構築/デプロイ基盤</td><td>15833</td><td class="num-good">+88</td><td>0</td><td>291</td><td class="tint-4 num-good">+7</td><td>87%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/n8n-io/n8n" title="n8n-io/n8n">n8n-io/n8n</a></td><td class="description">AI機能を内蔵したノーコード/ローコードのワークフロー自動化基盤</td><td>198894</td><td class="num-good">+987</td><td>0</td><td>950</td><td class="tint-4 num-good">+5</td><td>90%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/modelscope/FunASR" title="modelscope/FunASR">modelscope/FunASR</a></td><td class="description">音声認識(ASR/VAD/話者分離等)のオープンソースツールキット</td><td>19578</td><td class="num-good">+105</td><td>0</td><td>1422</td><td class="tint-4 num-good">+5</td><td>88%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/lastmile-ai/mcp-agent" title="lastmile-ai/mcp-agent">lastmile-ai/mcp-agent</a></td><td class="description">MCPとワークフローパターンでAIエージェントを構築するフレームワーク</td><td>8486</td><td class="num-good">+7</td><td>0</td><td>288</td><td class="tint-4 num-good">+5</td><td>79%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/ben-vargas/ai-sdk-provider-claude-code" title="ben-vargas/ai-sdk-provider-claude-code">ben-vargas/ai-sdk-provider-claude-code</a></td><td class="description">Vercel AI SDKでClaude Agent SDKを利用可能にするコミュニティ製プロバイダー</td><td class="num-muted">-</td><td class="num-muted">-</td><td>0</td><td>119</td><td class="tint-4 num-good">+5</td><td>75%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/open-webui/mcpo" title="open-webui/mcpo">open-webui/mcpo</a></td><td class="description">MCPをOpenAPIに変換するシンプルなプロキシサーバー</td><td>4323</td><td class="num-good">+5</td><td>0</td><td>55</td><td class="tint-4 num-good">+4</td><td>78%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/tirth8205/code-review-graph" title="tirth8205/code-review-graph">tirth8205/code-review-graph</a></td><td class="description">MCP/CLI向けのローカル完結型コードインテリジェンスグラフ</td><td>27902</td><td class="num-good">+1096</td><td>0</td><td>16</td><td class="tint-4 num-good">+4</td><td>90%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/rust-mcp-stack/rust-mcp-schema" title="rust-mcp-stack/rust-mcp-schema">rust-mcp-stack/rust-mcp-schema</a></td><td class="description">Rust製の型安全なMCP公式スキーマ実装</td><td>75</td><td>0</td><td>0</td><td>159</td><td class="tint-4 num-good">+4</td><td>49%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/mcp-use/mcp-use" title="mcp-use/mcp-use">mcp-use/mcp-use</a></td><td class="description">ChatGPTやClaude用MCPアプリとAI Agent用MCPサーバーを開発するフルスタックフレームワーク</td><td>10430</td><td class="num-good">+37</td><td>0</td><td>66</td><td class="tint-4 num-good">+2</td><td>86%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/openstatusHQ/openstatus" title="openstatusHQ/openstatus">openstatusHQ/openstatus</a></td><td class="description">コードによるAPI監視と稼働率モニタリング機能を備えたopenstatusのステータスページ作成ツール</td><td>8927</td><td class="num-good">+46</td><td>0</td><td>164</td><td class="tint-4 num-good">+2</td><td>86%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/microsoft/flint-chart" title="microsoft/flint-chart">microsoft/flint-chart</a></td><td class="description">Flintは、AIエージェントが人間が編集可能な仕様からチャートを生成するための可視化言語。</td><td>2543</td><td class="num-good">+242</td><td>0</td><td>5</td><td class="tint-4 num-good">+2</td><td>89%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/universal-tool-calling-protocol/code-mode" title="universal-tool-calling-protocol/code-mode">universal-tool-calling-protocol/code-mode</a></td><td class="description">エージェントがコード実行を介してMCPおよびUTCPツールを呼び出せるようにするライブラリ。</td><td>1518</td><td>-2</td><td>0</td><td>11</td><td class="tint-4 num-good">+2</td><td>32%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/nicobailon/pi-mcp-adapter" title="nicobailon/pi-mcp-adapter">nicobailon/pi-mcp-adapter</a></td><td class="description">Piコーディングエージェントのトークン消費量を抑え、利用効率を高めるためのMCPアダプター</td><td>1113</td><td class="num-good">+52</td><td>0</td><td>23</td><td class="tint-4 num-good">+2</td><td>86%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/DietrichGebert/ponytail" title="DietrichGebert/ponytail">DietrichGebert/ponytail</a></td><td class="description">AIエージェントを「面倒くさがりなシニア開発者」のように振る舞わせるツール</td><td>93089</td><td class="num-good">+3806</td><td>1</td><td>7</td><td class="tint-4 num-good">+2</td><td>100%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/googleworkspace/cli" title="googleworkspace/cli">googleworkspace/cli</a></td><td class="description">Google Discovery Serviceで動的生成される、Drive等対応のAI agent機能付きCLIツール</td><td>30119</td><td class="num-good">+133</td><td>0</td><td>7</td><td class="tint-4 num-good">+2</td><td>88%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/topoteretes/cognee" title="topoteretes/cognee">topoteretes/cognee</a></td><td class="description">AIエージェントに永続的な長期記憶を与えるオープンソース記憶基盤</td><td>29639</td><td class="num-good">+219</td><td>0</td><td>138</td><td class="tint-4 num-good">+2</td><td>89%</td></tr>
-<tr><td class="repo-name"><a href="https://github.com/htmlstreamofficial/preline" title="htmlstreamofficial/preline">htmlstreamofficial/preline</a></td><td class="description">Preline UIは、Tailwind CSSをベースにしたオープンソースの構築済みUIコンポーネント集。</td><td>6372</td><td class="num-good">+5</td><td>0</td><td>14037</td><td class="tint-4 num-good">+2</td><td>78%</td></tr>
+<tr><td class="repo-name" data-v="PrefectHQ/fastmcp"><a href="https://github.com/PrefectHQ/fastmcp" title="PrefectHQ/fastmcp">PrefectHQ/fastmcp</a></td><td class="description">Pythonで手早くMCPサーバー・クライアントを構築できるフレームワーク</td><td data-v="27002.0">27,002</td><td class="num-good" data-v="158.0">+158</td><td class="num-good" data-v="0.5851418413450856">0.6%</td><td data-v="0.0">0</td><td data-v="11596.0">11,596</td><td class="tint-4 num-good" data-v="150.0">+150</td><td data-v="0.8483742175951795">85%</td></tr>
+<tr><td class="repo-name" data-v="deedy5/ddgs"><a href="https://github.com/deedy5/ddgs" title="deedy5/ddgs">deedy5/ddgs</a></td><td class="description">複数のWeb検索サービスを横断集約するメタ検索ライブラリ</td><td data-v="2858.0">2,858</td><td class="num-good" data-v="23.0">+23</td><td class="num-good" data-v="0.8047585724282715">0.8%</td><td data-v="0.0">0</td><td data-v="1943.0">1,943</td><td class="tint-4 num-good" data-v="42.0">+42</td><td data-v="0.7860855933893306">79%</td></tr>
+<tr><td class="repo-name" data-v="ChromeDevTools/chrome-devtools-mcp"><a href="https://github.com/ChromeDevTools/chrome-devtools-mcp" title="ChromeDevTools/chrome-devtools-mcp">ChromeDevTools/chrome-devtools-mcp</a></td><td class="description">AIエージェントがChrome DevToolsを通してブラウザ操作やデバッグを行うためのMCPサーバー</td><td data-v="48287.0">48,287</td><td class="num-good" data-v="943.0">+943</td><td class="num-good" data-v="1.9529065794106075">2.0%</td><td data-v="0.0">0</td><td data-v="311.0">311</td><td class="tint-4 num-good" data-v="23.0">+23</td><td data-v="0.8917680709294179">89%</td></tr>
+<tr><td class="repo-name" data-v="triggerdotdev/trigger.dev"><a href="https://github.com/triggerdotdev/trigger.dev" title="triggerdotdev/trigger.dev">triggerdotdev/trigger.dev</a></td><td class="description">フルマネージドなAIエージェント・ワークフローの構築/デプロイ基盤</td><td data-v="15833.0">15,833</td><td class="num-good" data-v="88.0">+88</td><td class="num-good" data-v="0.5558011747615739">0.6%</td><td data-v="0.0">0</td><td data-v="291.0">291</td><td class="tint-4 num-good" data-v="7.0">+7</td><td data-v="0.8257467555736594">83%</td></tr>
+<tr><td class="repo-name" data-v="n8n-io/n8n"><a href="https://github.com/n8n-io/n8n" title="n8n-io/n8n">n8n-io/n8n</a></td><td class="description">AI機能を内蔵したノーコード/ローコードのワークフロー自動化基盤</td><td data-v="198894.0">198,894</td><td class="num-good" data-v="987.0">+987</td><td class="num-good" data-v="0.4962442305951914">0.5%</td><td data-v="0.0">0</td><td data-v="950.0">950</td><td class="tint-4 num-good" data-v="5.0">+5</td><td data-v="0.8800793792854067">88%</td></tr>
+<tr><td class="repo-name" data-v="modelscope/FunASR"><a href="https://github.com/modelscope/FunASR" title="modelscope/FunASR">modelscope/FunASR</a></td><td class="description">音声認識(ASR/VAD/話者分離等)のオープンソースツールキット</td><td data-v="19578.0">19,578</td><td class="num-good" data-v="105.0">+105</td><td class="num-good" data-v="0.5363162733680662">0.5%</td><td data-v="0.0">0</td><td data-v="1422.0">1,422</td><td class="tint-4 num-good" data-v="5.0">+5</td><td data-v="0.8301094816333899">83%</td></tr>
+<tr><td class="repo-name" data-v="lastmile-ai/mcp-agent"><a href="https://github.com/lastmile-ai/mcp-agent" title="lastmile-ai/mcp-agent">lastmile-ai/mcp-agent</a></td><td class="description">MCPとワークフローパターンでAIエージェントを構築するフレームワーク</td><td data-v="8486.0">8,486</td><td class="num-good" data-v="7.0">+7</td><td class="num-good" data-v="0.08248880509073768"><0.1%</td><td data-v="0.0">0</td><td data-v="288.0">288</td><td class="tint-4 num-good" data-v="5.0">+5</td><td data-v="0.6609342859681281">66%</td></tr>
+<tr><td class="repo-name" data-v="ben-vargas/ai-sdk-provider-claude-code"><a href="https://github.com/ben-vargas/ai-sdk-provider-claude-code" title="ben-vargas/ai-sdk-provider-claude-code">ben-vargas/ai-sdk-provider-claude-code</a></td><td class="description">Vercel AI SDKでClaude Agent SDKを利用可能にするコミュニティ製プロバイダー</td><td class="num-muted" data-v="">-</td><td class="num-muted" data-v="">-</td><td class="num-muted" data-v="">-</td><td data-v="0.0">0</td><td data-v="119.0">119</td><td class="tint-4 num-good" data-v="5.0">+5</td><td data-v="0.7482116932466296">75%</td></tr>
+<tr><td class="repo-name" data-v="open-webui/mcpo"><a href="https://github.com/open-webui/mcpo" title="open-webui/mcpo">open-webui/mcpo</a></td><td class="description">MCPをOpenAPIに変換するシンプルなプロキシサーバー</td><td data-v="4323.0">4,323</td><td class="num-good" data-v="5.0">+5</td><td class="num-good" data-v="0.11566042100393245">0.1%</td><td data-v="0.0">0</td><td data-v="55.0">55</td><td class="tint-4 num-good" data-v="4.0">+4</td><td data-v="0.6609253053415763">66%</td></tr>
+<tr><td class="repo-name" data-v="tirth8205/code-review-graph"><a href="https://github.com/tirth8205/code-review-graph" title="tirth8205/code-review-graph">tirth8205/code-review-graph</a></td><td class="description">MCP/CLI向けのローカル完結型コードインテリジェンスグラフ</td><td data-v="27902.0">27,902</td><td class="num-good" data-v="1096.0">+1,096</td><td class="num-good" data-v="3.9280338327001645">3.9%</td><td data-v="0.0">0</td><td data-v="16.0">16</td><td class="tint-4 num-good" data-v="4.0">+4</td><td data-v="0.8945195256907635">89%</td></tr>
+<tr><td class="repo-name" data-v="rust-mcp-stack/rust-mcp-schema"><a href="https://github.com/rust-mcp-stack/rust-mcp-schema" title="rust-mcp-stack/rust-mcp-schema">rust-mcp-stack/rust-mcp-schema</a></td><td class="description">Rust製の型安全なMCP公式スキーマ実装</td><td data-v="75.0">75</td><td data-v="0.0">0</td><td data-v="0.0">0.0%</td><td data-v="0.0">0</td><td data-v="159.0">159</td><td class="tint-4 num-good" data-v="4.0">+4</td><td data-v="0.4895827406215282">49%</td></tr>
+<tr><td class="repo-name" data-v="mcp-use/mcp-use"><a href="https://github.com/mcp-use/mcp-use" title="mcp-use/mcp-use">mcp-use/mcp-use</a></td><td class="description">ChatGPTやClaude用MCPアプリとAI Agent用MCPサーバーを開発するフルスタックフレームワーク</td><td data-v="10430.0">10,430</td><td class="num-good" data-v="37.0">+37</td><td class="num-good" data-v="0.3547459252157239">0.4%</td><td data-v="0.0">0</td><td data-v="66.0">66</td><td class="tint-4 num-good" data-v="2.0">+2</td><td data-v="0.7691838984212636">77%</td></tr>
+<tr><td class="repo-name" data-v="openstatusHQ/openstatus"><a href="https://github.com/openstatusHQ/openstatus" title="openstatusHQ/openstatus">openstatusHQ/openstatus</a></td><td class="description">コードによるAPI監視と稼働率モニタリング機能を備えたopenstatusのステータスページ作成ツール</td><td data-v="8927.0">8,927</td><td class="num-good" data-v="46.0">+46</td><td class="num-good" data-v="0.5152906911616444">0.5%</td><td data-v="0.0">0</td><td data-v="164.0">164</td><td class="tint-4 num-good" data-v="2.0">+2</td><td data-v="0.7960351928222268">80%</td></tr>
+<tr><td class="repo-name" data-v="microsoft/flint-chart"><a href="https://github.com/microsoft/flint-chart" title="microsoft/flint-chart">microsoft/flint-chart</a></td><td class="description">Flintは、AIエージェントが人間が編集可能な仕様からチャートを生成するための可視化言語。</td><td data-v="2543.0">2,543</td><td class="num-good" data-v="242.0">+242</td><td class="num-good" data-v="9.51631930790405">9.5%</td><td data-v="0.0">0</td><td data-v="5.0">5</td><td class="tint-4 num-good" data-v="2.0">+2</td><td data-v="0.8918810688005532">89%</td></tr>
+<tr><td class="repo-name" data-v="universal-tool-calling-protocol/code-mode"><a href="https://github.com/universal-tool-calling-protocol/code-mode" title="universal-tool-calling-protocol/code-mode">universal-tool-calling-protocol/code-mode</a></td><td class="description">エージェントがコード実行を介してMCPおよびUTCPツールを呼び出せるようにするライブラリ。</td><td data-v="1518.0">1,518</td><td data-v="-2.0">-2</td><td data-v="-0.13175230566534915">-0.1%</td><td data-v="0.0">0</td><td data-v="11.0">11</td><td class="tint-4 num-good" data-v="2.0">+2</td><td data-v="0.32607733610940326">33%</td></tr>
+<tr><td class="repo-name" data-v="nicobailon/pi-mcp-adapter"><a href="https://github.com/nicobailon/pi-mcp-adapter" title="nicobailon/pi-mcp-adapter">nicobailon/pi-mcp-adapter</a></td><td class="description">Piコーディングエージェントのトークン消費量を抑え、利用効率を高めるためのMCPアダプター</td><td data-v="1113.0">1,113</td><td class="num-good" data-v="52.0">+52</td><td class="num-good" data-v="4.672057502246182">4.7%</td><td data-v="0.0">0</td><td data-v="23.0">23</td><td class="tint-4 num-good" data-v="2.0">+2</td><td data-v="0.8699665594688253">87%</td></tr>
+<tr><td class="repo-name" data-v="DietrichGebert/ponytail"><a href="https://github.com/DietrichGebert/ponytail" title="DietrichGebert/ponytail">DietrichGebert/ponytail</a></td><td class="description">AIエージェントを「面倒くさがりなシニア開発者」のように振る舞わせるツール</td><td data-v="93089.0">93,089</td><td class="num-good" data-v="3806.0">+3,806</td><td class="num-good" data-v="4.088560409930282">4.1%</td><td data-v="1.0">1</td><td data-v="7.0">7</td><td class="tint-4 num-good" data-v="2.0">+2</td><td data-v="0.9959126155770489">100%</td></tr>
+<tr><td class="repo-name" data-v="googleworkspace/cli"><a href="https://github.com/googleworkspace/cli" title="googleworkspace/cli">googleworkspace/cli</a></td><td class="description">Google Discovery Serviceで動的生成される、Drive等対応のAI agent機能付きCLIツール</td><td data-v="30119.0">30,119</td><td class="num-good" data-v="133.0">+133</td><td class="num-good" data-v="0.44158172582091043">0.4%</td><td data-v="0.0">0</td><td data-v="7.0">7</td><td class="tint-4 num-good" data-v="2.0">+2</td><td data-v="0.8314355540504026">83%</td></tr>
+<tr><td class="repo-name" data-v="topoteretes/cognee"><a href="https://github.com/topoteretes/cognee" title="topoteretes/cognee">topoteretes/cognee</a></td><td class="description">AIエージェントに永続的な長期記憶を与えるオープンソース記憶基盤</td><td data-v="29639.0">29,639</td><td class="num-good" data-v="219.0">+219</td><td class="num-good" data-v="0.7388913256182733">0.7%</td><td data-v="0.0">0</td><td data-v="138.0">138</td><td class="tint-4 num-good" data-v="2.0">+2</td><td data-v="0.8632236335206014">86%</td></tr>
+<tr><td class="repo-name" data-v="htmlstreamofficial/preline"><a href="https://github.com/htmlstreamofficial/preline" title="htmlstreamofficial/preline">htmlstreamofficial/preline</a></td><td class="description">Preline UIは、Tailwind CSSをベースにしたオープンソースの構築済みUIコンポーネント集。</td><td data-v="6372.0">6,372</td><td class="num-good" data-v="5.0">+5</td><td class="num-good" data-v="0.07846829880728186"><0.1%</td><td data-v="0.0">0</td><td data-v="14037.0">14,037</td><td class="tint-4 num-good" data-v="2.0">+2</td><td data-v="0.6570827545320401">66%</td></tr>
 </tbody>
 </table>
 </div>
 </section>
 <footer class="page-footer">
-<p>スター増加速度・Hacker News言及・GitHub Dependents増加の3シグナルから算出した独自のトレンドスコア。</p>
+<p>総合スコアは、スターの勢い(増加数と成長率の幾何平均)・Hacker Newsでの言及数・Dependentsの増加数を、それぞれ全追跡リポジトリ内での順位に変換し、6:2:2で重み付けした値です。スコア列のバーはその内訳を示しています。</p>
+<p>列名をクリックすると、その列で表示中の20件を並べ替えられます。</p>
 </footer>
 </div>
+<script>
+for (const table of document.querySelectorAll('table[data-sortable]')) {
+  const tbody = table.tBodies[0];
+  const heads = [...table.querySelectorAll('thead th[data-sortable]')];
+
+  for (const th of heads) {
+    th.querySelector('.sort').addEventListener('click', () => {
+      const index = [...th.parentNode.children].indexOf(th);
+      const dir = th.getAttribute('aria-sort') === 'descending' ? 'ascending' : 'descending';
+      for (const other of heads) other.setAttribute('aria-sort', 'none');
+      th.setAttribute('aria-sort', dir);
+
+      const sign = dir === 'ascending' ? 1 : -1;
+      const rows = [...tbody.rows];
+      rows.sort((a, b) => {
+        const av = a.cells[index].dataset.v ?? '';
+        const bv = b.cells[index].dataset.v ?? '';
+        // 欠損値は並び順によらず常に末尾へ送る
+        if (av === '' && bv === '') return 0;
+        if (av === '') return 1;
+        if (bv === '') return -1;
+        const an = parseFloat(av), bn = parseFloat(bv);
+        if (Number.isNaN(an) || Number.isNaN(bn)) return sign * av.localeCompare(bv, 'ja');
+        return sign * (an - bn);
+      });
+      for (const row of rows) tbody.appendChild(row);
+    });
+  }
+}
+</script>
 </body>
 </html>

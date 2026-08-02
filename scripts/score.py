@@ -61,6 +61,17 @@ def main() -> None:
             if v[signal] is not None:
                 populations[signal].append(v[signal])
 
+    # 合成スコアのスター成分には、絶対増加数そのものではなく「勢い」
+    # (絶対増加数と相対成長率の幾何平均)を使う。絶対増加数だけだと大規模
+    # リポジトリの平常運転が上位を占めてしまうため。「スター急上昇」表の
+    # 並び順とタイントには従来どおり絶対増加数のパーセンタイルを使う。
+    momentums: dict[tuple[str, str], float | None] = {}
+    for key, v in velocities.items():
+        momentums[key] = scoring.compute_star_momentum(
+            v["star"], latest_snapshot[key].get("stars")
+        )
+    momentum_population = [m for m in momentums.values() if m is not None]
+
     repos_out = []
     for (owner, repo), v in velocities.items():
         percentiles = {
@@ -71,7 +82,17 @@ def main() -> None:
             )
             for signal in SIGNALS
         }
-        composite = scoring.compute_composite(percentiles, scoring.WEIGHTS)
+
+        momentum = momentums[(owner, repo)]
+        momentum_percentile = (
+            scoring.compute_percentile(momentum, momentum_population)
+            if momentum is not None
+            else None
+        )
+
+        composite = scoring.compute_composite(
+            {**percentiles, "star": momentum_percentile}, scoring.WEIGHTS
+        )
         latest = latest_snapshot[(owner, repo)]
 
         repos_out.append(
@@ -81,6 +102,8 @@ def main() -> None:
                 "stars": latest.get("stars"),
                 "star_velocity": v["star"],
                 "star_percentile": percentiles["star"],
+                "star_growth_rate": scoring.compute_growth_rate(v["star"], latest.get("stars")),
+                "star_momentum_percentile": momentum_percentile,
                 "hn_mentions_7d": v["hn"],
                 "hn_percentile": percentiles["hn"],
                 "dependents": latest.get("dependents"),
