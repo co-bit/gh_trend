@@ -48,6 +48,7 @@
   "lastmile-ai/mcp-agent": "MCPとワークフローパターンでAIエージェントを構築するフレームワーク",
   "lidge-jun/opencodex": "OpenAI CodexやClaude CodeでGemini等の任意のLLMを利用できる汎用プロキシ。",
   "manaflow-ai/cmux": "AIコーディングエージェント向け、縦タブ対応のmacOSターミナル",
+  "maximhq/bifrost": "ロードバランサーやガードレール機能を備え、1000以上のモデルに対応する低遅延なエンタープライズ向けAI gateway",
   "mcp-use/mcp-use": "ChatGPTやClaude用MCPアプリとAI Agent用MCPサーバーを開発するフルスタックフレームワーク",
   "microsoft/flint-chart": "Flintは、AIエージェントが人間が編集可能な仕様からチャートを生成するための可視化言語。",
   "modelscope/FunASR": "音声認識(ASR/VAD/話者分離等)のオープンソースツールキット",
