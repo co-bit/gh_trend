@@ -21,6 +21,10 @@ MAX_CONCURRENT_REQUESTS = 8
 _semaphore = threading.Semaphore(MAX_CONCURRENT_REQUESTS)
 
 
+class RepoGoneError(Exception):
+    """dependentsページが404を返した(削除・非公開化・移動済みで、リトライしても復活しない)。"""
+
+
 def parse_dependents_count(html: str) -> int | None:
     soup = BeautifulSoup(html, "html.parser")
     text = soup.get_text(" ", strip=True)
@@ -62,6 +66,10 @@ def get_dependents_count(owner: str, repo: str, max_retries: int = 3) -> int | N
             if count is None:
                 logger.warning("dependents parse failed for %s/%s", owner, repo)
             return count
+
+        if resp.status_code == 404:
+            # 同じURLをリトライしても復活しないので即座に諦める
+            raise RepoGoneError(f"{owner}/{repo} not found (404)")
 
         wait = github_api.rate_limit_wait_seconds(resp, attempt)
         logger.warning(

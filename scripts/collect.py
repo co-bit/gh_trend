@@ -20,20 +20,31 @@ def _safe_call(func, *args, **kwargs):
         return None
 
 
-def _collect_one(entry: dict, stars: int | None, today: str) -> None:
+def _collect_one(entry: dict, stars: int | None, today: str) -> tuple[str, str] | None:
+    """通常はNoneを返す。リポジトリが消失(404)していた場合は(owner, repo)を返す。"""
     owner, repo = entry["owner"], entry["repo"]
     try:
+        try:
+            dependents_count = dependents.get_dependents_count(owner, repo)
+        except dependents.RepoGoneError:
+            print(f"{owner}/{repo}: not found (404), will remove from watchlist")
+            return (owner, repo)
+        except Exception as exc:
+            print(f"signal collection failed: get_dependents_count({owner!r}, {repo!r}): {exc}")
+            dependents_count = None
+
         snapshot = {
             "date": today,
             "stars": stars,
             "hn_mentions": _safe_call(hn_api.count_daily_mentions, f"{owner}/{repo}"),
-            "dependents": _safe_call(dependents.get_dependents_count, owner, repo),
+            "dependents": dependents_count,
         }
         path = storage.repo_snapshot_path(DATA_DIR, owner, repo)
         storage.append_snapshot(path, snapshot)
         print(f"{owner}/{repo}: {snapshot}")
     except Exception as exc:
         print(f"{owner}/{repo}: skipped due to unexpected error: {exc}")
+    return None
 
 
 def main() -> None:
@@ -46,6 +57,7 @@ def main() -> None:
     repo_keys = [(entry["owner"], entry["repo"]) for entry in watchlist]
     stars_by_repo = github_api.get_repo_stars_batch(repo_keys, token) if token else {}
 
+    gone: set[tuple[str, str]] = set()
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         futures = [
             executor.submit(
@@ -54,7 +66,14 @@ def main() -> None:
             for entry in watchlist
         ]
         for future in as_completed(futures):
-            future.result()
+            result = future.result()
+            if result is not None:
+                gone.add(result)
+
+    if gone:
+        remaining = [e for e in watchlist if (e["owner"], e["repo"]) not in gone]
+        storage.save_watchlist(WATCHLIST_PATH, remaining)
+        print(f"removed {len(gone)} repos from watchlist (404): {sorted(gone)}")
 
 
 if __name__ == "__main__":

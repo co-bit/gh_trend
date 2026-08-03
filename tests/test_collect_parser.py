@@ -1,6 +1,8 @@
 import time
 from pathlib import Path
 
+import pytest
+
 from common import dependents
 
 FIXTURES = Path(__file__).resolve().parent / "fixtures"
@@ -51,6 +53,26 @@ def test_get_dependents_count_honors_retry_after_header_on_429(monkeypatch):
     assert result is None
     # 固定の指数バックオフ(1, 2)ではなく、Retry-Afterの3秒が使われること
     assert sleeps == [3.0, 3.0]
+
+
+def test_get_dependents_count_raises_repo_gone_error_on_404_without_retry(monkeypatch):
+    calls = []
+
+    class NotFoundResponse:
+        status_code = 404
+        headers = {}
+
+    def fake_get(*a, **kw):
+        calls.append(1)
+        return NotFoundResponse()
+
+    monkeypatch.setattr(dependents.requests, "get", fake_get)
+
+    with pytest.raises(dependents.RepoGoneError):
+        dependents.get_dependents_count("ghost", "repo", max_retries=3)
+
+    # 404は復活しないので、max_retriesに関わらず1回しか叩かないこと
+    assert len(calls) == 1
 
 
 def test_get_dependents_count_limits_concurrent_requests(monkeypatch):
