@@ -1,3 +1,4 @@
+import time
 from pathlib import Path
 
 from common import dependents
@@ -33,3 +34,51 @@ def test_parse_dependents_count_ignores_bare_comma_before_repositories_word():
         "</body></html>"
     )
     assert dependents.parse_dependents_count(html) == 1234
+
+
+def test_get_dependents_count_honors_retry_after_header_on_429(monkeypatch):
+    sleeps = []
+    monkeypatch.setattr(dependents.time, "sleep", lambda s: sleeps.append(s))
+
+    class RateLimitedResponse:
+        status_code = 429
+        headers = {"Retry-After": "3"}
+
+    monkeypatch.setattr(dependents.requests, "get", lambda *a, **kw: RateLimitedResponse())
+
+    result = dependents.get_dependents_count("foo", "bar", max_retries=2)
+
+    assert result is None
+    # 固定の指数バックオフ(1, 2)ではなく、Retry-Afterの3秒が使われること
+    assert sleeps == [3.0, 3.0]
+
+
+def test_get_dependents_count_limits_concurrent_requests(monkeypatch):
+    import threading
+    from concurrent.futures import ThreadPoolExecutor
+
+    lock = threading.Lock()
+    state = {"current": 0, "peak": 0}
+
+    class FakeResponse:
+        status_code = 200
+
+        @property
+        def text(self):
+            return "1 Repositories"
+
+    def fake_get(*a, **kw):
+        with lock:
+            state["current"] += 1
+            state["peak"] = max(state["peak"], state["current"])
+        time.sleep(0.05)
+        with lock:
+            state["current"] -= 1
+        return FakeResponse()
+
+    monkeypatch.setattr(dependents.requests, "get", fake_get)
+
+    with ThreadPoolExecutor(max_workers=dependents.MAX_CONCURRENT_REQUESTS * 3) as executor:
+        list(executor.map(lambda i: dependents.get_dependents_count(f"o{i}", f"r{i}"), range(dependents.MAX_CONCURRENT_REQUESTS * 3)))
+
+    assert state["peak"] <= dependents.MAX_CONCURRENT_REQUESTS

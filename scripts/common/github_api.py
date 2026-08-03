@@ -31,7 +31,7 @@ def _headers(token: str | None) -> dict:
     return headers
 
 
-def _rate_limit_wait_seconds(resp, attempt: int) -> float:
+def rate_limit_wait_seconds(resp, attempt: int) -> float:
     retry_after = resp.headers.get("Retry-After")
     if retry_after is not None:
         try:
@@ -70,7 +70,7 @@ def _request_with_retry(
         if resp.status_code == 200:
             return resp
         if resp.status_code in (403, 429):
-            wait = _rate_limit_wait_seconds(resp, attempt)
+            wait = rate_limit_wait_seconds(resp, attempt)
             logger.warning(
                 "rate limited on %s (status %d, attempt %d): waiting %.1fs",
                 url, resp.status_code, attempt, wait,

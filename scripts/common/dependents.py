@@ -1,13 +1,24 @@
 import logging
 import re
+import threading
 import time
 
 import requests
 from bs4 import BeautifulSoup
 
+from common import github_api
+
 logger = logging.getLogger(__name__)
 
 _NUMBER_RE = re.compile(r"(\d[\d,.]*)\s*(k)?\s*(?:Repositories|Used by)", re.IGNORECASE)
+
+# /network/dependents はAPIではなく通常のWebページで、collect.pyの30並列
+# スレッドプールと同じ同時実行数でアクセスすると同一IPからの高頻度アクセス
+# とみなされ429が多発する(実測: 5,518件中4,191件が429)。ここだけ別に
+# 同時接続数を絞る。8は暫定値。ログ(429の件数)を見ながら調整する。
+# ponytail: 固定値、実行時間とのバランスで再調整が必要になったら変える
+MAX_CONCURRENT_REQUESTS = 8
+_semaphore = threading.Semaphore(MAX_CONCURRENT_REQUESTS)
 
 
 def parse_dependents_count(html: str) -> int | None:
@@ -35,7 +46,8 @@ def get_dependents_count(owner: str, repo: str, max_retries: int = 3) -> int | N
 
     for attempt in range(max_retries):
         try:
-            resp = requests.get(url, headers=headers, timeout=10)
+            with _semaphore:
+                resp = requests.get(url, headers=headers, timeout=10)
         except requests.RequestException as exc:
             logger.warning("dependents fetch failed for %s/%s: %s", owner, repo, exc)
             time.sleep(2 ** attempt)
@@ -51,7 +63,11 @@ def get_dependents_count(owner: str, repo: str, max_retries: int = 3) -> int | N
                 logger.warning("dependents parse failed for %s/%s", owner, repo)
             return count
 
-        logger.warning("dependents fetch got status %s for %s/%s", resp.status_code, owner, repo)
-        time.sleep(2 ** attempt)
+        wait = github_api.rate_limit_wait_seconds(resp, attempt)
+        logger.warning(
+            "dependents fetch got status %s for %s/%s: waiting %.1fs",
+            resp.status_code, owner, repo, wait,
+        )
+        time.sleep(wait)
 
     return None
