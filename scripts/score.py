@@ -14,7 +14,7 @@ SIGNALS = ("star", "hn", "dependents")
 
 
 def main() -> None:
-    watchlist = storage.load_json(WATCHLIST_PATH)
+    watchlist = storage.iter_valid_entries(storage.load_json(WATCHLIST_PATH))
 
     all_snapshots: dict[tuple[str, str], list[dict]] = {}
     newest: dict[tuple[str, str], dict] = {}

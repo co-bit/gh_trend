@@ -40,6 +40,21 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # data/latest_scores.json・docs/index.htmlは常にsource(data/repos/*・
+      # watchlist.json・descriptions.json)から再計算される派生ファイル。
+      # 先に生データだけをコミットしてからpullし、スコア計算・レンダリングは
+      # pull後の最新状態に対して行うことで、派生ファイル同士のマージ
+      # コンフリクトを構造的に発生させない(コンフリクトさせず、作り直す)。
+      - name: Commit collected signals
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/watchlist.json data/repos/
+          git diff --staged --quiet || git commit -m "chore: シグナル収集 $(date -u +%Y-%m-%d)"
+
+      - name: Sync with remote before computing derived output
+        run: git pull --rebase origin main
+
       - name: Compute scores
         run: python scripts/score.py
 
@@ -57,9 +72,6 @@ jobs:
 
       - name: Commit and push updates
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/ docs/
           git diff --staged --quiet || git commit -m "chore: 日次トレンド更新 $(date -u +%Y-%m-%d)"
-          git pull --rebase origin main
           git push

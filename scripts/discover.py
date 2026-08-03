@@ -21,7 +21,7 @@ KEYWORDS = [
 
 def main() -> None:
     token = os.environ.get("GITHUB_TOKEN")
-    watchlist = storage.load_json(WATCHLIST_PATH)
+    watchlist = storage.iter_valid_entries(storage.load_json(WATCHLIST_PATH))
     today = datetime.now(timezone.utc).date().isoformat()
     before = len(watchlist)
 

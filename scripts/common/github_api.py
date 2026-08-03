@@ -1,9 +1,14 @@
+import logging
 import time
 
 import requests
 
 API_BASE = "https://api.github.com"
+GRAPHQL_URL = "https://api.github.com/graphql"
 MAX_SEARCH_PAGES = 10  # GitHub Search APIは最大1000件(100件×10ページ)まで
+GRAPHQL_BATCH_SIZE = 50  # 1リクエストにまとめるリポジトリ数
+
+logger = logging.getLogger(__name__)
 
 
 def extract_owner_repo_from_search_item(item: dict) -> tuple[str, str] | None:
@@ -46,19 +51,33 @@ def _rate_limit_wait_seconds(resp, attempt: int) -> float:
     return 2 ** attempt
 
 
-def _request_with_retry(url: str, headers: dict, params: dict | None = None, max_retries: int = 3):
+def _request_with_retry(
+    url: str,
+    headers: dict,
+    params: dict | None = None,
+    json_body: dict | None = None,
+    max_retries: int = 3,
+):
+    method = requests.post if json_body is not None else requests.get
     for attempt in range(max_retries):
         try:
-            resp = requests.get(url, headers=headers, params=params, timeout=10)
-        except requests.RequestException:
+            resp = method(url, headers=headers, params=params, json=json_body, timeout=10)
+        except requests.RequestException as exc:
+            logger.warning("request failed for %s (attempt %d): %s", url, attempt, exc)
             time.sleep(2 ** attempt)
             continue
 
         if resp.status_code == 200:
             return resp
         if resp.status_code in (403, 429):
-            time.sleep(_rate_limit_wait_seconds(resp, attempt))
+            wait = _rate_limit_wait_seconds(resp, attempt)
+            logger.warning(
+                "rate limited on %s (status %d, attempt %d): waiting %.1fs",
+                url, resp.status_code, attempt, wait,
+            )
+            time.sleep(wait)
             continue
+        logger.warning("request to %s got status %d", url, resp.status_code)
         return None
 
     return None
@@ -73,6 +92,47 @@ def get_repo_field(owner: str, repo: str, field: str, token: str | None = None):
         return resp.json().get(field)
     except ValueError:
         return None
+
+
+def get_repo_stars_batch(
+    repos: list[tuple[str, str]], token: str
+) -> dict[tuple[str, str], int | None]:
+    """複数リポジトリのスター数をGraphQLで一括取得する。
+
+    リポジトリ1件ごとにREST APIを叩くと、watchlistの規模(数千件)では
+    リクエスト数がGitHub Actionsのレート制限に達し、収集が遅延・欠損する
+    (実測: 5,472件で約60分・stars欠損8.9%)。GraphQLのエイリアスで
+    GRAPHQL_BATCH_SIZE件ずつまとめることでリクエスト数を約1/50に減らす。
+    個々のリポジトリの取得失敗(削除・リネーム等)はそのリポジトリだけ
+    Noneになり、バッチ全体は失敗しない。
+    """
+    results: dict[tuple[str, str], int | None] = {}
+    headers = _headers(token)
+
+    for i in range(0, len(repos), GRAPHQL_BATCH_SIZE):
+        batch = repos[i : i + GRAPHQL_BATCH_SIZE]
+        fields = "\n".join(
+            f'r{j}: repository(owner: "{owner}", name: "{repo}") {{ stargazerCount }}'
+            for j, (owner, repo) in enumerate(batch)
+        )
+        query = f"query {{ {fields} }}"
+
+        resp = _request_with_retry(GRAPHQL_URL, headers, json_body={"query": query})
+        if resp is None:
+            for owner, repo in batch:
+                results[(owner, repo)] = None
+            continue
+
+        try:
+            data = resp.json().get("data") or {}
+        except ValueError:
+            data = {}
+
+        for j, (owner, repo) in enumerate(batch):
+            node = data.get(f"r{j}")
+            results[(owner, repo)] = node.get("stargazerCount") if node else None
+
+    return results
 
 
 def search_repos(query: str, token: str | None = None, per_page: int = 100) -> list[dict]:

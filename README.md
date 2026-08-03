@@ -19,12 +19,16 @@ GitHub公式のtrendingページ(https://github.com/trending)には依存せず�
 ```
 GitHub Actions (daily cron, JST 9:00)
   discover.py  → GitHub Search APIで新規リポジトリを発見し watchlist.json に追加(ページネーション対応)
-  collect.py   → 各リポジトリのスター数・HN言及数・dependents数を日次スナップショットとして記録(30並列)
+  collect.py   → star数はGraphQLで一括取得、HN言及数・dependents数はリポジトリごとに30並列で収集し
+                 日次スナップショットとして記録
+  → git commit (生データのみ) → git pull --rebase → (以降はpull後の最新状態に対して計算する)
   score.py     → スナップショットから変化量・パーセンタイル・合成スコアを算出
   describe.py  → 上位20件のうち概要が未登録のリポジトリをGemini APIで日本語1行要約(GEMINI_API_KEY未設定時はスキップ)
   render.py    → docs/index.html を生成
-  → git commit & push → GitHub Pagesが配信
+  → git commit (派生ファイル) & push → GitHub Pagesが配信
 ```
+
+`data/latest_scores.json`・`docs/index.html`は常にsourceデータ(`data/repos/*`・`watchlist.json`・`descriptions.json`)から再計算される派生ファイルのため、他コミットとの間でマージコンフリクトさせず「pullしてから作り直す」構成にしている。star数を1リポジトリずつREST APIで取得すると数千件規模でGitHub Actionsのレート制限に達するため、GraphQLのエイリアスで50件ずつまとめて取得する。
 
 ## ローカルでの実行
 

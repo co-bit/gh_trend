@@ -13,6 +13,22 @@ def test_save_and_load_watchlist_roundtrip(tmp_path):
     assert storage.load_json(path) == data
 
 
+def test_iter_valid_entries_keeps_well_formed_entries():
+    watchlist = [{"owner": "foo", "repo": "bar"}, {"owner": "baz", "repo": "qux"}]
+    assert storage.iter_valid_entries(watchlist) == watchlist
+
+
+def test_iter_valid_entries_skips_entries_missing_owner_or_repo(capsys):
+    watchlist = [
+        {"owner": "foo", "repo": "bar"},
+        {"owner": "no-repo-key"},
+        {"repo": "no-owner-key"},
+    ]
+    result = storage.iter_valid_entries(watchlist)
+    assert result == [{"owner": "foo", "repo": "bar"}]
+    assert "skipping malformed watchlist entry" in capsys.readouterr().out
+
+
 def test_add_to_watchlist_appends_new_entry():
     watchlist = []
     result = storage.add_to_watchlist(watchlist, "foo", "bar", "search:mcp-server", "2026-07-27")

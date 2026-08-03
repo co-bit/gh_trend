@@ -15,6 +15,22 @@ def save_watchlist(path: Path, watchlist: list[dict]) -> None:
     path.write_text(json.dumps(watchlist, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
+def iter_valid_entries(watchlist: list[dict]) -> list[dict]:
+    """owner/repoキーを持つエントリだけを返す。
+
+    正常系ではadd_to_watchlistが常に両キーを設定するため発生しないが、
+    手編集やデータ破損で欠けたエントリがあると、KeyErrorで数千件規模の
+    収集・スコア計算が丸ごと落ちてしまう。1件を除外するだけに留める。
+    """
+    valid = []
+    for entry in watchlist:
+        if "owner" in entry and "repo" in entry:
+            valid.append(entry)
+        else:
+            print(f"skipping malformed watchlist entry: {entry}")
+    return valid
+
+
 def add_to_watchlist(watchlist: list[dict], owner: str, repo: str, source: str, today: str) -> list[dict]:
     existing = {(entry["owner"], entry["repo"]) for entry in watchlist}
     if (owner, repo) not in existing:
