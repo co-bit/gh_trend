@@ -32830,5 +32830,269 @@
     "repo": "nanocodex",
     "first_seen": "2026-08-01",
     "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "FlanChanXwO",
+    "repo": "pixiv-cli",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "SylphAI-Inc",
+    "repo": "adal-cli",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "awslabs",
+    "repo": "cli-agent-orchestrator",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "muthuishere",
+    "repo": "mcp-server-bash-sdk",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "uber",
+    "repo": "ADR",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "jztan",
+    "repo": "redmine-mcp-server",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "ryan-phq2005h1",
+    "repo": "github-mcp-server",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "EllisMorrow",
+    "repo": "Caelune",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "guimatheus92",
+    "repo": "mcp-video-analyzer",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "sweetcornna",
+    "repo": "free-search-mcp",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "NereaFantasia",
+    "repo": "foo_ui_webview2",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "TechNomadCode",
+    "repo": "AI-Product-Development-Toolkit",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "microsoft",
+    "repo": "skill-recorder",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "nathanskill",
+    "repo": "niubiskill",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "ilindaniel",
+    "repo": "impeccable-lite",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "FANzR-arch",
+    "repo": "Phil-design-skills",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "tingweiy10-pixel",
+    "repo": "codex5.6-coldbrew",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "SimpleEve",
+    "repo": "development-skills",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "magnus919",
+    "repo": "agent-skills",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "SimpleEve",
+    "repo": "eo-skills",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "uczltw6",
+    "repo": "project-mentor",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "rootSunc",
+    "repo": "ashare-lake",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "moulwyse",
+    "repo": "lattice",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "stormwther18",
+    "repo": "HYSET",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "GeiserX",
+    "repo": "homebrew-agenttap",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "zhurong2020",
+    "repo": "pyobfus",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "MuseLinn",
+    "repo": "pi-muselinn-harness",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "SoraLabsOSS",
+    "repo": "skills",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "sadekxD",
+    "repo": "cardstock-diorama-myth",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "sadekxD",
+    "repo": "vox-style-collage-video-skill",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "DeVaNsHk72",
+    "repo": "oxidize",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "agentvitals",
+    "repo": "checkup",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "BackTrackCo",
+    "repo": "tenjin-agent",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Ferousco-dev",
+    "repo": "anti-slop-design",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "stancsz",
+    "repo": "second-brain",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "yheshamx",
+    "repo": "artifact-to-pdf",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Enreign",
+    "repo": "progressive-estimation",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "DreambigOu",
+    "repo": "ELI5",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "shimo4228",
+    "repo": "llms-txt-writer",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "shimo4228",
+    "repo": "jsonld-knowledge-graph",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "artbyjazi",
+    "repo": "app-store-approval",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "kunal12203",
+    "repo": "GrapeRoot",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "dark-hxx",
+    "repo": "CLI-Manager",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "derek-larson14",
+    "repo": "obsidian-claude-sidebar",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:claude-code"
   }
 ]
