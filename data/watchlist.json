@@ -33094,5 +33094,17 @@
     "repo": "obsidian-claude-sidebar",
     "first_seen": "2026-08-03",
     "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "calesthio",
+    "repo": "Resonant",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "fastagent-sh",
+    "repo": "fastagent",
+    "first_seen": "2026-08-03",
+    "source": "search:topic:agent-skills"
   }
 ]
