@@ -39,6 +39,7 @@
   "gakonst/nanocodex": "RustでCodexレベルのOpenAIエージェントを構築するための基盤コンポーネント群",
   "google-gemini/gemini-cli": "Google公式、ターミナルで動くオープンソースGemini AIエージェント",
   "googleworkspace/cli": "Google Discovery Serviceで動的生成される、Drive等対応のAI agent機能付きCLIツール",
+  "herdrdev/herdr": "コーディングエージェントを安定して動作・実行させるための環境を提供するランタイム",
   "htmlstreamofficial/preline": "Preline UIは、Tailwind CSSをベースにしたオープンソースの構築済みUIコンポーネント集。",
   "iOfficeAI/OfficeCLI": "AIエージェント向けOfficeファイル(Word/Excel/PowerPoint)操作CLI",
   "img2threejs/img2threejs": "参考画像からThree.js製3Dモデルを自動生成するツール",
@@ -51,6 +52,7 @@
   "maximhq/bifrost": "ロードバランサーやガードレール機能を備え、1000以上のモデルに対応する低遅延なエンタープライズ向けAI gateway",
   "mcp-use/mcp-use": "ChatGPTやClaude用MCPアプリとAI Agent用MCPサーバーを開発するフルスタックフレームワーク",
   "microsoft/flint-chart": "Flintは、AIエージェントが人間が編集可能な仕様からチャートを生成するための可視化言語。",
+  "microsoft/skill-recorder": "画面作業を録画しGitHub Copilot CLIで手順化、Copilot Studio等のスキルを作成するアプリ",
   "modelscope/FunASR": "音声認識(ASR/VAD/話者分離等)のオープンソースツールキット",
   "mvanhorn/last30days-skill": "Reddit/X/YouTube/HN等を横断調査し要約するAIエージェントスキル",
   "n8n-io/n8n": "AI機能を内蔵したノーコード/ローコードのワークフロー自動化基盤",
@@ -77,5 +79,6 @@
   "vercel/next-devtools-mcp": "コーディングエージェントによるNext.js開発を支援する開発ツール機能を提供するMCPサーバー",
   "xiufengsun/TokenTracker": "28種のコーディングツールに対応したトークン使用量・コスト計測ツール",
   "xyTom/coding-tools-mcp": "任意のAIエージェントにコーディング能力を付与するMCPサーバー",
-  "yschimke/compose-ai-tools": "AIエージェントの作業を支援するツール群"
+  "yschimke/compose-ai-tools": "AIエージェントの作業を支援するツール群",
+  "zszendro/vc-teardown": "懐疑的なVCの視点でスタートアップ案を検証し、優位性やMVP、GTMを含む事業計画に再構築するClaude Skill。"
 }
