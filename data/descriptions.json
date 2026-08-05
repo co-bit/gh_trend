@@ -1,6 +1,8 @@
 {
+  "Agents365-ai/drawio-skill": "自然言語やコード、画像からUMLやネットワーク図などのdraw.io図を自動生成・編集するツール。",
   "ChromeDevTools/chrome-devtools-mcp": "AIエージェントがChrome DevToolsを通してブラウザ操作やデバッグを行うためのMCPサーバー",
   "D4Vinci/Scrapling": "単発リクエストから大規模クロールまで対応する適応型Webスクレイピングフレームワーク",
+  "DeusData/codebase-memory-mcp": "コードベースをナレッジグラフ化して構造化し、多言語コードの効率的な検索や分析を実現するMCPサーバー",
   "DietrichGebert/ponytail": "AIエージェントを「面倒くさがりなシニア開発者」のように振る舞わせるツール",
   "Doist/todoist-cli": "Todoistのコマンドラインインターフェース",
   "GaoSSR/best-claude-hud": "Rust製の軽量なClaude Codeステータスライン表示ツール",
@@ -72,6 +74,7 @@
   "ruvnet/sublinear-time-solver": "CLIやFlow-Nexusでコスト伝播・検証を行う、Rust/WASM製の非対称対角優位系向け劣線形時間ソルバー。",
   "stablyai/orca": "複数のAIコーディングエージェントを並列運用する開発環境(ADE)",
   "team-telnyx/ai": "Telnyx公式、AIエージェント開発者向け総合リソース",
+  "tikalk/adlc-team-skills": "エンジニアリングチームに向けてAgentic SDLC（エージェント型開発手法）を提供するスキル集。",
   "tirth8205/code-review-graph": "MCP/CLI向けのローカル完結型コードインテリジェンスグラフ",
   "topoteretes/cognee": "AIエージェントに永続的な長期記憶を与えるオープンソース記憶基盤",
   "triggerdotdev/trigger.dev": "フルマネージドなAIエージェント・ワークフローの構築/デプロイ基盤",
