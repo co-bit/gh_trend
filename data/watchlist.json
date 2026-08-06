@@ -8364,12 +8364,6 @@
     "source": "search:topic:mcp-server"
   },
   {
-    "owner": "kahliburke",
-    "repo": "Kaimon.jl",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:mcp-server"
-  },
-  {
     "owner": "ScrapeGraphAI",
     "repo": "scrapegraph-mcp",
     "first_seen": "2026-07-28",
@@ -15704,12 +15698,6 @@
   {
     "owner": "AaronZ345",
     "repo": "codebase-argus",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:agent-skills"
-  },
-  {
-    "owner": "SkillBoss-AI",
-    "repo": "skillboss-skills",
     "first_seen": "2026-07-28",
     "source": "search:topic:agent-skills"
   },
@@ -30618,12 +30606,6 @@
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "wandb",
-    "repo": "catnip",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-code"
-  },
-  {
     "owner": "jame581",
     "repo": "GodotPrompter",
     "first_seen": "2026-07-28",
@@ -33477,6 +33459,156 @@
     "owner": "kittors",
     "repo": "CliRelay",
     "first_seen": "2026-08-05",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "mxsm",
+    "repo": "rocketmq-rust",
+    "first_seen": "2026-08-06",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "hetpatel-11",
+    "repo": "Adobe_Premiere_Pro_MCP",
+    "first_seen": "2026-08-06",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "minipuft",
+    "repo": "claude-prompts-mcp",
+    "first_seen": "2026-08-06",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Anionex",
+    "repo": "agent-vision-toolkit",
+    "first_seen": "2026-08-06",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "xiincs",
+    "repo": "claude-code-vision-skill",
+    "first_seen": "2026-08-06",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "danium",
+    "repo": "lateral-thinking",
+    "first_seen": "2026-08-06",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "CarlWangChina",
+    "repo": "zhigui-openclaw-ui-second-brain-skill",
+    "first_seen": "2026-08-06",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "tourmind-com",
+    "repo": "Tourmind-Booking-Skill",
+    "first_seen": "2026-08-06",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "LearnPrompt",
+    "repo": "carl-skills",
+    "first_seen": "2026-08-06",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "GeckoVision",
+    "repo": "gecko-surf",
+    "first_seen": "2026-08-06",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "pouriya",
+    "repo": "espai",
+    "first_seen": "2026-08-06",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Crawlio-app",
+    "repo": "crawlio-browser",
+    "first_seen": "2026-08-06",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Hashimk101",
+    "repo": "Kleros",
+    "first_seen": "2026-08-06",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "QmQsun",
+    "repo": "Wind-MCP",
+    "first_seen": "2026-08-06",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "dagaza",
+    "repo": "Qube",
+    "first_seen": "2026-08-06",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Autsunset",
+    "repo": "grok-search",
+    "first_seen": "2026-08-06",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "heyuxuan0209",
+    "repo": "watch-anything",
+    "first_seen": "2026-08-06",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "ToolMonsters",
+    "repo": "no-fluff",
+    "first_seen": "2026-08-06",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Sandeeprdy1729",
+    "repo": "skills",
+    "first_seen": "2026-08-06",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "dinaf2026-web",
+    "repo": "construction-plan-review",
+    "first_seen": "2026-08-06",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "fromfireside",
+    "repo": "better-tropes",
+    "first_seen": "2026-08-06",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "phasehq",
+    "repo": "console",
+    "first_seen": "2026-08-06",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "tangxiangru",
+    "repo": "AutoR",
+    "first_seen": "2026-08-06",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "get-bb",
+    "repo": "bb",
+    "first_seen": "2026-08-06",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "0xwilliamortiz",
+    "repo": "claude-red",
+    "first_seen": "2026-08-06",
     "source": "search:topic:claude-code"
   }
 ]
