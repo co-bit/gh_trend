@@ -2,7 +2,12 @@ name: Daily Trend Update
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    # UTC 18:21 = JST 3:21(翌日)。GitHub Actionsのscheduleトリガーは
+    # 「ちょうど0時」等のラウンドな時刻に多くのワークフローが集中し
+    # キューイング遅延が発生しやすい(実測でJST 9:00狙いのcron 0 0 * * *が
+    # 8日連続でJST 11:27〜11:52まで2.5〜3時間遅延していた)。ラウンドでない
+    # 時刻にずらして混雑を避ける。
+    - cron: '21 18 * * *'
   workflow_dispatch: {}
 
 permissions:

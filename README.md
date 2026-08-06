@@ -17,7 +17,7 @@ GitHub公式のtrendingページ(https://github.com/trending)には依存せず�
 ## アーキテクチャ
 
 ```
-GitHub Actions (daily cron, JST 9:00)
+GitHub Actions (daily cron, JST 3:21)
   discover.py  → GitHub Search APIで新規リポジトリを発見し watchlist.json に追加(ページネーション対応)
   collect.py   → star数はGraphQLで一括取得、HN言及数・dependents数はリポジトリごとに30並列で収集し
                  日次スナップショットとして記録

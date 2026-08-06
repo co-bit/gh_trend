@@ -24,7 +24,7 @@ GitHub公式のtrendingページ(https://github.com/trending)は依存せず、A
 ## アーキテクチャ
 
 ```
-GitHub Actions (daily cron, JST 9:00)
+GitHub Actions (daily cron, JST 3:21)
   │
   ├─ 1. discover.py  ─ GitHub Search API で MCP/AIエージェントスキル関連の新規リポジトリを発見
   │                     → data/watchlist.json に追加(既存分は保持、上限なし)
@@ -176,7 +176,7 @@ WEIGHTS = {"star": 0.6, "hn": 0.2, "dependents": 0.2}
 
 ## 実行環境
 
-- GitHub Actions の cron スケジュール(毎日 JST 9:00 = UTC 0:00)
+- GitHub Actions の cron スケジュール(毎日 JST 3:21 = UTC 18:21〈前日〉)。当初はUTC 0:00(JST 9:00)としていたが、ラウンドな時刻は多くのワークフローが集中しキューイング遅延が起きやすく、実測でJST 9:00狙いが8日連続でJST 11:27〜11:52まで2.5〜3時間遅延していたため、非ラウンドな時刻に変更した
 - 実装言語: Python
 - GitHub Pages: mainブランチの `docs/` フォルダをソースとして配信
 - 認証:
