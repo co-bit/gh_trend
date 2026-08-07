@@ -33610,5 +33610,155 @@
     "repo": "claude-red",
     "first_seen": "2026-08-06",
     "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "fancyboi999",
+    "repo": "goofish-cli",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "halilural",
+    "repo": "electron-mcp-server",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "jonashertner",
+    "repo": "caselaw-repo-1",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "worldnine",
+    "repo": "scrapbox-cosense-mcp",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Deuz-AI",
+    "repo": "Deuz-SDK",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "pacphi",
+    "repo": "agentic-kit",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "serejaris",
+    "repo": "personal-corp-os",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "oliverb-io1902e8",
+    "repo": "agent-skills-collection",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "mblode",
+    "repo": "agent-skills",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "openwarehq",
+    "repo": "websiteprompts",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "pulumi",
+    "repo": "agent-skills",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "open-metadata",
+    "repo": "ai-sdk",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "shift-labs-ai",
+    "repo": "pi-rlm",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "hhz-168",
+    "repo": "cursor-deepseek-bridge",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Sam-Fic",
+    "repo": "FileCollector",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Abdulrahman0Khaled",
+    "repo": "youtube2skills",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "himynameisben",
+    "repo": "macos-disk-cleanup",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "matt-ye",
+    "repo": "Toutour",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "iart-ai",
+    "repo": "text-message-video-skills",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Kavin-Kannan",
+    "repo": "rails-best-practices-skill",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "mahshid1378",
+    "repo": "Owner-avatar-higgsfield-ai-prompt-skill",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "jaxx2104",
+    "repo": "exiftool-skill",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "petergyang",
+    "repo": "human-review",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "AMAP-ML",
+    "repo": "LongHorizon-Harness",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "AmazingAng",
+    "repo": "old-coder",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:claude-code"
   }
 ]
