@@ -33760,5 +33760,161 @@
     "repo": "old-coder",
     "first_seen": "2026-08-07",
     "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "runesleo",
+    "repo": "x-reader",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Syngnat",
+    "repo": "GoNavi",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "emiliaprotocol",
+    "repo": "emilia-protocol",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "abluva",
+    "repo": "mcp-remote",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "logly",
+    "repo": "mureo",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "kimtth",
+    "repo": "azure-openai-llm-notes",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "vasilyu1983",
+    "repo": "AI-Agents-public",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "tourmind-com",
+    "repo": "Tourmind-Booking-Skills",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "jcottam",
+    "repo": "agent-resources",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "FTShare-Lab",
+    "repo": "FTShare-skills",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "AbuZar-Ansarii",
+    "repo": "PrivatePixelPrompt",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "AION-Analytics-India",
+    "repo": "aion-indian-market-intelligence",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "sandroden",
+    "repo": "agentspy",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alexcloudstar",
+    "repo": "makers.page-mcp",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Yashasm18",
+    "repo": "ForgeAgent",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "crawfordxx",
+    "repo": "xiaoma-durex-copywriter",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "xiaowu89",
+    "repo": "skill-compress",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "xiaowu89",
+    "repo": "skill-matting",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "LiChangZheng10086",
+    "repo": "doyin_ai_video",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "kgraph57",
+    "repo": "hbr-style-visualization",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "tessellated-statisticalcommission243",
+    "repo": "deep-research-skill",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "farshadmomo",
+    "repo": "lan-direct",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "runesleo",
+    "repo": "claude-code-workflow",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "modoojunko",
+    "repo": "awesome-novel-agent",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "Kuddev",
+    "repo": "nebula",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "uczltw6",
+    "repo": "trace-file-lineage",
+    "first_seen": "2026-08-07",
+    "source": "search:topic:claude-code"
   }
 ]

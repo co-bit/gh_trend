@@ -56,7 +56,7 @@
   {
     "date": "2026-08-07",
     "stars": 56,
-    "hn_mentions": 0,
+    "hn_mentions": null,
     "dependents": 0
   }
 ]
