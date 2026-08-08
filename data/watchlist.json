@@ -33916,5 +33916,113 @@
     "repo": "trace-file-lineage",
     "first_seen": "2026-08-07",
     "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "MCPBlender",
+    "repo": "blender-mcp",
+    "first_seen": "2026-08-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "MCPBlender",
+    "repo": "ableton-mcp",
+    "first_seen": "2026-08-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "gensecaihq",
+    "repo": "pfsense-mcp-server",
+    "first_seen": "2026-08-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "hike-lab",
+    "repo": "public-data-lens",
+    "first_seen": "2026-08-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "qiuyiwu1989-star",
+    "repo": "opendesign",
+    "first_seen": "2026-08-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "WaHaiLong",
+    "repo": "KingdeeMCP",
+    "first_seen": "2026-08-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "putervision",
+    "repo": "state-memory-mcp",
+    "first_seen": "2026-08-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "lennney",
+    "repo": "mcp-slim-guard",
+    "first_seen": "2026-08-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "adilfaisal01",
+    "repo": "llm-multiagent-swarm",
+    "first_seen": "2026-08-08",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "edjafarov",
+    "repo": "kiagent-core",
+    "first_seen": "2026-08-08",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "bestdeejay-design",
+    "repo": "agent-skills",
+    "first_seen": "2026-08-08",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "shubhaviatiningsih-byte",
+    "repo": "fortune-liuyao-skill",
+    "first_seen": "2026-08-08",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "forint573",
+    "repo": "human-copywrite",
+    "first_seen": "2026-08-08",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "lukasersil",
+    "repo": "seedance-25",
+    "first_seen": "2026-08-08",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Q00",
+    "repo": "ouroboros",
+    "first_seen": "2026-08-08",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "tutti-os",
+    "repo": "tutti",
+    "first_seen": "2026-08-08",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "ix-infrastructure",
+    "repo": "Ix",
+    "first_seen": "2026-08-08",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "mindmuxai",
+    "repo": "brain.md",
+    "first_seen": "2026-08-08",
+    "source": "search:topic:claude-code"
   }
 ]
