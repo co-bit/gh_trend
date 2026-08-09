@@ -33666,12 +33666,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "openwarehq",
-    "repo": "websiteprompts",
-    "first_seen": "2026-08-07",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "pulumi",
     "repo": "agent-skills",
     "first_seen": "2026-08-07",
@@ -34023,6 +34017,138 @@
     "owner": "mindmuxai",
     "repo": "brain.md",
     "first_seen": "2026-08-08",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "sosoj92",
+    "repo": "jarvis-assistant-vocal",
+    "first_seen": "2026-08-09",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "hemanth",
+    "repo": "paws-on-mcp",
+    "first_seen": "2026-08-09",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "sv-number",
+    "repo": "mcp-server",
+    "first_seen": "2026-08-09",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "getArbor-dev",
+    "repo": "arbor",
+    "first_seen": "2026-08-09",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "abracadabra50",
+    "repo": "open-supermarkets",
+    "first_seen": "2026-08-09",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "reatlat",
+    "repo": "fullstory-claude-plugin",
+    "first_seen": "2026-08-09",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "regiellis",
+    "repo": "godot-mcp-go",
+    "first_seen": "2026-08-09",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "TAJD",
+    "repo": "projektor",
+    "first_seen": "2026-08-09",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "drvoss",
+    "repo": "everything-copilot-cli",
+    "first_seen": "2026-08-09",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "leynier",
+    "repo": "python-template",
+    "first_seen": "2026-08-09",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Danialsamadi",
+    "repo": "synapse",
+    "first_seen": "2026-08-09",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "hec-ovi",
+    "repo": "text-to-3D-skill",
+    "first_seen": "2026-08-09",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "sebastiancarlos",
+    "repo": "faaah",
+    "first_seen": "2026-08-09",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Lancetnik",
+    "repo": "awesome-engineering-ai",
+    "first_seen": "2026-08-09",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "WestWaters",
+    "repo": "pollard-weights",
+    "first_seen": "2026-08-09",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "thekartikeyamishra",
+    "repo": "sarvam-bridge",
+    "first_seen": "2026-08-09",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "24bsc244-svg",
+    "repo": "pdlc-forge",
+    "first_seen": "2026-08-09",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "huige-opc",
+    "repo": "text-motion-skill",
+    "first_seen": "2026-08-09",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "dwgx",
+    "repo": "SmartCLI",
+    "first_seen": "2026-08-09",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "QwenAudio",
+    "repo": "qwen-audio-agent",
+    "first_seen": "2026-08-09",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "Spark-To-Paper-Skills",
+    "repo": "paperjury",
+    "first_seen": "2026-08-09",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "pranshuchittora",
+    "repo": "simvyn",
+    "first_seen": "2026-08-09",
     "source": "search:topic:claude-code"
   }
 ]
