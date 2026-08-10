@@ -8466,12 +8466,6 @@
     "source": "search:topic:model-context-protocol"
   },
   {
-    "owner": "0xwilliamortiz",
-    "repo": "openclaude-improved",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "xuzhougeng",
     "repo": "wisp-science",
     "first_seen": "2026-07-28",
@@ -31998,12 +31992,6 @@
     "source": "search:topic:model-context-protocol"
   },
   {
-    "owner": "0xwilliamortiz",
-    "repo": "ponytail-improved",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "UiPath",
     "repo": "coder_eval",
     "first_seen": "2026-07-28",
@@ -32726,12 +32714,6 @@
   {
     "owner": "MemTensor",
     "repo": "memmy-agent",
-    "first_seen": "2026-08-01",
-    "source": "search:topic:claude-code"
-  },
-  {
-    "owner": "0xwilliamortiz",
-    "repo": "ratchet",
     "first_seen": "2026-08-01",
     "source": "search:topic:claude-code"
   },
@@ -33606,12 +33588,6 @@
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "0xwilliamortiz",
-    "repo": "claude-red",
-    "first_seen": "2026-08-06",
-    "source": "search:topic:claude-code"
-  },
-  {
     "owner": "fancyboi999",
     "repo": "goofish-cli",
     "first_seen": "2026-08-07",
@@ -33912,18 +33888,6 @@
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "MCPBlender",
-    "repo": "blender-mcp",
-    "first_seen": "2026-08-08",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
-    "owner": "MCPBlender",
-    "repo": "ableton-mcp",
-    "first_seen": "2026-08-08",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "gensecaihq",
     "repo": "pfsense-mcp-server",
     "first_seen": "2026-08-08",
@@ -34149,6 +34113,180 @@
     "owner": "pranshuchittora",
     "repo": "simvyn",
     "first_seen": "2026-08-09",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "vostride",
+    "repo": "agent-qa",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "dialog-tools",
+    "repo": "reddit-research-mcp",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "ctxd-dev",
+    "repo": "ctxd",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "archcore-ai",
+    "repo": "cli",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "CodeSoul-co",
+    "repo": "Hypha",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "jonashertner",
+    "repo": "opencaselaw",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "zhiningsun",
+    "repo": "industrial-mcp",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "erichare",
+    "repo": "skill-route",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "prepod2003",
+    "repo": "mcp-rsv-data",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "limingrui679-design",
+    "repo": "high-stakes-analytics-decision-lab",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "seb1n",
+    "repo": "awesome-ai-agent-skills",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "sv-number",
+    "repo": "skills",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Goldwaterfung",
+    "repo": "Strata-Studio",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "archcore-ai",
+    "repo": "plugin",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "unknowlei",
+    "repo": "minimax-h3-opencode-skills",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Bevel-Software",
+    "repo": "Hexis",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "kangarooking",
+    "repo": "director-skills",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "IAPro-Community",
+    "repo": "Orquestrador-Maestro",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "jnorthrup",
+    "repo": "hermes-jekyl-hyde",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "D-engahmed",
+    "repo": "ancient",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "metaphorics",
+    "repo": "omp-plugin-dynamic-system-prompt",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "llm-junkie",
+    "repo": "llm-tool-history",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "op7418",
+    "repo": "guizang-sports-skill",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "moongiadventures-dev",
+    "repo": "handdrawn-ppt",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Scottthe3rd",
+    "repo": "academic-researcher-skill",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "hamzhk15",
+    "repo": "tenable-sc-reporting-assistant",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "aNasiusA",
+    "repo": "umat-thesis-guide",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Sateezg",
+    "repo": "codex-bridge",
+    "first_seen": "2026-08-10",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "jalaalrd",
+    "repo": "anti-ai-slop-writing",
+    "first_seen": "2026-08-10",
     "source": "search:topic:claude-code"
   }
 ]
