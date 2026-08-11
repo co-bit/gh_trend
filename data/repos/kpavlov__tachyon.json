@@ -76,5 +76,11 @@
     "stars": 27,
     "hn_mentions": null,
     "dependents": null
+  },
+  {
+    "date": "2026-08-11",
+    "stars": 28,
+    "hn_mentions": 1,
+    "dependents": null
   }
 ]

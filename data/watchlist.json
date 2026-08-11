@@ -318,12 +318,6 @@
     "source": "search:topic:mcp-server"
   },
   {
-    "owner": "wgpsec",
-    "repo": "ENScan_GO",
-    "first_seen": "2026-07-27",
-    "source": "search:topic:mcp-server"
-  },
-  {
     "owner": "modelcontextprotocol",
     "repo": "csharp-sdk",
     "first_seen": "2026-07-27",
@@ -32160,12 +32154,6 @@
     "source": "search:topic:mcp-server"
   },
   {
-    "owner": "2nd1st",
-    "repo": "open-mcp-apps",
-    "first_seen": "2026-07-30",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "adithyan-ak",
     "repo": "AgentHound",
     "first_seen": "2026-07-30",
@@ -34287,6 +34275,192 @@
     "owner": "jalaalrd",
     "repo": "anti-ai-slop-writing",
     "first_seen": "2026-08-10",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "OWASP",
+    "repo": "www-project-agent-memory-guard",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "alex-durango",
+    "repo": "pingfusi",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "ahujasid",
+    "repo": "blender-mcp",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "ahujasid",
+    "repo": "ableton-mcp",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "activeing123",
+    "repo": "mcptoon",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "chaussky",
+    "repo": "ainalyst",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "PrefectHQ",
+    "repo": "fastmcp-ts",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "jangviktor-web",
+    "repo": "nihaixia",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "ayi-ai",
+    "repo": "nie-grassroots-logic",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Aiko-IT-Systems",
+    "repo": "DisCatSharp",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Goldwaterfung",
+    "repo": "Stratawright",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "JangHyun-bin",
+    "repo": "korean-report-skills",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "yaojingang",
+    "repo": "GEOHub",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "kangise",
+    "repo": "ecommerce-ai-skills",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "fullbleed-engine",
+    "repo": "fullbleed-official",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "jhonsfran",
+    "repo": "unprice",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "AOROM",
+    "repo": "paperreading",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Rylaispirit",
+    "repo": "rylai-codex-hermes-skills",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "newbanser",
+    "repo": "pristine-skill",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Lincoln504",
+    "repo": "pi-research",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "forger-labs-hq",
+    "repo": "researchforge",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "na77tech-creator",
+    "repo": "aikstockdata",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "sanshengai",
+    "repo": "sansheng-distill",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "fatmind",
+    "repo": "webclaw3",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "jangviktor-web",
+    "repo": "wujutong",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "schwann2402",
+    "repo": "quiz-me-skill",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "dakhlallah",
+    "repo": "arch-render",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "CalebLiu",
+    "repo": "job-hunt-skill",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "JubaKitiashvili",
+    "repo": "mac-storage-cleaner",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Backtthefuture",
+    "repo": "video-transcript",
+    "first_seen": "2026-08-11",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "zenbu-labs",
+    "repo": "terminal-browser",
+    "first_seen": "2026-08-11",
     "source": "search:topic:claude-code"
   }
 ]
