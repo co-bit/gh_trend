@@ -34462,5 +34462,239 @@
     "repo": "terminal-browser",
     "first_seen": "2026-08-11",
     "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "NanoNets",
+    "repo": "Graft",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Extelligence-ai",
+    "repo": "bagel",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "2nd1st",
+    "repo": "open-mcp-apps",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "shariqriazz",
+    "repo": "vertex-ai-mcp-server",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "dannguyen9x",
+    "repo": "tiktok-live-studio-mcp",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "caspel26",
+    "repo": "django-ninja-aio-crud",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "wuisabel-gif",
+    "repo": "MemWhale",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "putervision",
+    "repo": "vision-memory-mcp",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "komako-workshop",
+    "repo": "digital-oracle",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "starwind-ui",
+    "repo": "starwind-ui",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "oxylabs",
+    "repo": "agent-skills",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "dmmulroy",
+    "repo": "anti-slop",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "fy-agent",
+    "repo": "fyagent",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "hufeng173",
+    "repo": "kunpeng-skill",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "matonhp5108",
+    "repo": "Opencodex",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Tasihi89",
+    "repo": "build-to-learn",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "kael-odin",
+    "repo": "awesome-academic-research-skills",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "acelera-agency",
+    "repo": "html-animation",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "jarvis-intelligence",
+    "repo": "jarvis-index",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "ig-shadow-walker",
+    "repo": "agentBrowser",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Role1776",
+    "repo": "mcp-retrieval",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "brenoepics",
+    "repo": "video-to-skill",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "NeaByteLab",
+    "repo": "V4A-Diff",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "SohailKhan0525",
+    "repo": "skills",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Zachariah9420",
+    "repo": "lit-review-skill",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "heyparsadev",
+    "repo": "claude-venture-plugin",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Adkid-Zephyr",
+    "repo": "anti-defensive-writing",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "JackZhong2017",
+    "repo": "body-root-cause-skill",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "avectats7",
+    "repo": "anti-ai-writing",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "IsmaelMartinez",
+    "repo": "delegate-local",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "paulunemoon",
+    "repo": "ux-audit-skill",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "teskor-hub",
+    "repo": "minimax-h3-skill",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "licx412",
+    "repo": "claude-skill-idealu",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "pacifio",
+    "repo": "atlas",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "egoist",
+    "repo": "waku",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "eneskirca",
+    "repo": "nodeterm",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "memorax-ai",
+    "repo": "memorax-code",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "lovstudio",
+    "repo": "Ataru",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "alexgreensh",
+    "repo": "attention-span",
+    "first_seen": "2026-08-12",
+    "source": "search:topic:claude-code"
   }
 ]
