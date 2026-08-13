@@ -20778,12 +20778,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "kiro0x",
-    "repo": "five-mcp",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "Bessouat40",
     "repo": "dumbo-rs",
     "first_seen": "2026-07-28",
@@ -24674,12 +24668,6 @@
   {
     "owner": "Youtube-Transcript-Dev",
     "repo": "Youtube-Transcript-API",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
-    "owner": "adlaiponderous700",
-    "repo": "claude-skill-cinematic-prompt",
     "first_seen": "2026-07-28",
     "source": "search:topic:claude-skill"
   },
@@ -34695,6 +34683,3066 @@
     "owner": "alexgreensh",
     "repo": "attention-span",
     "first_seen": "2026-08-12",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "caura-ai",
+    "repo": "caura",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "OpenLabs-so",
+    "repo": "openanalytics",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Minima-AI-Inc",
+    "repo": "minima",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "vmihalis",
+    "repo": "hacker-bob",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "nduc99911",
+    "repo": "repo-context-mcp",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "TehreemArbab",
+    "repo": "JazzCashMCP",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Arch1eSUN",
+    "repo": "Arcgentic",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "thrixel",
+    "repo": "goal-to-game",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "erichare",
+    "repo": "skillroute",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "morluto",
+    "repo": "jacobian",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "titanwings",
+    "repo": "colleague-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Devin-AXIS",
+    "repo": "iPolloWork",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "titanwings",
+    "repo": "ex-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Leutenegger",
+    "repo": "book-to-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "liustack",
+    "repo": "modlens",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Zhen-Bo",
+    "repo": "smell-check",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Anionex",
+    "repo": "dsh-vision-toolkit",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Hung2124",
+    "repo": "codex-multi-profile",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "thiientv",
+    "repo": "godmode",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "FlatbreadLabs",
+    "repo": "flatbread",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "GaZmagik",
+    "repo": "iso-24495",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "anneheartrecord",
+    "repo": "resume-tuning",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "AVGVSTVS96",
+    "repo": "better-github-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "zJay26",
+    "repo": "douyin-skills",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "moskoo",
+    "repo": "xxg-portrait-rebuild-light",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "LOGIN-TB",
+    "repo": "claude-skills",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-privacy-first-offline-llm-runtime-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-zoodata-agent-data-layer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-social-media-viral-post-generator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-simple-shipping-calculator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-marketing",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-influencer-match-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-purchase-intent-scorer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-voice-shop",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-snap-sell",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-cross-border-commerce-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-workspace-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "coursiv-ai-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-shipping-carrier-selector-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-commerce-gift-card-processor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-hubspot-ai-search-grader-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ai-developer-fullstack-builder-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-clark-ai-coworker-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-guided-shopping-decision-engine-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ad-scaler",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-channel-auditor",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-programmatic-bidding-pacing-governor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ai-model-consensus-fact-verification-engine-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-realtime-voice-accent-dialect-adapter-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agent-compliance-content-guardrail-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agent-self-reflection-loop-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-aeo-entity-schema-markup-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-refund-warrior",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-magic-ui",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-size-recommendation-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-hub",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-voice-to-action-executor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-cart-abandon-reason-survey-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-fuzzy-sales-warmup-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-cohort-based-user-acquisition-financing-calculator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-mobile-app-cohort-roas-retention-benchmarker-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agentic-crm-relationship-graph-orchestrator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-v2fun-3d-character-animator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-vercel-ai-sdk-tool-caller-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-vercel-partial-prerendering-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-peer-review-verifier-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-order-delivery-estimator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-social-media-engagement-scorer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-openrouter-latency-balancer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-academic-paper-literature-review-synthesizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agent-human-in-the-loop-router-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agent-semantic-cache-manager-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-coupon-recommendation-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-memory-lake",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-nano-banana-video-orchestrator",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-meeting-to-tickets",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "profound-ai-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-vision-coder",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-chrome-interceptor",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-voyager",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-checkout-ab-test-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-tool-use-error-recovery-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-runtime-ai-authorization-guard-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-conversational-commerce-recommendation-engine-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-unit-test-edge-case-generator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-profound-ai-citation-optimizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-it-helpdesk-password-reset-workflow-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-agent-forge",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "shopping-assistant-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-related-queries-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-commerce-invoice-pdf-generator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-chrome-extension",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-auto-annotator",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-daily-goal-breaker",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-sales-agent",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-coupon-referral-abuse-blocker-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-stock-allocation-rules-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-email-inbox-placement-auditor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-voice-ai-conversational-agent-scaler-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-video-script-storyboard-generator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-code-refactoring-architectural-debt-analyzer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-fast-inference-engine-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-fypro-social-buyer-funnel-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-demand-side-platform-media-plan-campaign-builder-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-mistral-model-router-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-prompt-ql-multiplayer-workspace-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-founder-workplace-operating-system-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-llm-fallback-routing-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-openrouter-fallback-provider-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-speakly-meeting-translator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-product-image-tagger-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-product-bundling-strategy-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-generative-engine-optimizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-skill-workflow-reuser-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-enterprise-agentic-crm-orchestrator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ai-code-refactoring-lint-fixer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-shipping-cost-optimizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "creatify-ai-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ai-comment-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-seo-metadata-generator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ai-video-caption-subtitle-generator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-accio-market-intelligence",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agent-cost-optimization-orchestrator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-conversational-product-advisor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "mirofish-ai-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "swap-commerce-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-arbitrage",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ghostwriter",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-sales-tax-exempt-checker-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-customer-cohort-value-predictor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-dynamic-price-elasticity-optimizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-checkout-dynamic-shipping-options-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-seo-meta-generator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-amami-agent-analytics-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-cross-app-user-activity-memory-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-multi-agent-task-delegation-router-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-rag-context-re-ranking-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-voice-first-logistics-coordinator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-competitor-ad-objection-counter-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-automated-billing-data-spreadsheet-sync-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-autonomous-codebase-documentation-indexer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-interactive-travel-itinerary-booking-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-multi-llm-router-cost-latency-optimizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-voice-pm",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-voice-transcriber",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agent-social",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-arbitrage",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-price-sniper",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-generative-seo-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "character-ai-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-commerce-return-exchange-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-customer-segmentation-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-proactive-goal-driven-agent-team-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-tax-rate-lookup-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-vercel-ai-sdk-stream-helper-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-openrouter-playground-prompt-exporter-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-goose-ads-remixer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-realtime-streaming-llm-token-cost-budget-governor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-candidate-resume-skills-matcher-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agentic-voice-video-ad-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agentkey-live-data-gateway-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agent-social-intelligence-plugin-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-social-post-designer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-commerce-order-cancelation-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-ar-tryon",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ecommerce-multi-retailer-price-history-analyzer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-automated-leads-enrichment-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-routine-ai-voice-task-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-industrial-vision-inspection-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-cart-margin-roi-simulator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ecommerce-smart-product-comparison-decision-engine-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ai-video-multimodal-motion-brush-animator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-openrouter-spending-limit-guard-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-customer-churn-cohort-decay-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "shopper-intelligence-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ai-qa-test-generator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-supplier-delayed-restock-alerter-trigger-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-llm-cost-tokens-monitor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-vendor-procurement-quote-comparator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-dispute-resolver",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-skills",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-warranty-claim-processor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-content-calendar-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "b-ai-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-multi-agent-system-orchestrator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-interactive-code-sandbox-webcontainer-runner-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-llm-eval-benchmark-grader-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-gemini-spark-workspace-integrator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-anysearch-structured-retriever-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-dynamic-price-elasticity-simulator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-customer-churn-prediction-analyzer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-universal-commerce-discovery-protocol-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-openrouter-model-pricing-tracker-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-vercel-kv-redis-cacher-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-database-migration-sql-optimizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-multimodal-document-ocr-structure-extractor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ai-moderated-user-research-interview-synthesizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-doc-processor",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-creative-strategist",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-gemini-spark-contextual-note-taker-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-user-persona-generator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-vector-embeddings-similarity-search-engine-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-automated-seo-site-health-auditor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-developer-platform-analytics-builder-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-autonomous-code-refactor-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-smart-vector-canvas-layout-assistant-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-graphql-schema-query-optimizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-loova-conversion-ad-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-cart-recovery-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-auriko-llm-trading-desk-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-marketing-cloud-sql-audience-generator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-codebase-refactoring-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-commerce-order-history-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-social-buzz-trend-tracker-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-url-to-ad",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-inventory-forecasting-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-customer-winback-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-store-ops",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-research-vault",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "claim-merchant-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-price-elasticity-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-pazi-workflow-aligner-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-vertical-wealth-management-copilot-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ab-test-calculator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-llm-api-cost-model-selector-optimizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ucp",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-zk-origin",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-node-deployer",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-cart-agent",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-sub-killer",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-circle",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-compliance-and-policy-audit-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "gtm-simulation-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-unified-marketing-analyst-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-dynamic-repricing-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-serverless-gpu-cloud-allocator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ai-vibe-coder-refactoring-engine-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-deep-research-synthesizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "agent-commerce-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-visual-designer",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-cart-abandon-recovery-coupon-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-invoice-receipt-ocr-expense-matcher-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-launch-readiness-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-mcp-server-tool-schema-validator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-seo-audit",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-intel-radar",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-langchain-agent-framework-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-tabstack-browserless-automation-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-loyalty-program-designer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-search-analytics-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-commerce-fraud-detection-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-search-synonym-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genstore-ai-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-subscription-pricing-planner-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-landing-page-conversion-copy-optimizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-personal-finance-expense-categorizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-e-commerce-human-in-the-loop-guardrail-auditor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-realtime-voice-meeting-interpreter-copilot-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-natural-language-data-analytics-bi-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-temu-skills",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-realtime-voice-cloning-emotion-expressive-tts-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-abandoned-cart-recovery-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-sub-killer",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-commerce-agent-checkout-orchestrator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ai-fact-checker-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-opencode-workflow-runner-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-shopping-agent-buyer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "mktflywheel-ai-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-commerce-abandoned-cart-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "nexad-ai-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-product-spec-extractor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-technical-llms-txt-generator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agent-state-machine-tracker-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agent-structured-output-enforcer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-crm",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-node-manager",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-order-weight-calculator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-openrouter-multi-provider-test-runner-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-nitrosend-agent-email-client-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-e-commerce-inventory-stockout-dead-listing-alert-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ai-enterprise-proposal-pitch-builder-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-web-data-enrichment-context-engine-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-growth-data-analyst",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-marketing-banner-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-supply-chain-risk-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-commerce-upsell-cross-sell-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "contentsquare-ai-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-openrouter-model-router-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-vercel-v0-layout-generator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-competitive-intel-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-rex-order-to-cash-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-regulatory-compliance-policy-checker-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-workflow-agent-scaffolder-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-automated-dev-documentation-generator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-workflow-agent-scaffolder-ops-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-meta-muse-thinking-process-logger-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-meeting-notes-action-item-extractor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-semantic-knowledge-base-qa-search-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-generative-ui-layout-builder-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ai-slides-deck-builder-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-darkpattern-buster",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-shopify-extension",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-site-themer",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-js-sdk",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-multi-source-research-spark-page-synthesizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-dynamic-cms-collection-table-orchestrator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-longevity",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agentic-markdown",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-lead-nexus",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-outreach-warmer",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-product-image-tagging-seo-meta-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-customer-tier-evaluator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-devswat-codebase-mapper-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-automated-user-experience-flow-tester-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-screen-recording-demo-ai-editor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-autonomous-testing-suite-generator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-rag-semantic-chunk-optimizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-nautis-ai-os-operator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-synthetic-data-privacy-masker-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-non-dilutive-capital-eligibility-scoring-engine-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-inventory-demand-forecasting-engine-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-runtime-exception-stacktrace-debugger-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-model-deployment-sandbox-runner-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-automated-ad-campaign-data-generator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agentic-memory-context-compressor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-voice-to-text-style-formatter-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-api-spec-auto-mock-generator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-fullstack-ai-app-scaffolder-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-lens",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-product-review-analyzer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-credit-metered-budget-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-osaurus-local-agent-runner-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-model-fine-tuning-dataset-cleaner-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-multi-modal-dataset-synthetic-augmentation-engine-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-contextual-long-term-episodic-memory-store-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-prompt-to-responsive-wireframe-generator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ad-spend-optimizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-mission-brief",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-lead-harvester",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-nano-banana-photo-enhancer",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-security-vulnerability-dependency-scanner-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-autonomous-robot-policy-evaluator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-multilingual-document-translation-engine-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-voice-memo-task-list-converter-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-dot-ai-feedback-layer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-serverless-multi-llm-inference-router-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-git-commit-message-changelog-synthesizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-contract-clause-risk-analysis-auditor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-customer-satisfaction-survey-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-meta-muse-context-compactor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-social-content-buzz-outline-generator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-social-proof-aggregator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agent-consensus-voting-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ecommerce-copilot-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-product-comparison-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-vercel-edge-speed-optimizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-vector-semantic-db-search-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-open-source-local-agent-orchestrator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-automated-email-marketing-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-on-device-voice-dictation-text-injector-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-autonomous-web-browser-dom-navigator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "agent-commerce-protoco",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-ghostwriter",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-legal-shield",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-meme-shopper",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-sdk-copilot",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-openclaw-core",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-screen-context",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "shopvidi-us-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "trooly-ai-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-commerce-dispute-resolution-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-subscription-churn-predictor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-openrouter-structured-json-enforcer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-crustdata-recruiter-screening-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-multi-agent-shared-data-layer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-facility-maintenance-dispatch-scheduler-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-skippr-live-ai-employee-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-competitor-price-tracking-alert-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-human-in-the-loop-annotation-orchestrator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-browser-vibe-coding-sandbox-executor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-multimodal-ai-receptionist-call-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-product-review-generator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-website-code-cloning-engine-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-social-trending-router-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-contextdev-web-scraper-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-open-source-on-device-dictation-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-workspace-knowledge-base-ai-copilot-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-multi-locale-canvas-auto-translation-engine-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-api-rate-limit-throttling-governor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agentic-customer-onboarding-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agent-vector-db-metadata-filter-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ai-calls-phone-reporter-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agent-playground-redteam-eval-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-gig-worker",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-sentinel",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-app-scaffolder",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-instant-storefront",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-meta-muse-token-pricing-estimator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-commerce-shipping-cost-estimator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-faq-semantic-matcher-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-pharma-specialized-document-rag-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-cohere-enterprise-search-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ai-sheets-data-analyzer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-desktop-computer-use-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-paradigm-adaptive-learning-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "competitor-price-monitor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-flash-sale-optimizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-checkout-flow-analyzer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-anti-ai-copy-purifier-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-realtime-customer-support-handoff-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-podcast-audio-transcript-summarizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-interactive-component-vibe-code-synthesizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "clawd-skill-manus",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-automated-kb-sync-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-email-deliverability-dns-auditor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-product-spec-translation-formatter-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-meta-muse-multi-app-planner-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-wispr-flow-voice-summarizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-docker-kubernetes-manifest-validator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-smart-contract-security-audit-formal-verifier-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-pdf-document-table-data-extractor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-commerce-shipping-label-generator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-search-auto-suggest-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-wukong-enterprise-brain",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-team-collaboration-dispatcher-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-gift-card-generator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-cross-platform-allocator",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "tecdo-navos-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-creative-agent",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agent-memory-summarizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agent-mcp-protocol-bridge-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agentic-filesystem-virtual-bridge-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-sustainability-scorer",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-visual-search",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agentic-web-scraping-anti-bot-bypasser-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agent-dynamic-prompt-tuner-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agent-hierarchical-planner-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-claw-desktop",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-personalized-upsell-recommender-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-customer-churn-cohort-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-automated-payroll-hr-compliance-engine-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ai-sre-observability-root-cause-diagnoser-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-multi-channel-conversational-sales-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-compliance-shield",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-talktoreview-widget",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-brand-voice-consistency-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-refund-eligibility-checker-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-return-prevention-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-meta-muse-computer-use-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-vercel-ai-sdk-streamui-renderer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-vocalvia-document-audio-composer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-unabyss-cross-app-memory-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-kitforai-agent-memory-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-automated-site-seo-accessibility-auditor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ai-meeting-transcript-action-item-extractor-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-multimodal-vision-document-flowchart-parser-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-spreadsheet-formula-data-cleaning-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "shopvidi-automation-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-commerce-wishlist-notifier-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-wizard-shopping-consultant-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-skill-office-bridge",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-velo-video-infra-simulator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "kyoto-design-philosophy",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "tradingagents-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-price-drop-notifier-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-employee-onboarding-checklist-automation-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-hierarchical-multi-agent-workflow-graph-orchestrator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ai-regulatory-compliance-export-control-scanner-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-commerce-backorder-reserve-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-real-time-ad-creative-analytics-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-prospect-outreach-warming-engine-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-nano-banana-stylizer",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-a2a-dating",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-brand-citation-objection-handler-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-shopping-cart-roi-simulator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-product-bundle-recommender-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-order-delivery-timeline-calculator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-inventory-alert-trigger-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-technical-documentation-writer-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-commerce-bundle-offers-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-synthetic-dataset-generator-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-autonomous-web-browsing-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-multi-agent-conflict-resolver-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-autonomous-commerce-data-optimizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-spreadsheet-ai-data-engine-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-omnisearch-synthesis",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-seo-metadata-agent-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-referral-program-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-programmatic-full-funnel-attribution-roas-optimizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-gemini-spark-cross-app-task-router-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agentic-project-management-canvas-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-konvy-beauty-deals-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-store-hours-checker-operations-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-checkout-fraud-score-screening-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-openrouter-context-window-optimizer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-generative-engine-visibility-tracker-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-autonomous-agent-loop-detector-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-music-creator",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-talktoreview-analyst",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-talktoreview-marketer",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-campaign-autopilot",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-growth-agent",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "debba",
+    "repo": "free-my-arch",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "zhangchau",
+    "repo": "interview-designer-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "logog782-cmyk",
+    "repo": "linkly-quote-cards",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "christianpasinrey",
+    "repo": "refactoring.guru-skill",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "DRZ-hang",
+    "repo": "paper-figures",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "lignertys",
+    "repo": "reddit-research-skills",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "kpcrmv4",
+    "repo": "gas-best-practices",
+    "first_seen": "2026-08-13",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "peters",
+    "repo": "horizon",
+    "first_seen": "2026-08-13",
     "source": "search:topic:claude-code"
   }
 ]
