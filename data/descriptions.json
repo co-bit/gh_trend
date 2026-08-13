@@ -56,6 +56,7 @@
   "farion1231/cc-switch": "Claude CodeやCodexなどのAIツールに対応するクロスプラットフォーム統合デスクトップアシスタント",
   "gakonst/nanocodex": "RustでCodexレベルのOpenAIエージェントを構築するための基盤コンポーネント群",
   "get-bb/bb": "自身を自動で構築・拡張しながらAIエージェントの開発を行う統合開発環境IDEのbb。",
+  "getcrew44/crew44": "記憶やスキルを蓄積しながら、専門AIエージェント群を最適モデルで統合・調整するローカルワークスペース。",
   "google-gemini/gemini-cli": "Google公式、ターミナルで動くオープンソースGemini AIエージェント",
   "googleworkspace/cli": "Google Discovery Serviceで動的生成される、Drive等対応のAI agent機能付きCLIツール",
   "headroomlabs-ai/headroom": "LLMに渡すツール出力やログ、RAG等のデータを圧縮してトークン量を削減するライブラリ・プロキシ・MCPサーバー。",
