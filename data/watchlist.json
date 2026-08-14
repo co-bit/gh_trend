@@ -30936,12 +30936,6 @@
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "pcliangx",
-    "repo": "AppGenesisForge",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-code"
-  },
-  {
     "owner": "Belkins",
     "repo": "ai-dive-deep",
     "first_seen": "2026-07-28",
@@ -33602,12 +33596,6 @@
   {
     "owner": "serejaris",
     "repo": "personal-corp-os",
-    "first_seen": "2026-08-07",
-    "source": "search:topic:agent-skills"
-  },
-  {
-    "owner": "oliverb-io1902e8",
-    "repo": "agent-skills-collection",
     "first_seen": "2026-08-07",
     "source": "search:topic:agent-skills"
   },
@@ -37743,6 +37731,306 @@
     "owner": "peters",
     "repo": "horizon",
     "first_seen": "2026-08-13",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "CYB3RMX",
+    "repo": "Qu1cksc0pe",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "sandbaseai",
+    "repo": "sandbase-harness",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "ffroliva",
+    "repo": "gflow-cli",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "fetchai",
+    "repo": "innovation-lab-examples",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "christiangrey922",
+    "repo": "multi-agent-workflow-lab",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "apify",
+    "repo": "agent-skills",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alaliqing",
+    "repo": "claude-paper",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "apify",
+    "repo": "awesome-skills",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "danyuchn",
+    "repo": "iso-24495-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "liustack",
+    "repo": "modsearch",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "reolink",
+    "repo": "reolink-cli",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "lennney",
+    "repo": "stop-that-shit",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Nagi-ovo",
+    "repo": "dsh-find-plugins",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "musoyangrigor",
+    "repo": "gitx-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "janitor-ai-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-commerce-affiliate-tracking-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-skill-guide-mentor",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-video-creator",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-store-hours-checker-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-coupon-referral-abuse-screening-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-semrush-aio-toolkit-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-nuvio-social-mrr-updater-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-warrenai-value-investing-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-intelligent-log-anomaly-root-cause-detector-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-multimodal-document-layout-ocr-parser-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-mindmap-concept-graph-generator-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-perplexity-pro-search-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-together-ai-open-inference-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-nomac-headless-ios-deployer-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-gemini-spark-always-on-listener-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-missed-email-opportunity-nudge-agent-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-signal-aggregator",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-gift-recommendation-engine-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-demand-forecasting-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "clickup-intelligence-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-commerce-gift-wrap-calculator-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-bulk-discount-optimizer-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-refund-policy-optimizer-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-database-query-generator-agent-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-interactive-game-development-tutor-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-lev8-prospect-researcher-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ecommerce-cross-platform-inventory-sync-engine-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-escrow",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ad-copy-generator-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agent-ready-catalog-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Adkid-Zephyr",
+    "repo": "anti-defensive-writing-Skill-",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "PeterPeterinc",
+    "repo": "weavy-workflows-skill",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "apljacob",
+    "repo": "travel-agent",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "ccch1mneyyy",
+    "repo": "dsh-TUI",
+    "first_seen": "2026-08-14",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "tommy0103",
+    "repo": "obelisk",
+    "first_seen": "2026-08-14",
     "source": "search:topic:claude-code"
   }
 ]
