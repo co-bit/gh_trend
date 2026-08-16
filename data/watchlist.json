@@ -23190,12 +23190,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "abualif120",
-    "repo": "manusiawi",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "yanliudesign",
     "repo": "behavior-question-skill",
     "first_seen": "2026-07-28",
@@ -38559,6 +38553,114 @@
     "owner": "Jia-Ethan",
     "repo": "claude-keysmith",
     "first_seen": "2026-08-15",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "Ikalus1988",
+    "repo": "MisakaNet",
+    "first_seen": "2026-08-16",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "nikhils4",
+    "repo": "ui-beats",
+    "first_seen": "2026-08-16",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "joshuaswarren",
+    "repo": "remnic",
+    "first_seen": "2026-08-16",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "AlgoNoRhythm",
+    "repo": "Flare",
+    "first_seen": "2026-08-16",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "thetahealth",
+    "repo": "mirobody",
+    "first_seen": "2026-08-16",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "asaotomo",
+    "repo": "FofaMap",
+    "first_seen": "2026-08-16",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "arcee-ai",
+    "repo": "nac",
+    "first_seen": "2026-08-16",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "JovaniPink",
+    "repo": "mcp-browser-use",
+    "first_seen": "2026-08-16",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "embedded-society",
+    "repo": "altium-designer-mcp",
+    "first_seen": "2026-08-16",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "surendranb",
+    "repo": "google-search-console-mcp",
+    "first_seen": "2026-08-16",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "thousandflowers",
+    "repo": "skillreaper",
+    "first_seen": "2026-08-16",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "EmbrasureAI",
+    "repo": "spark-observability-skills",
+    "first_seen": "2026-08-16",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "JanYork",
+    "repo": "llm-wiki-cli",
+    "first_seen": "2026-08-16",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "v-yun",
+    "repo": "vuln-report-skill",
+    "first_seen": "2026-08-16",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Ntmib",
+    "repo": "razbor-servisa",
+    "first_seen": "2026-08-16",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "eirik-rune",
+    "repo": "runemap",
+    "first_seen": "2026-08-16",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "anymorph-ai",
+    "repo": "Claudable",
+    "first_seen": "2026-08-16",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "zhukunpenglinyutong",
+    "repo": "desktop-cc-gui",
+    "first_seen": "2026-08-16",
     "source": "search:topic:claude-code"
   }
 ]
