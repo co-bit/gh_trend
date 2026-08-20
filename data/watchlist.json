@@ -16524,12 +16524,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "codegraphtheory",
-    "repo": "hermes-profile-template",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "syncfusion",
     "repo": "maui-toolkit-ui-components-skills",
     "first_seen": "2026-07-28",
@@ -39633,6 +39627,186 @@
     "owner": "jaredrhod",
     "repo": "barehands",
     "first_seen": "2026-08-19",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "doobidoo",
+    "repo": "mcp-memory-service",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Appllama",
+    "repo": "appllama-skills",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "thrixel",
+    "repo": "build-world",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "zorost",
+    "repo": "alchemylake-databricks",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "agents-universe",
+    "repo": "agents-universe",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "NeoZi12",
+    "repo": "dispatchseo",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Battam1111",
+    "repo": "omniseek",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "verygoodplugins",
+    "repo": "streamdeck-mcp",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "cathrynlavery",
+    "repo": "diagram-design",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "imxv",
+    "repo": "Pretty-mermaid-skills",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Yila-AI",
+    "repo": "awesome-research-skills",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "xiaofeng-928",
+    "repo": "chinese-longnovel-skill",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "wangxin6x",
+    "repo": "AutoVideo-Agent",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Neeeophytee",
+    "repo": "agent-stylebooks",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Viy1204",
+    "repo": "recruiting-copilot",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "jame-ri",
+    "repo": "cst2026-skill-mcp",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "felladrin",
+    "repo": "gguf-trainer",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "zeshuochen",
+    "repo": "nekoro-browser",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "muhamadto",
+    "repo": "kickoff-spring-ai",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "puddingfish",
+    "repo": "dsh-desktop",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "pth2002",
+    "repo": "ConvMemory",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "zenineasa",
+    "repo": "Konjugate",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "crazyMarky",
+    "repo": "pi-graph-tool",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Soushi888",
+    "repo": "holochain-agent-skills",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "jeunecraack",
+    "repo": "talisman-skill",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "sjh9714",
+    "repo": "cover-my-repo",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "adelaidasofia",
+    "repo": "claude-performance",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "IsaacEryn",
+    "repo": "humanizer-ko",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Leonxlnx",
+    "repo": "unlazy",
+    "first_seen": "2026-08-20",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "snflkd",
+    "repo": "fluent-korean",
+    "first_seen": "2026-08-20",
     "source": "search:topic:claude-code"
   }
 ]
