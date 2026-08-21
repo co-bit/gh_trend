@@ -1248,12 +1248,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "xixu-me",
-    "repo": "xget",
-    "first_seen": "2026-07-27",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "nexu-io",
     "repo": "html-anything",
     "first_seen": "2026-07-27",
@@ -1370,12 +1364,6 @@
   {
     "owner": "dotnet",
     "repo": "skills",
-    "first_seen": "2026-07-27",
-    "source": "search:topic:agent-skills"
-  },
-  {
-    "owner": "xixu-me",
-    "repo": "awesome-persona-distill-skills",
     "first_seen": "2026-07-27",
     "source": "search:topic:agent-skills"
   },
@@ -15276,12 +15264,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "xixu-me",
-    "repo": "skills",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "software-ai-life",
     "repo": "Awesome-PPT-Design-Skills",
     "first_seen": "2026-07-28",
@@ -28086,12 +28068,6 @@
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "yasasbanukaofficial",
-    "repo": "claude-code",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-code"
-  },
-  {
     "owner": "badrisnarayanan",
     "repo": "antigravity-claude-proxy",
     "first_seen": "2026-07-28",
@@ -39808,5 +39784,131 @@
     "repo": "fluent-korean",
     "first_seen": "2026-08-20",
     "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "elbwalker",
+    "repo": "walkerOS",
+    "first_seen": "2026-08-21",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "U-C4N",
+    "repo": "Thunderbird-MCP",
+    "first_seen": "2026-08-21",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "sandraschi",
+    "repo": "inkscape-mcp",
+    "first_seen": "2026-08-21",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "redfox-data",
+    "repo": "redfox-community",
+    "first_seen": "2026-08-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "serradura",
+    "repo": "okf",
+    "first_seen": "2026-08-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "lonely-lockley",
+    "repo": "archinsight",
+    "first_seen": "2026-08-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "EverMind-AI",
+    "repo": "SkillCorpus",
+    "first_seen": "2026-08-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "pbshgthm",
+    "repo": "arc-skill",
+    "first_seen": "2026-08-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "ashuiGordon",
+    "repo": "stata-cli",
+    "first_seen": "2026-08-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Salmonbird",
+    "repo": "evoui-browser",
+    "first_seen": "2026-08-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "flop-labs",
+    "repo": "technocore-chat",
+    "first_seen": "2026-08-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "zenx0x",
+    "repo": "allinluna",
+    "first_seen": "2026-08-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "stufently",
+    "repo": "aviasales-mcp",
+    "first_seen": "2026-08-21",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "oooscoos",
+    "repo": "Benzi",
+    "first_seen": "2026-08-21",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "erenisci",
+    "repo": "claude-design-prompter",
+    "first_seen": "2026-08-21",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "whyubel1eve",
+    "repo": "web-image-skill",
+    "first_seen": "2026-08-21",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Piccolo123",
+    "repo": "url-manager",
+    "first_seen": "2026-08-21",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "gbeyrouti",
+    "repo": "seedance-prompting-claude-skill",
+    "first_seen": "2026-08-21",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "428alexander9",
+    "repo": "claude-skills-marketplace",
+    "first_seen": "2026-08-21",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Luo-fe",
+    "repo": "aniprompt-skill",
+    "first_seen": "2026-08-21",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "marcusnelson",
+    "repo": "presentation-writing-claude-skill",
+    "first_seen": "2026-08-21",
+    "source": "search:topic:claude-skill"
   }
 ]
