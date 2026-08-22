@@ -924,12 +924,6 @@
     "source": "search:topic:model-context-protocol"
   },
   {
-    "owner": "LING71671",
-    "repo": "open-reverselab",
-    "first_seen": "2026-07-27",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "atlassian",
     "repo": "atlassian-mcp-server",
     "first_seen": "2026-07-27",
@@ -29424,12 +29418,6 @@
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "LING71671",
-    "repo": "Open-ClaudeCode",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-code"
-  },
-  {
     "owner": "rohitg00",
     "repo": "awesome-claude-design",
     "first_seen": "2026-07-28",
@@ -39910,5 +39898,101 @@
     "repo": "presentation-writing-claude-skill",
     "first_seen": "2026-08-21",
     "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Manavarya09",
+    "repo": "design-extract",
+    "first_seen": "2026-08-22",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "mario-andreschak",
+    "repo": "FLUJO",
+    "first_seen": "2026-08-22",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "DrDroidLab",
+    "repo": "open-index",
+    "first_seen": "2026-08-22",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "sandbaseai",
+    "repo": "deepseek-harness-handbook",
+    "first_seen": "2026-08-22",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "qufei1993",
+    "repo": "skills-hub",
+    "first_seen": "2026-08-22",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "LB623",
+    "repo": "no-negative-echo",
+    "first_seen": "2026-08-22",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "joe960913",
+    "repo": "Jixu",
+    "first_seen": "2026-08-22",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Jordanwei1",
+    "repo": "jiaojie-skill",
+    "first_seen": "2026-08-22",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "GML-MMGroup",
+    "repo": "ClipTalk",
+    "first_seen": "2026-08-22",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "maheshvaikri-code",
+    "repo": "snapllm",
+    "first_seen": "2026-08-22",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "crane-in-clear-sky",
+    "repo": "WorkWit-AI-Agent",
+    "first_seen": "2026-08-22",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "pencilrebel",
+    "repo": "roast-my-design-system",
+    "first_seen": "2026-08-22",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "laozdao",
+    "repo": "limit-up-dao",
+    "first_seen": "2026-08-22",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "DragonJames2026",
+    "repo": "prd-discuss",
+    "first_seen": "2026-08-22",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "TimurUgulava",
+    "repo": "route-atlas",
+    "first_seen": "2026-08-22",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Gabson0x",
+    "repo": "bountyforge",
+    "first_seen": "2026-08-22",
+    "source": "search:topic:claude-code"
   }
 ]
