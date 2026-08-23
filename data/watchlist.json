@@ -34668,12 +34668,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "Leutenegger",
-    "repo": "book-to-skill",
-    "first_seen": "2026-08-13",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "liustack",
     "repo": "modlens",
     "first_seen": "2026-08-13",
@@ -39564,12 +39558,6 @@
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "Leutenegger",
-    "repo": "watermarks-remover",
-    "first_seen": "2026-08-19",
-    "source": "search:topic:claude-code"
-  },
-  {
     "owner": "Hainrixz",
     "repo": "whatsapp-agentkit",
     "first_seen": "2026-08-19",
@@ -39993,6 +39981,186 @@
     "owner": "Gabson0x",
     "repo": "bountyforge",
     "first_seen": "2026-08-22",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "duty1g",
+    "repo": "x64dbg-mcp-server",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "OpenImageDebugger",
+    "repo": "OpenImageDebugger",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "qcri",
+    "repo": "codebadger",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "taxueseek",
+    "repo": "argo",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "vibeinging",
+    "repo": "dsh-desktop",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Cripacx",
+    "repo": "mediagen",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "xi-zhao",
+    "repo": "OpenQuantum",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "engasnm111",
+    "repo": "lnwjud",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "liyana31811",
+    "repo": "Codexless",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "titanwings",
+    "repo": "distilly",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Tiger3807861189",
+    "repo": "J-Space-Cognition-Suite-V3.7",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "w8123",
+    "repo": "EnterpriseAgentFramework",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "nateherkai",
+    "repo": "scroll-craft",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "haorantang97",
+    "repo": "TArt",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "bam-bam-2",
+    "repo": "solo-skills",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "taxueseek",
+    "repo": "say-it-human",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "itshen",
+    "repo": "source-reading-methodology",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "ZSeven-W",
+    "repo": "craft-skills",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "sandbaseai",
+    "repo": "sandbase-skills",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "duceum",
+    "repo": "appstore-ppp-pricing-agent-skill",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "brettkromkamp",
+    "repo": "awesome-knowledge-management",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "ArihantDeva",
+    "repo": "heimdall",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "plausibleventures",
+    "repo": "lattice",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "kellyiscute",
+    "repo": "nestjs-llm-tools",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "yzfly",
+    "repo": "skills",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "gregkozakiewicz",
+    "repo": "roast-my-design-system",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "WatsonTsai",
+    "repo": "smart-brief",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "docusphere",
+    "repo": "ugc-reaction-studio",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "raghavaro",
+    "repo": "vault-skill",
+    "first_seen": "2026-08-23",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "ARahim3",
+    "repo": "mlx-dspark",
+    "first_seen": "2026-08-23",
     "source": "search:topic:claude-code"
   }
 ]
