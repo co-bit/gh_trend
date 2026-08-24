@@ -17898,12 +17898,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "AnkitNayak-dev",
-    "repo": "llmBench",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "looptech-ai",
     "repo": "understand-quickly",
     "first_seen": "2026-07-28",
@@ -39210,12 +39204,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "KairoMarkets",
-    "repo": "p-acp",
-    "first_seen": "2026-08-19",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "Vieeeeeee",
     "repo": "wibi-style",
     "first_seen": "2026-08-19",
@@ -40161,6 +40149,210 @@
     "owner": "ARahim3",
     "repo": "mlx-dspark",
     "first_seen": "2026-08-23",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "YoanWai",
+    "repo": "agent-manager",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "LunarWerxs",
+    "repo": "SageThumbs-2k",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "guardana",
+    "repo": "guardana",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "ReyemTech",
+    "repo": "mcp-canada",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "sandbaseai",
+    "repo": "cli",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "KongFangXun",
+    "repo": "sofagent",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "zenstory-ai",
+    "repo": "drama-skills",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "zenstory-ai",
+    "repo": "novel-to-game",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "scarletkc",
+    "repo": "agents",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "yan-labs",
+    "repo": "yan-skills",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "FTShare-Lab",
+    "repo": "FTShare-skill",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "JetBrains",
+    "repo": "thinkrail",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "appeeky",
+    "repo": "ua-skills",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "jay7793",
+    "repo": "solweaver",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Dpro-at",
+    "repo": "Tel-Agent",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "millwright-labs",
+    "repo": "minto-pyramid-skill",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "andrewluxem",
+    "repo": "playbooks",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Kame696",
+    "repo": "kame-api-rotation-for-agent-zero",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "LastSearch-HQ",
+    "repo": "lastsearch",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Prasun01",
+    "repo": "AstraLM",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "oryon-osint",
+    "repo": "awesome-osint-repos",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Brads777",
+    "repo": "ClaudeProjectExport",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "binbinyu99-crypto",
+    "repo": "wuxing-flywheel",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "manavmishra",
+    "repo": "ZeroSlop",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "chyiiiiiiiiiiii",
+    "repo": "yiibu",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Jimmy7892",
+    "repo": "quant-research-skill",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Jackychen-12",
+    "repo": "yuelao-aoye-skill",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "yanchrisdifa",
+    "repo": "claude-skill-watch-video",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "qiaeru",
+    "repo": "skill-prose-francaise",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "zenstory-ai",
+    "repo": "oh-story-claudecode",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "Awarexone",
+    "repo": "Agentic-Bug-Hunter",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "ShadowAqueduct",
+    "repo": "watermark-remover",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "zenstory-ai",
+    "repo": "video-recap-skills",
+    "first_seen": "2026-08-24",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "furkankly",
+    "repo": "zoetrope",
+    "first_seen": "2026-08-24",
     "source": "search:topic:claude-code"
   }
 ]
