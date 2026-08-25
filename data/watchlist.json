@@ -1956,12 +1956,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "joewinke",
-    "repo": "jat",
-    "first_seen": "2026-07-27",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "langchain-ai",
     "repo": "langchainjs-mcp-adapters",
     "first_seen": "2026-07-27",
@@ -13134,12 +13128,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "SeanJ1ang",
-    "repo": "design-judge-skills",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "rampstackco",
     "repo": "claude-skills",
     "first_seen": "2026-07-28",
@@ -20840,12 +20828,6 @@
   {
     "owner": "RobertBateman",
     "repo": "thoughttree-framework",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
-    "owner": "osint360",
-    "repo": "osint-tools-radar",
     "first_seen": "2026-07-28",
     "source": "search:topic:llm-tools"
   },
@@ -29544,12 +29526,6 @@
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "AutoX-AI-Labs",
-    "repo": "AutoR",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-code"
-  },
-  {
     "owner": "marckrenn",
     "repo": "claude-code-changelog",
     "first_seen": "2026-07-28",
@@ -33452,12 +33428,6 @@
   {
     "owner": "phasehq",
     "repo": "console",
-    "first_seen": "2026-08-06",
-    "source": "search:topic:claude-code"
-  },
-  {
-    "owner": "tangxiangru",
-    "repo": "AutoR",
     "first_seen": "2026-08-06",
     "source": "search:topic:claude-code"
   },
@@ -40353,6 +40323,192 @@
     "owner": "furkankly",
     "repo": "zoetrope",
     "first_seen": "2026-08-24",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "trailhq",
+    "repo": "Graft",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "leima-max",
+    "repo": "origin-pro-mcp-skill",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "halofyai",
+    "repo": "halofy",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "BrightbeamAI",
+    "repo": "chap",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Stupidoodle",
+    "repo": "swissdevjobs-cli",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "WYRE-AI",
+    "repo": "autotask-mcp",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Perseus-Computing-LLC",
+    "repo": "perseus",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "mtarcure",
+    "repo": "claude-vibe-squad",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "alchaincyf",
+    "repo": "huashu-skills",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "yizhiyanhua-ai",
+    "repo": "fireworks-open-eli5",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "black-forest-labs",
+    "repo": "skills",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "vnstock-hq",
+    "repo": "vnstock-agent-guide",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "deckflow",
+    "repo": "deckprobe",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "mkanat",
+    "repo": "skills",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Vangardo",
+    "repo": "unity-mcp-efficient",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "jinhuang712",
+    "repo": "dsh-survey",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "lenzhang",
+    "repo": "ikuai-router-skill",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "DeliveryPerson2004",
+    "repo": "DeepForge",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "skatkov",
+    "repo": "opencode-lightpanda",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "kharmanskyi",
+    "repo": "open-steps",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "shaokeyibb",
+    "repo": "anti-asu-skills",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "kritikmodi",
+    "repo": "product-video-as-code",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "linad3d",
+    "repo": "drivekeeper",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Ferousco-dev",
+    "repo": "ilana",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "OptimizerTeam",
+    "repo": "agent-skills",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "mukilankarthik",
+    "repo": "self-awareness",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "maun11",
+    "repo": "raise-my-dr",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "imMamdouhaboammar",
+    "repo": "linkedin-animated-infographics",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "najmuzzaman-mohammad",
+    "repo": "gawkbot",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "CryptoDmitry",
+    "repo": "Ghost-Agent",
+    "first_seen": "2026-08-25",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "text2future",
+    "repo": "flowix",
+    "first_seen": "2026-08-25",
     "source": "search:topic:claude-code"
   }
 ]
