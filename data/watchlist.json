@@ -33654,12 +33654,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "alexcloudstar",
-    "repo": "makers.page-mcp",
-    "first_seen": "2026-08-07",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "Yashasm18",
     "repo": "ForgeAgent",
     "first_seen": "2026-08-07",
@@ -40509,6 +40503,264 @@
     "owner": "text2future",
     "repo": "flowix",
     "first_seen": "2026-08-25",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "xpf0000",
+    "repo": "FlyEnv",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "dotpas",
+    "repo": "dext",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "yylo-dev",
+    "repo": "roundtable",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "arthurpanhku",
+    "repo": "dvalincode",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "explyt",
+    "repo": "spring-plugin",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Juror-AI",
+    "repo": "juror",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "HoangYell",
+    "repo": "markdy-com",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "wppilot-labs",
+    "repo": "wordpress-mcp-elementor-wppilot",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "naw103",
+    "repo": "foremerge",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "jieapi",
+    "repo": "aicode",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "TonyWang-hub",
+    "repo": "mcp-cn-commerce",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "jeremylongshore",
+    "repo": "tons-of-skills-marketplace",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "FrancyJGLisboa",
+    "repo": "agent-skill-creator",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "ScrapeCreators",
+    "repo": "social-media-research-skills",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Odevio",
+    "repo": "Odevio-CLI",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "BlackBeltTechnology",
+    "repo": "pi-agent-dashboard",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "xiao24bei",
+    "repo": "xiaobei-skill",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "vaibhavarora14",
+    "repo": "job-application-agent",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "LeeHueeng",
+    "repo": "store-screenshots",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "GENEXIS-AI",
+    "repo": "gpt-image-skill",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Nimbleway",
+    "repo": "agent-skills",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "malevrigns",
+    "repo": "atlas-agent-control-plane",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "MiaoQichuan",
+    "repo": "new-litigation-visualization",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "NateBJones-Projects",
+    "repo": "developer-documentation-skill",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "social-media-skills",
+    "repo": "skills",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Morningstar202604",
+    "repo": "AgentSeed",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "deltadbu",
+    "repo": "WIT-skill",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Vadym903",
+    "repo": "Intenter",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "MalloyTheDev",
+    "repo": "aseprite-mcp",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Ask-812",
+    "repo": "oswright",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "buluslan",
+    "repo": "amazon-keyword-strategy",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "GappyHamer",
+    "repo": "startup-mind",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Wanqiu12345",
+    "repo": "screenshot-infographic-skill",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "profitpioneer",
+    "repo": "iphone-protocol-sniffer",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "binnukarunakar",
+    "repo": "icm-shipwright",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "naghceuz",
+    "repo": "stock-industry-chain",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "gootf",
+    "repo": "halt-long-horizon-tasks",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "ConveyThis",
+    "repo": "claude-translator",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "artbyjazi",
+    "repo": "resume-strategist",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "RizRiyz",
+    "repo": "luvus",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "cwinvestments",
+    "repo": "memstack",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "kgoedecke",
+    "repo": "doop",
+    "first_seen": "2026-08-26",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "JimmySadek",
+    "repo": "youtube-fetcher-to-markdown",
+    "first_seen": "2026-08-26",
     "source": "search:topic:claude-code"
   }
 ]
