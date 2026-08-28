@@ -172,5 +172,11 @@
     "stars": 1986,
     "hn_mentions": null,
     "dependents": 18
+  },
+  {
+    "date": "2026-08-28",
+    "stars": 1988,
+    "hn_mentions": 0,
+    "dependents": 19
   }
 ]

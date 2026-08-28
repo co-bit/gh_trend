@@ -21828,12 +21828,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "jrtorrez31337",
-    "repo": "yaklog",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "pokatomnik",
     "repo": "asq",
     "first_seen": "2026-07-28",
@@ -40761,6 +40755,216 @@
     "owner": "JimmySadek",
     "repo": "youtube-fetcher-to-markdown",
     "first_seen": "2026-08-26",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "ryaker",
+    "repo": "outlook-mcp",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "decionis",
+    "repo": "docker",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "hounddogai",
+    "repo": "hounddog",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "pinoox",
+    "repo": "neuromesh",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "lsaint",
+    "repo": "aikito",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Zizka-ai",
+    "repo": "ZizkaDB",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "haorantang97",
+    "repo": "LabArt",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Haaaiawd",
+    "repo": "Nexus-skills",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "saurabhkumar8112",
+    "repo": "cyclomatic-complexity-skill",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "tt-a1i",
+    "repo": "simplify-codebase",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "KKKKhazix",
+    "repo": "sun-style-writing",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "aleclindz",
+    "repo": "seo-skill-bench",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "libnyx",
+    "repo": "LT2MD",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "heygen-com",
+    "repo": "hyperframes-community-skills",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "AnkitNayak-dev",
+    "repo": "llmBench",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HasData",
+    "repo": "google-search-mcp",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HasData",
+    "repo": "google-flights-mcp",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "josephkamau32",
+    "repo": "erp-lite-mcp",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HasData",
+    "repo": "duckduckgo-mcp",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HasData",
+    "repo": "instagram-mcp",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HasData",
+    "repo": "youtube-mcp",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HasData",
+    "repo": "google-maps-mcp",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HasData",
+    "repo": "google-trends-mcp",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HasData",
+    "repo": "zillow-mcp",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HasData",
+    "repo": "tiktok-mcp",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HasData",
+    "repo": "airbnb-mcp",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HasData",
+    "repo": "indeed-mcp",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HasData",
+    "repo": "booking-mcp",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "rvoidex7",
+    "repo": "repo2notebook",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "dlbolshov",
+    "repo": "yandex-wiki-search-mcp",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "nikolas-sapa",
+    "repo": "grip-browser",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "ManceRayder42",
+    "repo": "jarvis-os",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "chengmarc",
+    "repo": "wechat-to-LLM",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "abhixv",
+    "repo": "m3-expressive-design-skill",
+    "first_seen": "2026-08-28",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "rome-os",
+    "repo": "rome",
+    "first_seen": "2026-08-28",
     "source": "search:topic:claude-code"
   }
 ]

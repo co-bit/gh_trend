@@ -172,5 +172,11 @@
     "stars": 129,
     "hn_mentions": null,
     "dependents": 5
+  },
+  {
+    "date": "2026-08-28",
+    "stars": 129,
+    "hn_mentions": 0,
+    "dependents": 5
   }
 ]
