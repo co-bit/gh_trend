@@ -41080,5 +41080,119 @@
     "repo": "oc",
     "first_seen": "2026-08-29",
     "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "RamsesAguirre777",
+    "repo": "facebook-ads-library-mcp",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "marcomoauro",
+    "repo": "substack-mcp",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "talirezun",
+    "repo": "the-curator",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "omaekumiko2-create",
+    "repo": "kru",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Vanyangyang",
+    "repo": "cursor-bridge",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "morluto",
+    "repo": "flameox",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "marcelocruzrpa",
+    "repo": "uipath-ai-skills",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "kwhi6693-web",
+    "repo": "photo-abstract-editorial",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "pseudo-longinus",
+    "repo": "quant-buddy-skills",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "saidake",
+    "repo": "code-trace-tree-jetbrains",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Vincentwei1021",
+    "repo": "video-talkcraft",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "SaketDronamraju",
+    "repo": "AutoLabel-Forge",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "pochenai",
+    "repo": "llm-inference-calculator",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Rorical",
+    "repo": "VaMMCP",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "b1rdmania",
+    "repo": "claude-premortem-skill",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "sky-magenta",
+    "repo": "pravo-grammatika",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "vignesh-sabhahit",
+    "repo": "screenstudio-export",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "FerroxLabs",
+    "repo": "wayland",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "sodiumsun",
+    "repo": "agenttrail",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:claude-code"
   }
 ]
