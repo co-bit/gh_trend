@@ -22326,12 +22326,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "Vangardo",
-    "repo": "mcp_hub",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "Sharon77770",
     "repo": "codex_rule_maker",
     "first_seen": "2026-07-28",
@@ -40650,12 +40644,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "Morningstar202604",
-    "repo": "AgentSeed",
-    "first_seen": "2026-08-26",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "deltadbu",
     "repo": "WIT-skill",
     "first_seen": "2026-08-26",
@@ -40950,12 +40938,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "chengmarc",
-    "repo": "wechat-to-LLM",
-    "first_seen": "2026-08-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "abhixv",
     "repo": "m3-expressive-design-skill",
     "first_seen": "2026-08-28",
@@ -40965,6 +40947,138 @@
     "owner": "rome-os",
     "repo": "rome",
     "first_seen": "2026-08-28",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "blogminhquy",
+    "repo": "javis-os",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "devkitshq",
+    "repo": "notifkit",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "XiaoDuoYa",
+    "repo": "codex-with-chatgpt",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "andrebuilds",
+    "repo": "hermes",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "omnilink-tech",
+    "repo": "omnisim",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Syh1906",
+    "repo": "openai-compatible-imagegen",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Nanako0129",
+    "repo": "sepia",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "michaelshimeles",
+    "repo": "skills",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "LinklyAI",
+    "repo": "best-skills",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "mdrbx",
+    "repo": "nerv-ui",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "nexscope-ai",
+    "repo": "nexscope-ecommerce-skills",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Alexwtlf",
+    "repo": "agentic-product-demo",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "eequaled",
+    "repo": "GLM_proxy",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "neskuchny",
+    "repo": "Tessbrain",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "vobiz-ai",
+    "repo": "Agent-Skills",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "cyber-albsecop",
+    "repo": "Awesome-AI-Super-Prompting",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Emanuelel",
+    "repo": "dont-reinvent",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "swaylq",
+    "repo": "sunge-skill",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "william19307",
+    "repo": "justin-sun-narrative",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "rox1694125-bit",
+    "repo": "magic-memory",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "brennercruvinel",
+    "repo": "CCPlugins",
+    "first_seen": "2026-08-29",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "only-cli",
+    "repo": "oc",
+    "first_seen": "2026-08-29",
     "source": "search:topic:claude-code"
   }
 ]
