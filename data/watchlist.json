@@ -41194,5 +41194,137 @@
     "repo": "agenttrail",
     "first_seen": "2026-08-29",
     "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "tianma-if",
+    "repo": "edgeever",
+    "first_seen": "2026-08-30",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "pnoker",
+    "repo": "iot-dc3",
+    "first_seen": "2026-08-30",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "asaotomo",
+    "repo": "Hx0-HawkEye",
+    "first_seen": "2026-08-30",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "rokbenko",
+    "repo": "quackd",
+    "first_seen": "2026-08-30",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Vuk97",
+    "repo": "forward-implementation-first",
+    "first_seen": "2026-08-30",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "ADW-19",
+    "repo": "build_a_product_agent",
+    "first_seen": "2026-08-30",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "TidyFactor",
+    "repo": "Styler",
+    "first_seen": "2026-08-30",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "ooocooc",
+    "repo": "open-skill-sunset",
+    "first_seen": "2026-08-30",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "aleksandr-alhoff",
+    "repo": "seo-landing",
+    "first_seen": "2026-08-30",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Osteoporosis",
+    "repo": "luna-chat-coder",
+    "first_seen": "2026-08-30",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "HughYau",
+    "repo": "fable4sci-skill",
+    "first_seen": "2026-08-30",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Dicklesworthstone",
+    "repo": "dwarf_fortress_mcp",
+    "first_seen": "2026-08-30",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "zibitpnz",
+    "repo": "OpennessLLM",
+    "first_seen": "2026-08-30",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "yanliudesign",
+    "repo": "mono-color-skill",
+    "first_seen": "2026-08-30",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "adsorgcn",
+    "repo": "chanlun-engine-skill",
+    "first_seen": "2026-08-30",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "dhcnsa-netizen",
+    "repo": "lecture-builder",
+    "first_seen": "2026-08-30",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "lululu811",
+    "repo": "albrooks-perspective",
+    "first_seen": "2026-08-30",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "yanliudesign",
+    "repo": "modern-editorial-cover",
+    "first_seen": "2026-08-30",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "newan2001",
+    "repo": "delta-engage",
+    "first_seen": "2026-08-30",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "yanliudesign",
+    "repo": "french-illustration-skill",
+    "first_seen": "2026-08-30",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "hdkhosravian",
+    "repo": "loop-contract-skill",
+    "first_seen": "2026-08-30",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "cbrock84",
+    "repo": "headcount",
+    "first_seen": "2026-08-30",
+    "source": "search:topic:claude-code"
   }
 ]
