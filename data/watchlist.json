@@ -41326,5 +41326,209 @@
     "repo": "headcount",
     "first_seen": "2026-08-30",
     "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "google",
+    "repo": "mcp-security",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Ryze-AI-Adgent",
+    "repo": "open-seo-mcp-skills",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "fhhyyp",
+    "repo": "serein-flow",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "i365dev",
+    "repo": "free4chat",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "avansaber",
+    "repo": "seo-monster",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "dandye",
+    "repo": "ai-runbooks",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "jklthinking",
+    "repo": "retinue",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "dandye",
+    "repo": "adk_runbooks",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "elliottophellia",
+    "repo": "Ryuumonbuchi",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "MrGo2",
+    "repo": "icloud-mcp",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "MoizIbnYousaf",
+    "repo": "ai-agent-skills",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "dukesun99",
+    "repo": "Corpus2Skill",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "jinhanbuilds",
+    "repo": "hoist-the-elephant",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "uniqueplume",
+    "repo": "AI-Token-Optimizer-Claude-Codex-Cursor",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "sma-framework",
+    "repo": "sma",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "omar-abo-el-maaty",
+    "repo": "cv-job-market-research",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "MishraShardendu22",
+    "repo": "agent-skills",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "mguttmann",
+    "repo": "linkedin-internal-api",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "tpolasek",
+    "repo": "amber",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "fajarhide",
+    "repo": "selat",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "ZakaCoding",
+    "repo": "ollama-workspace-agent",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "soxoj",
+    "repo": "claude-osint-deploy",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "yanliudesign",
+    "repo": "linear-style-illustration",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Mahanaicoach",
+    "repo": "alex-hormozi-coach",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "yanliudesign",
+    "repo": "saas-illustration",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "ferr079",
+    "repo": "humanizer-fr",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "miaqu766520-a11y",
+    "repo": "blogger-tracker",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Mahanaicoach",
+    "repo": "content-repurposer",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "tbphp",
+    "repo": "gpt-load",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "melih-unsal",
+    "repo": "DemoGPT",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "damejan80",
+    "repo": "tokentab",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "hkqr",
+    "repo": "my-free-code",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "alpbahadur",
+    "repo": "49-IDE",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "frenzymath",
+    "repo": "Danus",
+    "first_seen": "2026-08-31",
+    "source": "search:topic:claude-code"
   }
 ]
