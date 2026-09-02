@@ -11970,12 +11970,6 @@
     "source": "search:topic:model-context-protocol"
   },
   {
-    "owner": "proofofwork-agency",
-    "repo": "reporecall",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "proompteng",
     "repo": "bilig",
     "first_seen": "2026-07-28",
@@ -41769,6 +41763,264 @@
     "owner": "panxunying",
     "repo": "ai-coding-welfare",
     "first_seen": "2026-09-01",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "sololabstr",
+    "repo": "uisight",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "bsab",
+    "repo": "italia-mcp-servers",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "justadityaraj",
+    "repo": "shim-mcp",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "xuzhougeng",
+    "repo": "ScientificFigureLibrary",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "FrancyJGLisboa",
+    "repo": "agent-skills-platform",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Tiger3807861189",
+    "repo": "GLM-5.3-Flash-J-Space-Capability-Realization-Report",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "i18next",
+    "repo": "i18next-cli",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "sharith45",
+    "repo": "atlas-Assistant",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "coldteadotai",
+    "repo": "pr-lens",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "erfnzdeh",
+    "repo": "arvancloud-agent-skill",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "qkycir-123",
+    "repo": "dsh-run2skill",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "GramosoftAI",
+    "repo": "GcrawlAI",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "AbuZar-Ansarii",
+    "repo": "Needle",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-multivariate-ad-creative-fatigue-auditor-skill",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agent-rate-limit-backoff-skill",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agent-to-agent-brand-commerce-representative-skill",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-competitor-ad-creative-parser-skill",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-commerce-api",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-image-tagging-agent-skill",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-nano-banana-storyboarder",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-multichannel-ad-campaign-skill",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-pan-african-cross-border-payment-gateway-skill",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-phia-product-listing-enhancer-skill",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-price-drop-notifier-alerts-skill",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-rerun-agent-workflow-builder-skill",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-phia-attribute-anomaly-detector-skill",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-product-launch-planner-skill",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-reviews-sentiment-agent-skill",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-sales-email-personalization-engine-skill",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-bio-builder",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "openclaw-genpark-community-ambassador",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-vercel-edge-geo-router-skill",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-supplier-lead-time-predictor-skill",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-vercel-blob-edge-storage-skill",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "bybit-exchange",
+    "repo": "svg-diagram",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "chengmarc",
+    "repo": "wechat-to-ai",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "saadsalmankhan",
+    "repo": "entity-seo-skill",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Tissue-for-charlie",
+    "repo": "resume-expert",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "zcx960",
+    "repo": "seedance-storyboard",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "wdkang123",
+    "repo": "stop-slop-zh",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "veedstudio",
+    "repo": "open-edit",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "soumatheusgomes",
+    "repo": "vibe-coding-toolkit",
+    "first_seen": "2026-09-02",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "firstintent",
+    "repo": "ccteam",
+    "first_seen": "2026-09-02",
     "source": "search:topic:claude-code"
   }
 ]
