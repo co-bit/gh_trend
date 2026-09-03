@@ -28458,12 +28458,6 @@
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "iamzhihuix",
-    "repo": "skills-manage",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-code"
-  },
-  {
     "owner": "tanbiralam",
     "repo": "claude-code",
     "first_seen": "2026-07-28",
@@ -34220,12 +34214,6 @@
   {
     "owner": "forger-labs-hq",
     "repo": "researchforge",
-    "first_seen": "2026-08-11",
-    "source": "search:topic:llm-tools"
-  },
-  {
-    "owner": "na77tech-creator",
-    "repo": "aikstockdata",
     "first_seen": "2026-08-11",
     "source": "search:topic:llm-tools"
   },
@@ -42021,6 +42009,120 @@
     "owner": "firstintent",
     "repo": "ccteam",
     "first_seen": "2026-09-02",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "2akouwu",
+    "repo": "reverify",
+    "first_seen": "2026-09-03",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Tencent",
+    "repo": "wave-mcp",
+    "first_seen": "2026-09-03",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "xcjy8bao",
+    "repo": "pi-plugin-signal-grep",
+    "first_seen": "2026-09-03",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "RollingGo-AI",
+    "repo": "RollingGo-Hotel-MCP-Global",
+    "first_seen": "2026-09-03",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "siddzzzz",
+    "repo": "Tarsier",
+    "first_seen": "2026-09-03",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "edvardgrishin27",
+    "repo": "nativeprompt",
+    "first_seen": "2026-09-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-personalized-video-sales-outreach-script-planner-skill",
+    "first_seen": "2026-09-03",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "op7418",
+    "repo": "guizang-yingzao-skill",
+    "first_seen": "2026-09-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "n-pillai",
+    "repo": "ai-fluency-assessment-skill",
+    "first_seen": "2026-09-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "karem505",
+    "repo": "character-animation-skill",
+    "first_seen": "2026-09-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "theYahia",
+    "repo": "YaGEO",
+    "first_seen": "2026-09-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "npapatheodorou",
+    "repo": "personal-trainer-skill",
+    "first_seen": "2026-09-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "jaredcassoutt",
+    "repo": "vox-editorial",
+    "first_seen": "2026-09-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "OpenPetsHQ",
+    "repo": "openpets",
+    "first_seen": "2026-09-03",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "SAIL-Research-Lab",
+    "repo": "cheetahclaws",
+    "first_seen": "2026-09-03",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "openyak",
+    "repo": "openyak",
+    "first_seen": "2026-09-03",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "agentpit-io",
+    "repo": "hunter-community",
+    "first_seen": "2026-09-03",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "wanshuiyin",
+    "repo": "HERO-Anti-OverDefense",
+    "first_seen": "2026-09-03",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "termio-sh",
+    "repo": "termio",
+    "first_seen": "2026-09-03",
     "source": "search:topic:claude-code"
   }
 ]
