@@ -13608,12 +13608,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "loulanyue",
-    "repo": "awesome-claude-notes",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "Doist",
     "repo": "todoist-cli",
     "first_seen": "2026-07-28",
@@ -13998,12 +13992,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "Agents365-ai",
-    "repo": "asta-skill",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "antopolskiy",
     "repo": "kanban-md",
     "first_seen": "2026-07-28",
@@ -14052,12 +14040,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "Agents365-ai",
-    "repo": "excalidraw-skill",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "baidu-netdisk",
     "repo": "bdpan-storage",
     "first_seen": "2026-07-28",
@@ -14096,12 +14078,6 @@
   {
     "owner": "wednesday-solutions",
     "repo": "ai-agent-skills",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:agent-skills"
-  },
-  {
-    "owner": "Agents365-ai",
-    "repo": "paper-fetch",
     "first_seen": "2026-07-28",
     "source": "search:topic:agent-skills"
   },
@@ -14186,12 +14162,6 @@
   {
     "owner": "7WaySecurity",
     "repo": "ai_osint",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:agent-skills"
-  },
-  {
-    "owner": "Agents365-ai",
-    "repo": "mermaid-skill",
     "first_seen": "2026-07-28",
     "source": "search:topic:agent-skills"
   },
@@ -14696,12 +14666,6 @@
   {
     "owner": "yschimke",
     "repo": "compose-ai-tools",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:agent-skills"
-  },
-  {
-    "owner": "Agents365-ai",
-    "repo": "tldraw-skill",
     "first_seen": "2026-07-28",
     "source": "search:topic:agent-skills"
   },
@@ -15624,12 +15588,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "Agents365-ai",
-    "repo": "semanticscholar-skill",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "vanillaflava",
     "repo": "llm-wiki-skills",
     "first_seen": "2026-07-28",
@@ -16056,12 +16014,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "Agents365-ai",
-    "repo": "yt2bb",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "formulahendry",
     "repo": "vscode-agent-skills",
     "first_seen": "2026-07-28",
@@ -16262,12 +16214,6 @@
   {
     "owner": "bish-x",
     "repo": "creator-vibe",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:agent-skills"
-  },
-  {
-    "owner": "Agents365-ai",
-    "repo": "plantuml-skill",
     "first_seen": "2026-07-28",
     "source": "search:topic:agent-skills"
   },
@@ -31422,12 +31368,6 @@
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "loulanyue",
-    "repo": "spec-kit-zh",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-code"
-  },
-  {
     "owner": "askalf",
     "repo": "dario",
     "first_seen": "2026-07-28",
@@ -40260,12 +40200,6 @@
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "ShadowAqueduct",
-    "repo": "watermark-remover",
-    "first_seen": "2026-08-24",
-    "source": "search:topic:claude-code"
-  },
-  {
     "owner": "zenstory-ai",
     "repo": "video-recap-skills",
     "first_seen": "2026-08-24",
@@ -42123,6 +42057,150 @@
     "owner": "termio-sh",
     "repo": "termio",
     "first_seen": "2026-09-03",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "LING71671",
+    "repo": "open-reverselab",
+    "first_seen": "2026-09-04",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Abilityai",
+    "repo": "trinity",
+    "first_seen": "2026-09-04",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "btsouth",
+    "repo": "toolport",
+    "first_seen": "2026-09-04",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "tczyliu",
+    "repo": "china-travel-kit",
+    "first_seen": "2026-09-04",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "CrossPaste",
+    "repo": "crosspaste-desktop",
+    "first_seen": "2026-09-04",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "jieapi",
+    "repo": "AiCode",
+    "first_seen": "2026-09-04",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "lotchuazzz-crypto",
+    "repo": "papergraph-mcp",
+    "first_seen": "2026-09-04",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "KeibiSoft",
+    "repo": "KeibiDrop",
+    "first_seen": "2026-09-04",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "xcjy8bao",
+    "repo": "baoer_signal_grep",
+    "first_seen": "2026-09-04",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "aai-labs",
+    "repo": "agent-barn",
+    "first_seen": "2026-09-04",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "dripips",
+    "repo": "plain-prose",
+    "first_seen": "2026-09-04",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alpha-omega-security",
+    "repo": "threat-model",
+    "first_seen": "2026-09-04",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "axelfreeman",
+    "repo": "marketing-mindset",
+    "first_seen": "2026-09-04",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "mcdenil-skills",
+    "repo": "razbor-servisa",
+    "first_seen": "2026-09-04",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "uxKero",
+    "repo": "optimize-search-answers-agents",
+    "first_seen": "2026-09-04",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "webkubor",
+    "repo": "wechat-sticker-submit",
+    "first_seen": "2026-09-04",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "ericshang98",
+    "repo": "hw-review",
+    "first_seen": "2026-09-04",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "wangsoft",
+    "repo": "ELI5",
+    "first_seen": "2026-09-04",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Weichenleeeee123",
+    "repo": "oh-my-chinese-teacher",
+    "first_seen": "2026-09-04",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "sahrizvi",
+    "repo": "codex-remote-control",
+    "first_seen": "2026-09-04",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Fh-Ndiritu",
+    "repo": "list-my-startup-skill",
+    "first_seen": "2026-09-04",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "buluslan",
+    "repo": "bulus-amazon-skill",
+    "first_seen": "2026-09-04",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "weave-os",
+    "repo": "router",
+    "first_seen": "2026-09-04",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "LING71671",
+    "repo": "Open-ClaudeCode",
+    "first_seen": "2026-09-04",
     "source": "search:topic:claude-code"
   }
 ]
