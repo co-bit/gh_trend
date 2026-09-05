@@ -21108,12 +21108,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "backchainai",
-    "repo": "backchain-plugins",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "m62624",
     "repo": "pi-code-planner",
     "first_seen": "2026-07-28",
@@ -42201,6 +42195,96 @@
     "owner": "LING71671",
     "repo": "Open-ClaudeCode",
     "first_seen": "2026-09-04",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "Shudesu",
+    "repo": "line-harness-oss",
+    "first_seen": "2026-09-05",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Mangaba-ai",
+    "repo": "mangaba_ai",
+    "first_seen": "2026-09-05",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "adroamccullinp",
+    "repo": "ProtocolArc",
+    "first_seen": "2026-09-05",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "OktoLabsAI",
+    "repo": "okto-pulse",
+    "first_seen": "2026-09-05",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "oaslananka",
+    "repo": "easyeda-mcp-pro",
+    "first_seen": "2026-09-05",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Gentleman-Programming",
+    "repo": "gentle-ai",
+    "first_seen": "2026-09-05",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "johnpapa",
+    "repo": "ai-ready",
+    "first_seen": "2026-09-05",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "jinhanbuilds",
+    "repo": "bushiershi",
+    "first_seen": "2026-09-05",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Kayforkind",
+    "repo": "reimagine-it",
+    "first_seen": "2026-09-05",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "wenjimods",
+    "repo": "timeboxed-execution",
+    "first_seen": "2026-09-05",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "moonlight-lupin",
+    "repo": "agent-skills",
+    "first_seen": "2026-09-05",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "deciduus",
+    "repo": "calendar-mcp",
+    "first_seen": "2026-09-05",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "qiusuo0226",
+    "repo": "chrono-pm-skill",
+    "first_seen": "2026-09-05",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "pt1987",
+    "repo": "claude-code-psadt-skill",
+    "first_seen": "2026-09-05",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "llmmanorg",
+    "repo": "llmman",
+    "first_seen": "2026-09-05",
     "source": "search:topic:claude-code"
   }
 ]
