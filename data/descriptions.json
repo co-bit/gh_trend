@@ -83,6 +83,7 @@
   "browser-act/skills": "AIエージェント向けブラウザ自動操作CLI(アンチボット対策・並列実行対応)",
   "bybit-exchange/svg-diagram": "アーキテクチャ図やフローチャート等の各種図面を統一感のあるSVG形式で生成するエージェント用スキル",
   "bytedance/UI-TARS-desktop": "マルチモーダルAIモデルとエージェント基盤を接続するオープンソースのAIエージェントスタック。",
+  "cablate/mcp-google-map": "Google Maps APIとの連携およびLLM処理機能を備えたModel Context Protocolサーバー。",
   "cathrynlavery/diagram-design": "Claude CodeやCodex、Pi向けに作られたHTMLとSVG形式の38種類のエディトリアル図表デザイン集。",
   "ccch1mneyyy/dsh-TUI": "状態表示や思考展開、ロールバック機能を備えたClaude Code風のDSH用全画面TUIプラグイン。",
   "chaitanyagiri/munder-difflin": "chaitanyagiri/munder-difflinはローカル環境で動作するマルチエージェントを構築・制御するためのハーネス。",
