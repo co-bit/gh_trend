@@ -42286,5 +42286,137 @@
     "repo": "llmman",
     "first_seen": "2026-09-05",
     "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "Vexa-ai",
+    "repo": "vexa",
+    "first_seen": "2026-09-06",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "laradashboard",
+    "repo": "laradashboard",
+    "first_seen": "2026-09-06",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "redhat-et",
+    "repo": "ripwire",
+    "first_seen": "2026-09-06",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "arben-adm",
+    "repo": "mcp-sequential-thinking",
+    "first_seen": "2026-09-06",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "AnxForever",
+    "repo": "stylekit",
+    "first_seen": "2026-09-06",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "RankSpotAI",
+    "repo": "awesome-seo-mcp",
+    "first_seen": "2026-09-06",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "aicanvas-me",
+    "repo": "aicanvas",
+    "first_seen": "2026-09-06",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "lllllllama",
+    "repo": "RigorPilot-Skills",
+    "first_seen": "2026-09-06",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "oxbshw",
+    "repo": "watch-skill",
+    "first_seen": "2026-09-06",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "RankSpotAI",
+    "repo": "awesome-seo-agent-skills",
+    "first_seen": "2026-09-06",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "antibrow",
+    "repo": "anti-detect-browser-skills",
+    "first_seen": "2026-09-06",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "nwiizo",
+    "repo": "oi-owarasero",
+    "first_seen": "2026-09-06",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "shleder",
+    "repo": "vetto",
+    "first_seen": "2026-09-06",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-investment-banking-dcf-lbo-financial-model-builder-skill",
+    "first_seen": "2026-09-06",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-full-duplex-streaming-voice-agent-pipeline-skill",
+    "first_seen": "2026-09-06",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-realtime-neural-3d-mesh-pbr-texture-generator-skill",
+    "first_seen": "2026-09-06",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "DogukanK",
+    "repo": "claude-pc-cleanup",
+    "first_seen": "2026-09-06",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "jiangge0804-crypto",
+    "repo": "collage-broll-minimax",
+    "first_seen": "2026-09-06",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "rookieplayerjr",
+    "repo": "pygmt-plotting-skill",
+    "first_seen": "2026-09-06",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "wuisabel-gif",
+    "repo": "Real",
+    "first_seen": "2026-09-06",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "PenglongHuang",
+    "repo": "chinese-novelist-skill",
+    "first_seen": "2026-09-06",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "ethanplusai",
+    "repo": "jarvis",
+    "first_seen": "2026-09-06",
+    "source": "search:topic:claude-code"
   }
 ]
