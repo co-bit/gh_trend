@@ -41202,12 +41202,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "yanliudesign",
-    "repo": "french-illustration-skill",
-    "first_seen": "2026-08-30",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "hdkhosravian",
     "repo": "loop-contract-skill",
     "first_seen": "2026-08-30",
@@ -41396,12 +41390,6 @@
   {
     "owner": "melih-unsal",
     "repo": "DemoGPT",
-    "first_seen": "2026-08-31",
-    "source": "search:topic:claude-code"
-  },
-  {
-    "owner": "damejan80",
-    "repo": "tokentab",
     "first_seen": "2026-08-31",
     "source": "search:topic:claude-code"
   },
@@ -42417,6 +42405,156 @@
     "owner": "ethanplusai",
     "repo": "jarvis",
     "first_seen": "2026-09-06",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "Aletheore",
+    "repo": "Aletheore",
+    "first_seen": "2026-09-07",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "bostrot",
+    "repo": "wsl2-distro-manager",
+    "first_seen": "2026-09-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Sidiora-Labs",
+    "repo": "LayerX-Network",
+    "first_seen": "2026-09-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "timgordontg",
+    "repo": "engrim",
+    "first_seen": "2026-09-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "gokeshenzhen",
+    "repo": "TraceWeave",
+    "first_seen": "2026-09-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "bsab",
+    "repo": "france-mcp-servers",
+    "first_seen": "2026-09-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "moadim-io",
+    "repo": "daemon",
+    "first_seen": "2026-09-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "grayhatdevelopers",
+    "repo": "vidxp",
+    "first_seen": "2026-09-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "bardesss",
+    "repo": "arr-mcp",
+    "first_seen": "2026-09-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "feichanggege",
+    "repo": "ecommerce-visual-copywriting-skill",
+    "first_seen": "2026-09-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Gentleman-Programming",
+    "repo": "gentle-pi",
+    "first_seen": "2026-09-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "kennyzir",
+    "repo": "7deer_skills",
+    "first_seen": "2026-09-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "pc-style",
+    "repo": "x-md",
+    "first_seen": "2026-09-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "tigerless-labs",
+    "repo": "seo-ops",
+    "first_seen": "2026-09-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "AvroraCL",
+    "repo": "image-to-css-art",
+    "first_seen": "2026-09-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alexahern0808",
+    "repo": "RecallWeave",
+    "first_seen": "2026-09-07",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Zvyan",
+    "repo": "PromptForge",
+    "first_seen": "2026-09-07",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "overklassniy",
+    "repo": "ssh-mcp",
+    "first_seen": "2026-09-07",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "arjun988",
+    "repo": "aimake",
+    "first_seen": "2026-09-07",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Shehabov",
+    "repo": "pm-resume-builder-skill",
+    "first_seen": "2026-09-07",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Johnson-Jia",
+    "repo": "liuyao-divination",
+    "first_seen": "2026-09-07",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "chjnett",
+    "repo": "open_contribute",
+    "first_seen": "2026-09-07",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "openlit",
+    "repo": "openlit",
+    "first_seen": "2026-09-07",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "spec-kitty",
+    "repo": "spec-kitty",
+    "first_seen": "2026-09-07",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "Kuddev",
+    "repo": "pebrel",
+    "first_seen": "2026-09-07",
     "source": "search:topic:claude-code"
   }
 ]
