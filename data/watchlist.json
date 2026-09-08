@@ -33444,12 +33444,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "mahshid1378",
-    "repo": "Owner-avatar-higgsfield-ai-prompt-skill",
-    "first_seen": "2026-08-07",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "jaxx2104",
     "repo": "exiftool-skill",
     "first_seen": "2026-08-07",
@@ -41298,12 +41292,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "sma-framework",
-    "repo": "sma",
-    "first_seen": "2026-08-31",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "omar-abo-el-maaty",
     "repo": "cv-job-market-research",
     "first_seen": "2026-08-31",
@@ -42555,6 +42543,174 @@
     "owner": "Kuddev",
     "repo": "pebrel",
     "first_seen": "2026-09-07",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "okf-memory",
+    "repo": "okf-agent-memory",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "markuman",
+    "repo": "sms",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "noskillish",
+    "repo": "bankmcp",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "20000419",
+    "repo": "fauxnix",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Cotal-AI",
+    "repo": "Cotal",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "tumf",
+    "repo": "mcp-text-editor",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "JangHyuckYun",
+    "repo": "mcp-youtube-intelligence",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "cortex-docs",
+    "repo": "cortex",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "yuezhiai",
+    "repo": "jonex",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "AThevon",
+    "repo": "genjutsu",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Clipcat-ai",
+    "repo": "clipcat-skill",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "ejboy",
+    "repo": "agent-scripts",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Albertchamberlain",
+    "repo": "Awesome-OKF",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "maxrave-dev",
+    "repo": "kotlin-footguns",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "3338902669-ops",
+    "repo": "agent-orchestra",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "xjli360",
+    "repo": "sealeap-amazon-ad-skills",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "JingHao-Leon",
+    "repo": "dsh-alpha-desk",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "NocodeMrLi",
+    "repo": "mini-program-engineering-skill-suite",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "23512478",
+    "repo": "ContextGate",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "charlesdove977",
+    "repo": "ez-thumb",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "cskwork",
+    "repo": "supertutor-skill",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "mars-tw",
+    "repo": "tower-defense-skill",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "grunion-ai",
+    "repo": "decklet",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "nateherkai",
+    "repo": "hyperframes-student-kit",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "tigerless-labs",
+    "repo": "agent-memory",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "benmaster82",
+    "repo": "Kwipu",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "yyjeqhc",
+    "repo": "webcodex",
+    "first_seen": "2026-09-08",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "leopard627",
+    "repo": "fire-your-seo-agency",
+    "first_seen": "2026-09-08",
     "source": "search:topic:claude-code"
   }
 ]
