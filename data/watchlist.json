@@ -23160,12 +23160,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "mythkiven",
-    "repo": "rednote-director-skill",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "msanchezdev",
     "repo": "agent-bridge",
     "first_seen": "2026-07-28",
@@ -38694,12 +38688,6 @@
     "source": "search:topic:mcp-server"
   },
   {
-    "owner": "pitiflautico",
-    "repo": "neobrowser",
-    "first_seen": "2026-08-18",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "Hylouis233",
     "repo": "bibverify",
     "first_seen": "2026-08-18",
@@ -42711,6 +42699,138 @@
     "owner": "leopard627",
     "repo": "fire-your-seo-agency",
     "first_seen": "2026-09-08",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "pascalorg",
+    "repo": "editor",
+    "first_seen": "2026-09-09",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "irinabuht12-oss",
+    "repo": "marketing-skills",
+    "first_seen": "2026-09-09",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "bighadj22",
+    "repo": "codflow",
+    "first_seen": "2026-09-09",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Wind-Alice",
+    "repo": "AliceMarket",
+    "first_seen": "2026-09-09",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "CKang-J",
+    "repo": "Kith-space",
+    "first_seen": "2026-09-09",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "reality-opened",
+    "repo": "openreality",
+    "first_seen": "2026-09-09",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Advai-X",
+    "repo": "advai-cli",
+    "first_seen": "2026-09-09",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "michael-denyer",
+    "repo": "pstack-claude",
+    "first_seen": "2026-09-09",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "adand-91",
+    "repo": "gpt-6-astra-skill",
+    "first_seen": "2026-09-09",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Jakeschincariol",
+    "repo": "linkedin-agent-skill",
+    "first_seen": "2026-09-09",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Advai-X",
+    "repo": "advai-skills",
+    "first_seen": "2026-09-09",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "KeWang0622",
+    "repo": "kaogong-skill",
+    "first_seen": "2026-09-09",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Aloim",
+    "repo": "PhanOS-Personal-Hybrid-Agent-Network-Operating-System-",
+    "first_seen": "2026-09-09",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "imMamdouhaboammar",
+    "repo": "chatgpt-codex-plugin-autopilot",
+    "first_seen": "2026-09-09",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "GenAI-Security-Project",
+    "repo": "crosswalk",
+    "first_seen": "2026-09-09",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Devesh-Shirsath",
+    "repo": "spotkit",
+    "first_seen": "2026-09-09",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "ABYR1206",
+    "repo": "claude-skill-hand-drawn-slides",
+    "first_seen": "2026-09-09",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "lukasersil",
+    "repo": "gpt-images",
+    "first_seen": "2026-09-09",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "y0f",
+    "repo": "fable-orchestration-5.1",
+    "first_seen": "2026-09-09",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "thdelmas",
+    "repo": "consciousness-loop",
+    "first_seen": "2026-09-09",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "vasco-branco06",
+    "repo": "geo-check",
+    "first_seen": "2026-09-09",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "professorpalmer",
+    "repo": "Puppetmaster",
+    "first_seen": "2026-09-09",
     "source": "search:topic:claude-code"
   }
 ]
