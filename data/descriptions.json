@@ -169,6 +169,7 @@
   "oooscoos/Benzi": "tree-sitterを活用し複数言語を共通マップへ変換してコード構造をO(1)で即座に解決するAI基盤",
   "open-gsd/gsd-core": "Gitを活用したソフトウェア開発から出荷までのフローを効率化するGit. Ship. Doneのコアライブラリ。",
   "open-webui/mcpo": "MCPをOpenAPIに変換するシンプルなプロキシサーバー",
+  "openlit/openlit": "OpenTelemetryでAIエージェントのLLM、プロンプト、コスト等をトレース・評価する可観測性プラットフォーム",
   "opensolon/solon": "Springの代替となる、軽量かつ高速なJavaエンタープライズアプリケーション開発フレームワーク。",
   "openstatusHQ/openstatus": "コードによるAPI監視と稼働率モニタリング機能を備えたopenstatusのステータスページ作成ツール",
   "oraios/serena": "セマンティックなコード検索・編集機能を持つ強力なMCPツールキット",
