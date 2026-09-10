@@ -11682,12 +11682,6 @@
     "source": "search:topic:model-context-protocol"
   },
   {
-    "owner": "Perseus-Computing-LLC",
-    "repo": "perseus-vault",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "SecurityRonin",
     "repo": "docx-mcp",
     "first_seen": "2026-07-28",
@@ -29904,12 +29898,6 @@
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "bawadou",
-    "repo": "claude-engineer",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-code"
-  },
-  {
     "owner": "asheshgoplani",
     "repo": "agent-deck",
     "first_seen": "2026-07-28",
@@ -40224,12 +40212,6 @@
     "source": "search:topic:model-context-protocol"
   },
   {
-    "owner": "Perseus-Computing-LLC",
-    "repo": "perseus",
-    "first_seen": "2026-08-25",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "mtarcure",
     "repo": "claude-vibe-squad",
     "first_seen": "2026-08-25",
@@ -42831,6 +42813,168 @@
     "owner": "professorpalmer",
     "repo": "Puppetmaster",
     "first_seen": "2026-09-09",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "rife2",
+    "repo": "bld",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "zhuyifang",
+    "repo": "tonghuasun-agent",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "LucieEveille",
+    "repo": "kiwi-mem",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "KuudoAI",
+    "repo": "amazon_ads_mcp",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "MontyGovernance",
+    "repo": "montycat-mcp",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Vincentwei1021",
+    "repo": "anything2explainer",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "SnowBankSDK",
+    "repo": "foundationdb-dotnet-client",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "MrRobotoGit",
+    "repo": "tiramisu",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "xjli360",
+    "repo": "sealeap-amazon-skills",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Da7-Tech",
+    "repo": "SureForge",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "FreedomIntelligence",
+    "repo": "BlenderLore",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "ReScienceLab",
+    "repo": "super-prototyping",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "icesixgod",
+    "repo": "awesome-astra-blender-characters",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "guhou-hvi",
+    "repo": "elsevier-figure-style",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "oil-oil",
+    "repo": "oil-skill-creator",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "transkatgirl",
+    "repo": "Tapestry-Loom",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Oeditus",
+    "repo": "yoke",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Aloim",
+    "repo": "PhanOS",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "tachyonmcp",
+    "repo": "tachyon",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-photorealistic-aesthetic-diffusion-prompt-synthesizer-skill",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Intelligible",
+    "repo": "elbi",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "moiz-za",
+    "repo": "etsy-seller-seo-system",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "nicohodt",
+    "repo": "claude-code-ui-ux-skill",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Zaious",
+    "repo": "riftbound-chronicle",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "777genius",
+    "repo": "agent-notifications",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "dickwu",
+    "repo": "apple-design-skill",
+    "first_seen": "2026-09-10",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "chattymin",
+    "repo": "PokeTokenBar",
+    "first_seen": "2026-09-10",
     "source": "search:topic:claude-code"
   }
 ]
