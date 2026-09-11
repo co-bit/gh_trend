@@ -42976,5 +42976,101 @@
     "repo": "PokeTokenBar",
     "first_seen": "2026-09-10",
     "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "reactive-resume",
+    "repo": "app",
+    "first_seen": "2026-09-11",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Evil0ctal",
+    "repo": "Douyin_TikTok_Download_API",
+    "first_seen": "2026-09-11",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "silexlabs",
+    "repo": "Silex",
+    "first_seen": "2026-09-11",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "antibrow",
+    "repo": "dsh-antibrow",
+    "first_seen": "2026-09-11",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Atomburstofficial",
+    "repo": "geiger",
+    "first_seen": "2026-09-11",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "bnymnDev",
+    "repo": "shopware-mcp",
+    "first_seen": "2026-09-11",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "zenstory-ai",
+    "repo": "oh-story-dsh",
+    "first_seen": "2026-09-11",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "88lin",
+    "repo": "computer-repair-skill",
+    "first_seen": "2026-09-11",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "crichars",
+    "repo": "embedded-project-governance",
+    "first_seen": "2026-09-11",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-legal-contract-clause-risk-redline-analyzer-skill",
+    "first_seen": "2026-09-11",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-stateful-os-tier-memory-virtualization-agent-skill",
+    "first_seen": "2026-09-11",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "MustBeSimo",
+    "repo": "web-design-studio",
+    "first_seen": "2026-09-11",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "mixocreative",
+    "repo": "ecommerce-cia",
+    "first_seen": "2026-09-11",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "jianruntech",
+    "repo": "geo-score",
+    "first_seen": "2026-09-11",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "zeronsh",
+    "repo": "zeron",
+    "first_seen": "2026-09-11",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "mizzlelover",
+    "repo": "gongwen-gbt9704-skill",
+    "first_seen": "2026-09-11",
+    "source": "search:topic:claude-code"
   }
 ]
