@@ -262,5 +262,11 @@
     "stars": 31337,
     "hn_mentions": 0,
     "dependents": 21
+  },
+  {
+    "date": "2026-09-12",
+    "stars": 31358,
+    "hn_mentions": null,
+    "dependents": 21
   }
 ]

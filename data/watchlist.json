@@ -8646,12 +8646,6 @@
     "source": "search:topic:model-context-protocol"
   },
   {
-    "owner": "Playa-0v0",
-    "repo": "Cyrene-Agent",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "IMNMV",
     "repo": "ClaudeR",
     "first_seen": "2026-07-28",
@@ -16748,12 +16742,6 @@
   {
     "owner": "Z-Bra0",
     "repo": "Ski",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:agent-skills"
-  },
-  {
-    "owner": "ImL1s",
-    "repo": "resume-skills",
     "first_seen": "2026-07-28",
     "source": "search:topic:agent-skills"
   },
@@ -25460,12 +25448,6 @@
   {
     "owner": "chiKeka",
     "repo": "obsidian-kb",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
-    "owner": "klaywang24",
-    "repo": "interactive-field-guide-skill",
     "first_seen": "2026-07-28",
     "source": "search:topic:claude-skill"
   },
@@ -43071,6 +43053,126 @@
     "owner": "mizzlelover",
     "repo": "gongwen-gbt9704-skill",
     "first_seen": "2026-09-11",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "reactive-resume",
+    "repo": "reactive-resume",
+    "first_seen": "2026-09-12",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "guaardvark",
+    "repo": "guaardvark",
+    "first_seen": "2026-09-12",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "paolobietolini",
+    "repo": "gtm-mcp-server",
+    "first_seen": "2026-09-12",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "getopenpost",
+    "repo": "openpost",
+    "first_seen": "2026-09-12",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "haoruilee",
+    "repo": "awesome-agent-native-services",
+    "first_seen": "2026-09-12",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "multizenteam",
+    "repo": "multizen-browser",
+    "first_seen": "2026-09-12",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "opengenesishq",
+    "repo": "CaoGen",
+    "first_seen": "2026-09-12",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "xiaomoBoy",
+    "repo": "pi-bluebook",
+    "first_seen": "2026-09-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Colinjqq",
+    "repo": "content-forecast",
+    "first_seen": "2026-09-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "naderelewa",
+    "repo": "Product-to-Prod",
+    "first_seen": "2026-09-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "aws",
+    "repo": "tools-for-devops-agent",
+    "first_seen": "2026-09-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "undefined-ui",
+    "repo": "second-brain-os",
+    "first_seen": "2026-09-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Naridon-Inc",
+    "repo": "aura",
+    "first_seen": "2026-09-12",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-livestreaming-ecommerce-multi-room-gmv-optimizer-skill",
+    "first_seen": "2026-09-12",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "AgriciDaniel",
+    "repo": "youtube-scout",
+    "first_seen": "2026-09-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "AboutRSS",
+    "repo": "rsshub-route-authoring-skill",
+    "first_seen": "2026-09-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "maydengximin-sketch",
+    "repo": "amos-sem-workflow-skill",
+    "first_seen": "2026-09-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Everlky-yyj",
+    "repo": "content-director",
+    "first_seen": "2026-09-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "tradecatlabs",
+    "repo": "vibe-coding-cn",
+    "first_seen": "2026-09-12",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "crwdla",
+    "repo": "tokentab",
+    "first_seen": "2026-09-12",
     "source": "search:topic:claude-code"
   }
 ]
