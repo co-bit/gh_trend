@@ -33630,12 +33630,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "bestdeejay-design",
-    "repo": "agent-skills",
-    "first_seen": "2026-08-08",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "shubhaviatiningsih-byte",
     "repo": "fortune-liuyao-skill",
     "first_seen": "2026-08-08",
@@ -43110,12 +43104,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "naderelewa",
-    "repo": "Product-to-Prod",
-    "first_seen": "2026-09-12",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "aws",
     "repo": "tools-for-devops-agent",
     "first_seen": "2026-09-12",
@@ -43173,6 +43161,108 @@
     "owner": "crwdla",
     "repo": "tokentab",
     "first_seen": "2026-09-12",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "dmarcguardhq",
+    "repo": "parse-dmarc",
+    "first_seen": "2026-09-13",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "VeraTools",
+    "repo": "vera",
+    "first_seen": "2026-09-13",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "28naem-del",
+    "repo": "mnemosyne",
+    "first_seen": "2026-09-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "n24q02m",
+    "repo": "crg",
+    "first_seen": "2026-09-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "rohitsoni1010",
+    "repo": "mcp-gearbox",
+    "first_seen": "2026-09-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Tiger3807861189",
+    "repo": "J-Space-Cognition-Suite",
+    "first_seen": "2026-09-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "renezander030",
+    "repo": "capcut-cli",
+    "first_seen": "2026-09-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Ashfaqbs",
+    "repo": "software-dev-ai-claude-toolkit",
+    "first_seen": "2026-09-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-realtime-hallucination-fact-checker-verifier-skill",
+    "first_seen": "2026-09-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "behzadsp",
+    "repo": "claude-code-image-gen",
+    "first_seen": "2026-09-13",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "ddzyx",
+    "repo": "qiuxiaoce-football-data",
+    "first_seen": "2026-09-13",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "davidalmeida90",
+    "repo": "claude-design-fund",
+    "first_seen": "2026-09-13",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "demircigoksu",
+    "repo": "away-mode",
+    "first_seen": "2026-09-13",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "flypythoncom",
+    "repo": "python",
+    "first_seen": "2026-09-13",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "kaochenlong",
+    "repo": "spectra-app",
+    "first_seen": "2026-09-13",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "Sinholms",
+    "repo": "setup-gateway",
+    "first_seen": "2026-09-13",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "eternityspring",
+    "repo": "reelbench-skills",
+    "first_seen": "2026-09-13",
     "source": "search:topic:claude-code"
   }
 ]
