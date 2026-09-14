@@ -43264,5 +43264,155 @@
     "repo": "reelbench-skills",
     "first_seen": "2026-09-13",
     "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "wlsdks",
+    "repo": "ontology-atlas",
+    "first_seen": "2026-09-14",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "verrysimatupang99",
+    "repo": "codex-dev-mcp-suite",
+    "first_seen": "2026-09-14",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "bsab",
+    "repo": "sweden-mcp-servers",
+    "first_seen": "2026-09-14",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "filtalgo",
+    "repo": "Filtmall-Shopping-Skill",
+    "first_seen": "2026-09-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "motiful",
+    "repo": "product-shots",
+    "first_seen": "2026-09-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "HasData",
+    "repo": "glassdoor-mcp",
+    "first_seen": "2026-09-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HasData",
+    "repo": "yelp-mcp",
+    "first_seen": "2026-09-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "doeixd",
+    "repo": "foldkit-plus",
+    "first_seen": "2026-09-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HasData",
+    "repo": "google-scholar-mcp",
+    "first_seen": "2026-09-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HasData",
+    "repo": "walmart-mcp",
+    "first_seen": "2026-09-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HasData",
+    "repo": "bing-mcp",
+    "first_seen": "2026-09-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HasData",
+    "repo": "yellowpages-mcp",
+    "first_seen": "2026-09-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HasData",
+    "repo": "shopify-mcp",
+    "first_seen": "2026-09-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HasData",
+    "repo": "facebook-mcp",
+    "first_seen": "2026-09-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HasData",
+    "repo": "redfin-mcp",
+    "first_seen": "2026-09-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HasData",
+    "repo": "google-images-mcp",
+    "first_seen": "2026-09-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HasData",
+    "repo": "amazon-mcp",
+    "first_seen": "2026-09-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HasData",
+    "repo": "web-scraping-mcp",
+    "first_seen": "2026-09-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-generative-music-composition-multitrack-synthesizer-skill",
+    "first_seen": "2026-09-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "hsol",
+    "repo": "irasutoya",
+    "first_seen": "2026-09-14",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "m-mahadi",
+    "repo": "anime-80s-skill",
+    "first_seen": "2026-09-14",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "keez97",
+    "repo": "humanizer",
+    "first_seen": "2026-09-14",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "ANVEAI",
+    "repo": "idea-hunt-skill",
+    "first_seen": "2026-09-14",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "genspark-ai",
+    "repo": "genoffice",
+    "first_seen": "2026-09-14",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "kruzovic7",
+    "repo": "ai-data-extractor",
+    "first_seen": "2026-09-14",
+    "source": "search:topic:claude-code"
   }
 ]
