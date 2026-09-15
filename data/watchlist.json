@@ -19518,12 +19518,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "programmersd21",
-    "repo": "scratch-copilot",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "Water-Run",
     "repo": "pack-my-code",
     "first_seen": "2026-07-28",
@@ -34104,12 +34098,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "sanshengai",
-    "repo": "sansheng-distill",
-    "first_seen": "2026-08-11",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "fatmind",
     "repo": "webclaw3",
     "first_seen": "2026-08-11",
@@ -38186,12 +38174,6 @@
   {
     "owner": "learnwithu",
     "repo": "mingli-master",
-    "first_seen": "2026-08-15",
-    "source": "search:topic:claude-skill"
-  },
-  {
-    "owner": "sanshengai",
-    "repo": "sansheng-write",
     "first_seen": "2026-08-15",
     "source": "search:topic:claude-skill"
   },
@@ -43413,6 +43395,168 @@
     "owner": "kruzovic7",
     "repo": "ai-data-extractor",
     "first_seen": "2026-09-14",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "serpapi",
+    "repo": "serpapi-mcp",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "jin-bo",
+    "repo": "agentao",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "matthew-kissinger",
+    "repo": "kiln",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "CarlosZ16420",
+    "repo": "hamster-archiver",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Futureppo",
+    "repo": "antigravity_bypass",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "alvinindra",
+    "repo": "figma-mcp-rust",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "AgentDock",
+    "repo": "AgentDock",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Gentleman-Programming",
+    "repo": "gentle-shell",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "dmoshehun-prog",
+    "repo": "learn-from-materials",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "pliablepixels",
+    "repo": "gap-trap",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "liarjsdev",
+    "repo": "liarjs-skills",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "TestAny-io",
+    "repo": "testany-agent-skills",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "ruc-datalab",
+    "repo": "SkillAdam",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "ljx-chase",
+    "repo": "research-field-onboarding",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Miint-Sunny",
+    "repo": "nai5-prompting",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "hieuphung97",
+    "repo": "dely",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "lidge-jun",
+    "repo": "aside-codemode",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "nextime",
+    "repo": "coderai",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Shalimov04",
+    "repo": "mcp-airlock",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "SKE-Labs",
+    "repo": "lightrace",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "KonghuanSmart",
+    "repo": "calculate-mcp",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-omnichannel-beauty-retail-inventory-recommendation-skill",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-open-source-voice-agent-pipeline-orchestrator-skill",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agentic-dev-environment-live-telemetry-loop-skill",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "xiangzhouEcho",
+    "repo": "Echo-Slides-Skill",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "janieehe",
+    "repo": "reelwright",
+    "first_seen": "2026-09-15",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "awarexone",
+    "repo": "Agentic-Bug-Hunter",
+    "first_seen": "2026-09-15",
     "source": "search:topic:claude-code"
   }
 ]
