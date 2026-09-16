@@ -20766,12 +20766,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "lordbasilaiassistant-sudo",
-    "repo": "OllamaHarness",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "KyaniteLabs",
     "repo": "Epoch",
     "first_seen": "2026-07-28",
@@ -43557,6 +43551,108 @@
     "owner": "awarexone",
     "repo": "Agentic-Bug-Hunter",
     "first_seen": "2026-09-15",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "jaccen",
+    "repo": "Awesome-Gaussian-Skills",
+    "first_seen": "2026-09-16",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "ahujasid",
+    "repo": "mcp-for-blender",
+    "first_seen": "2026-09-16",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "HiAi-gg",
+    "repo": "docsmint",
+    "first_seen": "2026-09-16",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "rosasynthesiz",
+    "repo": "flstudio-mcp",
+    "first_seen": "2026-09-16",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "t0mtaylor",
+    "repo": "peepshow",
+    "first_seen": "2026-09-16",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Shellishack",
+    "repo": "infinite-pokemon",
+    "first_seen": "2026-09-16",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "ARahim3",
+    "repo": "cachebeat",
+    "first_seen": "2026-09-16",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Sunnyeung369",
+    "repo": "viral-content-generator",
+    "first_seen": "2026-09-16",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "anchor-cc",
+    "repo": "openwebui-dynamic-mcp",
+    "first_seen": "2026-09-16",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "umutsevdi",
+    "repo": "imza",
+    "first_seen": "2026-09-16",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "vivialiudesign",
+    "repo": "agentic-sprint",
+    "first_seen": "2026-09-16",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "0xpili",
+    "repo": "simplified-technical-english",
+    "first_seen": "2026-09-16",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "SSRYLJRSS",
+    "repo": "drama-script-writing",
+    "first_seen": "2026-09-16",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "acchuang",
+    "repo": "zh-tw-humanizer",
+    "first_seen": "2026-09-16",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "cashew-labs",
+    "repo": "libretto",
+    "first_seen": "2026-09-16",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "CodeZeno",
+    "repo": "Claude-Code-Usage-Monitor",
+    "first_seen": "2026-09-16",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "askimo-ai",
+    "repo": "askimo",
+    "first_seen": "2026-09-16",
     "source": "search:topic:claude-code"
   }
 ]
