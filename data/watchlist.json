@@ -41208,12 +41208,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "uniqueplume",
-    "repo": "AI-Token-Optimizer-Claude-Codex-Cursor",
-    "first_seen": "2026-08-31",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "omar-abo-el-maaty",
     "repo": "cv-job-market-research",
     "first_seen": "2026-08-31",
@@ -43653,6 +43647,138 @@
     "owner": "askimo-ai",
     "repo": "askimo",
     "first_seen": "2026-09-16",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "shinthink",
+    "repo": "blitzstrike",
+    "first_seen": "2026-09-17",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "dx-corp",
+    "repo": "deep-code-reasoning-mcp",
+    "first_seen": "2026-09-17",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "NiazMorshed2007",
+    "repo": "jev-review",
+    "first_seen": "2026-09-17",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "RohanMuppa",
+    "repo": "brightspace-mcp-server",
+    "first_seen": "2026-09-17",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "To3akaRin",
+    "repo": "mac-computer-use",
+    "first_seen": "2026-09-17",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "jstanden",
+    "repo": "cerb",
+    "first_seen": "2026-09-17",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "beyondtahir",
+    "repo": "beyondseo",
+    "first_seen": "2026-09-17",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "weilun88313",
+    "repo": "B2B-Playbook",
+    "first_seen": "2026-09-17",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "theagenttimes",
+    "repo": "agent-news",
+    "first_seen": "2026-09-17",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "xiweicheng",
+    "repo": "ai-helper",
+    "first_seen": "2026-09-17",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "programmersd21",
+    "repo": "scratch-copilot",
+    "first_seen": "2026-09-17",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "pouriya",
+    "repo": "borhan",
+    "first_seen": "2026-09-17",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-realtime-voice-duplex-turn-taking-interruption-detector-skill",
+    "first_seen": "2026-09-17",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-resilient-agentic-document-parser-workflow-automaton-skill",
+    "first_seen": "2026-09-17",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-realtime-voice-interruption-turn-taking-manager-skill",
+    "first_seen": "2026-09-17",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "AnYejun",
+    "repo": "blind-vault",
+    "first_seen": "2026-09-17",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "debbiechow",
+    "repo": "preffer-brainstorm",
+    "first_seen": "2026-09-17",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "youssofal",
+    "repo": "MTPLX",
+    "first_seen": "2026-09-17",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "ARahim3",
+    "repo": "kaggle-tpu-lab",
+    "first_seen": "2026-09-17",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "JayPokale",
+    "repo": "Chisle",
+    "first_seen": "2026-09-17",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "viettranx",
+    "repo": "3dviz-pro-max",
+    "first_seen": "2026-09-17",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "huggingface",
+    "repo": "funes",
+    "first_seen": "2026-09-17",
     "source": "search:topic:claude-code"
   }
 ]
