@@ -1,4 +1,5 @@
 {
+  "0xmariowu/AgentLint": "Claude Code、Codex、Cursorなどのエージェントハーネスで動作するリンターツール。",
   "1ay1/agentty": "任意のモデルに対応し、単一の静的バイナリで高速起動するターミナル用AIペアプログラミングツール。",
   "AMAP-ML/LongHorizon-Harness": "Claude CodeやCodexなどのAIエージェントをデスクトップやCLIで長期実行し状態保存と進捗管理を行うハーネス。",
   "AgentDeskAI/browser-tools-mcp": "Cursorやその他のMCP対応IDEから直接ブラウザログを監視できるようにするツール",
@@ -42,6 +43,7 @@
   "Nanako0129/sepia": "StoryScopeに基づく、Claude Code等のAI文章からAIらしさを除去し物語修復や校正を行う文章スキル。",
   "NanoNets/Graft": "Claude CodeやCursor等のコーディングエージェントにコードベース特有の文脈理解を付与するツール。",
   "NousResearch/hermes-agent": "ユーザーとともに成長するAIエージェント",
+  "Ontos-AI/knowhere": "AI AgentsやRAGで利用可能な構造化チャンクの抽出、解析、出力を行うKnowhere",
   "OpenLabs-so/openanalytics": "クッキー非使用でプライバシーを保護し、収益アトリビューションとMCPサーバーを提供するオープンソースWeb解析ツール",
   "Panniantong/Agent-Reach": "Twitter/Reddit/YouTube等を横断検索できるAIエージェント向けCLI",
   "PeonPing/peon-ping": "Claude CodeやCodexなどのAIエージェントやIDEに向けたWarcraft IIIのPeon音声通知ツール",
@@ -70,6 +72,7 @@
   "agentscope-ai/QwenPaw": "自分のマシンやクラウドで動く、複数チャットアプリ対応の個人用AIアシスタント",
   "agentskills/agentskills": "Agent Skillsに関する仕様の定義および関連する各種ドキュメントをまとめたリポジトリ",
   "alibaba/open-code-review": "Alibaba発、ルールベース+LLMエージェントを組み合わせたコードレビューツール",
+  "alibaba/zvec": "alibaba/zvecは、アプリ内に組み込んで実行できる軽量なインプロセス型ベクトルデータベース",
   "alpbahadur/49-IDE": "複数プロジェクトやマシンにまたがるAIエージェント、CLI、Git、ファイル等を管理するオープンソースの2D IDE",
   "alpic-ai/skybridge": "MCP AppsやChatGPT Appsの開発のためのReact・TypeScriptフルスタックフレームワーク。",
   "amElnagdy/delegate-skills": "コーディングタスクを別のコーディングエージェントCLIに委任し、差分を確認して自身でコミットするツール。",
