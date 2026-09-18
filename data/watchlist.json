@@ -17916,12 +17916,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "Fzkuji",
-    "repo": "GUI-Agent-Harness",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "paperfoot",
     "repo": "search-cli",
     "first_seen": "2026-07-28",
@@ -32262,12 +32256,6 @@
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "taekchef",
-    "repo": "claude-code-zh-cn",
-    "first_seen": "2026-07-31",
-    "source": "search:topic:claude-code"
-  },
-  {
     "owner": "1ay1",
     "repo": "agentty",
     "first_seen": "2026-07-31",
@@ -43779,6 +43767,108 @@
     "owner": "huggingface",
     "repo": "funes",
     "first_seen": "2026-09-17",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "AnCode666",
+    "repo": "multiCAD-mcp",
+    "first_seen": "2026-09-18",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Playa-0v0",
+    "repo": "Cyrene-Agent",
+    "first_seen": "2026-09-18",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "ykuwai",
+    "repo": "ppt-mcp",
+    "first_seen": "2026-09-18",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "jangtrinh",
+    "repo": "design-os-3d-blender",
+    "first_seen": "2026-09-18",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "mmdju",
+    "repo": "digikala-mcp",
+    "first_seen": "2026-09-18",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "kasumaputu6633",
+    "repo": "visbridge-mcp",
+    "first_seen": "2026-09-18",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "ShadowWalker2014",
+    "repo": "open-sunsama",
+    "first_seen": "2026-09-18",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "desktop-commander",
+    "repo": "remote-desktop-commander",
+    "first_seen": "2026-09-18",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "JinyangWang27",
+    "repo": "people-context",
+    "first_seen": "2026-09-18",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "kahliburke",
+    "repo": "Kaimon.jl",
+    "first_seen": "2026-09-18",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "bydtesla1609",
+    "repo": "research-solution-supervisor",
+    "first_seen": "2026-09-18",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "PavelShaura",
+    "repo": "review_ducktective",
+    "first_seen": "2026-09-18",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "JustVugg",
+    "repo": "anybridge",
+    "first_seen": "2026-09-18",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "trendsmcp-ai",
+    "repo": "google-trends-mcp",
+    "first_seen": "2026-09-18",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Tsavsar",
+    "repo": "interface-polish",
+    "first_seen": "2026-09-18",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "shuzhao1133",
+    "repo": "gbt9704-format",
+    "first_seen": "2026-09-18",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "LukasNiessen",
+    "repo": "ArchUnitPython",
+    "first_seen": "2026-09-18",
     "source": "search:topic:claude-code"
   }
 ]
