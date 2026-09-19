@@ -20658,12 +20658,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "MishraShardendu22",
-    "repo": "github-backup-automation-system",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "acamolese",
     "repo": "google-search-console-mcp",
     "first_seen": "2026-07-28",
@@ -41202,12 +41196,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "MishraShardendu22",
-    "repo": "agent-skills",
-    "first_seen": "2026-08-31",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "mguttmann",
     "repo": "linkedin-internal-api",
     "first_seen": "2026-08-31",
@@ -43869,6 +43857,198 @@
     "owner": "LukasNiessen",
     "repo": "ArchUnitPython",
     "first_seen": "2026-09-18",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "tonhowtf",
+    "repo": "omniget",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "aoci-spec",
+    "repo": "aoci-code",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Hacker-Valley-Media",
+    "repo": "Interceptor",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "jahala",
+    "repo": "tilth",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "nameforjt-afk",
+    "repo": "session-knowledge",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "ZeroDayEvil",
+    "repo": "ai-security-tool",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Playa-Cyrene",
+    "repo": "Cyrene-Agent",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "hirotomasato",
+    "repo": "yowes",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "js713-lab",
+    "repo": "sonic-match-mcp",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "streamient",
+    "repo": "streamient",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "alexanderradahl",
+    "repo": "mac-developer-bridge",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "op7418",
+    "repo": "guizang-product-video-skill",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Oldcircle",
+    "repo": "geo-sleuth",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "heyixuan2",
+    "repo": "bambu-studio-ai",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "hexiaofeier",
+    "repo": "hehe-industry-research-skill-pack",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "wilbert-MD-PhD",
+    "repo": "medical-illustration",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "tronghieu",
+    "repo": "agent-skills",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "ordinary-s",
+    "repo": "falsify-the-problem",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "JourniOne-ai",
+    "repo": "JourniOne-Planning-Skills",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Nasrallah-AL",
+    "repo": "jev-cli",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-conversational-language-pronunciation-fluency-coach-skill",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-ugc-creator-brief-auction-matchmaker-skill",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "markfulton",
+    "repo": "ai-employees",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "mythkiven",
+    "repo": "rednote-director-skill",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "L01nki1",
+    "repo": "extend-slides",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "unboundinnov",
+    "repo": "specdd",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "xiaohuailabs",
+    "repo": "hyper3d-documentary",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "bemoshiur",
+    "repo": "TakaBooks",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "vood",
+    "repo": "claude-launch-video-skill",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "paultaki",
+    "repo": "get-cited-by-ai",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "autonomous-ai",
+    "repo": "openharness",
+    "first_seen": "2026-09-19",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "pulseaiclub",
+    "repo": "phi",
+    "first_seen": "2026-09-19",
     "source": "search:topic:claude-code"
   }
 ]
