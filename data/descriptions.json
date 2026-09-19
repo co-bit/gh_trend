@@ -45,6 +45,7 @@
   "NousResearch/hermes-agent": "ユーザーとともに成長するAIエージェント",
   "Ontos-AI/knowhere": "AI AgentsやRAGで利用可能な構造化チャンクの抽出、解析、出力を行うKnowhere",
   "OpenLabs-so/openanalytics": "クッキー非使用でプライバシーを保護し、収益アトリビューションとMCPサーバーを提供するオープンソースWeb解析ツール",
+  "OrenAshkenazy/gh-review-loop": "Claude CodeとCodexを使い、PRへのAIレビュー指摘箇所の修正とテスト実行を最大3回繰り返すツール。",
   "Panniantong/Agent-Reach": "Twitter/Reddit/YouTube等を横断検索できるAIエージェント向けCLI",
   "PeonPing/peon-ping": "Claude CodeやCodexなどのAIエージェントやIDEに向けたWarcraft IIIのPeon音声通知ツール",
   "Piebald-AI/claude-code-system-prompts": "Claude Codeの各種システムプロンプトや27の組み込みツール説明などを収録し、毎バージョン更新するリポジトリ。",
