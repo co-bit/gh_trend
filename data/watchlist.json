@@ -6576,12 +6576,6 @@
     "source": "search:topic:mcp-server"
   },
   {
-    "owner": "Travisun",
-    "repo": "Opptrix",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:mcp-server"
-  },
-  {
     "owner": "Aaronontheweb",
     "repo": "mssql-mcp",
     "first_seen": "2026-07-28",
@@ -43998,12 +43992,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "mythkiven",
-    "repo": "rednote-director-skill",
-    "first_seen": "2026-09-19",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "L01nki1",
     "repo": "extend-slides",
     "first_seen": "2026-09-19",
@@ -44049,6 +44037,102 @@
     "owner": "pulseaiclub",
     "repo": "phi",
     "first_seen": "2026-09-19",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "tecfu",
+    "repo": "tty-table",
+    "first_seen": "2026-09-20",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "zhuyifang",
+    "repo": "FQGate-agent",
+    "first_seen": "2026-09-20",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "bostrot",
+    "repo": "wslmanager",
+    "first_seen": "2026-09-20",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Sidiora-Labs",
+    "repo": "Paxeer-X-Network",
+    "first_seen": "2026-09-20",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "aipoch",
+    "repo": "open-science",
+    "first_seen": "2026-09-20",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "HRuiCcc",
+    "repo": "RuiC-card-skill",
+    "first_seen": "2026-09-20",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "minorun365",
+    "repo": "minorun-marp-skill",
+    "first_seen": "2026-09-20",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Dicklesworthstone",
+    "repo": "skillranker",
+    "first_seen": "2026-09-20",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "kishormorol",
+    "repo": "cli-faq-shortcuts",
+    "first_seen": "2026-09-20",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "zx029w",
+    "repo": "zhuangxiu-skills",
+    "first_seen": "2026-09-20",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-realtime-audio-diarization-speaker-assigner-skill",
+    "first_seen": "2026-09-20",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "MKWcorp",
+    "repo": "birokrasi-pt-indonesia",
+    "first_seen": "2026-09-20",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "wyx-sg",
+    "repo": "wedding-invitation-skill",
+    "first_seen": "2026-09-20",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "arsenyajurist-sudo",
+    "repo": "devils-advocate-claude-skill",
+    "first_seen": "2026-09-20",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "addsumtech",
+    "repo": "job-hunt",
+    "first_seen": "2026-09-20",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "pinloop-ai",
+    "repo": "pinloop-cli",
+    "first_seen": "2026-09-20",
     "source": "search:topic:claude-code"
   }
 ]
