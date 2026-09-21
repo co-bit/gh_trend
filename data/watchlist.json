@@ -23574,12 +23574,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "ma-ziwei",
-    "repo": "fathom-mode-for-claude",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "peopleworks",
     "repo": "SignsofAI",
     "first_seen": "2026-07-28",
@@ -43098,12 +43092,6 @@
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "crwdla",
-    "repo": "tokentab",
-    "first_seen": "2026-09-12",
-    "source": "search:topic:claude-code"
-  },
-  {
     "owner": "dmarcguardhq",
     "repo": "parse-dmarc",
     "first_seen": "2026-09-13",
@@ -44133,6 +44121,180 @@
     "owner": "pinloop-ai",
     "repo": "pinloop-cli",
     "first_seen": "2026-09-20",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "A9T9",
+    "repo": "RPA",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "fastcrw",
+    "repo": "crw",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "docsagent",
+    "repo": "docsagent",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "fqgate",
+    "repo": "FQGate-agent",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "apiguru-app",
+    "repo": "amazon-scraper-v2",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "HoldMyBeer-gg",
+    "repo": "blend-ai",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "apisec-inc",
+    "repo": "AI-Surface",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Maneek21",
+    "repo": "Deft",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "TykTechnologies",
+    "repo": "tyk",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "kitfunso",
+    "repo": "hippo-memory",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "splunk",
+    "repo": "token-meter",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "friday-memory",
+    "repo": "friday",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "miqdadbadjuber",
+    "repo": "anti-slop",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "AbdelStark",
+    "repo": "awesome-typesafe-jev",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "loulanyue",
+    "repo": "awesome-claude-notes",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "mizzlelover",
+    "repo": "cida",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "lxsssssss",
+    "repo": "pdf-translate",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "byadityaraj",
+    "repo": "designmd",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "wh000wh000",
+    "repo": "awesome-jev-live",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Silbercue",
+    "repo": "public-browser",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "kubet",
+    "repo": "azdaja",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "sanshengai",
+    "repo": "sansheng-distill",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Raja0sama",
+    "repo": "vibex",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "sanshengai",
+    "repo": "sansheng-write",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "brunoflma",
+    "repo": "jusmanizer",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "GoodLadTom",
+    "repo": "consensus",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "q253595422",
+    "repo": "prompt-constraints",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "greenfield-inc",
+    "repo": "Pane",
+    "first_seen": "2026-09-21",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "owainlewis",
+    "repo": "machinist",
+    "first_seen": "2026-09-21",
     "source": "search:topic:claude-code"
   }
 ]
