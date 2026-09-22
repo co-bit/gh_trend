@@ -21240,12 +21240,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "baagad-ai",
-    "repo": "content-wand",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "nyinyinyanlin",
     "repo": "profile-vault-obsidian",
     "first_seen": "2026-07-28",
@@ -40068,12 +40062,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "qiaeru",
-    "repo": "skill-prose-francaise",
-    "first_seen": "2026-08-24",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "zenstory-ai",
     "repo": "oh-story-claudecode",
     "first_seen": "2026-08-24",
@@ -44295,6 +44283,126 @@
     "owner": "owainlewis",
     "repo": "machinist",
     "first_seen": "2026-09-21",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "feder-cr",
+    "repo": "invisible_playwright_mcp",
+    "first_seen": "2026-09-22",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "devlikeapro",
+    "repo": "waha",
+    "first_seen": "2026-09-22",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "BetterDB-inc",
+    "repo": "monitor",
+    "first_seen": "2026-09-22",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "ojuschugh1",
+    "repo": "sqz",
+    "first_seen": "2026-09-22",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "SylphxAI",
+    "repo": "citra",
+    "first_seen": "2026-09-22",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "malloydata",
+    "repo": "publisher",
+    "first_seen": "2026-09-22",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "lightsifter",
+    "repo": "sift-light",
+    "first_seen": "2026-09-22",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "agentsea",
+    "repo": "nautilo",
+    "first_seen": "2026-09-22",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "nassim-arifette",
+    "repo": "jevgrep",
+    "first_seen": "2026-09-22",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Michael-Jiahao-Zhang",
+    "repo": "game-the-llm-reviewer",
+    "first_seen": "2026-09-22",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "build-arena",
+    "repo": "BuildArena-2.0",
+    "first_seen": "2026-09-22",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Rylaispirit",
+    "repo": "cinematic-video-prompt-skill",
+    "first_seen": "2026-09-22",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "OstrichHermit",
+    "repo": "OH-Unity-GameDev-Skills",
+    "first_seen": "2026-09-22",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "silent-reader-cn",
+    "repo": "weaver-e9-dev",
+    "first_seen": "2026-09-22",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "DeVaNsHk72",
+    "repo": "jony-ive",
+    "first_seen": "2026-09-22",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "happysasha18",
+    "repo": "product-prover",
+    "first_seen": "2026-09-22",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Jiale077",
+    "repo": "meeting-minutes-skill",
+    "first_seen": "2026-09-22",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "MaxMiksa",
+    "repo": "Auto-Company",
+    "first_seen": "2026-09-22",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "LearnPrompt",
+    "repo": "awesome-seedance",
+    "first_seen": "2026-09-22",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "keli-wen",
+    "repo": "agy-staff",
+    "first_seen": "2026-09-22",
     "source": "search:topic:claude-code"
   }
 ]
