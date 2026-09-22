@@ -107,6 +107,7 @@
   "cloudflare/mcp": "Cloudflare APIの機能をAIツールやLLMと連携して利用するためのMCPサーバー実装。",
   "code-yeongyu/senpi": "pi-monoの拡張優先フォーク(トークン圧縮機能付き)",
   "coldteadotai/pr-lens": "LensはPR内にアーキテクチャやデータフローのアニメーションを描画しコードレビューを支援するツール",
+  "cortex-docs/cortex": "OpenAPI等の各種API仕様やMCPからMarkdownで拡張した対話型ドキュメントや型付きSDKを生成するツール",
   "crwdla/tokentab": "Claude Code、Codex、Gemini CLIのログからモデル・プロジェクト・日別の利用コストを算出するCLI",
   "ctxrs/ctx": "ローカルに保存されたコーディングエージェントのセッション履歴をGit blameのように検索・追跡できるツール。",
   "cuemap-dev/cuemap": "Rust言語で実装された決定論的なデータ管理を実行するcuemapのメモリエンジン。",
