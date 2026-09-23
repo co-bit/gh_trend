@@ -18696,12 +18696,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "sms021",
-    "repo": "RunawayContext",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "causa-prima-ai",
     "repo": "scribo",
     "first_seen": "2026-07-28",
@@ -44403,6 +44397,126 @@
     "owner": "keli-wen",
     "repo": "agy-staff",
     "first_seen": "2026-09-22",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "getsentry",
+    "repo": "MobileBuildMCP",
+    "first_seen": "2026-09-23",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "slow-stack",
+    "repo": "mneme",
+    "first_seen": "2026-09-23",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "oc8-ai",
+    "repo": "oc8",
+    "first_seen": "2026-09-23",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "rotbit",
+    "repo": "xedit",
+    "first_seen": "2026-09-23",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "mmdju",
+    "repo": "divar-mcp",
+    "first_seen": "2026-09-23",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "krillinai",
+    "repo": "OpenCreator",
+    "first_seen": "2026-09-23",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "legioncodeinc",
+    "repo": "vibe-coding-tools",
+    "first_seen": "2026-09-23",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "mirzaaghazadeh",
+    "repo": "iphone-duo-skills",
+    "first_seen": "2026-09-23",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "AlohaBrowser",
+    "repo": "alohajet-cli",
+    "first_seen": "2026-09-23",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "mokuyoaxis",
+    "repo": "agent-guard",
+    "first_seen": "2026-09-23",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "VictorAgahi",
+    "repo": "causalmesh",
+    "first_seen": "2026-09-23",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "zlZayn",
+    "repo": "dsh-zhihu-search",
+    "first_seen": "2026-09-23",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "baibanbao",
+    "repo": "qu-ai-wei",
+    "first_seen": "2026-09-23",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "palavogikos-collab",
+    "repo": "myDATA",
+    "first_seen": "2026-09-23",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "paul-xing",
+    "repo": "qianchuansucai-skill",
+    "first_seen": "2026-09-23",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "AIcentury",
+    "repo": "claude-higgsfield-skill",
+    "first_seen": "2026-09-23",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Santoshrt999",
+    "repo": "Java-Claude-Skills",
+    "first_seen": "2026-09-23",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "AdityaUmale",
+    "repo": "google-dev-style",
+    "first_seen": "2026-09-23",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "loopx-project",
+    "repo": "loopx",
+    "first_seen": "2026-09-23",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "Lifecycle-Innovations-Limited",
+    "repo": "claude-ops",
+    "first_seen": "2026-09-23",
     "source": "search:topic:claude-code"
   }
 ]
