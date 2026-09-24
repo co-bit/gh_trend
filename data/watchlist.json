@@ -12738,12 +12738,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "dpearson2699",
-    "repo": "swift-ios-skills",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "rorkai",
     "repo": "app-store-connect-cli-skills",
     "first_seen": "2026-07-28",
@@ -23990,12 +23984,6 @@
   {
     "owner": "workingclass-ai",
     "repo": "workingclass",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
-    "owner": "eiwru",
-    "repo": "creative-director-skill",
     "first_seen": "2026-07-28",
     "source": "search:topic:claude-skill"
   },
@@ -44517,6 +44505,156 @@
     "owner": "Lifecycle-Innovations-Limited",
     "repo": "claude-ops",
     "first_seen": "2026-09-23",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "patrickchugh",
+    "repo": "terravision",
+    "first_seen": "2026-09-24",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "thefalconry",
+    "repo": "talon",
+    "first_seen": "2026-09-24",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "cmer81",
+    "repo": "open-meteo-mcp",
+    "first_seen": "2026-09-24",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "rails-hyperdrive",
+    "repo": "rails-hyperdrive",
+    "first_seen": "2026-09-24",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "eatmoreduck",
+    "repo": "boss-zhipin-scraper",
+    "first_seen": "2026-09-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Anil-matcha",
+    "repo": "awesome-muse-connectors",
+    "first_seen": "2026-09-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "mikehasa",
+    "repo": "golive-skill",
+    "first_seen": "2026-09-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alexgreensh",
+    "repo": "anidoodle",
+    "first_seen": "2026-09-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "unclecatvn",
+    "repo": "agent-skills",
+    "first_seen": "2026-09-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "openqa-cn",
+    "repo": "jev-browser",
+    "first_seen": "2026-09-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "livekit",
+    "repo": "agent-skills",
+    "first_seen": "2026-09-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "socai-io",
+    "repo": "jev-social",
+    "first_seen": "2026-09-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "yukitorido",
+    "repo": "short-video-generator-AI",
+    "first_seen": "2026-09-24",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "webkubor",
+    "repo": "charmoji",
+    "first_seen": "2026-09-24",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "tndvnn",
+    "repo": "tncn",
+    "first_seen": "2026-09-24",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "CatCatUncle",
+    "repo": "ruanzhu-kit",
+    "first_seen": "2026-09-24",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Oldcircle",
+    "repo": "holmes-skill",
+    "first_seen": "2026-09-24",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Dexxter182",
+    "repo": "humanizer-hu",
+    "first_seen": "2026-09-24",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "roccodaffuso",
+    "repo": "sift",
+    "first_seen": "2026-09-24",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "bowen31337",
+    "repo": "apple-design",
+    "first_seen": "2026-09-24",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Gaurav-Gosain",
+    "repo": "tuios",
+    "first_seen": "2026-09-24",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "Pipelex",
+    "repo": "pipelex",
+    "first_seen": "2026-09-24",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "AgriciDaniel",
+    "repo": "compass",
+    "first_seen": "2026-09-24",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "apache",
+    "repo": "casbin-gateway",
+    "first_seen": "2026-09-24",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "yetone",
+    "repo": "magpie",
+    "first_seen": "2026-09-24",
     "source": "search:topic:claude-code"
   }
 ]
