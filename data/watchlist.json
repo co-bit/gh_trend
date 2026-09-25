@@ -29646,12 +29646,6 @@
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "laolaoshiren",
-    "repo": "claude-code-skills-zh",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-code"
-  },
-  {
     "owner": "decebals",
     "repo": "claude-code-java",
     "first_seen": "2026-07-28",
@@ -44655,6 +44649,162 @@
     "owner": "yetone",
     "repo": "magpie",
     "first_seen": "2026-09-24",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "OyadotAI",
+    "repo": "oya-browser",
+    "first_seen": "2026-09-25",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "beenuar",
+    "repo": "AiSOC",
+    "first_seen": "2026-09-25",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "SylphxAI",
+    "repo": "anymd",
+    "first_seen": "2026-09-25",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "XiaoPuOuO",
+    "repo": "openchatx-mcp",
+    "first_seen": "2026-09-25",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "millw14",
+    "repo": "merrymen",
+    "first_seen": "2026-09-25",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "bimwright",
+    "repo": "rvt-mcp",
+    "first_seen": "2026-09-25",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "dpearson2699",
+    "repo": "swift-ios-skills",
+    "first_seen": "2026-09-25",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "dzhng",
+    "repo": "skills",
+    "first_seen": "2026-09-25",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "leter",
+    "repo": "zh-tech-writing",
+    "first_seen": "2026-09-25",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "docker",
+    "repo": "skills",
+    "first_seen": "2026-09-25",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "win4r",
+    "repo": "MuseAI-Skills",
+    "first_seen": "2026-09-25",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "supercorp-ai",
+    "repo": "supercov",
+    "first_seen": "2026-09-25",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "low-hands",
+    "repo": "MyCareer",
+    "first_seen": "2026-09-25",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "angel291592",
+    "repo": "Intent-Router",
+    "first_seen": "2026-09-25",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "unicodef1wn",
+    "repo": "lauren-poteto-rules",
+    "first_seen": "2026-09-25",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "diazoxide",
+    "repo": "charter-plane",
+    "first_seen": "2026-09-25",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "aylindmm",
+    "repo": "aTUNApy",
+    "first_seen": "2026-09-25",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Mattbusel",
+    "repo": "rust-crates",
+    "first_seen": "2026-09-25",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "The-Joule",
+    "repo": "sap-joule-ai-toolkit",
+    "first_seen": "2026-09-25",
+    "source": "search:topic:ai-agent-toolkit"
+  },
+  {
+    "owner": "kiselas",
+    "repo": "every-frame-is-code",
+    "first_seen": "2026-09-25",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "iart-ai",
+    "repo": "javascript-animation-skills",
+    "first_seen": "2026-09-25",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "RubenGlez",
+    "repo": "mobile-design",
+    "first_seen": "2026-09-25",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "lakshitha-dev",
+    "repo": "ai-humanizer-skill",
+    "first_seen": "2026-09-25",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "trailofbits",
+    "repo": "coop",
+    "first_seen": "2026-09-25",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "qunqin24",
+    "repo": "Pulse",
+    "first_seen": "2026-09-25",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "chunxiaoxx",
+    "repo": "nautilus-compass",
+    "first_seen": "2026-09-25",
     "source": "search:topic:claude-code"
   }
 ]
