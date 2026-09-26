@@ -44806,5 +44806,89 @@
     "repo": "nautilus-compass",
     "first_seen": "2026-09-25",
     "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "irinabuht12-oss",
+    "repo": "google-ads-meta-ads-mcp",
+    "first_seen": "2026-09-26",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "1-3-7",
+    "repo": "disrobe",
+    "first_seen": "2026-09-26",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "jub0t",
+    "repo": "Concat",
+    "first_seen": "2026-09-26",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "scenario-labs",
+    "repo": "skills",
+    "first_seen": "2026-09-26",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "CheatEngineNet",
+    "repo": "CheatEngine.Mcp",
+    "first_seen": "2026-09-26",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "flightclaw",
+    "repo": "agents",
+    "first_seen": "2026-09-26",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "graygnatconsole",
+    "repo": "mcp-audit-tool",
+    "first_seen": "2026-09-26",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "breakstageaxe61",
+    "repo": "genspark-claw",
+    "first_seen": "2026-09-26",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "OktoLabsAI",
+    "repo": "okto-nexus",
+    "first_seen": "2026-09-26",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "agent-ecosystem",
+    "repo": "skill-validator",
+    "first_seen": "2026-09-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "OneMoh",
+    "repo": "html-explainer",
+    "first_seen": "2026-09-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "feitangyuan",
+    "repo": "onetake",
+    "first_seen": "2026-09-26",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "minosdevs",
+    "repo": "copycat-skill",
+    "first_seen": "2026-09-26",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "dembrandt",
+    "repo": "dembrandt",
+    "first_seen": "2026-09-26",
+    "source": "search:topic:claude-code"
   }
 ]
