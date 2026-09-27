@@ -27042,12 +27042,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "mturac",
-    "repo": "recsys-pipeline-architect",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "designservice",
     "repo": "lazy-english-reader.skill",
     "first_seen": "2026-07-28",
@@ -43806,12 +43800,6 @@
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "tonhowtf",
-    "repo": "omniget",
-    "first_seen": "2026-09-19",
-    "source": "search:topic:mcp-server"
-  },
-  {
     "owner": "aoci-spec",
     "repo": "aoci-code",
     "first_seen": "2026-09-19",
@@ -44889,6 +44877,108 @@
     "owner": "dembrandt",
     "repo": "dembrandt",
     "first_seen": "2026-09-26",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "VibeTensor",
+    "repo": "attestix",
+    "first_seen": "2026-09-27",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "ThinkFlowLab",
+    "repo": "system1-agents",
+    "first_seen": "2026-09-27",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Amal-David",
+    "repo": "awesome-jev",
+    "first_seen": "2026-09-27",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "opengenesishq",
+    "repo": "EastGenesis",
+    "first_seen": "2026-09-27",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "tanviet12",
+    "repo": "vbsec",
+    "first_seen": "2026-09-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "kaankiziltug",
+    "repo": "logo-design-skill",
+    "first_seen": "2026-09-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "qshanx",
+    "repo": "docs-governance",
+    "first_seen": "2026-09-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "bestagentkits",
+    "repo": "motion-video-skill",
+    "first_seen": "2026-09-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "aaddrick",
+    "repo": "building-with-typesafe-jev",
+    "first_seen": "2026-09-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "index-login",
+    "repo": "MobileRE-Skill",
+    "first_seen": "2026-09-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "daha1216",
+    "repo": "dsh-adult-tension",
+    "first_seen": "2026-09-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-construction-project-material-takeoff-estimator-skill",
+    "first_seen": "2026-09-27",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HeiGeAi",
+    "repo": "HeiGe-PPT",
+    "first_seen": "2026-09-27",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "HeiGeAi",
+    "repo": "HeiGe-Resume",
+    "first_seen": "2026-09-27",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "tuzhechen2005",
+    "repo": "opus-video-skills",
+    "first_seen": "2026-09-27",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "heyparsadev",
+    "repo": "liquid-glass-skill",
+    "first_seen": "2026-09-27",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "dzhng",
+    "repo": "jevgrep",
+    "first_seen": "2026-09-27",
     "source": "search:topic:claude-code"
   }
 ]
