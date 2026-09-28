@@ -10422,12 +10422,6 @@
     "source": "search:topic:model-context-protocol"
   },
   {
-    "owner": "Mattbusel",
-    "repo": "tokio-prompt-orchestrator",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "WillDent",
     "repo": "pipedrive-mcp-server",
     "first_seen": "2026-07-28",
@@ -44742,12 +44736,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "Mattbusel",
-    "repo": "rust-crates",
-    "first_seen": "2026-09-25",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "The-Joule",
     "repo": "sap-joule-ai-toolkit",
     "first_seen": "2026-09-25",
@@ -44979,6 +44967,126 @@
     "owner": "dzhng",
     "repo": "jevgrep",
     "first_seen": "2026-09-27",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "unbrowse-ai",
+    "repo": "unbrowse",
+    "first_seen": "2026-09-28",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "YichengYang-Ethan",
+    "repo": "oracle3-prediction-market-agent",
+    "first_seen": "2026-09-28",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "thebanri",
+    "repo": "limoni",
+    "first_seen": "2026-09-28",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "PerryLink",
+    "repo": "jevcore",
+    "first_seen": "2026-09-28",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "babarot",
+    "repo": "dotfiles",
+    "first_seen": "2026-09-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "waynesutton",
+    "repo": "builder-skills",
+    "first_seen": "2026-09-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "advai-x",
+    "repo": "advai-cli",
+    "first_seen": "2026-09-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "tlgrcli",
+    "repo": "tlgr",
+    "first_seen": "2026-09-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "zhuyansen",
+    "repo": "awesome-claude-video-skills",
+    "first_seen": "2026-09-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Finderchangchang",
+    "repo": "brewreel",
+    "first_seen": "2026-09-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "FAIRY123456789",
+    "repo": "human-edge-agent-skills",
+    "first_seen": "2026-09-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "advai-x",
+    "repo": "advai-skills",
+    "first_seen": "2026-09-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Li-Evan",
+    "repo": "awesome-jev",
+    "first_seen": "2026-09-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-multi-source-research-page-synthesizer-skill",
+    "first_seen": "2026-09-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "bilol-makhmudov",
+    "repo": "skipper",
+    "first_seen": "2026-09-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "DaizeDong",
+    "repo": "shopping-aggregator",
+    "first_seen": "2026-09-28",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "welingtondesosa",
+    "repo": "video-motion",
+    "first_seen": "2026-09-28",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "LockedinLabs-AI",
+    "repo": "agent-console",
+    "first_seen": "2026-09-28",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "lemomo-ai",
+    "repo": "lemo-opuscar",
+    "first_seen": "2026-09-28",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "ruc-datalab",
+    "repo": "EvoOntology",
+    "first_seen": "2026-09-28",
     "source": "search:topic:claude-code"
   }
 ]
