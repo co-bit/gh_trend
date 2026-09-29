@@ -43290,12 +43290,6 @@
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "kruzovic7",
-    "repo": "ai-data-extractor",
-    "first_seen": "2026-09-14",
-    "source": "search:topic:claude-code"
-  },
-  {
     "owner": "serpapi",
     "repo": "serpapi-mcp",
     "first_seen": "2026-09-15",
@@ -44556,12 +44550,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "yukitorido",
-    "repo": "short-video-generator-AI",
-    "first_seen": "2026-09-24",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "webkubor",
     "repo": "charmoji",
     "first_seen": "2026-09-24",
@@ -45087,6 +45075,162 @@
     "owner": "ruc-datalab",
     "repo": "EvoOntology",
     "first_seen": "2026-09-28",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "agent-next",
+    "repo": "polymarket-paper-trader",
+    "first_seen": "2026-09-29",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "fidetolabs",
+    "repo": "qanat",
+    "first_seen": "2026-09-29",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "ljxpython",
+    "repo": "ai-agent-platform",
+    "first_seen": "2026-09-29",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "GetBrew",
+    "repo": "growth-engineer",
+    "first_seen": "2026-09-29",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "wise-vision",
+    "repo": "ros2_mcp",
+    "first_seen": "2026-09-29",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "harish-gaggar",
+    "repo": "mcp-server-gateway",
+    "first_seen": "2026-09-29",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "SupercmoHQ",
+    "repo": "superCMO-skills",
+    "first_seen": "2026-09-29",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "tunaarikaya",
+    "repo": "magaza-mcp",
+    "first_seen": "2026-09-29",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Utopai-Research",
+    "repo": "pai-code",
+    "first_seen": "2026-09-29",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "hermes-labs-ai",
+    "repo": "lintlang",
+    "first_seen": "2026-09-29",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alint-dev",
+    "repo": "alint",
+    "first_seen": "2026-09-29",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "sonilo-ai",
+    "repo": "skills",
+    "first_seen": "2026-09-29",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "openqa-cn",
+    "repo": "codexqa",
+    "first_seen": "2026-09-29",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "kingxiaozhe",
+    "repo": "cm-workflow",
+    "first_seen": "2026-09-29",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "using-system",
+    "repo": "otelyssey",
+    "first_seen": "2026-09-29",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "mensfeld",
+    "repo": "coi",
+    "first_seen": "2026-09-29",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "AutomatosAI",
+    "repo": "automatos-ai",
+    "first_seen": "2026-09-29",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Twigpine",
+    "repo": "openclaude-skills",
+    "first_seen": "2026-09-29",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "GeiserX",
+    "repo": "genieacs-mcp",
+    "first_seen": "2026-09-29",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "th3nolo",
+    "repo": "openrouter-mcp",
+    "first_seen": "2026-09-29",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "jk5626996",
+    "repo": "douyin-viral-analysis",
+    "first_seen": "2026-09-29",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "iart-ai",
+    "repo": "youtube-video-skills",
+    "first_seen": "2026-09-29",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "SimonTheSalesBooster",
+    "repo": "linkedin-newsjacking",
+    "first_seen": "2026-09-29",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "laolaoshiren",
+    "repo": "claude-code-skills-zh",
+    "first_seen": "2026-09-29",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "taekchef",
+    "repo": "claude-code-zh-cn",
+    "first_seen": "2026-09-29",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "ardeyouxipianyi",
+    "repo": "workbuddy2api-hub",
+    "first_seen": "2026-09-29",
     "source": "search:topic:claude-code"
   }
 ]
