@@ -45232,5 +45232,119 @@
     "repo": "workbuddy2api-hub",
     "first_seen": "2026-09-29",
     "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "nirholas",
+    "repo": "three.ws",
+    "first_seen": "2026-09-30",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "nowork-studio",
+    "repo": "awesome-ai-startups",
+    "first_seen": "2026-09-30",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "dat999zx",
+    "repo": "knowl",
+    "first_seen": "2026-09-30",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "PyModel",
+    "repo": "niblet-skill-mcp",
+    "first_seen": "2026-09-30",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "PyModel",
+    "repo": "jev-judge-mcp",
+    "first_seen": "2026-09-30",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "pashov",
+    "repo": "skills",
+    "first_seen": "2026-09-30",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "pashov",
+    "repo": "ai-web3-security",
+    "first_seen": "2026-09-30",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "nanaism",
+    "repo": "yomiyasu",
+    "first_seen": "2026-09-30",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "coipond",
+    "repo": "coi",
+    "first_seen": "2026-09-30",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "guenchi",
+    "repo": "Theourgia",
+    "first_seen": "2026-09-30",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-distributed-order-management-omnichannel-routing-skill",
+    "first_seen": "2026-09-30",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-supermarket-chain-omnichannel-dx-picker-os-skill",
+    "first_seen": "2026-09-30",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-conversational-personal-memory-timeline-extractor-skill",
+    "first_seen": "2026-09-30",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "DaizeDong",
+    "repo": "self-evolve",
+    "first_seen": "2026-09-30",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "artkruglov",
+    "repo": "voice-film",
+    "first_seen": "2026-09-30",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "onlook-dev",
+    "repo": "onlook",
+    "first_seen": "2026-09-30",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "AltanS",
+    "repo": "collie",
+    "first_seen": "2026-09-30",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "Louis-CFM",
+    "repo": "coucou",
+    "first_seen": "2026-09-30",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "rehan-remade",
+    "repo": "universal-modder",
+    "first_seen": "2026-09-30",
+    "source": "search:topic:claude-code"
   }
 ]
