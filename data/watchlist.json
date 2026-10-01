@@ -45346,5 +45346,173 @@
     "repo": "universal-modder",
     "first_seen": "2026-09-30",
     "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "pipeshub-ai",
+    "repo": "pipeshub-ai",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "getsentry",
+    "repo": "toolkit",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "HoldMyBeer-gg",
+    "repo": "blenderwright",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "bourhaouta",
+    "repo": "vscode-tailwindshades",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Mattbusel",
+    "repo": "tokio-prompt-orchestrator",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "projectmentor",
+    "repo": "hive-mind",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "ParthJadhav",
+    "repo": "SpaceO",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "latent-spaces",
+    "repo": "brag",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "nurettincoban",
+    "repo": "ai-prd-workflow",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "pengchujin",
+    "repo": "livecanvas",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "mogons",
+    "repo": "noraz-agent",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "wenziai",
+    "repo": "wenzi-xhs-agent-skills",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "gongdear",
+    "repo": "cline-pilot",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "skoowoo",
+    "repo": "hylo",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "kostja94",
+    "repo": "bricks",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Sherlockwz",
+    "repo": "AMA",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "RealAlexandreAI",
+    "repo": "json-repair",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HasData",
+    "repo": "hasdata-mcp",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-mobile-terminal-coding-assistant-gateway-skill",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Mattbusel",
+    "repo": "rust-crates",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Vishnu-tppr",
+    "repo": "Fleece-Radar",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Mahanaicoach",
+    "repo": "google-maps-scraper-kit",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "minosdevs",
+    "repo": "cinematic-film",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "snowtema",
+    "repo": "sufler",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Aankirz",
+    "repo": "coordinator-mode",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "ravikovind",
+    "repo": "snap-x",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "edenfunf",
+    "repo": "reelmimic",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "coldteadotai",
+    "repo": "abide",
+    "first_seen": "2026-10-01",
+    "source": "search:topic:claude-code"
   }
 ]
