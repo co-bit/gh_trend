@@ -1584,12 +1584,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "Vincentwei1021",
-    "repo": "video-shotcraft",
-    "first_seen": "2026-07-27",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "yaojingang",
     "repo": "yao-meta-skill",
     "first_seen": "2026-07-27",
@@ -40110,12 +40104,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "vnstock-hq",
-    "repo": "vnstock-agent-guide",
-    "first_seen": "2026-08-25",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "deckflow",
     "repo": "deckprobe",
     "first_seen": "2026-08-25",
@@ -40874,12 +40862,6 @@
   {
     "owner": "saidake",
     "repo": "code-trace-tree-jetbrains",
-    "first_seen": "2026-08-29",
-    "source": "search:topic:agent-skills"
-  },
-  {
-    "owner": "Vincentwei1021",
-    "repo": "video-talkcraft",
     "first_seen": "2026-08-29",
     "source": "search:topic:agent-skills"
   },
@@ -42706,12 +42688,6 @@
     "repo": "montycat-mcp",
     "first_seen": "2026-09-10",
     "source": "search:topic:model-context-protocol"
-  },
-  {
-    "owner": "Vincentwei1021",
-    "repo": "anything2explainer",
-    "first_seen": "2026-09-10",
-    "source": "search:topic:agent-skills"
   },
   {
     "owner": "SnowBankSDK",
@@ -45513,6 +45489,114 @@
     "owner": "coldteadotai",
     "repo": "abide",
     "first_seen": "2026-10-01",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "atomicstrata",
+    "repo": "llm-wiki-compiler",
+    "first_seen": "2026-10-02",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "loulanyue",
+    "repo": "dream-xi-ai",
+    "first_seen": "2026-10-02",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "pmndrs",
+    "repo": "docs",
+    "first_seen": "2026-10-02",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "chipfighter",
+    "repo": "codex-attachment-manager",
+    "first_seen": "2026-10-02",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Amey-Thakur",
+    "repo": "CLAUDE-CERTIFICATIONS",
+    "first_seen": "2026-10-02",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "xixu-me",
+    "repo": "xget",
+    "first_seen": "2026-10-02",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "xixu-me",
+    "repo": "awesome-persona-distill-skills",
+    "first_seen": "2026-10-02",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "travisjneuman",
+    "repo": ".claude",
+    "first_seen": "2026-10-02",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "v-modal",
+    "repo": "awesome-jev-tools",
+    "first_seen": "2026-10-02",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "piyook",
+    "repo": "llm-mock",
+    "first_seen": "2026-10-02",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "voygr-tech",
+    "repo": "placecall",
+    "first_seen": "2026-10-02",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "nagameTW",
+    "repo": "formosa-humanizer",
+    "first_seen": "2026-10-02",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "HarnessMD",
+    "repo": "munder-difflin",
+    "first_seen": "2026-10-02",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "ThinkWatchProject",
+    "repo": "ThinkWatch-Lite",
+    "first_seen": "2026-10-02",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "Edwardxlai",
+    "repo": "easyread",
+    "first_seen": "2026-10-02",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "mars-tw",
+    "repo": "anti-gambling-trader-tw",
+    "first_seen": "2026-10-02",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "jamro",
+    "repo": "tiny-engineer",
+    "first_seen": "2026-10-02",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "techjarves",
+    "repo": "Mobile-Harness",
+    "first_seen": "2026-10-02",
     "source": "search:topic:claude-code"
   }
 ]
