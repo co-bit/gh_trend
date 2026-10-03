@@ -41916,12 +41916,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "axelfreeman",
-    "repo": "marketing-mindset",
-    "first_seen": "2026-09-04",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "mcdenil-skills",
     "repo": "razbor-servisa",
     "first_seen": "2026-09-04",
@@ -45597,6 +45591,150 @@
     "owner": "techjarves",
     "repo": "Mobile-Harness",
     "first_seen": "2026-10-02",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "betterlytics",
+    "repo": "betterlytics",
+    "first_seen": "2026-10-03",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Fanch-hui",
+    "repo": "codex-bridge",
+    "first_seen": "2026-10-03",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "XposedOrNot",
+    "repo": "XposedOrNot-API",
+    "first_seen": "2026-10-03",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "LunarWerxs",
+    "repo": "AgentHydra",
+    "first_seen": "2026-10-03",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "AI45Lab",
+    "repo": "OpenART",
+    "first_seen": "2026-10-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "supermax92",
+    "repo": "qgraphflow",
+    "first_seen": "2026-10-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Jakeschincariol",
+    "repo": "replica-skill",
+    "first_seen": "2026-10-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "llopresto87",
+    "repo": "Cypress",
+    "first_seen": "2026-10-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "paveldevyatov",
+    "repo": "refund-anything-ai-prompt",
+    "first_seen": "2026-10-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "YihongT",
+    "repo": "CoAutoResearch",
+    "first_seen": "2026-10-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "thyron922",
+    "repo": "OmniTag-Forge",
+    "first_seen": "2026-10-03",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "adecubed",
+    "repo": "gigamail",
+    "first_seen": "2026-10-03",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "SyncSo-Inc",
+    "repo": "syncso",
+    "first_seen": "2026-10-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "bolongpa",
+    "repo": "repopedia",
+    "first_seen": "2026-10-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "albegosu",
+    "repo": "second-brain",
+    "first_seen": "2026-10-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "vinnividivicci",
+    "repo": "hvac-loads-skill",
+    "first_seen": "2026-10-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "ilyautov",
+    "repo": "inn-check-ru",
+    "first_seen": "2026-10-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "ouerf-man",
+    "repo": "product-launch-motion-skill",
+    "first_seen": "2026-10-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "edisonmbli",
+    "repo": "refactoring-ui-skill",
+    "first_seen": "2026-10-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "ilyautov",
+    "repo": "humanizer-it",
+    "first_seen": "2026-10-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "milind-soni",
+    "repo": "OpenMausBot",
+    "first_seen": "2026-10-03",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "the-open-engine",
+    "repo": "zeroshot",
+    "first_seen": "2026-10-03",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "persiyanov",
+    "repo": "herdr-reviewr",
+    "first_seen": "2026-10-03",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "spaceamoeba-t",
+    "repo": "tapq",
+    "first_seen": "2026-10-03",
     "source": "search:topic:claude-code"
   }
 ]
