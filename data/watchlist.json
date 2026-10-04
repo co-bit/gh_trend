@@ -45736,5 +45736,113 @@
     "repo": "tapq",
     "first_seen": "2026-10-03",
     "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "mcpHQ",
+    "repo": "awesome-mcp-servers",
+    "first_seen": "2026-10-04",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "nekyialabs",
+    "repo": "resonant",
+    "first_seen": "2026-10-04",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Vincentwei1021",
+    "repo": "video-shotcraft",
+    "first_seen": "2026-10-04",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "xianyu110",
+    "repo": "awesome-openclaw-tutorial",
+    "first_seen": "2026-10-04",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Vincentwei1021",
+    "repo": "anything2explainer",
+    "first_seen": "2026-10-04",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Vincentwei1021",
+    "repo": "video-talkcraft",
+    "first_seen": "2026-10-04",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "richnologies",
+    "repo": "ngx-stripe",
+    "first_seen": "2026-10-04",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "kitlangton",
+    "repo": "2password",
+    "first_seen": "2026-10-04",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "heise3",
+    "repo": "academic-deai",
+    "first_seen": "2026-10-04",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "amontlabs",
+    "repo": "lcu",
+    "first_seen": "2026-10-04",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "FavioVazquez",
+    "repo": "showtime",
+    "first_seen": "2026-10-04",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-user-generated-content-licensing-rights-ledger-skill",
+    "first_seen": "2026-10-04",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "AnxForever",
+    "repo": "stylekit-skill",
+    "first_seen": "2026-10-04",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "sonlovinbot",
+    "repo": "Muse-animated-short-film",
+    "first_seen": "2026-10-04",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "EGSECDA",
+    "repo": "vocaloid-style-mv-pipeline",
+    "first_seen": "2026-10-04",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "ghosttown123",
+    "repo": "etsy-ugc-compliance-harvester",
+    "first_seen": "2026-10-04",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "QingYunA",
+    "repo": "answer-me-with-html",
+    "first_seen": "2026-10-04",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "keyuchen21",
+    "repo": "agentic-engineering-handbook",
+    "first_seen": "2026-10-04",
+    "source": "search:topic:claude-code"
   }
 ]
