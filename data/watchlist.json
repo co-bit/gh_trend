@@ -20310,12 +20310,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "hjs-spec",
-    "repo": "shutup-mcp",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "zzapril",
     "repo": "LoopPilot",
     "first_seen": "2026-07-28",
@@ -29204,12 +29198,6 @@
   {
     "owner": "snwfdhmp",
     "repo": "awesome-ralph",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-code"
-  },
-  {
-    "owner": "jiweiyeah",
-    "repo": "Skills-Manager",
     "first_seen": "2026-07-28",
     "source": "search:topic:claude-code"
   },
@@ -45998,6 +45986,102 @@
   {
     "owner": "devswha",
     "repo": "herdr-web-ui",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "instruktlabs",
+    "repo": "kiln",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "scaleapi",
+    "repo": "agentenv-framework",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "leeguooooo",
+    "repo": "iphone-use",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "lukabudik",
+    "repo": "alza-mcp",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "putervision",
+    "repo": "world-model-mcp",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "MikeK184",
+    "repo": "Recollect",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "aieln",
+    "repo": "awesome-persona-distill-skills",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "fadewalk",
+    "repo": "serenity-stock-choke",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "szymdzum",
+    "repo": "browser-debugger-cli",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "uzairansaruzi",
+    "repo": "p3-stack",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "fatihaydost",
+    "repo": "brand-identity-skill",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "wsf73",
+    "repo": "short-drama-factory",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Nana7mi0721",
+    "repo": "anima-prompt-naturalang",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "geastham",
+    "repo": "snapwright",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "beriki770-ship-it",
+    "repo": "code-animations",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "open-mercato",
+    "repo": "cezar",
     "first_seen": "2026-10-06",
     "source": "search:topic:claude-code"
   }
