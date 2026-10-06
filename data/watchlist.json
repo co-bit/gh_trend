@@ -22074,12 +22074,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "O-Labz",
-    "repo": "Context-Simplo",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "eplt",
     "repo": "binance-signal-engine",
     "first_seen": "2026-07-28",
@@ -44682,12 +44676,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "diazoxide",
-    "repo": "charter-plane",
-    "first_seen": "2026-09-25",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "aylindmm",
     "repo": "aTUNApy",
     "first_seen": "2026-09-25",
@@ -45028,12 +45016,6 @@
     "repo": "video-motion",
     "first_seen": "2026-09-28",
     "source": "search:topic:claude-skill"
-  },
-  {
-    "owner": "LockedinLabs-AI",
-    "repo": "agent-console",
-    "first_seen": "2026-09-28",
-    "source": "search:topic:claude-code"
   },
   {
     "owner": "lemomo-ai",
@@ -45843,6 +45825,180 @@
     "owner": "keyuchen21",
     "repo": "agentic-engineering-handbook",
     "first_seen": "2026-10-04",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "Sayhi-bzb",
+    "repo": "CharDesk",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Tenney95",
+    "repo": "AI-Canvas-tauri",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "notinferred",
+    "repo": "keypaste",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "jub0t",
+    "repo": "concat",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "wzyn20051216",
+    "repo": "solidworks-automation-skill",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "with-pebbly",
+    "repo": "aseprite-ai-artist",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "superWorldSavior",
+    "repo": "mcp-erpnext",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "VoltAgent",
+    "repo": "official-mcp-servers",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Erodenn",
+    "repo": "godot-mcp-runtime",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "aikarjal",
+    "repo": "wilmai",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "PerryLink",
+    "repo": "dsh-mcp-panel",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "mailtrap",
+    "repo": "mailtrap-mcp",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "DenRakEiw",
+    "repo": "scumble",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "googlarz",
+    "repo": "proton-mail-bridge-client",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "WeftCut",
+    "repo": "WeftCut",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "sleekdotdesign",
+    "repo": "agent-skills",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "joeseesun",
+    "repo": "qiaomu-codex-imagegen",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Charlesmpc",
+    "repo": "by2kb",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Leonxlnx",
+    "repo": "cinetic",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "SysikNagibator",
+    "repo": "AiPC",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "EL4CTEO",
+    "repo": "roblox-skills",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "googlarz",
+    "repo": "signal-mcp",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "fullya99",
+    "repo": "worldbox-mcp",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "abualnassr",
+    "repo": "interactive-workflow",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "TrillyD13",
+    "repo": "3d-printing-skill",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "loadkpi",
+    "repo": "simplified-technical-russian-skill",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "OrchestratorInc",
+    "repo": "agent-orchestrator",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "49-Agents",
+    "repo": "49-IDE",
+    "first_seen": "2026-10-06",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "devswha",
+    "repo": "herdr-web-ui",
+    "first_seen": "2026-10-06",
     "source": "search:topic:claude-code"
   }
 ]
