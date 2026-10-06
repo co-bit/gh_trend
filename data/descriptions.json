@@ -66,6 +66,7 @@
   "PrefectHQ/fastmcp": "Pythonで手早くMCPサーバー・クライアントを構築できるフレームワーク",
   "Prism-Shadow/penguin-harness": "AIが自ら新たなAIを構築するRSIの実現に向けて開発された制御・評価用ハーネス基盤。",
   "PyModel/jev-judge-mcp": "MCPエージェント向けにTypeSafeのJevモデルで検証・分類等の判定を行いポリシー制御する型安全ツール群",
+  "QingYunA/answer-me-with-html": "AI Agentが複雑な質問に対して読みやすい1ページのHTML形式で回答を生成するためのスキル。",
   "QwenAudio/qwen-audio-agent": "AIエージェントのリアルタイムな音声対話やタスク実行を継続的に制御する音声ランタイム。",
   "RyanAlberts/best-of-Agent-Harnesses": "167種のAI agent harnessの評価一覧やテンプレート、MCP、学習リソースを毎週更新して提供する資料集",
   "Ryze-AI-Adgent/open-seo-mcp-skills": "GSCやGA4等の実データを用いてキーワード調査や順位追跡等を行うClaude用SEO/GEO MCPサーバー。",
@@ -229,6 +230,7 @@
   "nizos/tdd-guard": "Claude Codeにおけるテスト駆動開発（TDD）のプロセスを自動で強制・ガードするツール",
   "notque/vexjoy-agent": "自然言語の要求を/doで専門エージェントへ振り分け、レビューやテストで作業を管理するVexJoy AI Agent",
   "ogulcancelik/herdr": "コーディングAIエージェントを動かすためのランタイム基盤",
+  "okf-memory/okf-agent-memory": "Google OKF v0.2を実装した、トークン消費を抑えるAIコーディングエージェント用Gitネイティブ永続メモリ",
   "oliver-zehentleitner/keep-the-why": "AIエージェントとの協調作業を通じてコードベースの設計理由を記録・保持するKeep the Whyの規約とスキル。",
   "oomol-lab/open-connector": "SDKやMCP、OpenAPIを介しSaaSとAIエージェントを接続するオープンソースの認証ゲートウェイ",
   "oooscoos/Benzi": "tree-sitterを活用し複数言語を共通マップへ変換してコード構造をO(1)で即座に解決するAI基盤",
@@ -326,5 +328,6 @@
   "yschimke/compose-ai-tools": "AIエージェントの作業を支援するツール群",
   "yukitorido/short-video-generator-AI": "LLMsやWhisper、ハイライト検出、自動編集を活用し縦型ショート動画を生成するAI動画処理パイプライン。",
   "zenbu-labs/terminal-browser": "ターミナル画面上で直接Webページの閲覧や操作を可能にするterminal-browserのブラウザツール。",
+  "zhitongblog/solomd": "Claude CodeやCursor等からMCP経由で直接操作できるローカルファーストのMarkdownエディタ",
   "zszendro/vc-teardown": "懐疑的なVCの視点でスタートアップ案を検証し、優位性やMVP、GTMを含む事業計画に再構築するClaude Skill。"
 }
