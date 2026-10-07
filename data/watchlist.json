@@ -27210,12 +27210,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "YukiOvOb",
-    "repo": "mdrise",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "DeVenLucaz",
     "repo": "Elucid",
     "first_seen": "2026-07-28",
@@ -41232,12 +41226,6 @@
     "source": "search:topic:model-context-protocol"
   },
   {
-    "owner": "neuronto",
-    "repo": "agentic-resource-discovery",
-    "first_seen": "2026-09-01",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "ChaoYuZhang001",
     "repo": "CaoGen",
     "first_seen": "2026-09-01",
@@ -46083,6 +46071,192 @@
     "owner": "open-mercato",
     "repo": "cezar",
     "first_seen": "2026-10-06",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "54yyyu",
+    "repo": "zotero-mcp",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "andrea-magni",
+    "repo": "MARS",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "jdubois",
+    "repo": "boot-ui",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "kailiang0120",
+    "repo": "monaw",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Bharath-1255",
+    "repo": "mcp-roblox-profile-lens",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "demoos415",
+    "repo": "lua-script-bridge",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "lukabudik",
+    "repo": "alza-mcp-community",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "yashsindya2014-hash",
+    "repo": "frame-trace-mcp",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "S4US",
+    "repo": "Roqer",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "ZeroPointRepo",
+    "repo": "awesome-grok-bot",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Dicklesworthstone",
+    "repo": "frankensonos",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "coreyhaines31",
+    "repo": "marketingskills",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "feder-cr",
+    "repo": "invisible_dots",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "oil-oil",
+    "repo": "oil-ui",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "JimmySadek",
+    "repo": "video-fetcher-to-markdown",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "openqodex",
+    "repo": "openqodex",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "nano-muse",
+    "repo": "nanoMuse",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "atmirrr",
+    "repo": "persian-motion-director",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "moeru-ai",
+    "repo": "auv",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Tejashmakwana",
+    "repo": "motionmaxxing",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "charlie947",
+    "repo": "motion-graphics-skills",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "azharshkh",
+    "repo": "customus-credit-api",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "borjaperfra",
+    "repo": "beatdeck",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "imajij",
+    "repo": "do_waqt_ki_roti",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Matteoikarieth96",
+    "repo": "whiteboard-video-skill",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "spacering-net",
+    "repo": "codeg",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "jiweiyeah",
+    "repo": "Skills-Manager",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "wavyrai",
+    "repo": "tmux-ide",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "Th0rgal",
+    "repo": "orb",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "ajsahni",
+    "repo": "agents-office",
+    "first_seen": "2026-10-07",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "emotixco",
+    "repo": "claude-skills-founder",
+    "first_seen": "2026-10-07",
     "source": "search:topic:claude-code"
   }
 ]
