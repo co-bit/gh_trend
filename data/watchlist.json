@@ -27186,12 +27186,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "baixobai",
-    "repo": "wechat-public-monitor",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "vb-tyagi",
     "repo": "fuck-you-and-stop-charging-for-sloppy-design-agents",
     "first_seen": "2026-07-28",
@@ -46257,6 +46251,138 @@
     "owner": "emotixco",
     "repo": "claude-skills-founder",
     "first_seen": "2026-10-07",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "BeatAPI",
+    "repo": "BeatDesign",
+    "first_seen": "2026-10-08",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Anil-matcha",
+    "repo": "open-agent-connector",
+    "first_seen": "2026-10-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "OtoDock",
+    "repo": "oto-dock",
+    "first_seen": "2026-10-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "mcpdelta",
+    "repo": "mcpdelta",
+    "first_seen": "2026-10-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Emmanuel448",
+    "repo": "mcp-rojo-bridge",
+    "first_seen": "2026-10-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "tbee6061-ctrl",
+    "repo": "studio-live-window-capture",
+    "first_seen": "2026-10-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "yarik-contr",
+    "repo": "mcp-forge-studio-bridge",
+    "first_seen": "2026-10-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Arther-hup",
+    "repo": "forge-context-engine",
+    "first_seen": "2026-10-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "arad01486-hash",
+    "repo": "studio-pulse-relay",
+    "first_seen": "2026-10-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Daniel987654321",
+    "repo": "roblox-studio-agent-bridge",
+    "first_seen": "2026-10-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "AallamR",
+    "repo": "RobloxForge-Intelligence",
+    "first_seen": "2026-10-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "adamkhalile",
+    "repo": "luau-docs-oracle",
+    "first_seen": "2026-10-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "bubbuild",
+    "repo": "bub",
+    "first_seen": "2026-10-08",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "realmyang",
+    "repo": "MLView",
+    "first_seen": "2026-10-08",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "robium-ai",
+    "repo": "robium",
+    "first_seen": "2026-10-08",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "VipBeCool",
+    "repo": "SkillHub",
+    "first_seen": "2026-10-08",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Dangooy",
+    "repo": "trade-pipeline-skill",
+    "first_seen": "2026-10-08",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "prithivrajmu",
+    "repo": "asd-ste100",
+    "first_seen": "2026-10-08",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "ChizkiyahuOhayon",
+    "repo": "CVPR-Figure",
+    "first_seen": "2026-10-08",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "tjboudreaux",
+    "repo": "rosetta",
+    "first_seen": "2026-10-08",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "tonyprots",
+    "repo": "transcriber-skill",
+    "first_seen": "2026-10-08",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "decodingai-magazine",
+    "repo": "building-a-coding-agent-from-scratch-course",
+    "first_seen": "2026-10-08",
     "source": "search:topic:claude-code"
   }
 ]
