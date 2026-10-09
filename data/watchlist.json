@@ -3564,12 +3564,6 @@
     "source": "search:topic:mcp-server"
   },
   {
-    "owner": "LycheeMem",
-    "repo": "LycheeMem",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:mcp-server"
-  },
-  {
     "owner": "ref-tools",
     "repo": "ref-tools-mcp",
     "first_seen": "2026-07-28",
@@ -4310,12 +4304,6 @@
   {
     "owner": "OTA-Tech-AI",
     "repo": "web-agent-protocol",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:mcp-server"
-  },
-  {
-    "owner": "RyjoxTechnologies",
-    "repo": "Octopoda-OS",
     "first_seen": "2026-07-28",
     "source": "search:topic:mcp-server"
   },
@@ -8832,12 +8820,6 @@
     "source": "search:topic:model-context-protocol"
   },
   {
-    "owner": "OldJii",
-    "repo": "mcp-dock",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "nloui",
     "repo": "paperless-mcp",
     "first_seen": "2026-07-28",
@@ -9362,12 +9344,6 @@
   {
     "owner": "thebriangao",
     "repo": "totem",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
-    "owner": "Scottcjn",
-    "repo": "rustchain-mcp",
     "first_seen": "2026-07-28",
     "source": "search:topic:model-context-protocol"
   },
@@ -11570,12 +11546,6 @@
   {
     "owner": "npstorey",
     "repo": "civic-ai-tools",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
-    "owner": "fxa3bah",
-    "repo": "OneBrain",
     "first_seen": "2026-07-28",
     "source": "search:topic:model-context-protocol"
   },
@@ -15738,12 +15708,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "KieranGao",
-    "repo": "general-readme-skill",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "DwDestiny",
     "repo": "codex-visual-asset-skills",
     "first_seen": "2026-07-28",
@@ -17814,12 +17778,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "MoaKK",
-    "repo": "AI-Code-Reviewer",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "Madhan230205",
     "repo": "token-reducer",
     "first_seen": "2026-07-28",
@@ -19436,12 +19394,6 @@
   {
     "owner": "Backspace-me",
     "repo": "sportscore-mcp",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
-    "owner": "dashaworks",
-    "repo": "report-skills",
     "first_seen": "2026-07-28",
     "source": "search:topic:llm-tools"
   },
@@ -23684,12 +23636,6 @@
   {
     "owner": "yanouyuan-bit",
     "repo": "bazi-roundtable",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
-    "owner": "kitao",
-    "repo": "pyxel-skill",
     "first_seen": "2026-07-28",
     "source": "search:topic:claude-skill"
   },
@@ -30000,12 +29946,6 @@
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "seulee26",
-    "repo": "mckinsey-pptx",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-code"
-  },
-  {
     "owner": "nadimtuhin",
     "repo": "claude-token-optimizer",
     "first_seen": "2026-07-28",
@@ -31116,12 +31056,6 @@
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "wanghuan9",
-    "repo": "skilldock",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-code"
-  },
-  {
     "owner": "smithersai",
     "repo": "smithers",
     "first_seen": "2026-07-28",
@@ -31244,12 +31178,6 @@
   {
     "owner": "automagik-dev",
     "repo": "genie",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-code"
-  },
-  {
-    "owner": "QuintinShaw",
-    "repo": "pi-dynamic-workflows",
     "first_seen": "2026-07-28",
     "source": "search:topic:claude-code"
   },
@@ -32032,12 +31960,6 @@
     "repo": "stata-code",
     "first_seen": "2026-07-31",
     "source": "search:topic:model-context-protocol"
-  },
-  {
-    "owner": "levi-qiao",
-    "repo": "octopus-skill",
-    "first_seen": "2026-07-31",
-    "source": "search:topic:agent-skills"
   },
   {
     "owner": "oliver-zehentleitner",
@@ -32876,12 +32798,6 @@
   {
     "owner": "tikalk",
     "repo": "adlc-team-skills",
-    "first_seen": "2026-08-05",
-    "source": "search:topic:agent-skills"
-  },
-  {
-    "owner": "levi-qiao",
-    "repo": "longgraph-skill",
     "first_seen": "2026-08-05",
     "source": "search:topic:agent-skills"
   },
@@ -33800,12 +33716,6 @@
   {
     "owner": "D-engahmed",
     "repo": "ancient",
-    "first_seen": "2026-08-10",
-    "source": "search:topic:llm-tools"
-  },
-  {
-    "owner": "metaphorics",
-    "repo": "omp-plugin-dynamic-system-prompt",
     "first_seen": "2026-08-10",
     "source": "search:topic:llm-tools"
   },
@@ -40830,12 +40740,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "saidake",
-    "repo": "code-trace-tree-jetbrains",
-    "first_seen": "2026-08-29",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "SaketDronamraju",
     "repo": "AutoLabel-Forge",
     "first_seen": "2026-08-29",
@@ -46383,6 +46287,198 @@
     "owner": "decodingai-magazine",
     "repo": "building-a-coding-agent-from-scratch-course",
     "first_seen": "2026-10-08",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "w0h1v",
+    "repo": "mcp-maigret",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "rrrrrredy",
+    "repo": "research-toolkit",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "DasDigitaleMomentum",
+    "repo": "searxNcrawl",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "letehaha",
+    "repo": "moneymatter",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "saltmd",
+    "repo": "salt.md",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "ZIZKA-AI-SL",
+    "repo": "ZizkaDB",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "faucetdb",
+    "repo": "faucet",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "mdwsk88",
+    "repo": "ms-365-21v-mcp-server",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Sam-AEC",
+    "repo": "aec-model-bridge",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "dongnguyenvie",
+    "repo": "BashCut",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "mmdju",
+    "repo": "torob-mcp",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "firecrawl",
+    "repo": "cli",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Mindrally",
+    "repo": "skills",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "megumi-ben",
+    "repo": "marco-polo.skill",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "KristenPan",
+    "repo": "pickoo-your-favorites",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Aryanutkarsh",
+    "repo": "SeeCode",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "firecrawl",
+    "repo": "skills",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "THUROI0787",
+    "repo": "absent-author",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "thevibeworks",
+    "repo": "claude-code-docs",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "zhouwei713",
+    "repo": "luobo-ppt",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "sno-ai",
+    "repo": "sno-station-skills",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Gaoyuan-0423",
+    "repo": "biomedical-paper-reader",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "cuic19053-hue",
+    "repo": "awesome-student-ai-skills",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "solomondivyananth",
+    "repo": "aftereffects-mcp",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Ankit-ku-panda",
+    "repo": "SAP-ABAP-LocalAI",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-no-code-voice-ai-flow-white-label-agency-builder-skill",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Sunwood-ai-labs",
+    "repo": "hyperframes-motion-reel-skill",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "wppoland",
+    "repo": "hidden-text-detector",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "iart-ai",
+    "repo": "freelance-motion-skills",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "allierays",
+    "repo": "agentic-architecture-review",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "shinshin86",
+    "repo": "mesh-avatar-studio",
+    "first_seen": "2026-10-09",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "vincentsch",
+    "repo": "explainroo",
+    "first_seen": "2026-10-09",
     "source": "search:topic:claude-code"
   }
 ]
