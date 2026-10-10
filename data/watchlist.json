@@ -2154,12 +2154,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "besoeasy",
-    "repo": "open-skills",
-    "first_seen": "2026-07-27",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "GopherSecurity",
     "repo": "gopher-mcp",
     "first_seen": "2026-07-27",
@@ -46434,12 +46428,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "Ankit-ku-panda",
-    "repo": "SAP-ABAP-LocalAI",
-    "first_seen": "2026-10-09",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "alphaparkinc",
     "repo": "genpark-no-code-voice-ai-flow-white-label-agency-builder-skill",
     "first_seen": "2026-10-09",
@@ -46479,6 +46467,156 @@
     "owner": "vincentsch",
     "repo": "explainroo",
     "first_seen": "2026-10-09",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "chrisryugj",
+    "repo": "kordoc",
+    "first_seen": "2026-10-10",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "vmoranv",
+    "repo": "jshookmcp",
+    "first_seen": "2026-10-10",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "finite-sample",
+    "repo": "rmcp",
+    "first_seen": "2026-10-10",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "loulanyue",
+    "repo": "agent-control",
+    "first_seen": "2026-10-10",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "chipfighter",
+    "repo": "context-attachment-manager",
+    "first_seen": "2026-10-10",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Goldziher",
+    "repo": "ai-rulez",
+    "first_seen": "2026-10-10",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "tecnologicachile",
+    "repo": "mail-mcp",
+    "first_seen": "2026-10-10",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "skillmds",
+    "repo": "skillmd",
+    "first_seen": "2026-10-10",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "jimoto-no-llm",
+    "repo": "rustdsh",
+    "first_seen": "2026-10-10",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "GTAI-1",
+    "repo": "flow-mcp",
+    "first_seen": "2026-10-10",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "liyupi",
+    "repo": "ai-promo-video-maker",
+    "first_seen": "2026-10-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Ai-Eastern",
+    "repo": "reuse-before-build",
+    "first_seen": "2026-10-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Sequester-AG",
+    "repo": "bug-bounty-triage",
+    "first_seen": "2026-10-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "phuryn",
+    "repo": "work-humanizer",
+    "first_seen": "2026-10-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Miftahul-Islam-Efaz",
+    "repo": "Motion-graphics-skill",
+    "first_seen": "2026-10-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "dsh-plugin-lab",
+    "repo": "dsh-zhihu-search",
+    "first_seen": "2026-10-10",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "nirholas",
+    "repo": "loom-mcp",
+    "first_seen": "2026-10-10",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "nirholas",
+    "repo": "audio-mcp",
+    "first_seen": "2026-10-10",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "beret21",
+    "repo": "reportme",
+    "first_seen": "2026-10-10",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "vincentventalon",
+    "repo": "claude-code-video-editing-skill",
+    "first_seen": "2026-10-10",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "rafiimanggala",
+    "repo": "paper-collage-skill",
+    "first_seen": "2026-10-10",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "tonyprots",
+    "repo": "motion-film-skill",
+    "first_seen": "2026-10-10",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "simonlin1212",
+    "repo": "Vibe-Research",
+    "first_seen": "2026-10-10",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "franzenzenhofer",
+    "repo": "big-arrow-on-the-screen",
+    "first_seen": "2026-10-10",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "GTKottman",
+    "repo": "mortiflix-oss",
+    "first_seen": "2026-10-10",
     "source": "search:topic:claude-code"
   }
 ]
