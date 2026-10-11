@@ -5664,12 +5664,6 @@
     "source": "search:topic:mcp-server"
   },
   {
-    "owner": "livetennisapi",
-    "repo": "livetennisapi-mcp",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:mcp-server"
-  },
-  {
     "owner": "FreePeak",
     "repo": "LeanKG",
     "first_seen": "2026-07-28",
@@ -46617,6 +46611,114 @@
     "owner": "GTKottman",
     "repo": "mortiflix-oss",
     "first_seen": "2026-10-10",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "dineug",
+    "repo": "erd-editor",
+    "first_seen": "2026-10-11",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "wiresage",
+    "repo": "mikrotik-mcp",
+    "first_seen": "2026-10-11",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "squirrelscan",
+    "repo": "squirrelscan",
+    "first_seen": "2026-10-11",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "LingCore",
+    "repo": "WinShun",
+    "first_seen": "2026-10-11",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "sno-ai",
+    "repo": "sno-station",
+    "first_seen": "2026-10-11",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "jmagly",
+    "repo": "aiwg",
+    "first_seen": "2026-10-11",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "nagi-studio",
+    "repo": "skills",
+    "first_seen": "2026-10-11",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "JoviDeCroock",
+    "repo": "pracht",
+    "first_seen": "2026-10-11",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "squirrelscan",
+    "repo": "skills",
+    "first_seen": "2026-10-11",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "morluto",
+    "repo": "awesome-reverse-engineering",
+    "first_seen": "2026-10-11",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alvin-reyes",
+    "repo": "better-agentic-ide",
+    "first_seen": "2026-10-11",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "fdhhhdjd",
+    "repo": "MCP-STARTER-KIT",
+    "first_seen": "2026-10-11",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-agentic-developer-environment-orchestrator-skill",
+    "first_seen": "2026-10-11",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-conversational-podcast-dialogue-audio-synthesizer-skill",
+    "first_seen": "2026-10-11",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Boriwatopal",
+    "repo": "agent-skill-line-character-studio",
+    "first_seen": "2026-10-11",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "CJ10110425",
+    "repo": "logo-intro",
+    "first_seen": "2026-10-11",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "wq2581",
+    "repo": "scholar-tracing",
+    "first_seen": "2026-10-11",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "simonlin1212",
+    "repo": "vibe-astock",
+    "first_seen": "2026-10-11",
     "source": "search:topic:claude-code"
   }
 ]
