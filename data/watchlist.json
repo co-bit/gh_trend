@@ -26106,12 +26106,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "MaydayV",
-    "repo": "grok-upload-audit",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "SkylarWJY",
     "repo": "skylar-reading-compass",
     "first_seen": "2026-07-28",
@@ -42000,12 +41994,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "shleder",
-    "repo": "vetto",
-    "first_seen": "2026-09-06",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "alphaparkinc",
     "repo": "genpark-investment-banking-dcf-lbo-financial-model-builder-skill",
     "first_seen": "2026-09-06",
@@ -46719,6 +46707,282 @@
     "owner": "simonlin1212",
     "repo": "vibe-astock",
     "first_seen": "2026-10-11",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "openflowkit",
+    "repo": "openflowkit",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "razorpay",
+    "repo": "slashdocs",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "yzg1226",
+    "repo": "mcd-party-officer",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "ptweezy",
+    "repo": "cronstable",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "zhutoumeme",
+    "repo": "mcd-git",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "OSINT-Experts-Society",
+    "repo": "Consensus-OSINT",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "AIAnytime",
+    "repo": "Awesome-MCP-Servers",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "morluto",
+    "repo": "leantoken",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "sepehr071",
+    "repo": "awesome-iran-mcp",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "scarletkc",
+    "repo": "Perenna",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "ateymoori",
+    "repo": "oh-my-android",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "neuronto",
+    "repo": "agentic-resource-discovery",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "shitianfang",
+    "repo": "jev-use",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Servosity",
+    "repo": "msp-skills",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "paperclipai",
+    "repo": "paperclip",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "oil-oil",
+    "repo": "oil-motion",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "oil-oil",
+    "repo": "beautify-github-readme",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "MemeMeow-Studio",
+    "repo": "MemeMeow",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "hanlulong",
+    "repo": "awesome-ai-for-economists",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "oil-oil",
+    "repo": "draw-ui",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "oil-oil",
+    "repo": "oil-icon",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "oil-oil",
+    "repo": "oil-cover",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "santosomar",
+    "repo": "AI-agents-for-cybersecurity",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "juliobsz",
+    "repo": "skills",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "wenziai",
+    "repo": "wenzi-xiaohongshu-workflow",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "oil-oil",
+    "repo": "see-skill",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "FengZhenfei",
+    "repo": "carrel",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "artemchuikin",
+    "repo": "youtube-skills",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "oil-oil",
+    "repo": "oil-subtitle",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "ForeverToAI",
+    "repo": "AiPC",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "volt-l18",
+    "repo": "llm-redteam-pipeline",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "LYmmt369",
+    "repo": "viral-content-generator",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Ankit-ku-panda",
+    "repo": "SAP-ABAP-LocalAI",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "everclear077",
+    "repo": "dsh-progressive-tools",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Amirmahdimtz",
+    "repo": "multirag-clean",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "shubham303",
+    "repo": "meelu-analytics-mcp",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "gustavomenani",
+    "repo": "editing-gameplay-montages",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "jonwheatley",
+    "repo": "pixel-path",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "lumen-prism",
+    "repo": "journal-page",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "JakeB-5",
+    "repo": "motion-graphic-skill",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "tambo-labs",
+    "repo": "charming-mcp",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "krishhgg",
+    "repo": "Insomnia",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "cth9191",
+    "repo": "animate",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "Folkbench",
+    "repo": "folkbench",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "level09",
+    "repo": "enferno",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "karanb192",
+    "repo": "awesome-claude-code-mods",
+    "first_seen": "2026-10-13",
     "source": "search:topic:claude-code"
   }
 ]
