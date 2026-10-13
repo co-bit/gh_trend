@@ -440,7 +440,7 @@
   {
     "date": "2026-10-13",
     "stars": 1629,
-    "hn_mentions": 0,
+    "hn_mentions": null,
     "dependents": 0
   }
 ]

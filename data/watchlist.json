@@ -17898,12 +17898,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "Bambushu",
-    "repo": "crucible",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "miniforge-ai",
     "repo": "miniforge",
     "first_seen": "2026-07-28",
@@ -20900,12 +20894,6 @@
   {
     "owner": "benstein",
     "repo": "md2gdoc",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
-    "owner": "fotis89",
-    "repo": "ctx-launcher",
     "first_seen": "2026-07-28",
     "source": "search:topic:llm-tools"
   },
@@ -46982,6 +46970,180 @@
   {
     "owner": "karanb192",
     "repo": "awesome-claude-code-mods",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "ccfos",
+    "repo": "nightingale",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "trailhq",
+    "repo": "Trail-Code",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "zhuyansen",
+    "repo": "new-term-radar",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "yasewang1337-svg",
+    "repo": "winutil-cn",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "lemma-work",
+    "repo": "lemma-platform",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "hujjun",
+    "repo": "mcd-saver-strategist",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "BugTraceAI",
+    "repo": "BugTraceAI",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "BugTraceAI",
+    "repo": "BugTraceAI-CLI",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "dewzor",
+    "repo": "claude-desktop-fedora",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "alex09x",
+    "repo": "kyb",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "kruschdev",
+    "repo": "krusch-context-mcp",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "gobuildwp",
+    "repo": "wordpress-mcp-ai-gobuildwp",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "sandraschi",
+    "repo": "blender-mcp",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "AirsupHQ",
+    "repo": "machine-skill",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "dagoSte",
+    "repo": "squadra",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Xquik-dev",
+    "repo": "tweetclaw",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "eater2",
+    "repo": "ai_agents_api_library",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "paperfoot",
+    "repo": "xmaster-cli",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-meeting-bot-unified-api-realtime-crm-pusher-skill",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Garinmckayl",
+    "repo": "anima",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "cl-victor1",
+    "repo": "wechat-article-workflow-skill",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "crawfordxx",
+    "repo": "xiaoma-studio",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "jeszhou",
+    "repo": "montage-vlog-compiler",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "AZR-Software-Solutions",
+    "repo": "html-animation-to-mp4",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "kimhons",
+    "repo": "humanize",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "MaxMiksa",
+    "repo": "Autonomous-Company",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "yakuikai",
+    "repo": "tokentab",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "Jakeschincariol",
+    "repo": "founder-skill",
+    "first_seen": "2026-10-13",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "Jakeschincariol",
+    "repo": "arena-skill",
     "first_seen": "2026-10-13",
     "source": "search:topic:claude-code"
   }
