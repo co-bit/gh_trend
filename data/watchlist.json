@@ -17364,12 +17364,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "shajith003",
-    "repo": "awesome-claude-skills",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "jiadizhunine",
     "repo": "deeptutor",
     "first_seen": "2026-07-28",
@@ -20222,12 +20216,6 @@
   {
     "owner": "decantr-ai",
     "repo": "decantr",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
-    "owner": "ANONIMO432HZ",
-    "repo": "notebooklm-mcp-skill-setup",
     "first_seen": "2026-07-28",
     "source": "search:topic:llm-tools"
   },
@@ -23708,12 +23696,6 @@
   {
     "owner": "AnayDhawan",
     "repo": "Components",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
-    "owner": "juanmacruzherrera",
-    "repo": "claude-layered-memory-architecture",
     "first_seen": "2026-07-28",
     "source": "search:topic:claude-skill"
   },
@@ -47082,12 +47064,6 @@
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "yakuikai",
-    "repo": "tokentab",
-    "first_seen": "2026-10-13",
-    "source": "search:topic:claude-code"
-  },
-  {
     "owner": "Jakeschincariol",
     "repo": "founder-skill",
     "first_seen": "2026-10-13",
@@ -47235,6 +47211,144 @@
     "owner": "davidondrej",
     "repo": "cloudroom-core",
     "first_seen": "2026-10-14",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "kajisho5",
+    "repo": "ffmpeg-skill",
+    "first_seen": "2026-10-15",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "marclou",
+    "repo": "mailcheap",
+    "first_seen": "2026-10-15",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "scenario-labs",
+    "repo": "blender-plugin",
+    "first_seen": "2026-10-15",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Graphicle-AI",
+    "repo": "graphicle",
+    "first_seen": "2026-10-15",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "lvzuojing",
+    "repo": "mcd-wrapped",
+    "first_seen": "2026-10-15",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "TheMyxa",
+    "repo": "telegram-parser",
+    "first_seen": "2026-10-15",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "LSPosed",
+    "repo": "dexsql-release",
+    "first_seen": "2026-10-15",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "SummerEngine",
+    "repo": "summer",
+    "first_seen": "2026-10-15",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "atrislabs",
+    "repo": "atris",
+    "first_seen": "2026-10-15",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "bilalnaseer",
+    "repo": "wsp-wordpress-mcp",
+    "first_seen": "2026-10-15",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "tw93",
+    "repo": "Kami",
+    "first_seen": "2026-10-15",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "kaomei",
+    "repo": "stickman-video-director",
+    "first_seen": "2026-10-15",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "amplifthq",
+    "repo": "openmeld",
+    "first_seen": "2026-10-15",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "udaysharmadev",
+    "repo": "Gravitas",
+    "first_seen": "2026-10-15",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "madebymustafa",
+    "repo": "design-taste",
+    "first_seen": "2026-10-15",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "dif-sh",
+    "repo": "dif",
+    "first_seen": "2026-10-15",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "mertkayacs",
+    "repo": "reevesagents",
+    "first_seen": "2026-10-15",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "avis309",
+    "repo": "html-deck",
+    "first_seen": "2026-10-15",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "ASOScan",
+    "repo": "aso-skills",
+    "first_seen": "2026-10-15",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "0xAnni",
+    "repo": "ugc-creator",
+    "first_seen": "2026-10-15",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "browser-use",
+    "repo": "browser-harness",
+    "first_seen": "2026-10-15",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "HermannBjorgvin",
+    "repo": "Clawdmeter",
+    "first_seen": "2026-10-15",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "howseen-ai",
+    "repo": "claude-motion-design",
+    "first_seen": "2026-10-15",
     "source": "search:topic:claude-code"
   }
 ]
