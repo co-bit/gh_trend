@@ -10806,12 +10806,6 @@
     "source": "search:topic:model-context-protocol"
   },
   {
-    "owner": "bonnard-data",
-    "repo": "bonnard-cli",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "khuynh22",
     "repo": "mcp-wireshark",
     "first_seen": "2026-07-28",
@@ -47349,6 +47343,174 @@
     "owner": "howseen-ai",
     "repo": "claude-motion-design",
     "first_seen": "2026-10-15",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "DayuanJiang",
+    "repo": "next-ai-draw-io",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "textbee",
+    "repo": "textbee",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "zereight",
+    "repo": "gitlab-mcp",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Zen4-bit",
+    "repo": "Proxima",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "dungngminh",
+    "repo": "simutil",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "hanzohanzhe",
+    "repo": "Grandet",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "anujasid",
+    "repo": "mcp-for-blender-pro",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "metavert-io",
+    "repo": "lastsaas",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "KnifeLemon",
+    "repo": "Droidline",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "abdulmominsakib",
+    "repo": "localmind",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Canary-ECAD",
+    "repo": "eplan-mcp",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "vstorm-co",
+    "repo": "agenticos",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "backenly",
+    "repo": "backenly",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "d2r-mobile",
+    "repo": "d2r-mobile",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "aph199686",
+    "repo": "zhangyi-studio",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "ChangWenC",
+    "repo": "understanding-ladder",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "eequaled",
+    "repo": "GLMproxy",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "keefng8",
+    "repo": "homeshed-mcp",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "bianzigege",
+    "repo": "qianchuan-material-breakdown-skill",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "yuxinlaile",
+    "repo": "McD-saver",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "mrKanoh",
+    "repo": "wcag-accessibility-audit-skill",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "bianzigege",
+    "repo": "avatar-sticker-pack",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "smixs",
+    "repo": "morning-tab",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "pcauhi",
+    "repo": "bolo-de-camadas",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "inhabitants",
+    "repo": "fired-cv",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "zcz718",
+    "repo": "paperradar",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Jasonin2099",
+    "repo": "mcd-team-feast",
+    "first_seen": "2026-10-16",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "MaySudo",
+    "repo": "Misceo",
+    "first_seen": "2026-10-16",
     "source": "search:topic:claude-code"
   }
 ]
