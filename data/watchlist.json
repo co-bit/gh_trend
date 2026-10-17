@@ -26364,12 +26364,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "AlexLiu0130",
-    "repo": "ibkr-options-assistant",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "sytungan",
     "repo": "emoji-speak",
     "first_seen": "2026-07-28",
@@ -47511,6 +47505,174 @@
     "owner": "MaySudo",
     "repo": "Misceo",
     "first_seen": "2026-10-16",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "obsei",
+    "repo": "obsei",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "anujasid",
+    "repo": "blender-ai-mcp-addon",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "tetrionlabs",
+    "repo": "mathema",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "INSANE0777",
+    "repo": "Awwwards-mcp",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "iFurySt",
+    "repo": "open-computer-use",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "omaekumiko2-create",
+    "repo": "OpenKeylet",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Hikhakk",
+    "repo": "higgsfield-mcp-unified",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "arcmira",
+    "repo": "mcp",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "bulutarkan",
+    "repo": "mac-mcp",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "trahloff",
+    "repo": "Aldine",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "pskoett",
+    "repo": "self-improving-agent",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "antongulin",
+    "repo": "opencode-skill-creator",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "zgcagi",
+    "repo": "Harness-RSI",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "arla6ka",
+    "repo": "design.how",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "christos-antono",
+    "repo": "NPCTalk",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "haiderfarooq3",
+    "repo": "khan-explainer",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "koronto11",
+    "repo": "ludo-npc-ai",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "wave2234",
+    "repo": "recipe-nook",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Miragon",
+    "repo": "bpmn-cli",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "axisvela",
+    "repo": "mnemovela-open",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "HaoYangJin",
+    "repo": "Big-Research",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "adexbn",
+    "repo": "walk-kcal",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "ReSo7200",
+    "repo": "molt-dex",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "jeszhou",
+    "repo": "kandong-skill",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "momozi1996",
+    "repo": "momo-code",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "openfilm",
+    "repo": "openfilm",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "Leonxlnx",
+    "repo": "earshot",
+    "first_seen": "2026-10-17",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "lynote-ai",
+    "repo": "ai-text-detector",
+    "first_seen": "2026-10-17",
     "source": "search:topic:claude-code"
   }
 ]
