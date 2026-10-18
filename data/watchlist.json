@@ -25824,12 +25824,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "Pavel-Kravchenko",
-    "repo": "Bioinformatics",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "CodeShuX",
     "repo": "tokenwise",
     "first_seen": "2026-07-28",
@@ -47673,6 +47667,132 @@
     "owner": "lynote-ai",
     "repo": "ai-text-detector",
     "first_seen": "2026-10-17",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "LiCinCan",
+    "repo": "blender-ai-mcp-addon",
+    "first_seen": "2026-10-18",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "pinganbbOvO",
+    "repo": "ai-companion-kit",
+    "first_seen": "2026-10-18",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "nikvdp",
+    "repo": "searxng-ai-kit",
+    "first_seen": "2026-10-18",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "janetom645-coder",
+    "repo": "mcd-buddy",
+    "first_seen": "2026-10-18",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "baihua2471",
+    "repo": "mcd-expiry-butler",
+    "first_seen": "2026-10-18",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "guolola",
+    "repo": "SoftJL",
+    "first_seen": "2026-10-18",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "houtini-ai",
+    "repo": "seo-audit",
+    "first_seen": "2026-10-18",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "nucliweb",
+    "repo": "webperf-snippets",
+    "first_seen": "2026-10-18",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "jhljx",
+    "repo": "RecSys-Industrial-Book",
+    "first_seen": "2026-10-18",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "suyuan2022",
+    "repo": "suyuan-skill",
+    "first_seen": "2026-10-18",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alchaincyf",
+    "repo": "huashu-motion",
+    "first_seen": "2026-10-18",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "EL4CTEO",
+    "repo": "blender-skills",
+    "first_seen": "2026-10-18",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "GPUtw-ai",
+    "repo": "GPUtw-Skill",
+    "first_seen": "2026-10-18",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "jacksonjp0311-gif",
+    "repo": "Perci",
+    "first_seen": "2026-10-18",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "chaenmasahiro0425",
+    "repo": "claude-security-scan",
+    "first_seen": "2026-10-18",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "karem505",
+    "repo": "karem-arabic-presentation",
+    "first_seen": "2026-10-18",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Shakibuzzaman3104",
+    "repo": "gpt-ui-assets",
+    "first_seen": "2026-10-18",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Mikebouskila",
+    "repo": "pelago",
+    "first_seen": "2026-10-18",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Gathin23",
+    "repo": "tv-vibehack",
+    "first_seen": "2026-10-18",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "agentty-org",
+    "repo": "agentty",
+    "first_seen": "2026-10-18",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "leepokai",
+    "repo": "Codync",
+    "first_seen": "2026-10-18",
     "source": "search:topic:claude-code"
   }
 ]
