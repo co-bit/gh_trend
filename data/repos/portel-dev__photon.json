@@ -478,5 +478,11 @@
     "stars": 100,
     "hn_mentions": 0,
     "dependents": 1
+  },
+  {
+    "date": "2026-10-20",
+    "stars": 100,
+    "hn_mentions": null,
+    "dependents": 1
   }
 ]
