@@ -5580,12 +5580,6 @@
     "source": "search:topic:mcp-server"
   },
   {
-    "owner": "christinminor459",
-    "repo": "OnionClaw",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:mcp-server"
-  },
-  {
     "owner": "biegehydra",
     "repo": "BifrostMCP",
     "first_seen": "2026-07-28",
@@ -48183,6 +48177,192 @@
     "owner": "z91772524-ai",
     "repo": "pojia-next",
     "first_seen": "2026-10-20",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "junxchan54-maker",
+    "repo": "mcd-cn-assistant",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "vidispine",
+    "repo": "hull",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "healthymind-tech",
+    "repo": "Taiwan-Health-MCP",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "respanai",
+    "repo": "respan-gateway",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "haxsd",
+    "repo": "toolkit-map",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Umair",
+    "repo": "stalemap",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "duhu2000",
+    "repo": "dsh-mcp-connector",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "nitrosend",
+    "repo": "cli",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "maxritter",
+    "repo": "qualitylayer",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alexgaoth",
+    "repo": "awesome-reverse-engineered",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "ystemsrx",
+    "repo": "sql-to-ER",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "huaxialucaicaizi",
+    "repo": "business-plan-skill",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "lovisdotio",
+    "repo": "motion2code",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "AgenticsWorks",
+    "repo": "AgentPeerChat",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "helloo1568",
+    "repo": "slidemuse",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "xianyu110",
+    "repo": "ecommerce-image-skills",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "ShadowSwaps",
+    "repo": "REA-Reconstruction-Companion",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "kukemc",
+    "repo": "bili-cli",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "aws-solutions",
+    "repo": "konductor",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-search-api-integration-skill",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "helloianneo",
+    "repo": "ian-xhs-carousel",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "nokonoko1203",
+    "repo": "agent-settings",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "sonlovinbot-team",
+    "repo": "Muse-animated-short-film",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "kitao",
+    "repo": "pyxel-skill",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "5hyuns",
+    "repo": "ad-copy-agency-skill",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "rhino-ty",
+    "repo": "game-architect",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "cheaper-inference",
+    "repo": "OmniRoute",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "ai-job-search-dev",
+    "repo": "ai-job-search",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "jacklandrin",
+    "repo": "OnlySwitch",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "joeseesun",
+    "repo": "opus-video-prompts",
+    "first_seen": "2026-10-21",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "haidrrrry",
+    "repo": "claude-remotion-skill",
+    "first_seen": "2026-10-21",
     "source": "search:topic:claude-code"
   }
 ]
