@@ -47304,12 +47304,6 @@
     "source": "search:topic:mcp-server"
   },
   {
-    "owner": "anujasid",
-    "repo": "mcp-for-blender-pro",
-    "first_seen": "2026-10-16",
-    "source": "search:topic:mcp-server"
-  },
-  {
     "owner": "metavert-io",
     "repo": "lastsaas",
     "first_seen": "2026-10-16",
@@ -47438,12 +47432,6 @@
   {
     "owner": "obsei",
     "repo": "obsei",
-    "first_seen": "2026-10-17",
-    "source": "search:topic:mcp-server"
-  },
-  {
-    "owner": "anujasid",
-    "repo": "blender-ai-mcp-addon",
     "first_seen": "2026-10-17",
     "source": "search:topic:mcp-server"
   },
@@ -47602,12 +47590,6 @@
     "repo": "ai-text-detector",
     "first_seen": "2026-10-17",
     "source": "search:topic:claude-code"
-  },
-  {
-    "owner": "LiCinCan",
-    "repo": "blender-ai-mcp-addon",
-    "first_seen": "2026-10-18",
-    "source": "search:topic:mcp-server"
   },
   {
     "owner": "pinganbbOvO",
@@ -48363,6 +48345,156 @@
     "owner": "haidrrrry",
     "repo": "claude-remotion-skill",
     "first_seen": "2026-10-21",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "papersgpt",
+    "repo": "papersgpt-for-zotero",
+    "first_seen": "2026-10-22",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "fatwang2",
+    "repo": "search2ai",
+    "first_seen": "2026-10-22",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "diivi",
+    "repo": "aseprite-mcp",
+    "first_seen": "2026-10-22",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Sidiora-Labs",
+    "repo": "paxeer-monorepo",
+    "first_seen": "2026-10-22",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "AIPMAndy",
+    "repo": "dna-memory",
+    "first_seen": "2026-10-22",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Aryan-Pardeshi",
+    "repo": "CiteProof-AI-MCP",
+    "first_seen": "2026-10-22",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "danilokhury",
+    "repo": "Synabun",
+    "first_seen": "2026-10-22",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Cognitohazard",
+    "repo": "ltspice-mcp",
+    "first_seen": "2026-10-22",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Lemon177777",
+    "repo": "mcd-omni-assistant",
+    "first_seen": "2026-10-22",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "dreammis",
+    "repo": "social-auto-upload",
+    "first_seen": "2026-10-22",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "milisp",
+    "repo": "mcp-linker",
+    "first_seen": "2026-10-22",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "liuliu667",
+    "repo": "cram-engine",
+    "first_seen": "2026-10-22",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "wjgoarxiv",
+    "repo": "litgravity",
+    "first_seen": "2026-10-22",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "google",
+    "repo": "elephant-goldfish-model",
+    "first_seen": "2026-10-22",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "AIPMAndy",
+    "repo": "awesome-openclaw-skills-CN",
+    "first_seen": "2026-10-22",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "BintzGavin",
+    "repo": "helios",
+    "first_seen": "2026-10-22",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "SwotAtmk",
+    "repo": "infinite-creation",
+    "first_seen": "2026-10-22",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "lemomo-ai",
+    "repo": "lemo-wake",
+    "first_seen": "2026-10-22",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "TheLastOxygen",
+    "repo": "mafdet",
+    "first_seen": "2026-10-22",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "alphaparkinc",
+    "repo": "genpark-multi-source-competitive-market-intelligence-synthesizer-skill",
+    "first_seen": "2026-10-22",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Quincunx33",
+    "repo": "LowRAM-AI-Compiler",
+    "first_seen": "2026-10-22",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "8itlab",
+    "repo": "genshin-miliastra-mcp",
+    "first_seen": "2026-10-22",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "CR8-OS",
+    "repo": "retro-bot",
+    "first_seen": "2026-10-22",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "suoha888",
+    "repo": "suoha-serenity-skill",
+    "first_seen": "2026-10-22",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "devswha",
+    "repo": "ovis",
+    "first_seen": "2026-10-22",
     "source": "search:topic:claude-code"
   }
 ]
