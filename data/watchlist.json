@@ -3516,12 +3516,6 @@
     "source": "search:topic:mcp-server"
   },
   {
-    "owner": "mohitagw15856",
-    "repo": "pm-claude-skills",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:mcp-server"
-  },
-  {
     "owner": "datalayer",
     "repo": "jupyter-mcp-server",
     "first_seen": "2026-07-28",
@@ -6086,12 +6080,6 @@
   {
     "owner": "ktanaka101",
     "repo": "mcp-server-duckdb",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:mcp-server"
-  },
-  {
-    "owner": "milisp",
-    "repo": "awesome-claude-dxt",
     "first_seen": "2026-07-28",
     "source": "search:topic:mcp-server"
   },
@@ -29130,12 +29118,6 @@
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "milisp",
-    "repo": "codexia",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-code"
-  },
-  {
     "owner": "Jakedismo",
     "repo": "codegraph-rust",
     "first_seen": "2026-07-28",
@@ -46050,12 +46032,6 @@
     "source": "search:topic:model-context-protocol"
   },
   {
-    "owner": "adamkhalile",
-    "repo": "luau-docs-oracle",
-    "first_seen": "2026-10-08",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "bubbuild",
     "repo": "bub",
     "first_seen": "2026-10-08",
@@ -48408,12 +48384,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "milisp",
-    "repo": "mcp-linker",
-    "first_seen": "2026-10-22",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "liuliu667",
     "repo": "cram-engine",
     "first_seen": "2026-10-22",
@@ -48495,6 +48465,150 @@
     "owner": "devswha",
     "repo": "ovis",
     "first_seen": "2026-10-22",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "shaongitbd",
+    "repo": "doory",
+    "first_seen": "2026-10-23",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "ollaya-dev",
+    "repo": "ollaya",
+    "first_seen": "2026-10-23",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "ARCANGEL0",
+    "repo": "Mitsu",
+    "first_seen": "2026-10-23",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Ebony-Vinyl",
+    "repo": "EAC-design-world",
+    "first_seen": "2026-10-23",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "sepehr071",
+    "repo": "iran-mcp",
+    "first_seen": "2026-10-23",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "nota-daw",
+    "repo": "nota",
+    "first_seen": "2026-10-23",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "nkapila6",
+    "repo": "mcpsurfr",
+    "first_seen": "2026-10-23",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "roedyrustam",
+    "repo": "vibes-plug",
+    "first_seen": "2026-10-23",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "tunr-dev",
+    "repo": "tunr",
+    "first_seen": "2026-10-23",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "nitrosend",
+    "repo": "mcp",
+    "first_seen": "2026-10-23",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "VicPitic",
+    "repo": "the-brains",
+    "first_seen": "2026-10-23",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "sfrangulov",
+    "repo": "minirag-mcp",
+    "first_seen": "2026-10-23",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "devlab-group",
+    "repo": "agent-commerce",
+    "first_seen": "2026-10-23",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "alchaincyf",
+    "repo": "huashu-design",
+    "first_seen": "2026-10-23",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "gokayfem",
+    "repo": "shader-skills",
+    "first_seen": "2026-10-23",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "backtrue",
+    "repo": "thinkwithblack-skill",
+    "first_seen": "2026-10-23",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Marvae",
+    "repo": "douban-cli",
+    "first_seen": "2026-10-23",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Jakeschincariol",
+    "repo": "master-skills",
+    "first_seen": "2026-10-23",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "lucasmartins-ai",
+    "repo": "lcc",
+    "first_seen": "2026-10-23",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "senlindesign",
+    "repo": "proof",
+    "first_seen": "2026-10-23",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "su-kaka",
+    "repo": "agy2api",
+    "first_seen": "2026-10-23",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "DozenTwelve",
+    "repo": "Papermorph",
+    "first_seen": "2026-10-23",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "Paradigm-Study",
+    "repo": "claude-share",
+    "first_seen": "2026-10-23",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "sergebulaev",
+    "repo": "instagram-skills",
+    "first_seen": "2026-10-23",
     "source": "search:topic:claude-code"
   }
 ]
