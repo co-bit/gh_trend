@@ -41154,12 +41154,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "eddyplolz",
-    "repo": "humanizer-pro",
-    "first_seen": "2026-09-01",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "Ublaze",
     "repo": "github-readme-generator",
     "first_seen": "2026-09-01",
@@ -48609,6 +48603,150 @@
     "owner": "sergebulaev",
     "repo": "instagram-skills",
     "first_seen": "2026-10-23",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "pardnchiu",
+    "repo": "Agenvoy",
+    "first_seen": "2026-10-24",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "devforth",
+    "repo": "adminforth",
+    "first_seen": "2026-10-24",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "ashishsinha1602",
+    "repo": "schemagate",
+    "first_seen": "2026-10-24",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "auto-agent-protocol",
+    "repo": "auto-agent-protocol",
+    "first_seen": "2026-10-24",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "HitKeep",
+    "repo": "hitkeep",
+    "first_seen": "2026-10-24",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "polaris-smart",
+    "repo": "mcd-agent-gourmet",
+    "first_seen": "2026-10-24",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Cesare-N",
+    "repo": "mcd-daily-saver",
+    "first_seen": "2026-10-24",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "RikyZ90",
+    "repo": "ShibaClaw",
+    "first_seen": "2026-10-24",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "dgesteves",
+    "repo": "onsystem",
+    "first_seen": "2026-10-24",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "yurenpai",
+    "repo": "mc-points-steward",
+    "first_seen": "2026-10-24",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "xiaozhangup",
+    "repo": "Oh-My-McDonald",
+    "first_seen": "2026-10-24",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "EricJujianZou",
+    "repo": "rederive",
+    "first_seen": "2026-10-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "tmcfarlane",
+    "repo": "team-avatar",
+    "first_seen": "2026-10-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "QuickButlerPace65",
+    "repo": "AnythingLLM-Desktop",
+    "first_seen": "2026-10-24",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "VictorAgahi",
+    "repo": "mesh-mcp",
+    "first_seen": "2026-10-24",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "adhiprib",
+    "repo": "humanizer-indonesia",
+    "first_seen": "2026-10-24",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "abhixv",
+    "repo": "google-m3-expressive-design-skill",
+    "first_seen": "2026-10-24",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "waseemnasir2k26",
+    "repo": "fiverr-gig-optimizer",
+    "first_seen": "2026-10-24",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "geyadawang-boop",
+    "repo": "humanize-writing",
+    "first_seen": "2026-10-24",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "bellisji233",
+    "repo": "live2d-halfbody-skill",
+    "first_seen": "2026-10-24",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "waseemnasir2k26",
+    "repo": "reborn-forge",
+    "first_seen": "2026-10-24",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "TonF1917",
+    "repo": "claude-desktop-multiple-windows-different-api",
+    "first_seen": "2026-10-24",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "GortexAI",
+    "repo": "franco",
+    "first_seen": "2026-10-24",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "smixs",
+    "repo": "visual-skills",
+    "first_seen": "2026-10-24",
     "source": "search:topic:claude-code"
   }
 ]
