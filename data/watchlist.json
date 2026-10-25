@@ -22122,12 +22122,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "studentleaner",
-    "repo": "Axiom",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "VDADev2022",
     "repo": "token-diet",
     "first_seen": "2026-07-28",
@@ -42714,12 +42708,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "tradecatlabs",
-    "repo": "vibe-coding-cn",
-    "first_seen": "2026-09-12",
-    "source": "search:topic:claude-code"
-  },
-  {
     "owner": "dmarcguardhq",
     "repo": "parse-dmarc",
     "first_seen": "2026-09-13",
@@ -48747,6 +48735,144 @@
     "owner": "smixs",
     "repo": "visual-skills",
     "first_seen": "2026-10-24",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "zhuzhaoyun",
+    "repo": "Molio",
+    "first_seen": "2026-10-25",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "hyscaler",
+    "repo": "HyCanvas",
+    "first_seen": "2026-10-25",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "akexin",
+    "repo": "mcd-points-actuary",
+    "first_seen": "2026-10-25",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "smallchristy123",
+    "repo": "mcmeal-compass",
+    "first_seen": "2026-10-25",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "pminervini",
+    "repo": "deep-research-mcp",
+    "first_seen": "2026-10-25",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "ChinaOpenClaw",
+    "repo": "mcd-nutrition-expert",
+    "first_seen": "2026-10-25",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "stkoecn",
+    "repo": "im-mcp",
+    "first_seen": "2026-10-25",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "daviddme",
+    "repo": "tradingview-indicator-search-mcp-server",
+    "first_seen": "2026-10-25",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "melonjs",
+    "repo": "melonJS",
+    "first_seen": "2026-10-25",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "backnotprop",
+    "repo": "pstack",
+    "first_seen": "2026-10-25",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "DenisSergeevitch",
+    "repo": "ex-ussr-kinship-research",
+    "first_seen": "2026-10-25",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "kv-chiu",
+    "repo": "mcd-desktop-pet",
+    "first_seen": "2026-10-25",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "AGIHunt",
+    "repo": "blurt",
+    "first_seen": "2026-10-25",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "ayingQAQ",
+    "repo": "McCosmos",
+    "first_seen": "2026-10-25",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "NoobyGains",
+    "repo": "godmode",
+    "first_seen": "2026-10-25",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "0xArchiveIO",
+    "repo": "0xarchive-quant",
+    "first_seen": "2026-10-25",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "josezuma",
+    "repo": "yc-pitch-deck-max",
+    "first_seen": "2026-10-25",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Wonggeff",
+    "repo": "drawing-review-cn",
+    "first_seen": "2026-10-25",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "yapaytu",
+    "repo": "mahalle-avcisi",
+    "first_seen": "2026-10-25",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "KeiaiLab",
+    "repo": "webEmbedding",
+    "first_seen": "2026-10-25",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "w-avw",
+    "repo": "instagram-viral-reels-research-claude-skill",
+    "first_seen": "2026-10-25",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "kalil0321",
+    "repo": "reverse-api-engineer",
+    "first_seen": "2026-10-25",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "morganlinton",
+    "repo": "BeautifulRust",
+    "first_seen": "2026-10-25",
     "source": "search:topic:claude-code"
   }
 ]
