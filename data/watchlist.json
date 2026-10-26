@@ -48874,5 +48874,155 @@
     "repo": "BeautifulRust",
     "first_seen": "2026-10-25",
     "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "karust",
+    "repo": "openserp",
+    "first_seen": "2026-10-26",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "mohitagw15856",
+    "repo": "pm-claude-skills",
+    "first_seen": "2026-10-26",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "grafana-cold-storage",
+    "repo": "loki-mcp",
+    "first_seen": "2026-10-26",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "imshaikot",
+    "repo": "browsentic",
+    "first_seen": "2026-10-26",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "GabrielMartinMoran",
+    "repo": "mind",
+    "first_seen": "2026-10-26",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "AbuZar-Ansarii",
+    "repo": "PocketStrike",
+    "first_seen": "2026-10-26",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "livetennisapi",
+    "repo": "livetennisapi-mcp",
+    "first_seen": "2026-10-26",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "boyuchengz",
+    "repo": "canvas-mcp",
+    "first_seen": "2026-10-26",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "cognicore-dev",
+    "repo": "cognicore-env",
+    "first_seen": "2026-10-26",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "everyinfra",
+    "repo": "everyinfra-agent-plugins",
+    "first_seen": "2026-10-26",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "lacs-project",
+    "repo": "sysknife",
+    "first_seen": "2026-10-26",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "MarcelRoozekrans",
+    "repo": "roslyn-codelens-mcp",
+    "first_seen": "2026-10-26",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Kirito14IT",
+    "repo": "prompt-spider-ui",
+    "first_seen": "2026-10-26",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "michaelshimeles",
+    "repo": "rstack",
+    "first_seen": "2026-10-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "mmalmi",
+    "repo": "nostr-vpn",
+    "first_seen": "2026-10-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Gitruck",
+    "repo": "cli",
+    "first_seen": "2026-10-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "huaxialucaicaizi",
+    "repo": "ai-startup-skills",
+    "first_seen": "2026-10-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "shenysun",
+    "repo": "skills-manager",
+    "first_seen": "2026-10-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "maplibre",
+    "repo": "maplibre-agent-skills",
+    "first_seen": "2026-10-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "yzlin286-wq",
+    "repo": "Deepscient",
+    "first_seen": "2026-10-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "hx101700",
+    "repo": "memoflow",
+    "first_seen": "2026-10-26",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "WebitroHQ",
+    "repo": "token-skill",
+    "first_seen": "2026-10-26",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "darajoukar",
+    "repo": "reveal-rtl",
+    "first_seen": "2026-10-26",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "ParadevAI",
+    "repo": "Paradev",
+    "first_seen": "2026-10-26",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "mobile-next",
+    "repo": "mobile-mcp",
+    "first_seen": "2026-10-26",
+    "source": "search:topic:claude-code"
   }
 ]
