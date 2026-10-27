@@ -20826,12 +20826,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "Wishmakingfairy",
-    "repo": "god-mode-os-for-claude-code",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "concordance-co",
     "repo": "xenon",
     "first_seen": "2026-07-28",
@@ -38544,12 +38538,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "Earnest-clockworkuniverse497",
-    "repo": "mcp-annas-archive-create-skill",
-    "first_seen": "2026-08-18",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "ww-w-ai",
     "repo": "bkit-claude-code",
     "first_seen": "2026-08-18",
@@ -40832,12 +40820,6 @@
   {
     "owner": "omar-abo-el-maaty",
     "repo": "cv-job-market-research",
-    "first_seen": "2026-08-31",
-    "source": "search:topic:llm-tools"
-  },
-  {
-    "owner": "mguttmann",
-    "repo": "linkedin-internal-api",
     "first_seen": "2026-08-31",
     "source": "search:topic:llm-tools"
   },
@@ -44450,18 +44432,6 @@
   {
     "owner": "flightclaw",
     "repo": "agents",
-    "first_seen": "2026-09-26",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
-    "owner": "graygnatconsole",
-    "repo": "mcp-audit-tool",
-    "first_seen": "2026-09-26",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
-    "owner": "breakstageaxe61",
-    "repo": "genspark-claw",
     "first_seen": "2026-09-26",
     "source": "search:topic:model-context-protocol"
   },
@@ -49023,6 +48993,144 @@
     "owner": "mobile-next",
     "repo": "mobile-mcp",
     "first_seen": "2026-10-26",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "openaccountants",
+    "repo": "openaccountants",
+    "first_seen": "2026-10-27",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "AndrewCTF",
+    "repo": "velocity",
+    "first_seen": "2026-10-27",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "emanuele-em",
+    "repo": "kanzo",
+    "first_seen": "2026-10-27",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "BatterWorks",
+    "repo": "Hatchdoor",
+    "first_seen": "2026-10-27",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "DUNHKpcc",
+    "repo": "Claude-Guardian",
+    "first_seen": "2026-10-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "daveebbelaar",
+    "repo": "bama",
+    "first_seen": "2026-10-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "tsonglew",
+    "repo": "dutis",
+    "first_seen": "2026-10-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "firecrawl",
+    "repo": "firecrawl-claude-plugin",
+    "first_seen": "2026-10-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "blixvip",
+    "repo": "html-anime",
+    "first_seen": "2026-10-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "liuhaisi2026212-maker",
+    "repo": "taishang-laojun",
+    "first_seen": "2026-10-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "patch-gg",
+    "repo": "anymove",
+    "first_seen": "2026-10-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "DojoCodingLabs",
+    "repo": "remotion-superpowers",
+    "first_seen": "2026-10-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "jaktestowac",
+    "repo": "awesome-copilot-for-testers",
+    "first_seen": "2026-10-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "metadist",
+    "repo": "synaplan-desktop",
+    "first_seen": "2026-10-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "liyupi",
+    "repo": "memecub",
+    "first_seen": "2026-10-27",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "jeshiomurmu",
+    "repo": "ContextFlow",
+    "first_seen": "2026-10-27",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "dantaspaulo",
+    "repo": "check-pre-lancamento",
+    "first_seen": "2026-10-27",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "stevenguyenbt",
+    "repo": "mega-shot",
+    "first_seen": "2026-10-27",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "muzbox1973",
+    "repo": "arcade-rom-3d-remaster",
+    "first_seen": "2026-10-27",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "fainir",
+    "repo": "most-capable-agent-system-prompt",
+    "first_seen": "2026-10-27",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "mihirgupta0900",
+    "repo": "tv-home",
+    "first_seen": "2026-10-27",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "carloslfu",
+    "repo": "slotstream",
+    "first_seen": "2026-10-27",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "ZiChuanLan",
+    "repo": "agent-purge",
+    "first_seen": "2026-10-27",
     "source": "search:topic:claude-code"
   }
 ]
