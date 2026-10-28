@@ -37830,12 +37830,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "SaarthiOS",
-    "repo": "contract-review",
-    "first_seen": "2026-08-15",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "LauraMoney42",
     "repo": "GitPretty",
     "first_seen": "2026-08-15",
@@ -49131,6 +49125,168 @@
     "owner": "ZiChuanLan",
     "repo": "agent-purge",
     "first_seen": "2026-10-27",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "desplega-ai",
+    "repo": "agent-swarm",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "qybaihe",
+    "repo": "bla",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "yeuxuan",
+    "repo": "Ace-Mcp-Node",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "feimacode",
+    "repo": "open-design-agent-kit",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "DeHor-Labs",
+    "repo": "mcp-juridico-brasil",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Scottcjn",
+    "repo": "rustchain-mcp",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "UpstageAI",
+    "repo": "korean-tax-calc-mcp",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "JialaoLiu",
+    "repo": "dsh-baton",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "lemonadesaltbagel",
+    "repo": "teardown",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "DeHor-Labs",
+    "repo": "mcp-agro-brasil",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "seyka-ai",
+    "repo": "yandex-tools-mcp",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "pbakaus",
+    "repo": "impeccable",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "FANzR-arch",
+    "repo": "Numerologist_skills",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "HeyChengC",
+    "repo": "vibe-knowledge-film",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "HeyChengC",
+    "repo": "wallstreet-explainer",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "MiniMax-AI",
+    "repo": "mcode-stack",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "wpgaurav",
+    "repo": "bricks-skills",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "wpgaurav",
+    "repo": "generateblocks-skills",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Mayzmei",
+    "repo": "anime-series-maker",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "duyunzhoudyz",
+    "repo": "gongwen-skills",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "daimonia-ai",
+    "repo": "STC-Simplified-Technical-Chinese",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "bassnova42",
+    "repo": "arch-diagram-skill",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "waynefu2020",
+    "repo": "competitor-kol-radar",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Sae-l",
+    "repo": "tutor",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "oceanbase",
+    "repo": "powercontext",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "davidondrej",
+    "repo": "cloudroom",
+    "first_seen": "2026-10-28",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "AgriciDaniel",
+    "repo": "claude-youtube",
+    "first_seen": "2026-10-28",
     "source": "search:topic:claude-code"
   }
 ]
