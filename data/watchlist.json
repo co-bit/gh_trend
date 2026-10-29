@@ -26952,12 +26952,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "hashiruu",
-    "repo": "agent-experiment",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "mrocker",
     "repo": "CardZero",
     "first_seen": "2026-07-28",
@@ -28016,12 +28010,6 @@
   {
     "owner": "bestruirui",
     "repo": "octopus",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-code"
-  },
-  {
-    "owner": "AgentsMesh",
-    "repo": "AgentsMesh",
     "first_seen": "2026-07-28",
     "source": "search:topic:claude-code"
   },
@@ -40890,12 +40878,6 @@
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "hkqr",
-    "repo": "my-free-code",
-    "first_seen": "2026-08-31",
-    "source": "search:topic:claude-code"
-  },
-  {
     "owner": "alpbahadur",
     "repo": "49-IDE",
     "first_seen": "2026-08-31",
@@ -49287,6 +49269,150 @@
     "owner": "AgriciDaniel",
     "repo": "claude-youtube",
     "first_seen": "2026-10-28",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "liketrek",
+    "repo": "TREK",
+    "first_seen": "2026-10-29",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "akfamily",
+    "repo": "aktools",
+    "first_seen": "2026-10-29",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "mutonby",
+    "repo": "agentring",
+    "first_seen": "2026-10-29",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "translated",
+    "repo": "lara-mcp",
+    "first_seen": "2026-10-29",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "andrewbartels1",
+    "repo": "SolidworksMCP-python",
+    "first_seen": "2026-10-29",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "NoobUnderTreant",
+    "repo": "Tower-Events-resp-At-Sunrise",
+    "first_seen": "2026-10-29",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "w0ldan",
+    "repo": "exoproc",
+    "first_seen": "2026-10-29",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "lemonadesaltbagel",
+    "repo": "sill",
+    "first_seen": "2026-10-29",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "AISEO-VirtualabDigital",
+    "repo": "mcp-video-editor",
+    "first_seen": "2026-10-29",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "glebis",
+    "repo": "claude-skills",
+    "first_seen": "2026-10-29",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "atlanai",
+    "repo": "ai-registry",
+    "first_seen": "2026-10-29",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "unclejobs-ai",
+    "repo": "motion-video-skill",
+    "first_seen": "2026-10-29",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Stormtop-alt",
+    "repo": "repdix-rpocket-team",
+    "first_seen": "2026-10-29",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "danalec",
+    "repo": "rgx",
+    "first_seen": "2026-10-29",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "AIPMAndy",
+    "repo": "LivePPT",
+    "first_seen": "2026-10-29",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "AIPMAndy",
+    "repo": "youzi-trading-skill",
+    "first_seen": "2026-10-29",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "AIPMAndy",
+    "repo": "PPTskill",
+    "first_seen": "2026-10-29",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "mlsss333",
+    "repo": "seo-geo-kit",
+    "first_seen": "2026-10-29",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "mrpaidsocial",
+    "repo": "uni1-image-ad",
+    "first_seen": "2026-10-29",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "csepulvedai",
+    "repo": "libro-3d-interactivo",
+    "first_seen": "2026-10-29",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "0009-aaf",
+    "repo": "agent-skills",
+    "first_seen": "2026-10-29",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "hxr223",
+    "repo": "ai-image-to-vector-redesign",
+    "first_seen": "2026-10-29",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "asm0dey",
+    "repo": "precedent",
+    "first_seen": "2026-10-29",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "AgenticResourceRegistry",
+    "repo": "AgenticResourceRegistry",
+    "first_seen": "2026-10-29",
     "source": "search:topic:claude-code"
   }
 ]
