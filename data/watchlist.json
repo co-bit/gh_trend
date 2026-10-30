@@ -6732,12 +6732,6 @@
     "source": "search:topic:mcp-server"
   },
   {
-    "owner": "JesusRS1",
-    "repo": "stock-trade-finance-api",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:mcp-server"
-  },
-  {
     "owner": "systempromptio",
     "repo": "systemprompt-code-orchestrator",
     "first_seen": "2026-07-28",
@@ -14270,12 +14264,6 @@
   {
     "owner": "danjdewhurst",
     "repo": "story-skills",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:agent-skills"
-  },
-  {
-    "owner": "BaggaT236",
-    "repo": "AI-Trading-Skills",
     "first_seen": "2026-07-28",
     "source": "search:topic:agent-skills"
   },
@@ -21818,12 +21806,6 @@
   {
     "owner": "musharna",
     "repo": "plant-genomics-mcp",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
-    "owner": "ppiankov",
-    "repo": "contextspectre",
     "first_seen": "2026-07-28",
     "source": "search:topic:llm-tools"
   },
@@ -48618,12 +48600,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "QuickButlerPace65",
-    "repo": "AnythingLLM-Desktop",
-    "first_seen": "2026-10-24",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "VictorAgahi",
     "repo": "mesh-mcp",
     "first_seen": "2026-10-24",
@@ -48694,12 +48670,6 @@
     "repo": "HyCanvas",
     "first_seen": "2026-10-25",
     "source": "search:topic:mcp-server"
-  },
-  {
-    "owner": "akexin",
-    "repo": "mcd-points-actuary",
-    "first_seen": "2026-10-25",
-    "source": "search:topic:model-context-protocol"
   },
   {
     "owner": "smallchristy123",
@@ -49413,6 +49383,150 @@
     "owner": "AgenticResourceRegistry",
     "repo": "AgenticResourceRegistry",
     "first_seen": "2026-10-29",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "relaticle",
+    "repo": "relaticle",
+    "first_seen": "2026-10-30",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "reason-machines",
+    "repo": "reason-network",
+    "first_seen": "2026-10-30",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "badchars",
+    "repo": "darknet-mcp-server",
+    "first_seen": "2026-10-30",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "DeadHead04",
+    "repo": "skillEd",
+    "first_seen": "2026-10-30",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "ajnart",
+    "repo": "self-host",
+    "first_seen": "2026-10-30",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "actionow-ai",
+    "repo": "vvv",
+    "first_seen": "2026-10-30",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "modulestf",
+    "repo": "modulestf",
+    "first_seen": "2026-10-30",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "patch-gg",
+    "repo": "pixelfx",
+    "first_seen": "2026-10-30",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "sloemo01",
+    "repo": "diorama",
+    "first_seen": "2026-10-30",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "IceWhaleTech",
+    "repo": "filens",
+    "first_seen": "2026-10-30",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "tianfuzhibuyuci",
+    "repo": "readme-visual-kit",
+    "first_seen": "2026-10-30",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "XiaoyeCodes",
+    "repo": "code-animation-prompts",
+    "first_seen": "2026-10-30",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "NiazMorshed2007",
+    "repo": "reanimate",
+    "first_seen": "2026-10-30",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Speedrunlab",
+    "repo": "reverse-engineer-anything-self-learning-loop",
+    "first_seen": "2026-10-30",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "unitshaperextol",
+    "repo": "Legion-os",
+    "first_seen": "2026-10-30",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "badchars",
+    "repo": "cloud-audit-mcp",
+    "first_seen": "2026-10-30",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "dhaern",
+    "repo": "better-opencode-tools",
+    "first_seen": "2026-10-30",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "ChanMeng666",
+    "repo": "chanmeng-typst",
+    "first_seen": "2026-10-30",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "OutOfAmine",
+    "repo": "hype-reel",
+    "first_seen": "2026-10-30",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "luffysolution-svg",
+    "repo": "sanmu-skills",
+    "first_seen": "2026-10-30",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "tom-surge",
+    "repo": "ai-ad-editor",
+    "first_seen": "2026-10-30",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "mickyyang-1407",
+    "repo": "diy-audiobook",
+    "first_seen": "2026-10-30",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Offwhite-Del",
+    "repo": "ppt-master-skill",
+    "first_seen": "2026-10-30",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Tavotto",
+    "repo": "Tavotto",
+    "first_seen": "2026-10-30",
     "source": "search:topic:claude-code"
   }
 ]

@@ -1,11 +1,5 @@
 [
   {
-    "date": "2026-07-31",
-    "stars": 92440,
-    "hn_mentions": 1,
-    "dependents": 7
-  },
-  {
     "date": "2026-08-01",
     "stars": 93089,
     "hn_mentions": 0,
@@ -518,6 +512,12 @@
   {
     "date": "2026-10-29",
     "stars": 180123,
+    "hn_mentions": 0,
+    "dependents": 27
+  },
+  {
+    "date": "2026-10-30",
+    "stars": 180927,
     "hn_mentions": 0,
     "dependents": 27
   }
