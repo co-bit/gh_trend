@@ -321,6 +321,7 @@
   "preset-io/agor": "チームとAIエージェントを同一環境に集め協働作業を支援するマルチプレイヤーAIプラットフォーム",
   "qualixar/superlocalmemory": "AIエージェントやチーム向けのローカルファーストなメモリ制御を行うオープンソースのコントロールプレーン",
   "qufei1993/skills-hub": "Agent Skillsを一元管理し、複数のAIコーディングツールへ同期するクロスプラットフォーム対応デスクトップアプリ。",
+  "qybaihe/bla": "バイナリやPython、WebAssemblyをREA等のAIリバースエンジニアリングから保護する防御ツール。",
   "raullenchai/Rapid-MLX": "MLXベースでOpenAIやAnthropic互換のツール呼び出し向けApple Silicon用LLM推論サーバー",
   "raysonmeng/agent-bridge": "Claude CodeとCodexがローカル環境で双方向にリアルタイム連携するためのブリッジツール",
   "realiti4/claude-swap": "Claude Codeの複数アカウント切り替え、レート制限の自動切替、並列セッションや利用状況表示を行うツール。",
