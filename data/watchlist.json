@@ -4770,12 +4770,6 @@
     "source": "search:topic:mcp-server"
   },
   {
-    "owner": "daymonio",
-    "repo": "daymon",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:mcp-server"
-  },
-  {
     "owner": "ratel-ai",
     "repo": "ratel",
     "first_seen": "2026-07-28",
@@ -49527,6 +49521,150 @@
     "owner": "Tavotto",
     "repo": "Tavotto",
     "first_seen": "2026-10-30",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "nexmoe",
+    "repo": "DayBee",
+    "first_seen": "2026-10-31",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "gimp-mcp",
+    "repo": "gimp-mcp",
+    "first_seen": "2026-10-31",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "YOLOW92",
+    "repo": "pagesift",
+    "first_seen": "2026-10-31",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "ghorbelhamdi",
+    "repo": "buddy-android",
+    "first_seen": "2026-10-31",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "OtherworldMail",
+    "repo": "Tower-Events-resp-At-Sunrise",
+    "first_seen": "2026-10-31",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "SonicloudTech",
+    "repo": "mouse-mcp",
+    "first_seen": "2026-10-31",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "CCharlie-xiu",
+    "repo": "aoci-wuch",
+    "first_seen": "2026-10-31",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "CCharlie-xiu",
+    "repo": "wuch-ai",
+    "first_seen": "2026-10-31",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "datamodel-code-generator",
+    "repo": "datamodel-code-generator",
+    "first_seen": "2026-10-31",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "LeoYeAI",
+    "repo": "agent-master-skills",
+    "first_seen": "2026-10-31",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "kurbaitaev",
+    "repo": "ghost-editor",
+    "first_seen": "2026-10-31",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "originaleric",
+    "repo": "digcrawl",
+    "first_seen": "2026-10-31",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "asad",
+    "repo": "SMSD",
+    "first_seen": "2026-10-31",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "saineshnakra",
+    "repo": "automated-data-analyst",
+    "first_seen": "2026-10-31",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "thrum-team",
+    "repo": "thrum",
+    "first_seen": "2026-10-31",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "JamshidS",
+    "repo": "aiset",
+    "first_seen": "2026-10-31",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "KiaroSama",
+    "repo": "Telegram-mcp",
+    "first_seen": "2026-10-31",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "NEETnina",
+    "repo": "dsh-model-master",
+    "first_seen": "2026-10-31",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Tyrion-hb",
+    "repo": "page-aligned-paper-translation",
+    "first_seen": "2026-10-31",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "christianpasinrey",
+    "repo": "patterns-and-refactoring",
+    "first_seen": "2026-10-31",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "develop212",
+    "repo": "riff",
+    "first_seen": "2026-10-31",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "reedodev",
+    "repo": "dynamic-captions",
+    "first_seen": "2026-10-31",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "microsoft",
+    "repo": "TokenEconomizer",
+    "first_seen": "2026-10-31",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "haydenschmitty",
+    "repo": "floorplan",
+    "first_seen": "2026-10-31",
     "source": "search:topic:claude-code"
   }
 ]
