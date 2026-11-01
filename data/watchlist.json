@@ -25290,12 +25290,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "kongyo2",
-    "repo": "deep-research-skill",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "Mehdi-Ks",
     "repo": "ATS-CV-Skill-via-Latex",
     "first_seen": "2026-07-28",
@@ -27212,12 +27206,6 @@
   {
     "owner": "cs32dasdasd",
     "repo": "ionik-capacitor-flux-patterns",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
-    "owner": "kongyo2",
-    "repo": "prompt-engineering-skill",
     "first_seen": "2026-07-28",
     "source": "search:topic:claude-skill"
   },
@@ -38832,12 +38820,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "F4561F",
-    "repo": "auxim-agent",
-    "first_seen": "2026-08-19",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "longxianren",
     "repo": "agent-history-hub",
     "first_seen": "2026-08-19",
@@ -49665,6 +49647,144 @@
     "owner": "haydenschmitty",
     "repo": "floorplan",
     "first_seen": "2026-10-31",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "zordhalo",
+    "repo": "runs-on.dev",
+    "first_seen": "2026-11-01",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "koreal6803",
+    "repo": "finlab-ai",
+    "first_seen": "2026-11-01",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "muaaz9329",
+    "repo": "cheap-ag",
+    "first_seen": "2026-11-01",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "pugarte7",
+    "repo": "spanish-top-tech-companies",
+    "first_seen": "2026-11-01",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Fazmin",
+    "repo": "cve-intel",
+    "first_seen": "2026-11-01",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "aicayzer",
+    "repo": "companies-house-mcp",
+    "first_seen": "2026-11-01",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "guguzea",
+    "repo": "MC-AI-Coding-Assistant-Tool",
+    "first_seen": "2026-11-01",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "YunYouJun",
+    "repo": "valaxy",
+    "first_seen": "2026-11-01",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "caru-ini",
+    "repo": "stack-diagram",
+    "first_seen": "2026-11-01",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "lillyguisnet",
+    "repo": "sam3-segmentation",
+    "first_seen": "2026-11-01",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "UnderleveledBuilder",
+    "repo": "awesome-social-media-skills",
+    "first_seen": "2026-11-01",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "wahyunuriman999",
+    "repo": "Muse-Skill-Hub",
+    "first_seen": "2026-11-01",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "michaelegner",
+    "repo": "architecture-intelligence-platform",
+    "first_seen": "2026-11-01",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "nirholas",
+    "repo": "agenc-mcp",
+    "first_seen": "2026-11-01",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "lucasbabur",
+    "repo": "jp-essay",
+    "first_seen": "2026-11-01",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "mankidev",
+    "repo": "codixel",
+    "first_seen": "2026-11-01",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "vzoha",
+    "repo": "dejiny-domu-skill",
+    "first_seen": "2026-11-01",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "CreativesLibrary",
+    "repo": "Components",
+    "first_seen": "2026-11-01",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "CreativesLibrary",
+    "repo": "oss-launch",
+    "first_seen": "2026-11-01",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "leodavincs",
+    "repo": "kalem",
+    "first_seen": "2026-11-01",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "awesomezun",
+    "repo": "awesome-showreels",
+    "first_seen": "2026-11-01",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "every-app",
+    "repo": "every-app",
+    "first_seen": "2026-11-01",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "liuda30201",
+    "repo": "AI-Coding",
+    "first_seen": "2026-11-01",
     "source": "search:topic:claude-code"
   }
 ]
