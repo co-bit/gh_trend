@@ -49020,12 +49020,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "stevenguyenbt",
-    "repo": "mega-shot",
-    "first_seen": "2026-10-27",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "muzbox1973",
     "repo": "arcade-rom-3d-remaster",
     "first_seen": "2026-10-27",
@@ -49374,12 +49368,6 @@
     "source": "search:topic:mcp-server"
   },
   {
-    "owner": "badchars",
-    "repo": "darknet-mcp-server",
-    "first_seen": "2026-10-30",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "DeadHead04",
     "repo": "skillEd",
     "first_seen": "2026-10-30",
@@ -49448,12 +49436,6 @@
   {
     "owner": "unitshaperextol",
     "repo": "Legion-os",
-    "first_seen": "2026-10-30",
-    "source": "search:topic:llm-tools"
-  },
-  {
-    "owner": "badchars",
-    "repo": "cloud-audit-mcp",
     "first_seen": "2026-10-30",
     "source": "search:topic:llm-tools"
   },
@@ -49785,6 +49767,168 @@
     "owner": "liuda30201",
     "repo": "AI-Coding",
     "first_seen": "2026-11-01",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "wainmann",
+    "repo": "agent-manager",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Mistgate",
+    "repo": "mistgate",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "phone-harness",
+    "repo": "mcp",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "ArnaudGuiovanna",
+    "repo": "tutor-mcp",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "seungdori",
+    "repo": "web-stylebook-mcp",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "HorizunGroup",
+    "repo": "horizun-revit-mcp",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "2026heshao",
+    "repo": "dsh-armory",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "ddkbs",
+    "repo": "sketchy",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "nocobase",
+    "repo": "nocobase",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "swiftlysingh",
+    "repo": "excalidraw-cli",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "coralogix",
+    "repo": "cx-cli",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Moh4696",
+    "repo": "open-3d-skills",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "GuoZheng-de-BaBa",
+    "repo": "nursing-research-skills",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "gulucaptain",
+    "repo": "Best-Paper-Writing-Skill",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "aaitor",
+    "repo": "skill-video-studio",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "zhtyyx",
+    "repo": "codex-seo",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "mhfed",
+    "repo": "vn-law-check",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "YeJe-cpu",
+    "repo": "easy-jianying",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "kyy-logs",
+    "repo": "code-review-skill",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "aicodeking",
+    "repo": "deepseek-stack",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "jgsystemsconsulting",
+    "repo": "jgs-se-knowledge-packs",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "denoflore",
+    "repo": "greenboost-windows",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "SpeedPainterOrg",
+    "repo": "explainer-video",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "AstraxOf",
+    "repo": "web-mcp-bridge",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "yjl9903",
+    "repo": "AnimeGarden",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "chipfighter",
+    "repo": "framekeeper",
+    "first_seen": "2026-11-03",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "N1nEmAn",
+    "repo": "sapper-v2",
+    "first_seen": "2026-11-03",
     "source": "search:topic:claude-code"
   }
 ]
