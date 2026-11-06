@@ -1,11 +1,5 @@
 [
   {
-    "date": "2026-08-07",
-    "stars": 75,
-    "hn_mentions": 0,
-    "dependents": 161
-  },
-  {
     "date": "2026-08-08",
     "stars": 75,
     "hn_mentions": 0,
@@ -520,5 +514,11 @@
     "stars": 79,
     "hn_mentions": 0,
     "dependents": 199
+  },
+  {
+    "date": "2026-11-06",
+    "stars": 79,
+    "hn_mentions": 0,
+    "dependents": 200
   }
 ]

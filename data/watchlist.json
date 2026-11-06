@@ -24996,12 +24996,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "Cash4478",
-    "repo": "design-system-skill",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "ChanMeng666",
     "repo": "typst-claude-skill",
     "first_seen": "2026-07-28",
@@ -25778,12 +25772,6 @@
   {
     "owner": "JularDepick",
     "repo": "user-thoughts.SKILL",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
-    "owner": "expropriationhoorayhenry64",
-    "repo": "social-media-scraper-skill",
     "first_seen": "2026-07-28",
     "source": "search:topic:claude-skill"
   },
@@ -26678,12 +26666,6 @@
   {
     "owner": "qiuxinyuan321",
     "repo": "fumeng",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
-    "owner": "Taffyreclaimed45",
-    "repo": "ppt-agent",
     "first_seen": "2026-07-28",
     "source": "search:topic:claude-skill"
   },
@@ -29564,12 +29546,6 @@
   {
     "owner": "strongdm",
     "repo": "leash",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-code"
-  },
-  {
-    "owner": "shobcoder",
-    "repo": "shob",
     "first_seen": "2026-07-28",
     "source": "search:topic:claude-code"
   },
@@ -45294,12 +45270,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "IceWhaleTech",
-    "repo": "filens",
-    "first_seen": "2026-10-30",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "tianfuzhibuyuci",
     "repo": "readme-visual-kit",
     "first_seen": "2026-10-30",
@@ -46659,6 +46629,150 @@
     "owner": "EricTechPro",
     "repo": "super-board",
     "first_seen": "2026-11-05",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "chutingyean",
+    "repo": "Agent-Cockpit",
+    "first_seen": "2026-11-06",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "HerdBuilderEstimate",
+    "repo": "roblox-studio-mcp",
+    "first_seen": "2026-11-06",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Riley-Coyote",
+    "repo": "mnemos-mcp",
+    "first_seen": "2026-11-06",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "FireTable",
+    "repo": "comfy-colab-kit",
+    "first_seen": "2026-11-06",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "issuerd",
+    "repo": "issuerd",
+    "first_seen": "2026-11-06",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "antvis",
+    "repo": "AVA",
+    "first_seen": "2026-11-06",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "JuneYaooo",
+    "repo": "teacher-to-skills",
+    "first_seen": "2026-11-06",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "yucezerey",
+    "repo": "turkish-anti-ai-skill",
+    "first_seen": "2026-11-06",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "engenheirodevideo",
+    "repo": "get-brolls",
+    "first_seen": "2026-11-06",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "tencentmusic",
+    "repo": "modus",
+    "first_seen": "2026-11-06",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Mafdet-AI",
+    "repo": "mafdet",
+    "first_seen": "2026-11-06",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "perzianhq",
+    "repo": "mantis",
+    "first_seen": "2026-11-06",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "ItsDaxi",
+    "repo": "deepseek-web-agent",
+    "first_seen": "2026-11-06",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "iDiagoValeta",
+    "repo": "mouseketool",
+    "first_seen": "2026-11-06",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "aminueza",
+    "repo": "Keyfence",
+    "first_seen": "2026-11-06",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "yelixir-dev",
+    "repo": "no-more-dasi-eng",
+    "first_seen": "2026-11-06",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "cunicopia-dev",
+    "repo": "gmail-mcp",
+    "first_seen": "2026-11-06",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "artemiimillier",
+    "repo": "skill-multik",
+    "first_seen": "2026-11-06",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "aliangSSS",
+    "repo": "aliang-knowledge-video",
+    "first_seen": "2026-11-06",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "apissaj",
+    "repo": "humanizer-id",
+    "first_seen": "2026-11-06",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "dauletbekalim",
+    "repo": "motion-ui-videos",
+    "first_seen": "2026-11-06",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "hhx465453939",
+    "repo": "agent-taste-seed-system",
+    "first_seen": "2026-11-06",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "tryatlas",
+    "repo": "atlas",
+    "first_seen": "2026-11-06",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "ethanplusai",
+    "repo": "sellbird",
+    "first_seen": "2026-11-06",
     "source": "search:topic:claude-code"
   }
 ]
