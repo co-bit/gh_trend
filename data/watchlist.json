@@ -9054,12 +9054,6 @@
     "source": "search:topic:model-context-protocol"
   },
   {
-    "owner": "skernelx",
-    "repo": "MySearch-Proxy",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "dedalus-labs",
     "repo": "dedalus-mcp-python",
     "first_seen": "2026-07-28",
@@ -20160,12 +20154,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "grainulation",
-    "repo": "grainulation",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "abdallahmagdy15",
     "repo": "mudriknow",
     "first_seen": "2026-07-28",
@@ -24360,12 +24348,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "euwebertdefreitas",
-    "repo": "ai-skills-for-claude-code",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "iamzifei",
     "repo": "xiaohongshu-images-skill",
     "first_seen": "2026-07-28",
@@ -27974,12 +27956,6 @@
   {
     "owner": "seakee",
     "repo": "CPA-Manager-Plus",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-code"
-  },
-  {
-    "owner": "romgX",
-    "repo": "openrelay",
     "first_seen": "2026-07-28",
     "source": "search:topic:claude-code"
   },
@@ -45750,12 +45726,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "GuoZheng-de-BaBa",
-    "repo": "nursing-research-skills",
-    "first_seen": "2026-11-03",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "gulucaptain",
     "repo": "Best-Paper-Writing-Skill",
     "first_seen": "2026-11-03",
@@ -46527,6 +46497,168 @@
     "owner": "pullboard-dev",
     "repo": "pullboard",
     "first_seen": "2026-11-04",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "yikart",
+    "repo": "AiToEarn",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "ChatCut-Inc",
+    "repo": "agent-plugin",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Loping151",
+    "repo": "dsh-nekowhale-stickers",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "badchars",
+    "repo": "darknet-mcp-server",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "JosssphZhou",
+    "repo": "poki",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Zafer-Liu",
+    "repo": "Vibe_Assistant",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "kaijiabo",
+    "repo": "open-sunsama",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "folay-git",
+    "repo": "mcp-dock",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Glen-Web-App",
+    "repo": "best-agent-memory-mcp",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "wesammustafa",
+    "repo": "Claude-Code-Quest",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "shinyobjectz",
+    "repo": "raea",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "llm-xiaoye",
+    "repo": "douyin-to-obsidian",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "cloudishai",
+    "repo": "skills",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "llm-xiaoye",
+    "repo": "cc-connect-dy-author",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "0xS4N4TG",
+    "repo": "papercut-explainer",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "sidiangongyuan",
+    "repo": "paper-figure-to-figma",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "JuneYaooo",
+    "repo": "capsule-cinema",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "TyrantShadowfellangel",
+    "repo": "repdix-rpocket-team",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "badchars",
+    "repo": "cloud-audit-mcp",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "krishnashakula",
+    "repo": "toollens",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Xeakaes",
+    "repo": "computer-use-for-all-agents",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "TwitterAPIs",
+    "repo": "twitterapis-mcp",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "yusen-dev",
+    "repo": "living-ascii",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Bodila51",
+    "repo": "colsto-leak-and-mask",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "laulauraluo",
+    "repo": "ai-code-review-triage",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "adongwanai",
+    "repo": "AgentGuide",
+    "first_seen": "2026-11-05",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "EricTechPro",
+    "repo": "super-board",
+    "first_seen": "2026-11-05",
     "source": "search:topic:claude-code"
   }
 ]
