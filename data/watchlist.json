@@ -15582,12 +15582,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "club-cog",
-    "repo": "devin-handoff",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "oil-oil",
     "repo": "oil-visual",
     "first_seen": "2026-07-28",
@@ -38340,12 +38334,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "y0f",
-    "repo": "fable-orchestration-5.1",
-    "first_seen": "2026-09-09",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "thdelmas",
     "repo": "consciousness-loop",
     "first_seen": "2026-09-09",
@@ -46773,6 +46761,234 @@
     "owner": "ethanplusai",
     "repo": "sellbird",
     "first_seen": "2026-11-06",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "stubbi",
+    "repo": "asm",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "alchaincyf",
+    "repo": "huashu-chrome",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "shanselman",
+    "repo": "sandbox-mcp",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "gogoymh",
+    "repo": "auto-ontology-mcp",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Francis1998",
+    "repo": "agentic-career-search",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "eust-w",
+    "repo": "opengeniemaster",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "alchaincyf",
+    "repo": "nuwa-skill",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alchaincyf",
+    "repo": "zhangxuefeng-skill",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "gepa-ai",
+    "repo": "gepa",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alchaincyf",
+    "repo": "darwin-skill",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alchaincyf",
+    "repo": "huashu-art-motion",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alchaincyf",
+    "repo": "x-mentor-skill",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alchaincyf",
+    "repo": "steve-jobs-skill",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alchaincyf",
+    "repo": "huashu-md-html",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Light0305",
+    "repo": "Light-Science",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alchaincyf",
+    "repo": "elon-musk-skill",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alchaincyf",
+    "repo": "huashu-report",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alchaincyf",
+    "repo": "huashu-excel",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alchaincyf",
+    "repo": "munger-skill",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alchaincyf",
+    "repo": "huashu-mac-use",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alchaincyf",
+    "repo": "karpathy-skill",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alchaincyf",
+    "repo": "feynman-skill",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alchaincyf",
+    "repo": "trump-skill",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alchaincyf",
+    "repo": "naval-skill",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alchaincyf",
+    "repo": "sun-yuchen-perspective",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alchaincyf",
+    "repo": "zhang-yiming-skill",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "elithril",
+    "repo": "blender-kiln",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "alchaincyf",
+    "repo": "huashu-weread",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Youzini-afk",
+    "repo": "Varin",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "cloveric",
+    "repo": "claude-drawing-skill",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "sharkwork-s",
+    "repo": "shark",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "zoghlamimostafa",
+    "repo": "BrowserForge-MCP",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "ariannamethod",
+    "repo": "SUBLITERATUS",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "vSkyfall",
+    "repo": "sky",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "MartinGeltl21",
+    "repo": "build-crew",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "vicentealvarezasencio",
+    "repo": "humanamente",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "alchaincyf",
+    "repo": "obsidian-ai-orange-book",
+    "first_seen": "2026-11-07",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "aqm857886159",
+    "repo": "Nomi",
+    "first_seen": "2026-11-07",
     "source": "search:topic:claude-code"
   }
 ]
