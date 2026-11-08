@@ -44838,12 +44838,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "blixvip",
-    "repo": "html-anime",
-    "first_seen": "2026-10-27",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "liuhaisi2026212-maker",
     "repo": "taishang-laojun",
     "first_seen": "2026-10-27",
@@ -46626,12 +46620,6 @@
     "source": "search:topic:mcp-server"
   },
   {
-    "owner": "HerdBuilderEstimate",
-    "repo": "roblox-studio-mcp",
-    "first_seen": "2026-11-06",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "Riley-Coyote",
     "repo": "mnemos-mcp",
     "first_seen": "2026-11-06",
@@ -46989,6 +46977,96 @@
     "owner": "aqm857886159",
     "repo": "Nomi",
     "first_seen": "2026-11-07",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "codepawl",
+    "repo": "67.js",
+    "first_seen": "2026-11-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Muvon",
+    "repo": "octoweb",
+    "first_seen": "2026-11-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "NJohansen",
+    "repo": "handle-mcp",
+    "first_seen": "2026-11-08",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "rizqinrr",
+    "repo": "viserys-agent",
+    "first_seen": "2026-11-08",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "dabingfy-dot",
+    "repo": "solo-to-team-skills",
+    "first_seen": "2026-11-08",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "gauge-sh",
+    "repo": "gauge-cli",
+    "first_seen": "2026-11-08",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "prskr",
+    "repo": "dark-factory",
+    "first_seen": "2026-11-08",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "ychenfen",
+    "repo": "job-application-skills",
+    "first_seen": "2026-11-08",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "AvrodeepPal",
+    "repo": "LetsConnect",
+    "first_seen": "2026-11-08",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "dotoridot",
+    "repo": "korean-humanizer",
+    "first_seen": "2026-11-08",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "10291124jcjc-dotcom",
+    "repo": "ai-vote-series",
+    "first_seen": "2026-11-08",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "KIMDONGWOOK12",
+    "repo": "job-radar",
+    "first_seen": "2026-11-08",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "zaytsevand",
+    "repo": "problem-brief",
+    "first_seen": "2026-11-08",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Leonxlnx",
+    "repo": "copy-taste",
+    "first_seen": "2026-11-08",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "zhanghao123vip",
+    "repo": "ai-manju-skills",
+    "first_seen": "2026-11-08",
     "source": "search:topic:claude-code"
   }
 ]
