@@ -366,6 +366,7 @@
   "rtk-ai/rtk": "開発コマンド実行時のLLMトークン消費量を削減する、依存関係のない単一Rustバイナリ構成のCLIプロキシ",
   "rust-mcp-stack/rust-mcp-schema": "Rust製の型安全なMCP公式スキーマ実装",
   "rust-mcp-stack/rust-mcp-sdk": "Rustを用いてMCPサーバーおよびクライアントを構築するための非同期開発ツールキット。",
+  "ruvnet/RuView": "RuViewはカメラ映像を使わず市販のWiFi信号から空間認識やバイタル監視、在室検知をリアルタイムで行う技術。",
   "ruvnet/agentic-flow": "Claude Code/Agent SDKで低コストなモデル切り替えとエージェントのクラウドデプロイを実現するツール",
   "ruvnet/metaharness": "CLIやMCPサーバー等を備えるAIエージェントを構築でき、Claude CodeやCodexに対応する開発基盤。",
   "ruvnet/ruflo": "マルチエージェントの展開や自律ワークフロー調整、Claude CodeやCodex等と連携した対話型AI構築基盤。",
