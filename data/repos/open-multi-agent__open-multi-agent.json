@@ -511,8 +511,8 @@
   },
   {
     "date": "2026-11-10",
-    "stars": 7053,
-    "hn_mentions": 0,
+    "stars": 7056,
+    "hn_mentions": null,
     "dependents": 2
   }
 ]

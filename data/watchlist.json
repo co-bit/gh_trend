@@ -14118,12 +14118,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "degausai",
-    "repo": "wonda",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "appautomaton",
     "repo": "document-SKILLs",
     "first_seen": "2026-07-28",
@@ -41838,12 +41832,6 @@
     "source": "search:topic:model-context-protocol"
   },
   {
-    "owner": "Daniel987654321",
-    "repo": "roblox-studio-agent-bridge",
-    "first_seen": "2026-10-08",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "AallamR",
     "repo": "RobloxForge-Intelligence",
     "first_seen": "2026-10-08",
@@ -47118,12 +47106,6 @@
     "source": "search:topic:model-context-protocol"
   },
   {
-    "owner": "Nanoutrolley",
-    "repo": "roblox-studio-mcp",
-    "first_seen": "2026-11-10",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "skillmds",
     "repo": "SkillMD",
     "first_seen": "2026-11-10",
@@ -47288,6 +47270,150 @@
   {
     "owner": "WenyuChiou",
     "repo": "ai-research-skills",
+    "first_seen": "2026-11-10",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "Marker-Inc-Korea",
+    "repo": "AutoRAG",
+    "first_seen": "2026-11-10",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Remocn",
+    "repo": "remocn",
+    "first_seen": "2026-11-10",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "krakenfx",
+    "repo": "kraken-cli",
+    "first_seen": "2026-11-10",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "johannesPettersson80",
+    "repo": "codesys-mcp-toolkit",
+    "first_seen": "2026-11-10",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "DevCrabs-Inc",
+    "repo": "yandex-metrika-mcp",
+    "first_seen": "2026-11-10",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "ml8s",
+    "repo": "liki",
+    "first_seen": "2026-11-10",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "richarvey",
+    "repo": "OmniMem",
+    "first_seen": "2026-11-10",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "LamantinAI",
+    "repo": "kaeru",
+    "first_seen": "2026-11-10",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Dodaios",
+    "repo": "ste80-humanizer",
+    "first_seen": "2026-11-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "nishant-Tiwari24",
+    "repo": "cracked",
+    "first_seen": "2026-11-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "wycocoyu",
+    "repo": "Resume-Agent",
+    "first_seen": "2026-11-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Moh4696",
+    "repo": "cinematic-skill",
+    "first_seen": "2026-11-10",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "NexusFox88",
+    "repo": "iso-topology",
+    "first_seen": "2026-11-10",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "rikvanriel",
+    "repo": "kernel-style",
+    "first_seen": "2026-11-10",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "miklschmidt",
+    "repo": "archboard",
+    "first_seen": "2026-11-10",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "openwt-vn",
+    "repo": "graphrelay",
+    "first_seen": "2026-11-10",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "JDhruv14",
+    "repo": "line-art-animation",
+    "first_seen": "2026-11-10",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "mythkiven",
+    "repo": "rednote-director-skill",
+    "first_seen": "2026-11-10",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Vumb-VibeCoder",
+    "repo": "ai-anti-overrefusal-skills",
+    "first_seen": "2026-11-10",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "rocketmandrey",
+    "repo": "stickman-director",
+    "first_seen": "2026-11-10",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "gquthier",
+    "repo": "indepth-deepsearch",
+    "first_seen": "2026-11-10",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "javaht",
+    "repo": "claude-desktop-zh-cn",
+    "first_seen": "2026-11-10",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "compozy",
+    "repo": "compozy",
+    "first_seen": "2026-11-10",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "solongate",
+    "repo": "agent-security",
     "first_seen": "2026-11-10",
     "source": "search:topic:claude-code"
   }

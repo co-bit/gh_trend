@@ -50,7 +50,7 @@
   {
     "date": "2026-11-10",
     "stars": 50,
-    "hn_mentions": 0,
+    "hn_mentions": null,
     "dependents": 1
   }
 ]
