@@ -19794,12 +19794,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "ZibbyDev",
-    "repo": "skills",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "nucket",
     "repo": "NekoAI",
     "first_seen": "2026-07-28",
@@ -36324,12 +36318,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "buluslan",
-    "repo": "amazon-keyword-strategy",
-    "first_seen": "2026-08-26",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "GappyHamer",
     "repo": "startup-mind",
     "first_seen": "2026-08-26",
@@ -46098,12 +46086,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "teamy-town",
-    "repo": "skills",
-    "first_seen": "2026-11-03",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "LowellWinston",
     "repo": "polynx",
     "first_seen": "2026-11-03",
@@ -47415,6 +47397,252 @@
     "owner": "solongate",
     "repo": "agent-security",
     "first_seen": "2026-11-10",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "wuyoscar",
+    "repo": "AISafetyHot",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Avijit07x",
+    "repo": "animateicons",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "chekusu",
+    "repo": "yobiru",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "nirholas",
+    "repo": "cryptocurrency.cv",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "danishashko",
+    "repo": "geo-aeo-tracker",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "w1ne",
+    "repo": "labwired-core",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Shaitrish",
+    "repo": "37studio",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "QiYueran-source",
+    "repo": "waymark",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "auscaster",
+    "repo": "silvertongue",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "SsKanDon",
+    "repo": "blender-ai-mcp-addon",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Spytrend",
+    "repo": "spytrend-mcp",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "lijiaqi-AI-Product-Manager",
+    "repo": "job_radar",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "emilkowalski",
+    "repo": "skills",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "nexu-io",
+    "repo": "openmotion",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "phuryn",
+    "repo": "product-engineering",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Innei",
+    "repo": "ryugi",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "todoist",
+    "repo": "todoist-cli",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "MiniMax-AI",
+    "repo": "MiniMax-H3-Image",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "threerocks",
+    "repo": "article2media",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "cuic19053-hue",
+    "repo": "stardust-agent",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "SparkofSpike",
+    "repo": "Brain4Agent",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "bookleme",
+    "repo": "bookleme",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "jomon003",
+    "repo": "PlayMCP",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "imjustprism",
+    "repo": "borer",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "bolvein-firex",
+    "repo": "scraping-skills",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "terno-ai",
+    "repo": "ternodbi",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "thenavidm",
+    "repo": "facebook-ad-library-mcp-cli",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "luanfrombrazil",
+    "repo": "llmresources_hades",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "bobpage0451",
+    "repo": "ai-trending-repos",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "lowdevco",
+    "repo": "claude-seo",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "cavaleiro-ai",
+    "repo": "xiaomi-poco-otimizador",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "YAMAKAYAMACO",
+    "repo": "digitaltraffic-detectai",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "wangze1998",
+    "repo": "molecule-design-loop",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "deenukhan",
+    "repo": "animation-styles",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "iamjeeth",
+    "repo": "claude-edits-skill",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "slad-dev",
+    "repo": "AI-ShortVideo-Story-Engine",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "iamajmeena",
+    "repo": "pro-motion-editor-skill",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "10291124jcjc-dotcom",
+    "repo": "motion-reel",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "nirholas",
+    "repo": "fresh-start",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "AIshihzong",
+    "repo": "awesome-reverse-engineer-anything",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "runloom",
+    "repo": "pier",
+    "first_seen": "2026-11-12",
     "source": "search:topic:claude-code"
   }
 ]
