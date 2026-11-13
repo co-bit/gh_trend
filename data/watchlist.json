@@ -21750,12 +21750,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "Mikhail-Litvintsev",
-    "repo": "claude-code-docker",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "shortcuts",
     "repo": "radin",
     "first_seen": "2026-07-28",
@@ -26264,12 +26258,6 @@
   {
     "owner": "xyzm6",
     "repo": "chatgpt-plus-guide",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
-    "owner": "questionjie-max",
-    "repo": "podcast-workflow",
     "first_seen": "2026-07-28",
     "source": "search:topic:claude-skill"
   },
@@ -47454,12 +47442,6 @@
     "source": "search:topic:model-context-protocol"
   },
   {
-    "owner": "SsKanDon",
-    "repo": "blender-ai-mcp-addon",
-    "first_seen": "2026-11-12",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "Spytrend",
     "repo": "spytrend-mcp",
     "first_seen": "2026-11-12",
@@ -47592,12 +47574,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "wangze1998",
-    "repo": "molecule-design-loop",
-    "first_seen": "2026-11-12",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "deenukhan",
     "repo": "animation-styles",
     "first_seen": "2026-11-12",
@@ -47642,6 +47618,168 @@
   {
     "owner": "runloom",
     "repo": "pier",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "tonhowtf",
+    "repo": "omniget",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "oss-invisible",
+    "repo": "playwright_mcp",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "SamurAIGPT",
+    "repo": "Seedance-2.5-API",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "signal8ai",
+    "repo": "signal8-mcp",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "dansugc",
+    "repo": "reverse-engineer-marketing",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "simpsoka",
+    "repo": "zigzag",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "kaelorlabs",
+    "repo": "smitline",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "qingsongcui",
+    "repo": "ContextCore",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Continuum-AI-Corp",
+    "repo": "Orca-AI-Incident-Archive",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "signerlabs",
+    "repo": "ShipSwift",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Pinvou",
+    "repo": "pinvou-agent",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "op7418",
+    "repo": "guizang-game-skill",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Leonxlnx",
+    "repo": "cook",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "codepawl",
+    "repo": "creator-generalist",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "nodemaven",
+    "repo": "nodemaven-mcp",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "pedroxcardoso",
+    "repo": "maquina-cortes-gta",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "tammo1007",
+    "repo": "alyn",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "MADEVAL",
+    "repo": "cold-email-coach",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Cloud-Cad-Ai",
+    "repo": "solidworks-mcp",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "jacobye2017-afk",
+    "repo": "jacob-ye-seedance-prompt",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "veyralabsgroup",
+    "repo": "saas-reverse",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "pingdotgg",
+    "repo": "t3code",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "Team-Commonly",
+    "repo": "commonly",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "agentes-chat",
+    "repo": "agentes-chat",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "Seagey",
+    "repo": "couch-tv",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "artemnovitckii",
+    "repo": "claude-animation-skills",
+    "first_seen": "2026-11-12",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "Cygnux-Labs",
+    "repo": "Tracekit",
     "first_seen": "2026-11-12",
     "source": "search:topic:claude-code"
   }
