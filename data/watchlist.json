@@ -1446,12 +1446,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "JimLiu",
-    "repo": "baoyu-design",
-    "first_seen": "2026-07-27",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "ljagiello",
     "repo": "ctf-skills",
     "first_seen": "2026-07-27",
@@ -25614,12 +25608,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "jiya1996",
-    "repo": "yss-overtime-submission",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "jpaarhuis",
     "repo": "open-dossier",
     "first_seen": "2026-07-28",
@@ -47874,12 +47862,6 @@
     "source": "search:topic:model-context-protocol"
   },
   {
-    "owner": "JimLiu",
-    "repo": "open-artifacts",
-    "first_seen": "2026-11-13",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "ythx-101",
     "repo": "x-tweet-fetcher",
     "first_seen": "2026-11-13",
@@ -48015,6 +47997,390 @@
     "owner": "Tencent",
     "repo": "LoopForge",
     "first_seen": "2026-11-13",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "onehumanbeing",
+    "repo": "esp32-iphone-agent",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "jm33-m0",
+    "repo": "emp3r0r",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "codepawl",
+    "repo": "crucible",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "HiveForensics-AI",
+    "repo": "knolo-core",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "hridaya423",
+    "repo": "phonedriver",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "PrincessWonder5879",
+    "repo": "Tower-Events-resp-At-Sunrise",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "claynicholson",
+    "repo": "copper-kicad-mcp",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "fableentrack98906",
+    "repo": "resp-orderflow-terminal",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "liangdabiao",
+    "repo": "ecom-details-image",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "trackboatwrightplan",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "TrapAccountant",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "trackersnailgrip",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "TradesmanRecord",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "toppatronweave",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "TurkeyDesignate",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "TrapBladesmith",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "TurquoiseConsultant",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Tealplesense",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "WebBookkeeper",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "topconstableinlet67",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "unitsenseimonitor",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "TrueDefenderRouter",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Trapkrostride",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "TarantulaCorrect",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "oil-oil",
+    "repo": "video-publisher-skill",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Balanov",
+    "repo": "uncut",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Balanov",
+    "repo": "shim",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "olivebladesmanrepair",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Meteorzipartition",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Nexusgrucontrol",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "outercaptainmeditate",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "manepugilistembody19",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Momentumfecloak",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "MindSamuraiSky",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "PegasusVendorHarbor",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "massswanball",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "ProtonDonorLure",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Sightsaintconverter",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Navyzorsteal",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "NautilusMill",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "NaturalTurkeyGate21",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Plateyedome90",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Meteornyuspeed",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Mergeshaloot",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "noblecranecatch",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Moatpemanacle",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Nightrihatchet",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "NanoGeninMove",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "optichokagecharm",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "OfficialKind",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Primemiconverter",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "meteorwayoscillator7",
+    "repo": "GitHub-Copilot-app",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "fotedev",
+    "repo": "context",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "ItsDaxi",
+    "repo": "webchat-harness",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "tanishq286",
+    "repo": "tq-forge",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Dryadquartz",
+    "repo": "TRION-Protocol-rpocket-team",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "andykear",
+    "repo": "Peer",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "danscalzo",
+    "repo": "reverse-engineering-marketing",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "JDhruv14",
+    "repo": "holographic-card",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "P-Michelle",
+    "repo": "michelle-cover",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "21prnv",
+    "repo": "mapcast",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "obsidianmd",
+    "repo": "obsidian-skills",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "flyl1u",
+    "repo": "fly-island",
+    "first_seen": "2026-11-14",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "AxiomCodeAI",
+    "repo": "axiomcodegraph",
+    "first_seen": "2026-11-14",
     "source": "search:topic:claude-code"
   }
 ]
