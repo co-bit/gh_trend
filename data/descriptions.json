@@ -331,6 +331,7 @@
   "nirholas/XActions": "API不要でX/Twitterの自動フォロー・いいねや分析、MCPでのAI連携に対応したオープンソースの自動化ツール。",
   "nizos/tdd-guard": "Claude Codeにおけるテスト駆動開発（TDD）のプロセスを自動で強制・ガードするツール",
   "notque/vexjoy-agent": "自然言語の要求を/doで専門エージェントへ振り分け、レビューやテストで作業を管理するVexJoy AI Agent",
+  "oaustegard/claude-skills": "AIアシスタントClaudeの機能を拡張・活用するために作成した、各種カスタムスキルのコレクション。",
   "ogulcancelik/herdr": "コーディングAIエージェントを動かすためのランタイム基盤",
   "oh-my-mermaid/oh-my-mermaid": "Claude Codeを用いてコードベースからアーキテクチャ図を生成し構造を可視化するツール",
   "okf-memory/okf-agent-memory": "Google OKF v0.2を実装した、トークン消費を抑えるAIコーディングエージェント用Gitネイティブ永続メモリ",
