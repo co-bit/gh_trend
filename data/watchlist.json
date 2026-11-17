@@ -47958,12 +47958,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "edgerunners-2",
-    "repo": "capri-ai-desktop",
-    "first_seen": "2026-11-13",
-    "source": "search:topic:claude-code"
-  },
-  {
     "owner": "ythx-101",
     "repo": "live-panel-skill",
     "first_seen": "2026-11-13",
@@ -48038,12 +48032,6 @@
   {
     "owner": "liangdabiao",
     "repo": "ecom-details-image",
-    "first_seen": "2026-11-14",
-    "source": "search:topic:agent-skills"
-  },
-  {
-    "owner": "trackboatwrightplan",
-    "repo": "GitHub-Copilot-app",
     "first_seen": "2026-11-14",
     "source": "search:topic:agent-skills"
   },
@@ -48513,6 +48501,144 @@
     "owner": "ersinkoc",
     "repo": "phonebox",
     "first_seen": "2026-11-15",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "finnmckenty",
+    "repo": "NTSCRT",
+    "first_seen": "2026-11-17",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "jackson-cmd",
+    "repo": "risk-aware-trading-agents",
+    "first_seen": "2026-11-17",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "akira-init1",
+    "repo": "ChannelTerm",
+    "first_seen": "2026-11-17",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Tthanh2k6",
+    "repo": "turbo-browser-mcp",
+    "first_seen": "2026-11-17",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "5235aa-web",
+    "repo": "pebbleagent",
+    "first_seen": "2026-11-17",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "IBM",
+    "repo": "aspera-cli",
+    "first_seen": "2026-11-17",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "omagents",
+    "repo": "omagents",
+    "first_seen": "2026-11-17",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Li-Evan",
+    "repo": "BloomTutor",
+    "first_seen": "2026-11-17",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "liguozheng-ac",
+    "repo": "Lingbo-Desk",
+    "first_seen": "2026-11-17",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "wycocoyu",
+    "repo": "cococv",
+    "first_seen": "2026-11-17",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "erkamyaman",
+    "repo": "unslopovich",
+    "first_seen": "2026-11-17",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "KalarisLabs",
+    "repo": "research-agent-skills",
+    "first_seen": "2026-11-17",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "boringmarketer",
+    "repo": "boring-marketing-skills",
+    "first_seen": "2026-11-17",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "r2m-ai",
+    "repo": "scholar-loop",
+    "first_seen": "2026-11-17",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "yabaninai",
+    "repo": "yabanin-core",
+    "first_seen": "2026-11-17",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "ajayb5034-hue",
+    "repo": "pin2-pin",
+    "first_seen": "2026-11-17",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "RenegadeRiff86",
+    "repo": "Visual-Studio-MCP",
+    "first_seen": "2026-11-17",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "kele-dev",
+    "repo": "Claude-Orchestrator-Skill",
+    "first_seen": "2026-11-17",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "suiyang-meta",
+    "repo": "sui-motion-graphic-reel",
+    "first_seen": "2026-11-17",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Yari-tuber",
+    "repo": "math-rap-video",
+    "first_seen": "2026-11-17",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "shariefabdelmonem",
+    "repo": "interactive-html-presentation",
+    "first_seen": "2026-11-17",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "blixvip",
+    "repo": "MotionClone",
+    "first_seen": "2026-11-17",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "andyhuo520",
+    "repo": "vibe-knowledge",
+    "first_seen": "2026-11-17",
     "source": "search:topic:claude-code"
   }
 ]
