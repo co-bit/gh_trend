@@ -258,6 +258,7 @@
   "intellectronica/ruler": "すべてのコーディングエージェントに対して同一のルールを一括適用するためのツールRuler。",
   "internet-court/internet-court-skill": "ERC-7710やx402決済、エスクロー、紛争解決を担うエージェント間取引向けのClaude Codeプラグイン。",
   "jarrodwatts/claude-hud": "Claude Codeのコンテキスト使用量、アクティブツール、実行中エージェント、ToDo進捗等の状況を表示するプラグイン",
+  "jayzeng/pi-memory": "デイリーログやスクラッチパッド、qmdを使ったセマンティック検索を備えたpi用の永続メモリ拡張機能",
   "jegly/Box": "Android端末上で完全オフラインかつクライアントサイドで動作する各種AI機能を備えたスイート。",
   "jhlee0409/claude-code-history-viewer": "Claude Codeの会話履歴を閲覧および分析するためのデスクトップアプリケーション",
   "jonwheatley/pixel-path": "指定した2地点間の実際の道路をピクセルアート風の走行映像に変換するClaude Code用スキル。",
