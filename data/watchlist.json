@@ -39330,12 +39330,6 @@
     "source": "search:topic:mcp-server"
   },
   {
-    "owner": "jahala",
-    "repo": "tilth",
-    "first_seen": "2026-09-19",
-    "source": "search:topic:mcp-server"
-  },
-  {
     "owner": "nameforjt-afk",
     "repo": "session-knowledge",
     "first_seen": "2026-09-19",
@@ -46470,12 +46464,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "TyrantShadowfellangel",
-    "repo": "repdix-rpocket-team",
-    "first_seen": "2026-11-05",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "badchars",
     "repo": "cloud-audit-mcp",
     "first_seen": "2026-11-05",
@@ -47778,12 +47766,6 @@
     "source": "search:topic:mcp-server"
   },
   {
-    "owner": "hitkeeen",
-    "repo": "blender-ai-mcp-addon",
-    "first_seen": "2026-11-13",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "Orchis-ai-LLC",
     "repo": "Konnect-EDA",
     "first_seen": "2026-11-13",
@@ -47864,12 +47846,6 @@
   {
     "owner": "LeanMeanCleanApps",
     "repo": "CleanMinimalApi",
-    "first_seen": "2026-11-13",
-    "source": "search:topic:agent-skills"
-  },
-  {
-    "owner": "blixvip",
-    "repo": "html-anime",
     "first_seen": "2026-11-13",
     "source": "search:topic:agent-skills"
   },
@@ -47980,12 +47956,6 @@
     "repo": "LoopForge",
     "first_seen": "2026-11-13",
     "source": "search:topic:claude-code"
-  },
-  {
-    "owner": "onehumanbeing",
-    "repo": "esp32-iphone-agent",
-    "first_seen": "2026-11-14",
-    "source": "search:topic:mcp-server"
   },
   {
     "owner": "jm33-m0",
@@ -48202,12 +48172,6 @@
     "repo": "tq-forge",
     "first_seen": "2026-11-14",
     "source": "search:topic:llm-tools"
-  },
-  {
-    "owner": "Dryadquartz",
-    "repo": "TRION-Protocol-rpocket-team",
-    "first_seen": "2026-11-14",
-    "source": "search:topic:claude-skill"
   },
   {
     "owner": "andykear",
@@ -48630,15 +48594,213 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "blixvip",
-    "repo": "MotionClone",
+    "owner": "andyhuo520",
+    "repo": "vibe-knowledge",
     "first_seen": "2026-11-17",
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "andyhuo520",
-    "repo": "vibe-knowledge",
-    "first_seen": "2026-11-17",
+    "owner": "BingoWon",
+    "repo": "apple-rag-mcp",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Blackman99",
+    "repo": "deskfolk",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "ahundt",
+    "repo": "ai-session-search",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "erkamyaman",
+    "repo": "rust-anything",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Sunghwan0112",
+    "repo": "spritecast",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "diego3g",
+    "repo": "craft",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "off-grid-ai",
+    "repo": "skills",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "staryone",
+    "repo": "motlab",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "bhukyabalu12",
+    "repo": "repdix-telegram-bot",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "STARDUSTLC666",
+    "repo": "dsh-email",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "STARDUSTLC666",
+    "repo": "dsh-ppt",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "STARDUSTLC666",
+    "repo": "dsh-remotion",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "STARDUSTLC666",
+    "repo": "dsh-hyperframes",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "sl251",
+    "repo": "astrbot_plugin_e2b_sandbox",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "STARDUSTLC666",
+    "repo": "dsh-ffmpeg",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Darek3399",
+    "repo": "MCP-Hotplug",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "STARDUSTLC666",
+    "repo": "dsh-dream",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "STARDUSTLC666",
+    "repo": "dsh-codex-port",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "STARDUSTLC666",
+    "repo": "dsh-sql",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "STARDUSTLC666",
+    "repo": "dsh-calendar",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Ravindra-2006",
+    "repo": "trion-protocol",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "laulauraluo",
+    "repo": "looks-good-to-ai",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "rdo2hellowelt",
+    "repo": "apfelkern",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "BuildBias",
+    "repo": "toki",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "nishkarsh-shah",
+    "repo": "prompt-master",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Fardeen26",
+    "repo": "launch-video-kit",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Oranamar9",
+    "repo": "mobile-cicd-skill",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "ocepkejepintu-droid",
+    "repo": "claude-launch",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "ahmedraza28",
+    "repo": "image-generation-skill",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "SyedBahjat",
+    "repo": "claude-stickman-shorts",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "min-1225",
+    "repo": "veil-skill",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "pixel-agents-hq",
+    "repo": "pixel-agents",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "sybil-solutions",
+    "repo": "inference-optimisation-skill",
+    "first_seen": "2026-11-18",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "mjmirza",
+    "repo": "app-store-compliance",
+    "first_seen": "2026-11-18",
     "source": "search:topic:claude-code"
   }
 ]
