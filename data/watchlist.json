@@ -48802,5 +48802,179 @@
     "repo": "app-store-compliance",
     "first_seen": "2026-11-18",
     "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "onehumanbeing",
+    "repo": "esp32-iphone-agent",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "software-mansion",
+    "repo": "argent",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "mozilla",
+    "repo": "firefox-mcp",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Unagi-cq",
+    "repo": "cdp-bridge-mcp",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Seunope",
+    "repo": "aloc-endpoints",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "maciekzygmunt",
+    "repo": "excaliself",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "eclipse-theia",
+    "repo": "theia",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "eclipse-theia",
+    "repo": "theia-ide",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "yoli-mi",
+    "repo": "good-learning",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "goul4rt",
+    "repo": "lgpd-skills",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "brycewang-stanford",
+    "repo": "Free-Research-Crew",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "jemshit",
+    "repo": "save-session",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "chekusu",
+    "repo": "yomado",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "LemonFace0309",
+    "repo": "charles-skills",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Duoasa",
+    "repo": "Duoasa-skill",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "felipebasurto",
+    "repo": "unslop-ui",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "shayann07",
+    "repo": "antigravity-computer-use",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "AVert",
+    "repo": "sweb-mcp",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "cyzlmh",
+    "repo": "pi-extensions",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "arcticloud",
+    "repo": "ai-stream-clipper",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "joseeph-cv",
+    "repo": "curriculo-aprovado-skill",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "lgarbayo",
+    "repo": "product-walkthrough-video",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "yahyaraissouni",
+    "repo": "text-to-handwritten-notes-skill",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Mcz070321",
+    "repo": "katil-skill",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Manimater",
+    "repo": "manimater-components",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "HopLittleBunny",
+    "repo": "write-like-me",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "asaf5767",
+    "repo": "keepsake",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "nejib1",
+    "repo": "Free-LLM",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "nuphos",
+    "repo": "nuphos",
+    "first_seen": "2026-11-19",
+    "source": "search:topic:claude-code"
   }
 ]
