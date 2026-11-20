@@ -40212,12 +40212,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "The-Joule",
-    "repo": "sap-joule-ai-toolkit",
-    "first_seen": "2026-09-25",
-    "source": "search:topic:ai-agent-toolkit"
-  },
-  {
     "owner": "kiselas",
     "repo": "every-frame-is-code",
     "first_seen": "2026-09-25",
@@ -45906,12 +45900,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "Agnuxo1",
-    "repo": "enigmagent-mcp",
-    "first_seen": "2026-11-03",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "ZeroPointRepo",
     "repo": "awesome-agent-plugins",
     "first_seen": "2026-11-03",
@@ -47916,12 +47904,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "nocodehack",
-    "repo": "nocodehack-roblox-engine",
-    "first_seen": "2026-11-13",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "goufugui615-ui",
     "repo": "cosplay-prompt-crafter",
     "first_seen": "2026-11-13",
@@ -48975,6 +48957,114 @@
     "owner": "nuphos",
     "repo": "nuphos",
     "first_seen": "2026-11-19",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "bookwjitchieni1986",
+    "repo": "blender-ai-mcp-addon",
+    "first_seen": "2026-11-20",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "vAPI-Network",
+    "repo": "vapi-network",
+    "first_seen": "2026-11-20",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "woldann",
+    "repo": "exoproc",
+    "first_seen": "2026-11-20",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "n5za",
+    "repo": "osint-mcp",
+    "first_seen": "2026-11-20",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "r-spring",
+    "repo": "touchdesigner-mcp-server",
+    "first_seen": "2026-11-20",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Bodila51",
+    "repo": "gtavi-claudecode",
+    "first_seen": "2026-11-20",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Yuan-ManX",
+    "repo": "open-motion",
+    "first_seen": "2026-11-20",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "rtmandreyev",
+    "repo": "construct",
+    "first_seen": "2026-11-20",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Win-Hao",
+    "repo": "music-mv",
+    "first_seen": "2026-11-20",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "vikasthakurr",
+    "repo": "ai-tools-project",
+    "first_seen": "2026-11-20",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "AVert",
+    "repo": "cloud-mcp",
+    "first_seen": "2026-11-20",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "STARDUSTLC666",
+    "repo": "deepseek-computer-use",
+    "first_seen": "2026-11-20",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Magerko",
+    "repo": "landing-skill",
+    "first_seen": "2026-11-20",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "JL-GUO",
+    "repo": "skill-siphon",
+    "first_seen": "2026-11-20",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "divikwu",
+    "repo": "product-requirement-craft",
+    "first_seen": "2026-11-20",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "study8677",
+    "repo": "awesome-architecture",
+    "first_seen": "2026-11-20",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "jhlee0409",
+    "repo": "omnilogue",
+    "first_seen": "2026-11-20",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "heardlabs",
+    "repo": "heard",
+    "first_seen": "2026-11-20",
     "source": "search:topic:claude-code"
   }
 ]
