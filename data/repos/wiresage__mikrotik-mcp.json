@@ -218,7 +218,7 @@
   {
     "date": "2026-11-21",
     "stars": 348,
-    "hn_mentions": 0,
+    "hn_mentions": null,
     "dependents": 0
   }
 ]

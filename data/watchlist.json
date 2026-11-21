@@ -10170,12 +10170,6 @@
     "source": "search:topic:model-context-protocol"
   },
   {
-    "owner": "hasmcp",
-    "repo": "hasmcp-ce",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "yoda-digital",
     "repo": "mcp-gitlab-server",
     "first_seen": "2026-07-28",
@@ -20784,12 +20778,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "Sendersby",
-    "repo": "tioli-ai-exchange",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "KalvadTech",
     "repo": "redmine-mcp",
     "first_seen": "2026-07-28",
@@ -25694,12 +25682,6 @@
   {
     "owner": "miketepUR",
     "repo": "cera-reasoning-harness",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
-    "owner": "caiyo-slim",
-    "repo": "Higgs_v3-TTS-ComfyUI",
     "first_seen": "2026-07-28",
     "source": "search:topic:claude-skill"
   },
@@ -49138,5 +49120,83 @@
     "repo": "building-a-coding-agent-from-scratch-course",
     "first_seen": "2026-11-21",
     "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "hehehai",
+    "repo": "AudioSmith",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "INK-Q",
+    "repo": "agy-fast",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "ClickHouse",
+    "repo": "loom",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "1llu50ry",
+    "repo": "Decompile",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "AsoBeast",
+    "repo": "asobeast",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "mintdotgg",
+    "repo": "mint-threejs-skills",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "clearframes",
+    "repo": "mcp-observatory",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "realZillionX",
+    "repo": "InspireSkill",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "danielwh2",
+    "repo": "sprite-stacking",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "thePlannerIvan",
+    "repo": "planners-ppt-hell",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "adityasasidhar",
+    "repo": "browsercontrol",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "STARDUSTLC666",
+    "repo": "dsh-rss",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "manypicom",
+    "repo": "sales-skills",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:claude-skill"
   }
 ]
