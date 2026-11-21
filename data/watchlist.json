@@ -27360,12 +27360,6 @@
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "su-kaka",
-    "repo": "gcli2api",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-code"
-  },
-  {
     "owner": "PeonPing",
     "repo": "peon-ping",
     "first_seen": "2026-07-28",
@@ -44256,12 +44250,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "su-kaka",
-    "repo": "agy2api",
-    "first_seen": "2026-10-23",
-    "source": "search:topic:claude-code"
-  },
-  {
     "owner": "DozenTwelve",
     "repo": "Papermorph",
     "first_seen": "2026-10-23",
@@ -45954,12 +45942,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "kapilyadav22",
-    "repo": "LocalLLMMind",
-    "first_seen": "2026-11-03",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "slabbdev",
     "repo": "navette",
     "first_seen": "2026-11-03",
@@ -46478,12 +46460,6 @@
   {
     "owner": "yusen-dev",
     "repo": "living-ascii",
-    "first_seen": "2026-11-05",
-    "source": "search:topic:claude-skill"
-  },
-  {
-    "owner": "Bodila51",
-    "repo": "colsto-leak-and-mask",
     "first_seen": "2026-11-05",
     "source": "search:topic:claude-skill"
   },
@@ -48990,12 +48966,6 @@
     "source": "search:topic:model-context-protocol"
   },
   {
-    "owner": "Bodila51",
-    "repo": "gtavi-claudecode",
-    "first_seen": "2026-11-20",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "Yuan-ManX",
     "repo": "open-motion",
     "first_seen": "2026-11-20",
@@ -49065,6 +49035,108 @@
     "owner": "heardlabs",
     "repo": "heard",
     "first_seen": "2026-11-20",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "rocketride-org",
+    "repo": "rocketride-server",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "IncarnaMind",
+    "repo": "IncarnaMind",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "context-dot-dev",
+    "repo": "enrichable",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "roomi-fields",
+    "repo": "gemini-notebook-mcp",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "scumble-app",
+    "repo": "scumble",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "jackson-cmd",
+    "repo": "zeus-options-terminal",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "wolfqing",
+    "repo": "OpenSuperBot",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "ccarter01011",
+    "repo": "traxagent-claude-plugin",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "mankidev",
+    "repo": "antialgorithm",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "TubeLabHQ",
+    "repo": "youtube-research-skills",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Hidanio",
+    "repo": "Richi",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "TantiE100",
+    "repo": "pktctl",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "OrrrGE",
+    "repo": "autoRecording",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "PetrHula",
+    "repo": "unslop-cs",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "thearkxd",
+    "repo": "store-screenshots-skill",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "sandbox-quantum",
+    "repo": "switch",
+    "first_seen": "2026-11-21",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "itsdecodingai",
+    "repo": "building-a-coding-agent-from-scratch-course",
+    "first_seen": "2026-11-21",
     "source": "search:topic:claude-code"
   }
 ]
