@@ -11598,12 +11598,6 @@
     "source": "search:topic:model-context-protocol"
   },
   {
-    "owner": "instructa",
-    "repo": "mcp-starter",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "yusong652",
     "repo": "flac-mcp",
     "first_seen": "2026-07-28",
@@ -24264,12 +24258,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "sah1l",
-    "repo": "outpost",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "htlin222",
     "repo": "ankiweb-add-card",
     "first_seen": "2026-07-28",
@@ -31952,12 +31940,6 @@
   {
     "owner": "jztan",
     "repo": "redmine-mcp-server",
-    "first_seen": "2026-08-03",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
-    "owner": "ryan-phq2005h1",
-    "repo": "github-mcp-server",
     "first_seen": "2026-08-03",
     "source": "search:topic:model-context-protocol"
   },
@@ -48306,12 +48288,6 @@
     "source": "search:topic:model-context-protocol"
   },
   {
-    "owner": "azure-fossil-maker",
-    "repo": "serum-2-desktop",
-    "first_seen": "2026-11-15",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "leandrodaf",
     "repo": "3d-new-era-ai",
     "first_seen": "2026-11-15",
@@ -49198,5 +49174,173 @@
     "repo": "sales-skills",
     "first_seen": "2026-11-21",
     "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "EL4CTEO",
+    "repo": "fast-anything",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "basementstudio",
+    "repo": "xmcp",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "usamahz",
+    "repo": "cpu-performance-engineering",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "alexandere58",
+    "repo": "ableton-live-win",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "selimfirat",
+    "repo": "pysad",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "beilunyang",
+    "repo": "moemail",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "MaximaLabs",
+    "repo": "dev-mcp-suite",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "nodefony",
+    "repo": "nodefony",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "OpenVulcan",
+    "repo": "vulcan-code",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "escoffier-labs",
+    "repo": "brigadestack",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "deusyu",
+    "repo": "translate-book",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "cliblacktech",
+    "repo": "unreal-5-6-win",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "JimLiu",
+    "repo": "open-artifact",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "YASIRCAMPBELL2",
+    "repo": "acrobat-pro-win",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "guptafedor",
+    "repo": "cursor-pro-win",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "edward-polat",
+    "repo": "final-cut-win",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "stonelogic2002",
+    "repo": "cursor-pro-win",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "islaromero",
+    "repo": "libreoffice-win",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "gokayfem",
+    "repo": "reference-to-game",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "pritamux",
+    "repo": "gridlines",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "whaaaley",
+    "repo": "opencode-search",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "EternalNight996",
+    "repo": "autokill-purge",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Mira-AI-Tools",
+    "repo": "mira-skill",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Luxvanyu",
+    "repo": "prompt-craft",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "michael-ilic",
+    "repo": "solo-venturing",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "ashmitmittal",
+    "repo": "trip-map-skill",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "deusyu",
+    "repo": "harness-engineering",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "jazzenchen",
+    "repo": "agent-hud-open",
+    "first_seen": "2026-11-22",
+    "source": "search:topic:claude-code"
   }
 ]
