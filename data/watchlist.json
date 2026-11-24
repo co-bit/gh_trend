@@ -36588,12 +36588,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "neskuchny",
-    "repo": "Tessbrain",
-    "first_seen": "2026-08-29",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "vobiz-ai",
     "repo": "Agent-Skills",
     "first_seen": "2026-08-29",
@@ -48894,12 +48888,6 @@
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "bookwjitchieni1986",
-    "repo": "blender-ai-mcp-addon",
-    "first_seen": "2026-11-20",
-    "source": "search:topic:mcp-server"
-  },
-  {
     "owner": "vAPI-Network",
     "repo": "vapi-network",
     "first_seen": "2026-11-20",
@@ -49194,12 +49182,6 @@
     "source": "search:topic:mcp-server"
   },
   {
-    "owner": "alexandere58",
-    "repo": "ableton-live-win",
-    "first_seen": "2026-11-22",
-    "source": "search:topic:mcp-server"
-  },
-  {
     "owner": "selimfirat",
     "repo": "pysad",
     "first_seen": "2026-11-22",
@@ -49242,44 +49224,8 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "cliblacktech",
-    "repo": "unreal-5-6-win",
-    "first_seen": "2026-11-22",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "JimLiu",
     "repo": "open-artifact",
-    "first_seen": "2026-11-22",
-    "source": "search:topic:agent-skills"
-  },
-  {
-    "owner": "YASIRCAMPBELL2",
-    "repo": "acrobat-pro-win",
-    "first_seen": "2026-11-22",
-    "source": "search:topic:agent-skills"
-  },
-  {
-    "owner": "guptafedor",
-    "repo": "cursor-pro-win",
-    "first_seen": "2026-11-22",
-    "source": "search:topic:agent-skills"
-  },
-  {
-    "owner": "edward-polat",
-    "repo": "final-cut-win",
-    "first_seen": "2026-11-22",
-    "source": "search:topic:agent-skills"
-  },
-  {
-    "owner": "stonelogic2002",
-    "repo": "cursor-pro-win",
-    "first_seen": "2026-11-22",
-    "source": "search:topic:agent-skills"
-  },
-  {
-    "owner": "islaromero",
-    "repo": "libreoffice-win",
     "first_seen": "2026-11-22",
     "source": "search:topic:agent-skills"
   },
@@ -49341,6 +49287,180 @@
     "owner": "jazzenchen",
     "repo": "agent-hud-open",
     "first_seen": "2026-11-22",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "AhmadHassan-BTed",
+    "repo": "Jantt",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "microfeed",
+    "repo": "microfeed",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "dosco",
+    "repo": "deeporg",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "XinaTian",
+    "repo": "MROffice",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "21stware",
+    "repo": "bowel",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "suoten",
+    "repo": "ProtoForge",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "liyupi",
+    "repo": "yu-ai-agent",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "liyupi",
+    "repo": "ai-code-helper",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "w1ccc",
+    "repo": "sap-data-mcp",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "byttrade",
+    "repo": "bytx-skills",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "toprakahmetaydogmus",
+    "repo": "TZeroAlgorithm",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "xixu-me",
+    "repo": "apds",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "trina-app",
+    "repo": "trina-ax",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "erkamyaman",
+    "repo": "unslop-anything",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "uucz",
+    "repo": "moyu",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "liyupi",
+    "repo": "awesome-vibe-coding-websites",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "psychobarge",
+    "repo": "pi-spec-mode",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "usestring",
+    "repo": "string-gemini-extension",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "janakrathi",
+    "repo": "Teamski",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "hotcoffeeshake",
+    "repo": "tong-jincheng-skill",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Harishisonline",
+    "repo": "rblx-animates-skill",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Athospd",
+    "repo": "targetfy",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "mizane446",
+    "repo": "github-profile-optimizer",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "fahadqaseem",
+    "repo": "upwork-proposal-writing-skill",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "artemiimillier",
+    "repo": "cartoon-skill",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "HKUDS",
+    "repo": "TokenWise",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "pierridotite",
+    "repo": "mobile-agent-testers",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "wangrongding",
+    "repo": "SuperHive",
+    "first_seen": "2026-11-24",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "ai-timon",
+    "repo": "timon",
+    "first_seen": "2026-11-24",
     "source": "search:topic:claude-code"
   }
 ]
