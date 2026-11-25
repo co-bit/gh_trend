@@ -47706,12 +47706,6 @@
     "source": "search:topic:model-context-protocol"
   },
   {
-    "owner": "racdeufindurch198812",
-    "repo": "Blender-AI-MCP-Studio",
-    "first_seen": "2026-11-13",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "precygtrucqui1981",
     "repo": "blender-ai-copilot-lab",
     "first_seen": "2026-11-13",
@@ -49461,6 +49455,102 @@
     "owner": "ai-timon",
     "repo": "timon",
     "first_seen": "2026-11-24",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "MODSetter",
+    "repo": "SurfSense",
+    "first_seen": "2026-11-25",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Zen-Labs-Corp",
+    "repo": "hatamoto",
+    "first_seen": "2026-11-25",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "thiagodmont",
+    "repo": "keynobi",
+    "first_seen": "2026-11-25",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "rdmgator12",
+    "repo": "awesome-claude-connectors",
+    "first_seen": "2026-11-25",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "JimmyLv",
+    "repo": "bibigpt-skill",
+    "first_seen": "2026-11-25",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "SecFathy",
+    "repo": "otpkit",
+    "first_seen": "2026-11-25",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "oil-oil",
+    "repo": "oil-tone",
+    "first_seen": "2026-11-25",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "masonmosen",
+    "repo": "muse-video-prompt-skill",
+    "first_seen": "2026-11-25",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "AyushRajSinghParihar",
+    "repo": "weaponized-curiosity",
+    "first_seen": "2026-11-25",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "canonical",
+    "repo": "myna",
+    "first_seen": "2026-11-25",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Olis-Robotics",
+    "repo": "annotated-tree",
+    "first_seen": "2026-11-25",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "huuunleashed",
+    "repo": "athenaeum-mcp",
+    "first_seen": "2026-11-25",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "awesomejun",
+    "repo": "awesome-showreels",
+    "first_seen": "2026-11-25",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "AlameerAshraf",
+    "repo": "mac-storage-saver",
+    "first_seen": "2026-11-25",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "ayase0307",
+    "repo": "h3-combat-impact",
+    "first_seen": "2026-11-25",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "doop-design",
+    "repo": "doop",
+    "first_seen": "2026-11-25",
     "source": "search:topic:claude-code"
   }
 ]
