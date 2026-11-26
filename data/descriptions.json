@@ -458,6 +458,7 @@
   "trailofbits/skills": "セキュリティ研究や脆弱性検出、監査ワークフローに向けたTrail of Bits開発のClaude Codeスキル",
   "travisvn/awesome-claude-skills": "Claude Code等のClaude AIワークフローをカスタマイズするClaude Skillsやツールの一覧。",
   "triggerdotdev/trigger.dev": "フルマネージドなAIエージェント・ワークフローの構築/デプロイ基盤",
+  "tsouth89/toolport": "コーディングエージェントの設定やトークン使用量をチェックし、ローカルMCP gatewayやアプリを提供する基盤。",
   "tt-a1i/archify": "アーキテクチャやシーケンスなどの図を動きのある単一HTML形式で生成・出力するエージェント用スキル。",
   "uber/ADR": "可観測性、セキュリティベンチマーク、脅威検知により企業向けAIエージェントを保護するUber導入のツール。",
   "ucsandman/DashClaw": "自律型AIエージェントのためのリモート承認、ポリシー検証、および実行証跡管理を提供するツール。",
