@@ -22062,12 +22062,6 @@
     "source": "search:topic:llm-tools"
   },
   {
-    "owner": "mutagent-io",
-    "repo": "skills",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "mayankmankhand",
     "repo": "pokedex",
     "first_seen": "2026-07-28",
@@ -37614,12 +37608,6 @@
     "source": "search:topic:mcp-server"
   },
   {
-    "owner": "Mangaba-ai",
-    "repo": "mangaba_ai",
-    "first_seen": "2026-09-05",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "adroamccullinp",
     "repo": "ProtocolArc",
     "first_seen": "2026-09-05",
@@ -49551,6 +49539,156 @@
     "owner": "doop-design",
     "repo": "doop",
     "first_seen": "2026-11-25",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "mutonby",
+    "repo": "openshorts",
+    "first_seen": "2026-11-26",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "withcoral",
+    "repo": "coral",
+    "first_seen": "2026-11-26",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "chanke17",
+    "repo": "KuroCat",
+    "first_seen": "2026-11-26",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Sibyl-Labs",
+    "repo": "Sibyl-Memory",
+    "first_seen": "2026-11-26",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Coding-Dev-Tools",
+    "repo": "engraphis",
+    "first_seen": "2026-11-26",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Derrors",
+    "repo": "iphone-control",
+    "first_seen": "2026-11-26",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "tiptreesystems",
+    "repo": "lacuna-research-mcp",
+    "first_seen": "2026-11-26",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "bruc3van",
+    "repo": "awesome-dsh-plugin-pro",
+    "first_seen": "2026-11-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "lukendeasy",
+    "repo": "open-diagram",
+    "first_seen": "2026-11-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "petergyang",
+    "repo": "video-explainer",
+    "first_seen": "2026-11-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "erkamyaman",
+    "repo": "rea-games",
+    "first_seen": "2026-11-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Moh4696",
+    "repo": "inkworks-skill",
+    "first_seen": "2026-11-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Lukcla3889",
+    "repo": "postman-agent",
+    "first_seen": "2026-11-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "kofimehta06",
+    "repo": "capture-one-23",
+    "first_seen": "2026-11-26",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "OWASP",
+    "repo": "legacy2mcp",
+    "first_seen": "2026-11-26",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "dotcoreai",
+    "repo": "dotcore",
+    "first_seen": "2026-11-26",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "nocodehack",
+    "repo": "nocodehack-roblox-engine",
+    "first_seen": "2026-11-26",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "37degree-studio",
+    "repo": "linejig",
+    "first_seen": "2026-11-26",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "renthelautomations",
+    "repo": "app-launch-video",
+    "first_seen": "2026-11-26",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "programmersd21",
+    "repo": "ratatui-skill",
+    "first_seen": "2026-11-26",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "uxbyissa",
+    "repo": "ux-ui-audit",
+    "first_seen": "2026-11-26",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "AntigmaLabs",
+    "repo": "ante",
+    "first_seen": "2026-11-26",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "OpenAdaptAI",
+    "repo": "OpenAdapt",
+    "first_seen": "2026-11-26",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "Anil-matcha",
+    "repo": "Uncensored-AI-API",
+    "first_seen": "2026-11-26",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "qianyiai",
+    "repo": "kurocat",
+    "first_seen": "2026-11-26",
     "source": "search:topic:claude-code"
   }
 ]
