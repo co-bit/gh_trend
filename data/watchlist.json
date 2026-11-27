@@ -10572,12 +10572,6 @@
     "source": "search:topic:model-context-protocol"
   },
   {
-    "owner": "gefsikatsinelou",
-    "repo": "MetaSearchMCP",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:model-context-protocol"
-  },
-  {
     "owner": "lydakis",
     "repo": "mcpx",
     "first_seen": "2026-07-28",
@@ -14760,12 +14754,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "mturac",
-    "repo": "everything-openai-codex",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "jiangmuran",
     "repo": "claude-image",
     "first_seen": "2026-07-28",
@@ -14774,12 +14762,6 @@
   {
     "owner": "aAAaqwq",
     "repo": "AGI-Super-Team",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:agent-skills"
-  },
-  {
-    "owner": "mturac",
-    "repo": "promptguard",
     "first_seen": "2026-07-28",
     "source": "search:topic:agent-skills"
   },
@@ -22268,12 +22250,6 @@
   {
     "owner": "kawasima",
     "repo": "evolutionary-naming",
-    "first_seen": "2026-07-28",
-    "source": "search:topic:claude-skill"
-  },
-  {
-    "owner": "mturac",
-    "repo": "simulacra",
     "first_seen": "2026-07-28",
     "source": "search:topic:claude-skill"
   },
@@ -43296,12 +43272,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "Mikebouskila",
-    "repo": "pelago",
-    "first_seen": "2026-10-18",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "Gathin23",
     "repo": "tv-vibehack",
     "first_seen": "2026-10-18",
@@ -48672,12 +48642,6 @@
     "source": "search:topic:claude-skill"
   },
   {
-    "owner": "min-1225",
-    "repo": "veil-skill",
-    "first_seen": "2026-11-18",
-    "source": "search:topic:claude-skill"
-  },
-  {
     "owner": "pixel-agents-hq",
     "repo": "pixel-agents",
     "first_seen": "2026-11-18",
@@ -49689,6 +49653,210 @@
     "owner": "qianyiai",
     "repo": "kurocat",
     "first_seen": "2026-11-26",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "zhouxiaoka",
+    "repo": "autoclip",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "arxhr007",
+    "repo": "Aliens_eye",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "open-wa",
+    "repo": "wa-automate-nodejs",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "fwdai",
+    "repo": "rowel",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "gary23w",
+    "repo": "f-ck_data_brokers",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "zou172866",
+    "repo": "Antigravity-agy-dart",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "jackulau",
+    "repo": "coding.sh",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "im-xiangda-li",
+    "repo": "ProxmoxMCP-Plus",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "mergedao",
+    "repo": "mcp-jobs",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "neilberkman",
+    "repo": "ccrider",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Aureliolo",
+    "repo": "gdharness",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "AlphaGBM",
+    "repo": "skills",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "nexu-io",
+    "repo": "opengame",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Innei",
+    "repo": "artideck",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "ekar-is",
+    "repo": "okf-skills",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "CSS-Electronics",
+    "repo": "can-bus-reverse-engineering-skills",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "uxpilot-ai",
+    "repo": "frontend-design-skill",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "blotato",
+    "repo": "contentskills",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "Haruhi764",
+    "repo": "OmniCAD-Skill",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "frankxai",
+    "repo": "awesome-motion-design-agent-skills",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "iammrduncan",
+    "repo": "tensorless",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "sergiobanhos",
+    "repo": "generate-icons",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "kinlace",
+    "repo": "parent-recap",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "yuan-dev39",
+    "repo": "netease-dynamic-avatar",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "devadeiltonlima",
+    "repo": "ClawFast-",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "kiselas",
+    "repo": "every-slide-is-code",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "gusujushi",
+    "repo": "gusujushi-pyramid-principle",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "ctskool",
+    "repo": "claude-edit",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "stanesjenson11-lgtm",
+    "repo": "Folio---Claude-Design-Skill-For-Poster-Brochure-Magazine",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "Xdabier",
+    "repo": "read-only-reddit-old-claude-skill-chrome-extension",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "qianyiai",
+    "repo": "KuroCat",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "udecode",
+    "repo": "ustack",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "erkamyaman",
+    "repo": "safe-anything",
+    "first_seen": "2026-11-27",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "secfoo-com",
+    "repo": "secfoo",
+    "first_seen": "2026-11-27",
     "source": "search:topic:claude-code"
   }
 ]
