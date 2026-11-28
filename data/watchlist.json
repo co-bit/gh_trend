@@ -39648,12 +39648,6 @@
     "source": "search:topic:claude-code"
   },
   {
-    "owner": "feder-cr",
-    "repo": "invisible_playwright_mcp",
-    "first_seen": "2026-09-22",
-    "source": "search:topic:mcp-server"
-  },
-  {
     "owner": "devlikeapro",
     "repo": "waha",
     "first_seen": "2026-09-22",
@@ -41516,12 +41510,6 @@
   {
     "owner": "coreyhaines31",
     "repo": "marketingskills",
-    "first_seen": "2026-10-07",
-    "source": "search:topic:agent-skills"
-  },
-  {
-    "owner": "feder-cr",
-    "repo": "invisible_dots",
     "first_seen": "2026-10-07",
     "source": "search:topic:agent-skills"
   },
@@ -44610,12 +44598,6 @@
     "source": "search:topic:mcp-server"
   },
   {
-    "owner": "AndrewCTF",
-    "repo": "velocity",
-    "first_seen": "2026-10-27",
-    "source": "search:topic:mcp-server"
-  },
-  {
     "owner": "emanuele-em",
     "repo": "kanzo",
     "first_seen": "2026-10-27",
@@ -47448,12 +47430,6 @@
     "source": "search:topic:mcp-server"
   },
   {
-    "owner": "oss-invisible",
-    "repo": "playwright_mcp",
-    "first_seen": "2026-11-12",
-    "source": "search:topic:mcp-server"
-  },
-  {
     "owner": "SamurAIGPT",
     "repo": "Seedance-2.5-API",
     "first_seen": "2026-11-12",
@@ -48510,12 +48486,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "bhukyabalu12",
-    "repo": "repdix-telegram-bot",
-    "first_seen": "2026-11-18",
-    "source": "search:topic:llm-tools"
-  },
-  {
     "owner": "STARDUSTLC666",
     "repo": "dsh-email",
     "first_seen": "2026-11-18",
@@ -48580,12 +48550,6 @@
     "repo": "dsh-calendar",
     "first_seen": "2026-11-18",
     "source": "search:topic:llm-tools"
-  },
-  {
-    "owner": "Ravindra-2006",
-    "repo": "trion-protocol",
-    "first_seen": "2026-11-18",
-    "source": "search:topic:claude-skill"
   },
   {
     "owner": "laulauraluo",
@@ -49578,18 +49542,6 @@
     "source": "search:topic:agent-skills"
   },
   {
-    "owner": "Lukcla3889",
-    "repo": "postman-agent",
-    "first_seen": "2026-11-26",
-    "source": "search:topic:agent-skills"
-  },
-  {
-    "owner": "kofimehta06",
-    "repo": "capture-one-23",
-    "first_seen": "2026-11-26",
-    "source": "search:topic:agent-skills"
-  },
-  {
     "owner": "OWASP",
     "repo": "legacy2mcp",
     "first_seen": "2026-11-26",
@@ -49857,6 +49809,150 @@
     "owner": "secfoo-com",
     "repo": "secfoo",
     "first_seen": "2026-11-27",
+    "source": "search:topic:claude-code"
+  },
+  {
+    "owner": "codingstella",
+    "repo": "Lightswind-UI-Library",
+    "first_seen": "2026-11-28",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "emirmrkaljevic",
+    "repo": "usb-rea",
+    "first_seen": "2026-11-28",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "sresarehumantoo",
+    "repo": "ARTEX-CC",
+    "first_seen": "2026-11-28",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "kilolonion",
+    "repo": "agent-vscreen",
+    "first_seen": "2026-11-28",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "Jatin-Roopchandani",
+    "repo": "LORE",
+    "first_seen": "2026-11-28",
+    "source": "search:topic:mcp-server"
+  },
+  {
+    "owner": "stanGSA",
+    "repo": "ZhiMing",
+    "first_seen": "2026-11-28",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "Manimaran-tech",
+    "repo": "bridge",
+    "first_seen": "2026-11-28",
+    "source": "search:topic:model-context-protocol"
+  },
+  {
+    "owner": "asfgsrgerg",
+    "repo": "jkandf",
+    "first_seen": "2026-11-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "LunarXuan",
+    "repo": "image-prompt-reverse",
+    "first_seen": "2026-11-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "DeadInternetStudios",
+    "repo": "100x-engineer-skill",
+    "first_seen": "2026-11-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "withoneai",
+    "repo": "cli",
+    "first_seen": "2026-11-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "RayVelez27",
+    "repo": "instalanding.ai",
+    "first_seen": "2026-11-28",
+    "source": "search:topic:agent-skills"
+  },
+  {
+    "owner": "CabreraDTM",
+    "repo": "repdix-telegram-database-bot",
+    "first_seen": "2026-11-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "kazini",
+    "repo": "yask-spec-kit",
+    "first_seen": "2026-11-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "jyjyxt",
+    "repo": "awesome-agent-extensions",
+    "first_seen": "2026-11-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "legend-of-alan",
+    "repo": "ghostmode",
+    "first_seen": "2026-11-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "fluyeporlaweb",
+    "repo": "ai-agent-tools",
+    "first_seen": "2026-11-28",
+    "source": "search:topic:llm-tools"
+  },
+  {
+    "owner": "Emirborovac",
+    "repo": "phone-connector-for-claude",
+    "first_seen": "2026-11-28",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "jasonc00person",
+    "repo": "claude-copy-style",
+    "first_seen": "2026-11-28",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "SwapnaliKanade",
+    "repo": "trion-protocol",
+    "first_seen": "2026-11-28",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "vibegameengine",
+    "repo": "video-motion-craft",
+    "first_seen": "2026-11-28",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "SKYLARBUILDS",
+    "repo": "skylar-reading-compass",
+    "first_seen": "2026-11-28",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "VladislavKorzh",
+    "repo": "trayui",
+    "first_seen": "2026-11-28",
+    "source": "search:topic:claude-skill"
+  },
+  {
+    "owner": "ZingerLittleBee",
+    "repo": "Heeler",
+    "first_seen": "2026-11-28",
     "source": "search:topic:claude-code"
   }
 ]
