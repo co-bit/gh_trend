@@ -298,6 +298,7 @@
   "larashero3-dotcom/lieflat-charts": "データをインタラクティブなHTMLチャートに変換するAI Agent向けのデータ可視化スキル",
   "lastmile-ai/mcp-agent": "MCPとワークフローパターンでAIエージェントを構築するフレームワーク",
   "latent-spaces/brag": "作成したプロジェクトから1コマンドで共有用の短尺紹介動画を生成するコマンドラインツール。",
+  "legend-of-alan/ghostmode": "Rust製エージェントのREPLループ用に、サンドボックス化された実行とポーリング機能を提供するツール。",
   "lemomo-ai/lemo-opuscar": "Claude Code向けに動画モデルを使わずコードだけで映像スタイルを生成・適用できるツールキット。",
   "lennney/stop-that-shit": "CodexやGPT環境におけるAI coding agentの不要なハッシュ作成やタスク範囲の膨張を防止するツール",
   "lewisdonovan/google-news-scraper": "Google Newsからニュース記事の見出しやURL等の情報を自動的に収集・抽出するためのスクレイピングツール",
@@ -349,6 +350,7 @@
   "nextlevelbuilder/ui-ux-pro-max-skill": "UI/UXデザインの専門知識を提供するAIスキル",
   "nexu-io/html-anything": "参考動画からSNS用モーショングラフィックスを生成でき、Claude Code等に対応したオープンソースの動画スタジオ。",
   "nexu-io/open-design": "各種AIエージェントと連携し、プロトタイプやスライド等を生成・書き出せるClaude Design代替アプリ。",
+  "nexu-io/opengame": "Claude CodeなどのAIで、TikTokやitch.io等の各種プラットフォーム向け3D・ミニゲームを開発・公開する基盤。",
   "nexu-io/openmotion": "参照動画からモーショングラフィックスを生成しSNS出力できる、Claude Code対応のCapCut代替ツール。",
   "nicobailon/pi-mcp-adapter": "Piコーディングエージェントのトークン消費量を抑え、利用効率を高めるためのMCPアダプター",
   "nikolai-vysotskyi/trace-mcp": "Claude CodeやCodex向けにローカルで動作する、フレームワーク対応コードインテリジェンスMCPサーバー",
@@ -398,6 +400,7 @@
   "realiti4/claude-swap": "Claude Codeの複数アカウント切り替え、レート制限の自動切替、並列セッションや利用状況表示を行うツール。",
   "redhat-et/ripwire": "コーディングAIにリポジトリ構造や影響範囲、実行テスト情報を低トークンで渡すC++23製CLI・MCPサーバー。",
   "rehan-remade/universal-modder": "Claude Codeとfal MCPでPCゲームのリバースエンジニアリングや素材生成を行いMOD作成を支援するツール",
+  "relaticle/relaticle": "AIエージェントが企業や人物、案件等のデータを参照・更新できるREST API対応のオープンソースCRM。",
   "rengwu/wayfinder-maps": "惑星規模の可視化ツール(/wayfinder maps用)",
   "reticlehq/reticle": "Reticleは、AIエージェントにWebおよびデスクトップアプリの実行時認識機能を提供するツール。",
   "rokbenko/quackd": "自然言語の指示で2足歩行ロボットMicroduckをLLM制御する、シミュレータや複数体協調機能などを備えたシステム。",
@@ -496,5 +499,6 @@
   "yukitorido/short-video-generator-AI": "LLMsやWhisper、ハイライト検出、自動編集を活用し縦型ショート動画を生成するAI動画処理パイプライン。",
   "zenbu-labs/terminal-browser": "ターミナル画面上で直接Webページの閲覧や操作を可能にするterminal-browserのブラウザツール。",
   "zhitongblog/solomd": "Claude CodeやCursor等からMCP経由で直接操作できるローカルファーストのMarkdownエディタ",
+  "zhouxiaoka/autoclip": "OpusClip代替となる、長尺動画から字幕や投稿文付き短尺動画を自動生成するオープンソースのAI切り抜きツール",
   "zszendro/vc-teardown": "懐疑的なVCの視点でスタートアップ案を検証し、優位性やMVP、GTMを含む事業計画に再構築するClaude Skill。"
 }
